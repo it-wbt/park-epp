@@ -1,6 +1,6 @@
 # Parknonwoven EPP
 
-Original Next.js industrial website, inspired by the blue-and-white visual direction and industry taxonomy of Knauf Industries. The website uses the Parknonwoven EPP name supplied by the owner.
+Next.js industrial website using the owner's PARK filtration visual system: forest-film hero, PARK logo, blue/navy/green palette and three-column nested mega menus. Industry and product-family coverage was researched from Knauf Industries; all editorial copy and generated visuals are original. The website uses the Parknonwoven EPP name supplied by the owner.
 
 ## Run
 
@@ -20,17 +20,18 @@ The Next.js App Router exports static HTML to `out/`. This can be hosted on any 
 
 ## Content and assets
 
-- Catalogue data: `src/lib/catalog.ts`. It includes 13 industries, general product families, six material guides, nine development/process guides, seven solution guides and four original articles.
+- Catalogue data: `src/lib/catalog.ts`. It includes 13 industries, general product families, seven material guides, nine development/process guides, seven solution guides and four original articles.
 - Research coverage: `research/catalogue-mapping.json` maps the 39 reference shop items to generic product families. Reference catalogue pages 4–5 were inaccessible; the alternate shop index was used. This is family coverage, not an exact reproduction of the manufacturer’s specifications or complete inventory.
 - Generated image sources: `public/images/*.png`; compressed website assets: `public/images/*.webp`.
 - Original silent 12-second film: `public/videos/material-story.mp4`; captions: `material-story.vtt`. Regenerate with `python scripts/create-film.py` (Pillow and imageio-ffmpeg required).
-- Original vector logo, UI icons and circular design graphic are created in SVG/CSS.
+- Owner-authorized PARK logo is from the existing park-filtration project; all UI icons are original SVG.
+- 14 newly generated forest/industry images and 8 product-format images are in public/images/markets and public/images/products (PNG masters and optimized WebP).
+- Forest hero film and 2 original PDF downloads: regenerate using scripts/create-redesign-media.py (Pillow, reportlab, imageio-ffmpeg).
+- Seven resource categories, three about/support pages, custom parts guidance and 77 detailed product pages.
 
-## Before adopting for a real business
+## Enquiries and product data
 
-Replace the concept brand, company description and privacy contact details. Verify the actual product range, approved technical descriptions and application claims with the business. Product visuals are illustrative concepts, not exact product photographs.
-
-The enquiry form deliberately generates a local downloadable brief. It has no configured supplier email or backend. Add a verified destination and server submission handling if live lead capture is required. There are no invented customer logos, certifications, locations, sales statistics or contact details.
+Contact email uses the owner's existing PARK address, sales@parknonwoven.com. The enquiry form creates a local downloadable brief; users email that file themselves. No server submission or delivery success is implied. Grade-specific properties, certifications, dimensions, production capacity and job vacancies are not invented. Product imagery is generated visualization, not exact supplied-product photography.
 
 ## Image generation briefs
 
@@ -42,3 +43,7 @@ Built-in imagegen was used for four original photographs; no source-site asset w
 4. Food: clear PET tray, black rigid food tray, white fish shipping box and blue reusable container on a pale-blue studio surface; empty generic concept objects, no logos or text.
 
 Full generation prompts and built-in results are retained in the conversation. The film is authored from these generated assets with slow camera motion, transitions and original title overlays.
+
+## Redesign asset briefs
+
+Additional imagegen scenes: a lush cinematic forest; HVAC lab with EPP duct; aircraft cabin with foam insert; furniture workshop with foam chair core; EV component workbench; appliance with fitted foam corners; warehouse with bins/pallets/insulated packs; gym with foam jump box; playroom with rounded blocks; fresh food with trays and foam fish box; building insulation; pharma shipping pack; planted roof drainage; pool EPS construction blocks. All have no source logos, labels or text. Product studio images cover corners, sheets, pallets, insulated boxes, trays, drainage panels, pool forms and play forms. The forest film is a text-free slow camera move authored from the generated forest image.

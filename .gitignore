@@ -8,3 +8,4 @@ artifacts/
 *.tsbuildinfo
 .env*
 .openai/*.local.*
+out-before-park-redesign/

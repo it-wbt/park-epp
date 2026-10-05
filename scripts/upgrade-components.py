@@ -1,0 +1,16 @@
+from pathlib import Path
+p=Path('src/components/ui.tsx');s=p.read_text(encoding='utf-8')
+s=s.replace("import {markets,products,materials,expertise,solutions} from '../lib/catalog';","import {markets,products,materials,expertise,solutions} from '../lib/catalog';\nimport {productVisual} from '../lib/content';")
+start=s.index('export function Header()');end=s.index('export function Catalogue()',start);s=s[:start]+s[end:]
+s=s.replace('export function Catalogue(){','export function Catalogue({compact=false}:{compact?:boolean}){')
+s=s.replace('const result=products.filter','const filtered=products.filter')
+s=s.replace('q.toLowerCase()));return','q.toLowerCase()));const result=compact?filtered.slice(0,8):filtered;return')
+s=s.replace("p.material.includes(material)","p.material.split(' / ').includes(material)")
+s=s.replace('{result.length} product families','{filtered.length} product families')
+s=s.replace('src={`/images/${p.image}.webp`}', 'src={productVisual(p)}')
+s=s.replace('An original visual study of packaging and engineered materials.','Explore protective packaging, engineered components and food packaging concepts.')
+s=s.replace('I understand this creates a downloadable project brief on my device.','Create a downloadable project brief using these details.')
+s=s.replace('Enquiries are not transmitted. Download your brief to share with your chosen supplier.','Download your brief, then email it to PARK at sales@parknonwoven.com.')
+s=s.replace('<p className="form-note">Download your brief, then email it to PARK at sales@parknonwoven.com.</p>', '<p className="form-note">Download your brief, then <a href="mailto:sales@parknonwoven.com">email it to PARK at sales@parknonwoven.com ↗</a>.</p>')
+s=s.replace("play:'m8 4 13 8-13 8V4Z'", "play:'m8 4 13 8-13 8V4Z',pause:'M8 4v16M16 4v16',download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5'")
+p.write_text(s,encoding='utf-8')
