@@ -12,9 +12,9 @@ assert.equal(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>i.loadin
 await page.screenshot({path:'artifacts/home-desktop.png',fullPage:false});
 await page.getByRole('button',{name:/^Markets/}).hover();
 assert.equal(await page.locator('.park-rail-options button').count(),13);
-await page.locator('.park-menu-title a').click();
-await page.waitForURL('**/markets/hvac/');
-assert.ok((await page.locator('h1').innerText()).includes('hvac'));
+await page.locator('.park-view-all').click();
+await page.waitForURL('**/markets/');
+assert.ok((await page.locator('h1').innerText()).includes('industries'));
 await page.goto(origin+'/products/');
 const total=await page.locator('.product-card').count();assert.ok(total>60);
 await page.locator('.filters select').first().selectOption('Agrifood');

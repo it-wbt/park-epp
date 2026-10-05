@@ -47,3 +47,7 @@ Full generation prompts and built-in results are retained in the conversation. T
 ## Redesign asset briefs
 
 Additional imagegen scenes: a lush cinematic forest; HVAC lab with EPP duct; aircraft cabin with foam insert; furniture workshop with foam chair core; EV component workbench; appliance with fitted foam corners; warehouse with bins/pallets/insulated packs; gym with foam jump box; playroom with rounded blocks; fresh food with trays and foam fish box; building insulation; pharma shipping pack; planted roof drainage; pool EPS construction blocks. All have no source logos, labels or text. Product studio images cover corners, sheets, pallets, insulated boxes, trays, drainage panels, pool forms and play forms. The forest film is a text-free slow camera move authored from the generated forest image.
+
+## Product menu
+
+The rounded catalogue menu follows the owner's PARK filtration product-menu layout. It keeps all EPP categories, uses product-format thumbnails and descriptions, and updates the white product preview on hover or keyboard focus. The preview button opens that specific product. `src/app/menu.css` supplies the compact menu layout, and `scripts/verify-menu.mjs` checks desktop/mobile interaction.

@@ -9,3 +9,5 @@ artifacts/
 .env*
 .openai/*.local.*
 out-before-park-redesign/
+out-before-card-menu/
+out-before-menu-final/

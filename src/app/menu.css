@@ -1,0 +1,334 @@
+/* PARK's compact, three-column navigation. Imported after park.css. */
+.park-header .park-mega {
+  position: fixed;
+  top: var(--panel-top, 122px);
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  width: min(1600px, calc(100vw - 48px));
+  display: grid;
+  grid-template-columns: minmax(0, 27fr) minmax(0, 46fr) minmax(0, 27fr);
+  max-height: min(560px, calc(100dvh - var(--panel-top, 122px) - 20px));
+  min-height: 0;
+  border: 1px solid #e0e8dc;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 28px 80px #041b343b;
+  overflow: hidden;
+  text-align: left;
+}
+.park-header .park-mega > * { min-width: 0; min-height: 0; }
+.park-header .park-category-rail {
+  padding: 20px 18px;
+  border-right: 1px solid #dde6d9;
+  background: linear-gradient(145deg, #f7faf5, #eef3ec);
+  overflow: hidden;
+}
+.park-header .park-category-rail > .eyebrow {
+  padding: 0;
+  margin: 0 6px 18px;
+  font-size: 12px;
+  letter-spacing: .14em;
+  line-height: 1.4;
+}
+.park-header .park-rail-options {
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #c3d0ba transparent;
+  overscroll-behavior: contain;
+}
+.park-header .park-rail-options button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-height: 52px;
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: #596e7a;
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-align: left;
+  white-space: normal;
+  transition: background .18s, border-color .18s, color .18s;
+}
+.park-header .park-rail-options button > span:nth-child(2) { flex: 1; min-width: 0; }
+.park-header .park-rail-options button:hover { background: #eaf0e4; }
+.park-header .park-rail-options button.selected {
+  border: 1px solid #b7cd9a;
+  background: #fff;
+  color: #3e6528;
+  box-shadow: 0 4px 16px #3757210c;
+}
+.park-header .park-option-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #dfe7e9;
+  border-radius: 8px;
+  background: #ffffff90;
+  color: #607580;
+}
+.park-header .park-option-icon svg { width: 21px; height: 21px; }
+.park-header .selected .park-option-icon { border-color: #ccdbbb; background: #edf4e5; color: #496f32; }
+.park-header .park-rail-options button > svg { flex-shrink: 0; width: 22px; height: 22px; margin-left: auto; color: #9aabb4; }
+.park-header .park-rail-options button.selected > svg { color: #78a536; }
+.park-header .park-view-all {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin: 14px 0 0;
+  padding: 10px 6px 2px;
+  color: #08639b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.park-header .park-menu-content {
+  padding: 20px 22px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #c3d0ba transparent;
+  overscroll-behavior: contain;
+}
+.park-header .park-menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #e1e8df;
+}
+.park-header .park-menu-title > div { min-width: 0; }
+.park-header .park-menu-title .eyebrow {
+  display: block;
+  margin: 0 0 6px;
+  color: #77887c;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: .15em;
+}
+.park-header .park-menu-title h2 {
+  margin: 0;
+  font-family: 'Manrope', Arial, sans-serif;
+  color: #143d49;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -.6px;
+  line-height: 1.2;
+}
+.park-header .park-menu-title > a { color: #08639b; font-size: 12px; }
+.park-header .park-menu-count {
+  flex-shrink: 0;
+  padding: 5px 9px;
+  border: 1px solid #e5ebdf;
+  border-radius: 20px;
+  background: #f7f9f3;
+  color: #6b825a;
+  font-size: 10px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.park-header .park-menu-intro {
+  margin: 0 0 16px;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.park-header .park-mega-products .park-menu-intro { display: none; }
+.park-header .park-menu-links { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; align-content: start; }
+.park-header .park-menu-links > a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #e0e8dc;
+  border-radius: 9px;
+  background: #fff;
+  line-height: 1.45;
+  transition: background .18s, border-color .18s;
+}
+.park-header .park-menu-links > a:hover,
+.park-header .park-menu-links > a:focus-visible { border-color: #9fbd77; background: #f5f8f0; }
+.park-header .park-menu-links > a > img {
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 4px;
+}
+.park-header .park-menu-links > a > span { flex: 1; min-width: 0; }
+.park-header .park-menu-links strong {
+  display: block;
+  color: #274552;
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.park-header .park-menu-links small { display: block; margin-top: 5px; font-size: 12px; line-height: 1.5; color: #63747e; }
+.park-header .park-menu-links > a > svg { flex-shrink: 0; width: 20px; height: 20px; margin-left: auto; color: #7ea441; }
+.park-header .park-nested { display: grid; grid-template-columns: minmax(110px, .36fr) minmax(0, .64fr); gap: 14px; }
+.park-header .park-application-rail { align-self: start; padding: 5px; border: 0; border-radius: 9px; background: #f6f8f3; }
+.park-header .park-application-rail button { gap: 8px; padding: 10px 8px; min-height: 44px; border: 1px solid transparent; border-radius: 7px; font-size: 13px; line-height: 1.5; }
+.park-header .park-application-rail button[aria-selected=true] { background: #fff; border-color: #cadab8; color: #486c2d; box-shadow: inset 3px 0 #7ea441; }
+.park-header .park-application-rail svg { flex-shrink: 0; width: 14px; }
+.park-header .park-nested .park-menu-links > a { gap: 9px; padding: 10px; }
+.park-header .park-nested .park-menu-links strong { font-size: 15px; }
+.park-header .park-nested .park-menu-links small { font-size: 11px; }
+.park-header .park-nested .park-menu-links > a > img { flex-basis: 44px; width: 44px; height: 44px; }
+.park-header .park-menu-feature {
+  display: block;
+  padding: 18px;
+  border-left: 1px solid #dde6d9;
+  background: #f5f8f1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #c3d0ba transparent;
+  overscroll-behavior: contain;
+}
+.park-header .park-menu-feature > .park-product-preview {
+  position: relative;
+  min-height: 0;
+  padding: 18px;
+  border-radius: 12px;
+  background: #fff;
+}
+.park-header .park-product-preview > .eyebrow { margin: 0; font-size: 10px; color: #77887c; letter-spacing: .15em; line-height: 1.5; }
+.park-header .park-product-preview > img.park-preview-image {
+  position: static;
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  object-position: center;
+  margin: 18px 0;
+  filter: none;
+}
+.park-header .park-product-preview h3 { margin: 0 0 12px; font-family: 'Manrope', Arial, sans-serif; color: #152f3f; font-size: 24px; font-weight: 600; line-height: 1.3; letter-spacing: -.4px; }
+.park-header .park-product-preview p { margin: 0 0 22px; font-size: 14px; line-height: 1.6; color: #63747e; }
+.park-header .park-product-preview .button { padding: 14px 20px; min-height: 48px; gap: 25px; border-radius: 0; border-color: #08639b; background: #08639b; color: #fff; font-size: 14px; font-weight: 600; }
+.park-header .park-product-preview .button:hover { border-color: #084d76; background: #084d76; }
+.park-header .park-product-preview .button svg { width: 19px; height: 19px; }
+.park-header .park-catalogue-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  margin-top: 16px;
+  border: 0;
+  border-radius: 10px;
+  background: #e8efdf;
+  color: #00517e;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.park-header .park-catalogue-link > span:first-child { flex: 1; min-width: 0; }
+.park-header .park-catalogue-link > .park-catalogue-arrow,
+.park-header .park-catalogue-link > svg {
+  display: grid;
+  place-items: center;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #78a536;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+}
+.park-header .park-catalogue-link > svg { padding: 8px; }
+.park-header .park-mega a:focus-visible,
+.park-header .park-mega button:focus-visible { outline: 2px solid #08639b; outline-offset: 2px; }
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .park-header .park-mega { width: calc(100vw - 32px); }
+  .park-header .park-category-rail,
+  .park-header .park-menu-content,
+  .park-header .park-menu-feature { padding: 14px; }
+  .park-header .park-rail-options button { gap: 8px; min-height: 48px; padding: 7px; font-size: 14px; }
+  .park-header .park-option-icon { flex-basis: 30px; width: 30px; height: 30px; }
+  .park-header .park-rail-options button > svg { width: 18px; height: 18px; }
+  .park-header .park-menu-title h2 { font-size: 25px; }
+  .park-header .park-menu-title { flex-wrap: wrap; gap: 8px; }
+  .park-header .park-menu-count { font-size: 9px; }
+  .park-header .park-menu-links > a { padding: 10px; gap: 10px; }
+  .park-header .park-menu-links strong { font-size: 15px; }
+  .park-header .park-menu-links small { font-size: 11px; }
+  .park-header .park-menu-links > a > img { flex-basis: 46px; width: 46px; height: 46px; }
+  .park-header .park-menu-feature > .park-product-preview { padding: 14px; }
+  .park-header .park-product-preview > img.park-preview-image { height: 150px; margin: 14px 0; }
+  .park-header .park-product-preview h3 { font-size: 22px; }
+  .park-header .park-product-preview p { font-size: 12px; }
+  .park-header .park-product-preview .button { padding: 12px 14px; gap: 15px; font-size: 12px; }
+  .park-header .park-nested { grid-template-columns: minmax(0, 1fr); }
+  .park-header .park-application-rail { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
+  .park-header .park-view-all { font-size: 12px; }
+}
+@media (max-width: 900px) {
+  .park-header .park-mega {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    display: block;
+    margin: 0 0 14px;
+    border-radius: 12px;
+    box-shadow: none;
+    overflow: hidden;
+  }
+  .park-header .park-category-rail { padding: 14px 12px; border-right: 0; border-bottom: 1px solid #dde6d9; }
+  .park-header .park-category-rail > .eyebrow { margin-bottom: 12px; font-size: 10px; }
+  .park-header .park-rail-options { max-height: 230px; }
+  .park-header .park-rail-options button { min-height: 48px; padding: 7px 9px; font-size: 15px; }
+  .park-header .park-option-icon { flex-basis: 32px; width: 32px; height: 32px; }
+  .park-header .park-view-all { margin-top: 10px; padding-top: 7px; font-size: 12px; }
+  .park-header .park-menu-content { padding: 18px 14px; overflow: visible; }
+  .park-header .park-menu-title { flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+  .park-header .park-menu-title h2 { font-size: 26px; }
+  .park-header .park-menu-title .eyebrow { font-size: 9px; }
+  .park-header .park-menu-count { font-size: 9px; }
+  .park-header .park-menu-links { gap: 8px; }
+  .park-header .park-menu-links > a { padding: 10px; gap: 10px; }
+  .park-header .park-menu-links > a > img { flex-basis: 46px; width: 46px; height: 46px; }
+  .park-header .park-menu-links strong { font-size: 15px; }
+  .park-header .park-menu-links small { font-size: 11px; }
+  .park-header .park-menu-links > a > svg { width: 17px; height: 17px; }
+  .park-header .park-nested { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .park-header .park-application-rail { display: flex; gap: 6px; padding: 6px; overflow-x: auto; border: 0; }
+  .park-header .park-application-rail button { flex: 0 0 140px; min-width: 140px; width: 140px; font-size: 12px; }
+  .park-header .park-menu-feature { display: block; padding: 14px; border-left: 0; border-top: 1px solid #dde6d9; overflow: visible; }
+  .park-header .park-menu-feature > .park-product-preview { padding: 16px; }
+  .park-header .park-product-preview > img.park-preview-image { height: 150px; max-width: 280px; margin: 14px auto; }
+  .park-header .park-product-preview h3 { font-size: 22px; }
+  .park-header .park-product-preview p { font-size: 12px; margin-bottom: 18px; }
+  .park-header .park-product-preview .button { min-height: 46px; padding: 12px 16px; font-size: 12px; }
+  .park-header .park-catalogue-link { margin-top: 12px; font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .park-header .park-rail-options button,
+  .park-header .park-menu-links > a { transition: none; }
+}
