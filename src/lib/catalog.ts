@@ -1,4 +1,4 @@
-export const brand = 'AERON Industries';
+export const brand = 'Parknonwoven EPP';
 export const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://aeron-industries-materials.we-are-webuildtech.chatgpt.site';
 export const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const markets = [

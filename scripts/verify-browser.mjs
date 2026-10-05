@@ -29,7 +29,7 @@ await page.locator('.enquiry textarea').fill('Evaluate sample dimensions for a m
 await page.locator('.enquiry input[type="checkbox"]').check();
 const downloadPromise=page.waitForEvent('download');
 await page.getByRole('button',{name:'Create enquiry brief'}).click();
-const download=await downloadPromise;assert.equal(download.suggestedFilename(),'aeron-project-enquiry.txt');
+const download=await downloadPromise;assert.equal(download.suggestedFilename(),'parknonwoven-epp-project-enquiry.txt');
 assert.ok((await page.locator('[role="status"]').innerText()).includes('not been sent'));
 await page.goto(origin);
 await page.getByRole('button',{name:'Watch the material story'}).click();

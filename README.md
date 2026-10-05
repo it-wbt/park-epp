@@ -1,6 +1,6 @@
-# AERON Industries
+# Parknonwoven EPP
 
-Original Next.js industrial website, inspired by the blue-and-white visual direction and industry taxonomy of Knauf Industries. AERON is a temporary concept brand.
+Original Next.js industrial website, inspired by the blue-and-white visual direction and industry taxonomy of Knauf Industries. The website uses the Parknonwoven EPP name supplied by the owner.
 
 ## Run
 

@@ -3,6 +3,7 @@ node_modules/
 out/
 out-previous/
 out-seo-old/
+out-before-rebrand/
 artifacts/
 *.tsbuildinfo
 .env*

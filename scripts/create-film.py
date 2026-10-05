@@ -32,7 +32,7 @@ for n in range(12 * FPS):
     overlay = Image.new('RGBA', (W, H))
     draw = ImageDraw.Draw(overlay)
     draw.rectangle((0, H-110, W, H), fill=(6, 55, 79, 235))
-    draw.text((45, H-87), 'AERON / MATERIAL THINKING', font=small, fill=(132, 204, 234, 255))
+    draw.text((45, H-87), 'Parknonwoven EPP / MATERIAL THINKING', font=small, fill=(132, 204, 234, 255))
     draw.text((45, H-57), caption, font=font, fill='white')
     image = Image.alpha_composite(image.convert('RGBA'), overlay).convert('RGB')
     proc.stdin.write(image.tobytes())
