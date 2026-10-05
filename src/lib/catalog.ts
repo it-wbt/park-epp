@@ -1,5 +1,5 @@
 export const brand = 'AERON Industries';
-export const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://aeron-industries-materials.blond-morel-2743.chatgpt.site';
+export const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://aeron-industries-materials.we-are-webuildtech.chatgpt.site';
 export const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const markets = [
  {name:'HVAC', intro:'Bring insulation, air management and assembly into a more considered component design.', need:'Airflow geometry, thermal interfaces, acoustic behaviour and access for servicing belong in the same design brief.', products:['Custom HVAC components','Moulded air ducts','HVAC insulation housings'], image:'technical'},

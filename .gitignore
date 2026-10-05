@@ -2,6 +2,7 @@ node_modules/
 .next/
 out/
 out-previous/
+out-seo-old/
 artifacts/
 *.tsbuildinfo
 .env*
