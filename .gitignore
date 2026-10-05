@@ -1,0 +1,8 @@
+node_modules/
+.next/
+out/
+out-previous/
+artifacts/
+*.tsbuildinfo
+.env*
+.openai/*.local.*

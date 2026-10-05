@@ -1,0 +1,25 @@
+{
+  "name": "aeron-industries",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
