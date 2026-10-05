@@ -50,4 +50,4 @@ Additional imagegen scenes: a lush cinematic forest; HVAC lab with EPP duct; air
 
 ## Product menu
 
-The rounded catalogue menu follows the owner's PARK filtration product-menu layout. It keeps all EPP categories, uses product-format thumbnails and descriptions, and updates the white product preview on hover or keyboard focus. The preview button opens that specific product. `src/app/menu.css` supplies the compact menu layout, and `scripts/verify-menu.mjs` checks desktop/mobile interaction.
+The rounded catalogue menu follows the owner's PARK filtration product-menu layout. It keeps all EPP categories, uses product-format thumbnails with short material labels, and updates the white product preview on hover or keyboard focus. The preview button opens that specific product. `src/app/menu.css` supplies the compact menu layout, and `scripts/verify-menu.mjs` checks desktop/mobile interaction.

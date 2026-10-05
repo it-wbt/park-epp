@@ -332,3 +332,24 @@
   .park-header .park-rail-options button,
   .park-header .park-menu-links > a { transition: none; }
 }
+
+/* Navigation stays concise; full descriptions belong on the detail pages. */
+.park-header .park-mega-compact { max-height:min(480px,calc(100dvh - var(--panel-top,122px) - 20px)); }
+.park-header .park-mega-compact .park-menu-title { padding-bottom:12px; margin-bottom:12px; }
+.park-header .park-mega-compact .park-menu-title h2 { font-size:26px; }
+.park-header .park-mega-compact .park-menu-links { gap:8px; }
+.park-header .park-mega-compact .park-menu-links>a { min-height:48px; padding:10px 12px; gap:12px; }
+.park-header .park-mega-compact .park-menu-links strong { font-size:16px; font-weight:500; }
+.park-header .park-mega-compact .park-menu-links small { font-size:11px; margin-top:3px; }
+.park-header .park-mega-compact .park-menu-links>a>img { flex-basis:44px; width:44px; height:44px; }
+.park-header .park-mega-compact .park-product-preview>img.park-preview-image { height:150px; margin:0 0 16px; }
+.park-header .park-mega-compact .park-product-preview h3 { font-size:21px; margin-bottom:16px; }
+.park-header .park-mega-compact .park-product-preview p { font-size:12px; margin-bottom:16px; }
+.park-header .park-mega-compact .park-product-preview .button { font-size:12px; min-height:44px; padding:12px 16px; }
+.park-header .park-mega-compact .park-nested .park-menu-links strong { font-size:14px; }
+@media(max-width:900px){
+ .park-header .park-mega-compact { max-height:none; }
+ .park-header .park-mega-compact .park-menu-title h2 { font-size:24px; }
+ .park-header .park-mega-compact .park-menu-links strong { font-size:14px; }
+ .park-header .park-mega-compact .park-menu-links>a { min-height:46px; }
+}
