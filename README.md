@@ -51,3 +51,7 @@ Additional imagegen scenes: a lush cinematic forest; HVAC lab with EPP duct; air
 ## Product menu
 
 The rounded catalogue menu follows the owner's PARK filtration product-menu layout. It keeps all EPP categories, uses product-format thumbnails with short material labels, and updates the white product preview on hover or keyboard focus. The preview button opens that specific product. `src/app/menu.css` supplies the compact menu layout, and `scripts/verify-menu.mjs` checks desktop/mobile interaction.
+
+## Market menu coverage
+
+Markets menu uses all 11 category labels supplied in the reference screenshots, plus Aviation and Insulation & waterproofing. Appliances and HVAC combines both ranges through two application tabs; Revegetation and drainage has its own three-family view. All 77 product-family links remain reachable.
