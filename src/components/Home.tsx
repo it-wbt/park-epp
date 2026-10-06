@@ -1,10 +1,11 @@
 'use client';
 import Link from 'next/link';
-import {markets,activeProducts,expertise,articles} from '../lib/catalog';
+import {markets,activeProducts,articles} from '../lib/catalog';
 import {eppOverview,eppProperties} from '../lib/epp-education';
 import {marketImagePath} from '../lib/navigation';
 import IndustryExplorer from './IndustryExplorer';
 import HomeApplications from './HomeApplications';
+import HomeExpertise from './HomeExpertise';
 import SolutionExplorer from './SolutionExplorer';
 import HomeContact from './HomeContact';
 import ManufacturingHero from './ManufacturingHero';
@@ -16,7 +17,7 @@ export default function Home(){return <div className="modern-home">
 <section id="discover" className="section park-intro"><div><p className="eyebrow">MEET EXPANDED POLYPROPYLENE</p><h2>What is EPP?<br/><span>A lighter way to make.</span></h2><div className="material-tags"><span>Bead foam</span><span>Closed-cell structure</span><span>Custom moulded shapes</span></div></div><div><p>{eppOverview.summary}</p><p>{eppOverview.detail}</p><div className="park-stats"><div><strong>{markets.length}</strong><span>focused industries</span></div><div><strong>{activeProducts.length}</strong><span>product families to explore</span></div><div><strong>{eppProperties.length}</strong><span>material properties explained</span></div></div><Link className="text-link" href="/materials/expanded-polypropylene/">Get to know EPP <Icon kind="arrow"/></Link></div></section>
 <IndustryExplorer/>
 <HomeApplications/>
-<section className="park-technical"><div className="park-technical-image"><img src="/images/generated/factory-foam-finishing.webp" alt="AI factory illustration of shaped foam components at a finishing and inspection workstation" loading="lazy"/><div><p className="eyebrow">PRECISION MEETS POSSIBILITY</p><h2>More than a material.<br/>Part of your design.</h2></div></div><div className="park-technical-copy"><p className="eyebrow">OUR EXPERTISE</p><h2>From your drawing.<br/>To a considered component.</h2><p>Develop an EPP component around its geometry, moulded density and working environment. Connect the material choice with tooling, samples and a clear validation plan.</p>{expertise.filter(item=>['foam-moulding','co-development','testing-validation','industrialisation'].includes(item.slug)).map((x,i)=><Link key={x.slug} href={`/expertise/${x.slug}/`}><span>0{i+1}</span><div><h3>{x.name}</h3><p>{x.text}</p></div><Icon kind="arrow"/></Link>)}<Link className="text-link" href="/expertise/">All manufacturing & development expertise ↗</Link></div></section>
+<HomeExpertise/>
 <EppKnowledge/>
 <SolutionExplorer/>
 <section className="section"><div className="section-heading"><div><p className="eyebrow">YOUR PROJECT. A CLEARER PATH.</p><h2>Good questions lead to better components.</h2></div></div><div className="process-grid">{[['Define the application','Share the operating environment, geometry, interfaces and the problem you want to solve.'],['Compare the options','Bring candidate materials, manufacturing processes and assembly requirements into the same review.'],['Validate the design','Use representative samples and agree measurable criteria for fit, handling and performance.'],['Plan the next life','Consider cleaning, reuse, separation and recovery alongside the original product design.']].map(([h,p],i)=><div key={h}><span>0{i+1}</span><h3>{h}</h3><p>{p}</p></div>)}</div></section>
