@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-06",
+  "purpose": "Original PARK industry-page editorial refresh following four user-specified references.",
+  "contentFile": "src/lib/industry-stories.ts",
+  "preserved": {
+    "publicIndustries": [
+      {
+        "slug": "sports-leisure",
+        "name": "Sports, Leisure & Early Childhood",
+        "activeProducts": 14
+      },
+      {
+        "slug": "logistics-handling",
+        "name": "Logistics & Material Handling",
+        "activeProducts": 13
+      },
+      {
+        "slug": "hvac",
+        "name": "HVAC",
+        "activeProducts": 10
+      },
+      {
+        "slug": "mobility",
+        "name": "Automotive",
+        "activeProducts": 10
+      }
+    ],
+    "activeProductCount": 47,
+    "legacyRoutes": "Untouched",
+    "catalogueData": "Four public industry groups, 47 active products and existing product slugs preserved. Industry introductions and product-page context refreshed."
+  },
+  "editorialPolicy": {
+    "wording": "All website sentences were newly written for PARK. No quotations, translations of complete source sentences, or source-page images are reproduced.",
+    "sourceUse": "Short factual references inform application context. The independent design-brief and FAQ copy is written around the repository's current product families and existing EPP selection guidance.",
+    "scope": "PARK manufacturing and development language follows the user's authorised general manufacturer positioning; no plant, equipment, capacity or customer claim is added.",
+    "sourceDerivedLimit": "Keep the factual synthesis associated with each requested reference within 180 words; expand usefulness through original project-planning questions, existing catalogue context and general material guidance."
+  },
+  "sources": [
+    {
+      "id": "knauf-childhood",
+      "url": "https://www.knauf-industries.com/childhood/",
+      "title": "EPP solutions for childcare professionals",
+      "language": "en",
+      "industrySlug": "sports-leisure",
+      "facts": "The page presents EPP applications in educational play, childcare accessories, storage and seating. It highlights low weight, resilience and moulded design possibilities.",
+      "editorialUse": "Application context only. Sports, footwear and helmet entries are retained from the existing PARK catalogue; the combined public industry stays unchanged."
+    },
+    {
+      "id": "knauf-logistics",
+      "url": "https://www.knauf-industries.com/fr/logistique-distribution/",
+      "title": "Emballages pour la logistique en plastique",
+      "language": "fr",
+      "industrySlug": "logistics-handling",
+      "facts": "The page covers protective foam packaging, insulated containers, returnable formats and pallets. Handling, stacking, transport exposure and product location are recurring design considerations.",
+      "editorialUse": "Broad application context. PARK's packing-station walkthrough, project questions and operational brief are independently written around its current product families."
+    },
+    {
+      "id": "knauf-hvac-refresh",
+      "url": "https://www.knauf-industries.com/fr/electrodomestique-hvac/",
+      "title": "Pièces plastique sur mesure pour le secteur CVC",
+      "language": "fr",
+      "industrySlug": "hvac",
+      "facts": "This URL currently covers HVAC: heat-pump components, heating insulation, hydraulic interfaces and ventilation. It discusses combining thermal, acoustic and mounting functions in shaped foam parts.",
+      "editorialUse": "Retain HVAC scope. Original copy prioritises air paths, seams, access and component evaluation; no domestic-appliance category is added."
+    },
+    {
+      "id": "knauf-automotive",
+      "url": "https://www.knauf-industries.com/fr/automobile/",
+      "title": "Solutions plastiques pour l'automobile",
+      "language": "fr",
+      "industrySlug": "mobility",
+      "facts": "The page identifies moulded foam uses in impact-related parts, seating, vehicle storage and shuttle trays. It discusses low weight and energy absorption.",
+      "editorialUse": "Application context. PARK's assembly-review narrative, sample questions and programme brief are independently written for its existing automotive families."
+    },
+    {
+      "id": "bewi-epp",
+      "url": "https://bewi.com/material/epp/",
+      "title": "EPP material properties",
+      "language": "en",
+      "industrySlug": null,
+      "facts": "EPP is a closed-cell polypropylene foam with low weight, energy absorption, resilience and thermal insulation. Its density can be selected for the application.",
+      "editorialUse": "General material basis for lightweight structure, compression response and insulation statements. Brand-specific environmental or supply-chain claims are excluded."
+    }
+  ],
+  "supportingExistingGuidance": {
+    "file": "src/lib/epp-education.ts",
+    "sections": [
+      "eppProperties",
+      "eppSelectionChecklist",
+      "eppFaqs"
+    ],
+    "reference": {
+      "id": "arpro-design",
+      "title": "ARPRO moulded-part design principles",
+      "organisation": "JSP",
+      "url": "https://www.arpro.com/getContentAsset/153f19cb-7bf8-4bd4-8ee8-f4082a783edb/1771ac74-d775-4539-b7e3-0cbf0ab84455/arpro-design-principles-en4.pdf?language=en-GB"
+    },
+    "verificationNote": "This document was already used for the existing verified EPP guide. The browser tool could not reopen the PDF during this refresh; no new document-specific facts were introduced."
+  },
+  "proprietaryClaimsNotImported": [
+    "Knauf certifications, laboratory credentials or named innovation facilities",
+    "Company history, factory counts, machinery fleets and production capacity",
+    "Customer names, customer case studies or measured customer results",
+    "Proprietary brands and named product ranges",
+    "Guaranteed safety, guaranteed acoustic or thermal performance, or blanket chemical resistance",
+    "Infinite recyclability, universal recycling access or unqualified environmental savings"
+  ],
+  "technicalBoundaries": [
+    "Helmet, child-seat and automotive impact performance is evaluated in the complete finished assembly.",
+    "Foam water absorption does not establish condensation prevention or watertightness.",
+    "Logistics includes existing EPS and rigid-polymer formats; the copy does not relabel every product as EPP.",
+    "Reuse depends on a defined operating route, cleaning and inspection.",
+    "Grade, density and geometry remain part of the specification."
+  ],
+  "visualPolicy": {
+    "sourceImagesUsed": false,
+    "imagery": "Existing project illustrations plus four separately generated industry hero assets.",
+    "heroAssets": [
+      "/images/generated/industry-childhood.webp",
+      "/images/generated/industry-logistics.webp",
+      "/images/generated/industry-hvac.webp",
+      "/images/generated/industry-automotive.webp"
+    ],
+    "note": "Illustrative component scenes are not evidence of a particular PARK factory, customer installation or qualified production part. Alt text describes the depicted component context.",
+    "generationRecord": "research/industry-generated-images.json"
+  },
+  "validation": {
+    "typecheck": "npm run check passed",
+    "industryCount": 4,
+    "activeProductCount": 47,
+    "applicationLinks": "All 16 resolve to active products within the matching public industry.",
+    "applicationAndMaterialImages": "All referenced files exist and were visually inspected.",
+    "heroImages": "All four original generated assets exist and decode in desktop and mobile browser checks."
+  },
+  "displayedWordCounts": {
+    "sports-leisure": 350,
+    "logistics-handling": 347,
+    "hvac": 336,
+    "mobility": 344
+  }
+}

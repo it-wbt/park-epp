@@ -1,7 +1,7 @@
 import formatData from './reference-formats.json';
 import {markets, activeProducts} from './catalog';
 
-export const marketImage:Record<string,string> = {'hvac':'hvac','aviation':'aviation','furniture':'furniture','mobility':'mobility','domestic-appliances':'appliances','logistics-handling':'logistics','sports-leisure':'sports','childhood':'childhood','agrifood':'agrifood','building':'building','pharma-health':'pharma','insulation-waterproofing':'roofing','swimming-pools-filtration':'pools','appliances-hvac':'hvac','revegetation-drainage':'roofing'};
+export const marketImage:Record<string,string> = {'hvac':'industry-hvac','aviation':'aviation','furniture':'furniture','mobility':'industry-automotive','domestic-appliances':'appliances','logistics-handling':'industry-logistics','sports-leisure':'industry-childhood','childhood':'industry-childhood','agrifood':'agrifood','building':'building','pharma-health':'pharma','insulation-waterproofing':'roofing','swimming-pools-filtration':'pools','appliances-hvac':'hvac','revegetation-drainage':'roofing'};
 export const marketImagePath = (slug:string) => `/images/generated/${marketImage[slug] || 'logistics'}.webp`;
 export type MenuLink = {name:string;href:string;description?:string;image?:string};
 export type MenuGroup = {name:string;intro:string;href:string;image:string;links:MenuLink[];applications?:{name:string;links:MenuLink[]}[]};

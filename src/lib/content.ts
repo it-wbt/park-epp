@@ -1,4 +1,5 @@
 import expandedFamilies from './expanded-families.json';
+import {industryStories} from './industry-stories';
 type Copy={summary:string;focus:string[]};
 const rows=`Custom HVAC components|Shaped components that bring air-channel geometry, insulation and equipment interfaces into one coordinated design.|Air channel dimensions;Condensation interfaces;Assembly tolerances
 Moulded air ducts|Lightweight shaped air passages for connecting sections of an HVAC assembly with a defined airflow path.|Pressure and flow;Duct connections;Access for cleaning
@@ -125,3 +126,14 @@ export const marketGuides:Record<string,{overview:string;applications:string[];p
  'insulation-waterproofing':{overview:'Roof terraces and planted surfaces need insulation, waterproofing and water management to work together. Shaped drainage and insulation elements should be coordinated with the membrane, substrate, outlets and load design.',applications:['Roof terrace insulation','Planted roof systems','Drainage panels','Landscape water management'],priorities:[['Coordinate water movement','Review drainage paths, outlets and temporary retention within the complete roof or landscape system.'],['Understand loading','Include substrate, water, access and permanent loads when evaluating compression and support.'],['Protect interfaces','Waterproofing, root-zone layers and insulation must be detailed around the specified build-up.']],faq:[['Can a drainage panel replace a complete roof design?','No. It is one element within a system that includes waterproofing, outlets, layers and loading requirements.'],['What should the drawing show?','Include the substrate, membrane, slopes, outlets, penetrations and adjoining layers.']]},
  'swimming-pools-filtration':{overview:'Foam pool forms and insulation components are selected alongside structural design, the lining system and hydraulic equipment. A fitted form needs to work with reinforcement, penetrations, finishes and the installation sequence.',applications:['EPS pool construction blocks','Custom pool insulation','Staircase and deck forms','Thermal panels'],priorities:[['Begin with the pool structure','Record geometry, reinforcement, support and the specified construction method.'],['Detail the lining interface','Edges, steps, joints and service penetrations should be coordinated with the lining or finish.'],['Plan installation','Consider handling, cutting, temporary stability and the order in which components are fitted.']],faq:[['Are these filtration devices?','This catalogue section covers pool insulation and shaped construction components. Hydraulic filtration equipment should be specified separately.'],['What information is needed for custom forms?','Share pool geometry, structural method, lining system, step dimensions and service penetrations.']]}
 };
+
+// Keep product-page context in step with the current four industry stories.
+for (const [slug, story] of Object.entries(industryStories)) {
+  marketGuides[slug] = {
+    overview: story.overview.body,
+    applications: story.applications.map(application => application.title),
+    priorities: story.benefits.map(benefit => [benefit.title, benefit.text]),
+    faq: story.faq.map(item => [item.question, item.answer]),
+  };
+}
+marketGuides.childhood = marketGuides['sports-leisure'];

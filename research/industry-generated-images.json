@@ -1,0 +1,48 @@
+{
+  "createdAt": "2026-10-06",
+  "mode": "built-in image_gen",
+  "generation": "Four original generated scenes; childhood received one targeted built-in material-texture edit.",
+  "provenance": "Original AI-generated illustrative application scenes created for this website. No external reference images were supplied or copied. These depict generic industry applications and do not document actual PARK products, a specific factory, approved engineering designs or product certifications.",
+  "optimization": {
+    "tool": "sharp",
+    "width": 1440,
+    "height": 960,
+    "quality": 85,
+    "format": "webp"
+  },
+  "assets": [
+    {
+      "name": "industry-childhood",
+      "master": "research/generated-assets/industry-childhood.png",
+      "websiteAsset": "public/images/generated/industry-childhood.webp",
+      "mode": "generate, then precise-object-edit",
+      "prompt": "Use case: product-mockup.\nAsset type: original premium editorial application photograph for an EPP early-childhood industry webpage.\nPrimary request: a beautifully lit modern playroom furnished with moulded expanded polypropylene (EPP) modular arches, low rounded stools, play blocks and storage forms in soft sage green, muted blue and restrained coral. A child-focused space with no children or other people.\nMaterials/textures: the objects are realistic moulded EPP foam, with clearly recognizable fine fused irregular bead texture; substantial lightweight forms and rounded moulded edges. They are not fabric upholstered, plush, velvet, smooth rubber or glossy plastic.\nScene/backdrop: elegant practical modern playroom with pale neutral walls, a pale natural floor and large windows, a few thoughtfully arranged EPP play objects at child scale.\nComposition/framing: wide 3:2 full scene, balanced arrangement of whole objects with breathing room; camera at modestly low room height so the modular play forms are prominent.\nLighting/mood: calm natural window light, soft physical shadows, warm premium editorial photography, tactile and convincing real materials.\nConstraints: original unbranded scene; no copied reference images, text, lettering, logos, watermarks, identifiable people or CGI gloss.",
+      "finalEditPrompt": "Use case: precise-object-edit.\nEdit target: the supplied original generated playroom photograph.\nChange only the material appearance of the sage, blue and coral modular play arches, stools, steps and blocks. Make every coloured foam object unmistakably moulded expanded polypropylene (EPP): a realistic tactile surface made of small irregular rounded beads fused together, bead boundaries visible consistently across broad faces, curves and edges. Preserve the existing muted colours. Remove the current sparse pinholes, sponge-like pitting and faint fabric-like streaks; replace them with dense fine fused-bead foam texture, matte and physically realistic.\nKeep the room, camera angle, lighting, shadows, object shapes, placement and all other elements unchanged. Do not add text, labels, logos, watermarks or people. This should remain premium photoreal editorial application photography, with no glossy CGI appearance.",
+      "inspection": "Modern naturally lit playroom with sage, blue and coral moulded play arches, stools, steps and blocks. A targeted edit replaced sponge-like pitting with visible fused-bead foam texture. No people, brands or text. Wide room scene; the small far-left stool is naturally clipped at the frame edge."
+    },
+    {
+      "name": "industry-logistics",
+      "master": "research/generated-assets/industry-logistics.png",
+      "websiteAsset": "public/images/generated/industry-logistics.webp",
+      "mode": "generate",
+      "prompt": "Use case: product-mockup.\nAsset type: original premium editorial application photograph for an EPP logistics and material-handling industry webpage.\nPrimary request: a clean modern distribution facility with charcoal-black moulded expanded polypropylene (EPP) fitted returnable transport trays protecting generic industrial components, and insulated stackable EPP containers arranged on a low blue pallet. Show the open fitted trays clearly in the foreground and neatly stacked insulating containers alongside.\nMaterials/textures: realistic fine fused irregular foam bead texture across the charcoal EPP trays and thick-walled containers; cavity geometry hugs the parts. Generic metal and dark polymer components are unbranded. The blue pallet is a plausible rigid industrial pallet.\nScene/backdrop: authentic clean warehouse/distribution space, restrained shelving and organised background, enough practical industrial detail to establish context without distracting from the foam packaging.\nComposition/framing: wide 3:2 scene, balanced complete-object arrangement, three-quarter view of the trays, stackable containers and low pallet, clear foreground material detail.\nLighting/mood: calm cinematic natural sidelight, subtle realistic contact shadows, premium industrial editorial photography without glossy CGI styling.\nConstraints: original unbranded scene; no copied reference images, text, lettering, logos, watermarks, certification marks, labels or identifiable people.",
+      "inspection": "Clean distribution facility with fitted EPP returnable trays holding generic components, stackable insulated containers on a blue pallet, clear material texture and natural side light. No visible brands, text or people."
+    },
+    {
+      "name": "industry-hvac",
+      "master": "research/generated-assets/industry-hvac.png",
+      "websiteAsset": "public/images/generated/industry-hvac.webp",
+      "mode": "generate",
+      "prompt": "Use case: product-mockup.\nAsset type: original premium editorial application photograph for an EPP HVAC industry webpage.\nPrimary request: precise charcoal-black moulded expanded polypropylene (EPP) insulation half-shells, a fitted insulation housing and formed air ducts arranged alongside a partially assembled generic heat-pump / air-handling unit on a clean engineering lab workbench. The foam parts are the clear foreground focus, while the open unit provides a believable application context with an understated heat-exchanger coil, fan and pipework.\nMaterials/textures: realistic fine fused irregular EPP bead texture across all foam surfaces and cutaway interiors, thick insulating walls, clean moulded passages and mating edges. The heat-pump unit has plausible restrained metal structure and components without visible brands.\nScene/backdrop: clean modern engineering lab with pale neutral surfaces and large windows; ordered, practical and believable, not futuristic.\nComposition/framing: wide 3:2 complete scene, three-quarter view, balanced arrangement, entire foreground foam components comfortably inside frame, naturally integrated assembly in the background.\nLighting/mood: calm cinematic natural sidelight, premium industrial editorial photography, realistic physical shadows and matte foam detail.\nConstraints: original unbranded scene; no copied reference images, text, labels, logos, watermarks, certification symbols, identifiable people, diagram styling or CGI gloss.",
+      "inspection": "Charcoal EPP insulation shells, housing and ducts in clear foreground view, generic partially assembled heat-pump unit behind on an engineering bench. Visible fused-bead surfaces, realistic industrial context, no visible text, brands or people."
+    },
+    {
+      "name": "industry-automotive",
+      "master": "research/generated-assets/industry-automotive.png",
+      "websiteAsset": "public/images/generated/industry-automotive.webp",
+      "mode": "generate",
+      "prompt": "Use case: product-mockup.\nAsset type: original premium editorial application photograph for an EPP automotive industry webpage.\nPrimary request: charcoal-black expanded polypropylene (EPP) moulded floor support and seat support shapes, a separate shaped energy absorber and a fitted tool organiser arranged alongside a partially assembled generic vehicle interior assembly on an engineering bench. Show the lightweight foam components in clear foreground view with the vehicle's structural floor and seat-frame context behind them.\nMaterials/textures: true fine fused irregular EPP bead texture across every foam part, matte cellular surfaces, plausible substantial moulded ribs and recesses. Restrained realistic stamped metal in the vehicle assembly. The foam tool organiser holds a few simple generic unbranded tools.\nScene/backdrop: clean practical automotive engineering workshop / prototyping lab with a large bench, pale background and natural windows; no visible manufacturer identity.\nComposition/framing: wide 3:2 full scene, balanced whole-object arrangement, three-quarter viewpoint, complete foreground components inside frame with breathing room; clearly automotive component development rather than protective shipping packaging.\nLighting/mood: calm cinematic natural sidelight, premium editorial product photography, tactile foam detail and convincing physical contact shadows.\nConstraints: original unbranded scene; no copied reference images, text, labels, logos, watermarks, certification marks, identifiable people or CGI gloss.",
+      "inspection": "Charcoal EPP floor and seat supports, separate energy-absorber shape and tool organiser, with a generic vehicle interior structure behind. Visible foam bead texture, workshop daylight, no visible text, brands or people."
+    }
+  ]
+}

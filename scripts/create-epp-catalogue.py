@@ -201,6 +201,9 @@ def build(data: dict) -> None:
         per_page = 9 if len(items) > 10 else 10
         for offset in range(0, len(items), per_page):
             part = items[offset:offset + per_page]
+            # Ten-entry pages retain all copy and type sizes; trim only row whitespace
+            # so a longer current industry introduction cannot orphan the final entry.
+            product_gap = 6 if len(part) == 10 else 8
             continuation = ' — continued' if offset else ''
             section(f"Industry {market['number']}  |  {len(items)} product families",
                     market['name'] + continuation,
@@ -215,7 +218,7 @@ def build(data: dict) -> None:
                     text(linked_title, 'product', raw=True),
                     text(product['summary'], 'productBody'),
                     text('Material options: ' + product['material'], 'productMeta'),
-                    Spacer(1, 8),
+                    Spacer(1, product_gap),
                 ]))
             story.append(PageBreak())
 

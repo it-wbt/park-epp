@@ -2,6 +2,10 @@
 
 Parknonwoven EPP is a Next.js industrial website using the owner's PARK filtration visual system, with an EPP manufacturing film, responsive navigation and the tagline "Future of light weight". The current site focuses on four industries: Sports, Leisure & Early Childhood, Logistics & Material Handling, HVAC and Automotive. It includes 47 active product families, an EPP material guide, an illustrated material explainer and a downloadable catalogue. Earlier research and asset-generation notes are retained below.
 
+The four current industry stories live in `src/lib/industry-stories.ts`; `IndustryDetail.tsx` renders their application links, material guidance, product range and FAQs. Their copy is original PARK editorial content. Research references are recorded in `research/industry-reference-refresh.json`, and original generated image prompts are in `research/industry-generated-images.json`.
+
+Every production build checks image references across the exported pages and fails on missing files or filename-case mismatches. The default public URL is `https://park-epp.vercel.app`; set `NEXT_PUBLIC_SITE_URL` to use a different production domain.
+
 ## Run
 
 ```sh

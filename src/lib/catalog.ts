@@ -1,8 +1,9 @@
 import expandedFamilies from './expanded-families.json';
 import formatData from './reference-formats.json';
 import {productCopy} from './content';
+import {industryStories} from './industry-stories';
 export const brand = 'Parknonwoven EPP';
-export const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://aeron-industries-materials.we-are-webuildtech.chatgpt.site';
+export const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://park-epp.vercel.app';
 export const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 /** Original application records retained for product data and existing detail URLs. */
 export const legacyMarkets = [
@@ -36,7 +37,7 @@ export const markets = [
  {slug:'logistics-handling',name:'Logistics & Material Handling',sourceSlugs:['logistics-handling'],intro:'Protect, organise and move products through storage, transport and return journeys.',need:'Consider stacking loads, usable volume, cleaning, return journeys and how operators lift or access the packed product.',image:'packaging'},
  {slug:'hvac',name:'HVAC',sourceSlugs:['hvac'],intro:'Bring insulation, air management and assembly into a more considered component design.',need:'Airflow geometry, thermal interfaces, acoustic behaviour and access for servicing belong in the same design brief.',image:'technical'},
  {slug:'mobility',name:'Automotive',sourceSlugs:['mobility'],intro:'Develop lightweight vehicle components and protective inserts around the complete automotive assembly.',need:'Review assembly clearances, repeated loading, temperature exposure, handling and end-of-life separation.',image:'technical'},
-].map((market,index)=>({...market,number:String(index+1).padStart(2,'0'),products:products.filter(product=>market.sourceSlugs.includes(product.marketSlug)).map(product=>product.name)}));
+].map((market,index)=>({...market,intro:industryStories[market.slug].intro,number:String(index+1).padStart(2,'0'),products:products.filter(product=>market.sourceSlugs.includes(product.marketSlug)).map(product=>product.name)}));
 /** Resolve an original product application to its current public industry. */
 export const publicMarketFor = (sourceSlug:string) => markets.find(market=>market.sourceSlugs.includes(sourceSlug));
 /** Expand a public industry filter without changing original product/format keys. */
