@@ -55,7 +55,10 @@ export default function HomeApplications() {
           <p className="eyebrow">EPP IN APPLICATION</p>
           <h2 id="epp-applications-heading">Made to protect.<br/><span>Shaped to perform.</span></h2>
         </div>
-        <p>From a fitted transport pack to a part inside an assembly, explore where expanded polypropylene can fit into your next project.</p>
+        <div className={styles.intro}>
+          <p>Explore EPP for protection, insulation and lightweight components.</p>
+          <Link className={styles.link} href="/solutions/">Explore all solutions <Icon kind="arrow"/></Link>
+        </div>
       </div>
 
       <div className={styles.layout} data-reveal>

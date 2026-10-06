@@ -50,7 +50,7 @@
       },
       {
         "heading": "Select the resin for use",
-        "text": "The reference discusses PP and PS. The precise grade must match temperature exposure, impact requirements and any food-contact or cleaning requirements, rather than relying on a polymer abbreviation alone."
+        "text": "Compare resin options such as PP and PS against the component's operating conditions. Choose the precise grade around temperature exposure, impact, cleaning and any product-contact requirements."
       },
       {
         "heading": "Plan decoration and assembly",
@@ -74,7 +74,7 @@
       },
       {
         "heading": "Match material and format",
-        "text": "PP, PET and suitable recycled-content alternatives are referenced. Confirm the chosen grade, draw behaviour and food-contact documentation, and review absorbent pads separately where exudate management is needed."
+        "text": "Review PP, PET or suitable recycled-content grades against the required shape and service conditions. Confirm forming behaviour and any food-contact documentation; assess absorbent pads separately where liquid management is needed."
       }
     ],
     "facts": []
@@ -219,12 +219,12 @@
     ],
     "facts": [
       {
-        "label": "Reference application groups",
-        "value": "Sports and childhood; logistics; HVAC; automotive; furniture."
+        "label": "Application areas",
+        "value": "Sports and early childhood, logistics and material handling, HVAC, and automotive."
       },
       {
-        "label": "Reference forms",
-        "value": "Moulded technical components, reusable containers and foam sheets."
+        "label": "Component forms",
+        "value": "Moulded technical components, returnable containers and shaped protective inserts."
       }
     ]
   },
@@ -248,12 +248,12 @@
     ],
     "facts": [
       {
-        "label": "Reference PP variations",
-        "value": "Homopolymer, random copolymer and block copolymer."
+        "label": "Polypropylene families",
+        "value": "Homopolymer, random copolymer and block copolymer; select the grade around the finished component's requirements."
       },
       {
-        "label": "External branded reference families",
-        "value": "Kapseal®, Kapclear® and Kaplight®"
+        "label": "Selection priorities",
+        "value": "Balance stiffness, impact response, appearance and operating temperature with the intended manufacturing process."
       }
     ]
   },
@@ -277,12 +277,12 @@
     ],
     "facts": [
       {
-        "label": "Reference processing description",
-        "value": "Expandable PS beads are expanded and then moulded."
+        "label": "Bead-foam process",
+        "value": "Expandable polystyrene beads are expanded and then moulded into the required form."
       },
       {
-        "label": "Reference formats",
-        "value": "Insulated boxes, protective corners, foam pallets, insulation boards and swimming-pool blocks."
+        "label": "Application formats",
+        "value": "Insulated containers, protective corners, fitted packaging and insulation boards; each requires its own design and validation."
       }
     ]
   },
@@ -297,7 +297,7 @@
       },
       {
         "heading": "Match the forming process",
-        "text": "Injection, extrusion and thermoforming are referenced routes. Wall layout, detail, forming behaviour and finish need to be considered with the chosen resin."
+        "text": "Injection moulding, extrusion and thermoforming create different types of PS component. Review wall layout, forming behaviour, detail and finish alongside the chosen resin and tool."
       },
       {
         "heading": "Validate the application",
@@ -306,12 +306,12 @@
     ],
     "facts": [
       {
-        "label": "Reference distinction",
-        "value": "Clear crystal PS versus impact-modified PS."
+        "label": "Material variants",
+        "value": "General-purpose PS and impact-modified PS offer different balances of clarity, stiffness and toughness."
       },
       {
-        "label": "Reference processing routes",
-        "value": "Injection, extrusion and thermoforming."
+        "label": "Processing routes",
+        "value": "Injection moulding, extrusion and thermoforming; suitability depends on the grade and component geometry."
       }
     ]
   },
@@ -335,12 +335,12 @@
     ],
     "facts": [
       {
-        "label": "Reference chemistry",
-        "value": "Polymer based on ethylene glycol and terephthalic acid."
+        "label": "Material family",
+        "value": "PET is a polyester used in applications where clarity, shape and packaging performance matter."
       },
       {
-        "label": "Reference alternative",
-        "value": "rPET derived from recovered PET packaging."
+        "label": "Recycled-content options",
+        "value": "Recycled PET can use recovered PET feedstock. Check the selected grade's traceability and documentation for its intended use."
       }
     ]
   },
@@ -350,54 +350,34 @@
     "source": "https://www.knauf-industries.com/neopolen-epp/",
     "sections": [
       {
-        "heading": "Compare grade families",
-        "text": "The source lists standard black grades, six coloured variants and speciality options. Select around moulded density, appearance, electrical requirements and operating conditions."
+        "heading": "Start with the component",
+        "text": "Bring the part geometry, target weight and working loads into the grade review. Define the required moulded density and appearance, then consider any electrical, thermal or product-contact requirements."
       },
       {
-        "heading": "Review recycled-content options",
-        "text": "P 9235R+, P 7217R+ and P 7225R+ appear in the current reference range. Use the specific technical sheet and supply documentation rather than extending one grade's declaration to all EPP."
+        "heading": "Compare suitable grade options",
+        "text": "Assess candidate grades using current technical data and representative moulded samples. For recycled-content options, confirm the declared content, feedstock route and any effect on processing or the finished part."
       },
       {
-        "heading": "Read the technical basis",
-        "text": "Physical-property tables describe guideline values for samples made under stated conditions. Geometry and process parameters can change the result; raw material data do not certify the finished component."
+        "heading": "Set the acceptance criteria",
+        "text": "Agree dimensional tolerances, conditioning and functional tests before approval. Material data describe specific test conditions; validate the finished component in its intended assembly and operating environment."
       }
     ],
     "facts": [
       {
-        "label": "Source-listed standard grades",
-        "value": "P 8220 K; P 9225 K; P 9230 K; P 9235+; P 9255; P 9270; P 92HD."
+        "label": "Density specification",
+        "value": "Specify finished moulded density and tolerance separately from loose-bead bulk density."
       },
       {
-        "label": "Source-listed colour grades",
-        "value": "P 9335 MG; P 9435 AB/LB/SR/DY/DG."
+        "label": "Performance data",
+        "value": "Compare mechanical and thermal data for the proposed grade, density and test conditions."
       },
       {
-        "label": "Published general moulded-density range",
-        "value": "20–100 kg/m³, manufacturer reference range; not PARK's production range."
+        "label": "Special requirements",
+        "value": "State fire, electrical, food-contact or chemical-exposure requirements where relevant, and request evidence for the selected grade and application."
       },
       {
-        "label": "P 9235R+ recycled content",
-        "value": "30%, Technical Information v6.1, printed 2026-02-02."
-      },
-      {
-        "label": "P 9235R+ bulk density",
-        "value": "30–36 kg/m³; bulk density is different from moulded core density."
-      },
-      {
-        "label": "P 7217R+ recycled content / bulk density",
-        "value": "30% recycled material; bulk density 14–17 kg/m³, Technical Information v6.1, printed 2026-02-05."
-      },
-      {
-        "label": "P 9230 ESD surface resistance",
-        "value": "<10⁷ Ω, DIN IEC 60093, guideline moulded-sample table at core densities 40, 50, 60 and 70 kg/m³."
-      },
-      {
-        "label": "P 9230 ESD thermal conductivity",
-        "value": "0.038 / 0.039 / 0.040 / 0.041 W·m⁻¹·K⁻¹ at respective core densities 40 / 50 / 60 / 70 kg/m³; DIN 52612, guideline values."
-      },
-      {
-        "label": "Grade-data limitation",
-        "value": "Manufacturer requires processors' own tests; published values depend on part geometry and processing."
+        "label": "Sample approval",
+        "value": "Use representative parts to confirm fit, handling and the performance criteria agreed for the project."
       }
     ]
   },
@@ -421,28 +401,20 @@
     ],
     "facts": [
       {
-        "label": "NEOPS® external reference",
-        "value": "EPS alternative using renewable feedstock allocation by mass balance."
+        "label": "Recycled-content materials",
+        "value": "Confirm the recovered feedstock, declared content and supporting documentation for the selected polymer grade."
       },
       {
-        "label": "CELOOPS® external reference",
-        "value": "EPS alternative associated with post-consumer recycled feedstock."
+        "label": "Mass-balance declarations",
+        "value": "Check how alternative inputs are allocated through the supply chain; the accounting claim differs from a measured recycled fraction in an individual part."
       },
       {
-        "label": "RELOOPS® external reference",
-        "value": "Mechanical recycling of pre- and post-consumer PS/EPS."
+        "label": "Repeat-use design",
+        "value": "Agree cleaning, inspection and replacement criteria for the intended handling cycle."
       },
       {
-        "label": "RELOOPP® external reference",
-        "value": "EPP alternative based on recovered post-consumer EPP."
-      },
-      {
-        "label": "R’KAP® external reference",
-        "value": "Circular PP-based family for formed or injected packaging."
-      },
-      {
-        "label": "rPET reference",
-        "value": "Recycled PET from recovered bottles and packaging."
+        "label": "Collection and recovery",
+        "value": "Confirm a local route that accepts the finished component, including its inserts, labels and contamination."
       }
     ]
   },
@@ -481,7 +453,7 @@
       },
       {
         "heading": "Use evidence for claims",
-        "text": "Measure actual reuse, losses and return transport where relevant. Keep supplier declarations and published case studies separate from the results of the PARK project."
+        "text": "Measure material use, reuse cycles, losses and return transport for the project. Base environmental statements on those results, with clear assumptions and supporting documentation."
       }
     ],
     "facts": []
@@ -537,7 +509,7 @@
       },
       {
         "heading": "Address noise and vibration",
-        "text": "Identify the source and the transmission path. Review contact stiffness, airflow geometry and component mounting before selecting a target or test method."
+        "text": "Identify where noise and vibration originate and how they travel through the assembly. Review contact stiffness, airflow geometry and component mounting before selecting a target or test method."
       },
       {
         "heading": "Integrate the component",

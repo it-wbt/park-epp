@@ -15,7 +15,7 @@ export default function HomeExpertise() {
           <h2 id="home-expertise-heading">From your drawing.<br/><span>To a considered component.</span></h2>
         </div>
         <div className={styles.intro}>
-          <p>Develop an EPP component around its geometry, moulded density and working environment. Connect the material choice with tooling, samples and a clear validation plan.</p>
+          <p>Connect material, geometry, tooling and validation—from the first drawing to production.</p>
           <Link className={styles.allExpertise} href="/expertise/">All manufacturing &amp; development expertise <Icon kind="arrow"/></Link>
         </div>
       </div>

@@ -54,8 +54,6 @@
 .guide h4 { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #688274; margin-bottom: 8px; }
 .guideSection p { font-size: 13px; line-height: 1.75; color: #526879; }
 .guideSection p.consideration { margin-top: 12px; padding-top: 12px; border-top: 1px solid #dce6e1; font-size: 12px; }
-.references { display: flex; flex-wrap: wrap; gap: 5px 13px; margin-top: 12px; font-size: 10px; font-weight: 400; color: #08639b; line-height: 1.5; }
-.references a { text-decoration: underline; text-underline-offset: 3px; }
 .manufacturing { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; list-style: none; margin: 0; padding: 0; }
 .manufacturing > li { padding-top: 18px; border-top: 2px solid #a9c088; }
 .manufacturing > li > span { display: inline-grid; place-items: center; width: 29px; height: 29px; border-radius: 50%; background: #e9f2df; color: #3a6127; font-size: 11px; margin-bottom: 15px; }
@@ -77,13 +75,12 @@
 .faq { border-block: 1px solid #dce5e6; }
 .faq summary { font-size: 15px; min-height: 58px; }
 .faq details > div { max-width: 940px; padding-bottom: 22px; }
-.sources { padding: 26px; border-radius: 14px; background: #f0f5f3; scroll-margin-top: 108px; }
-.sources h2 { font-size: 21px; letter-spacing: -.5px; margin-bottom: 10px; }
-.sources > p { color: #526879; font-size: 12px; line-height: 1.7; }
-.sources ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 30px; list-style: none; padding: 0; margin: 22px 0 0; }
-.sources li { font-size: 12px; line-height: 1.6; }
-.sources li a { color: #08639b; }
-.sources li > span { display: block; color: #668074; font-size: 10px; margin-top: 3px; }
+.projectBrief { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding-block: 28px; border-top: 1px solid #dce5e6; scroll-margin-top: 108px; }
+.projectBrief > div { max-width: 690px; }
+.projectBrief :global(.eyebrow) { font-size: 10px; margin-bottom: 10px; }
+.projectBrief h2 { font-size: 25px; letter-spacing: -.6px; line-height: 1.25; margin-bottom: 12px; }
+.projectBrief p:not(:global(.eyebrow)) { color: #526879; font-size: 14px; line-height: 1.7; }
+.projectBrief > a { flex-shrink: 0; }
 @media (max-width: 1000px) {
   .knowledgeGrid { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 24px; }
   .overview { gap: 30px; }
@@ -114,7 +111,6 @@
   .applicationList article { grid-template-columns: 1fr; gap: 16px; }
   .checklist { grid-template-columns: 1fr; gap: 22px; }
   .comparison { min-width: 660px; }
-  .sources { padding: 22px 18px; }
-  .sources ul { grid-template-columns: 1fr; }
+  .projectBrief { flex-direction: column; align-items: flex-start; gap: 20px; }
 }
 @media (max-width: 420px) { .properties, .manufacturing { grid-template-columns: 1fr; } }

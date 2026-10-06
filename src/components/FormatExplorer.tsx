@@ -1,13 +1,24 @@
 'use client';
 import Link from 'next/link';
 import {useState} from 'react';
-import {ReferenceFormat} from '../lib/reference-types';
 import {activeProducts,markets,marketSourceSlugs} from '../lib/catalog';
 import {productVisual,productVisualAlt} from '../lib/content';
 import {Icon} from './ui';
-const activeFamilySlugs=new Set(activeProducts.map(product=>product.slug));
-export default function FormatExplorer({formats}:{formats:ReferenceFormat[]}){
+export default function FormatExplorer(){
  const [query,setQuery]=useState(''),[market,setMarket]=useState('');
- const shown=formats.filter(f=>activeFamilySlugs.has(f.familySlug)&&(!market||marketSourceSlugs(market).includes(f.marketSlug))&&`${f.name} ${f.familyName} ${f.summary} ${f.material}`.toLowerCase().includes(query.toLowerCase()));
- return <section className="section format-explorer" id="standard-formats"><div className="section-heading"><div><p className="eyebrow">STANDARD FORMAT LIBRARY</p><h2>Compare published product formats.</h2></div><p>Explore manufacturer models, material information and published sizes. Open a product family to develop your own application brief.</p></div><div className="filters"><label><span>Search formats</span><input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Model, format or material…"/></label><label><span>Industry</span><select value={market} onChange={e=>setMarket(e.target.value)}><option value="">All industries</option>{markets.map(m=><option key={m.slug} value={m.slug}>{m.name}</option>)}</select></label><button className="text-link" onClick={()=>{setQuery('');setMarket('');}}>Reset filters</button></div><p className="result-meta" aria-live="polite">{shown.length} named reference formats</p><div className="format-grid">{shown.map(f=>{const p=activeProducts.find(p=>p.slug===f.familySlug);return <article className="format-card" key={f.name}><Link href={`/products/${f.familySlug}/`}>{p&&<img src={productVisual(p)} alt={productVisualAlt(p)} loading="lazy"/>}<div><span className="eyebrow">{p?.market}</span><h3>{f.name}</h3><p>{f.summary}</p><span className="format-material">{f.material}</span></div></Link><details><summary>Published format details</summary><dl>{f.facts.map((fact,i)=><div key={i}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>{f.variants.length>0&&<p>Variants: {f.variants.join(' · ')}</p>}<a href={f.url} target="_blank" rel="noopener noreferrer" className="text-link">Manufacturer reference ↗</a></details><Link href={`/products/${f.familySlug}/`} className="format-design-link">Explore {f.familyName.toLowerCase()} <Icon kind="arrow"/></Link></article>;})}</div>{!shown.length&&<p className="empty">No formats match. Try a broader search.</p>}</section>;
+ const shown=activeProducts.filter(product=>(!market||marketSourceSlugs(market).includes(product.marketSlug))&&`${product.name} ${product.market} ${product.summary} ${product.material}`.toLowerCase().includes(query.trim().toLowerCase()));
+ return <section className="section format-explorer" id="standard-formats">
+  <div className="section-heading"><div><p className="eyebrow">PARK PRODUCT CATALOGUE</p><h2>Explore product families.</h2></div><p>Browse material options and applications across our four industries. Open a product family to explore the design priorities for your project.</p></div>
+  <div className="filters">
+   <label><span>Search products</span><input type="search" value={query} onChange={event=>setQuery(event.target.value)} placeholder="Product, application or material…"/></label>
+   <label><span>Industry</span><select value={market} onChange={event=>setMarket(event.target.value)}><option value="">All industries</option>{markets.map(industry=><option key={industry.slug} value={industry.slug}>{industry.name}</option>)}</select></label>
+   <button className="text-link" type="button" onClick={()=>{setQuery('');setMarket('');}}>Reset filters</button>
+  </div>
+  <p className="result-meta" aria-live="polite">{shown.length} product {shown.length===1?'family':'families'}</p>
+  <div className="format-grid">{shown.map(product=><article className="format-card" key={product.slug}>
+   <Link href={`/products/${product.slug}/`}><img src={productVisual(product)} alt={productVisualAlt(product)} loading="lazy"/><div><span className="eyebrow">{product.market}</span><h3>{product.name}</h3><p>{product.summary}</p><span className="format-material">{product.material}</span></div></Link>
+   <Link href={`/products/${product.slug}/`} className="format-design-link">Explore {product.name.toLowerCase()} <Icon kind="arrow"/></Link>
+  </article>)}</div>
+  {!shown.length&&<p className="empty">No products match. Try a broader search.</p>}
+ </section>;
 }

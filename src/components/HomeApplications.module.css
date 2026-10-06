@@ -3,7 +3,8 @@
 .heading h2 { font-size: clamp(28px, 2.6vw, 36px); font-weight: 500; letter-spacing: -1.2px; line-height: 1.16; }
 .heading h2 span { color: #526e61; }
 .heading :global(.eyebrow) { margin-bottom: 10px; }
-.heading > p { max-width: 365px; color: #526879; font-size: 14px; line-height: 1.7; }
+.intro { max-width: 365px; }
+.intro > p { color: #526879; font-size: 14px; line-height: 1.7; }
 .layout { display: grid; grid-template-columns: minmax(0, 1.16fr) minmax(0, 1fr); align-items: center; gap: clamp(28px, 4vw, 58px); }
 .visual { position: relative; isolation: isolate; height: 382px; margin: 0; overflow: hidden; background: #13313c; color: #fff; }
 .scene { position: absolute; inset: 0; opacity: 0; transition: opacity .65s ease; }
@@ -66,7 +67,8 @@
   .heading { flex-direction: column; align-items: flex-start; gap: 14px; margin-bottom: 24px; }
   .heading h2 { font-size: 30px; letter-spacing: -1px; }
   .heading :global(.eyebrow) { font-size: 10px; letter-spacing: 1.5px; }
-  .heading > p { max-width: 470px; font-size: 13px; }
+  .intro { max-width: 470px; }
+  .intro > p { font-size: 13px; }
   .layout { grid-template-columns: 1fr; gap: 25px; }
   .visual { height: clamp(225px, 58vw, 330px); }
   .visualTop { top: 18px; left: 20px; right: 20px; font-size: 9px; letter-spacing: 1px; }

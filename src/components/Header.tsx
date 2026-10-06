@@ -4,7 +4,6 @@ import {useEffect,useRef,useState} from 'react';
 import {Icon} from './ui';
 import {navigation,MenuLink} from '../lib/navigation';
 import {products,activeProducts} from '../lib/catalog';
-import formatData from '../lib/reference-formats.json';
 import {productVisual,productVisualAlt} from '../lib/content';
 
 export function Brand(){return <Link href="/" className="park-brand" aria-label="PARK Nonwoven EPP home"><img src="/images/park-nonwoven-logo.png" alt="PARK Nonwoven" width="768" height="126"/><span>EPP & ENGINEERED MATERIALS</span></Link>;}
@@ -31,7 +30,7 @@ export default function Header(){
  const links=applications?applications[application]?.links:group?.links;
  const featured=links?.find(link=>link.href===featuredHref)||links?.[0];
  const featuredProduct=featured?lookup(featured):undefined;
- const found=query?activeProducts.filter(p=>`${p.name} ${p.market} ${p.material} ${formatData.filter(f=>f.familySlug===p.slug).map(f=>f.name).join(' ')}`.toLowerCase().includes(query.toLowerCase())).slice(0,8):[];
+ const found=query?activeProducts.filter(p=>`${p.name} ${p.market} ${p.material}`.toLowerCase().includes(query.toLowerCase())).slice(0,8):[];
  const allHref=(label:string)=>label==='Industries'?'/markets/':label==='Our products'?'/products/':label==='Our expertise'?'/expertise/':label==='About us'?'/about/':`/${label.toLowerCase()}/`;
  return <>
   <div className="park-topbar"><span>Advanced materials. Meaningful possibilities.</span><Link href="/resources/standard-catalogue/">Explore our product catalogue ↗</Link></div>

@@ -9,10 +9,7 @@
       "Service access",
       "Insulation zones"
     ],
-    "application": "Specify unit geometry, service access and insulation zones. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/hvac-domestic-appliances/"
-    ]
+    "application": "Specify unit geometry, service access and insulation zones. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Heat-pump support frames",
@@ -24,10 +21,7 @@
       "Assembly clearances",
       "Outdoor exposure"
     ],
-    "application": "Specify mounting loads, assembly clearances and outdoor exposure. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/hvac-domestic-appliances/"
-    ]
+    "application": "Specify mounting loads, assembly clearances and outdoor exposure. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Hydraulic module supports",
@@ -39,10 +33,7 @@
       "Support layout",
       "Access clearances"
     ],
-    "application": "Specify pipe interfaces, support layout and access clearances. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/hvac-domestic-appliances/"
-    ]
+    "application": "Specify pipe interfaces, support layout and access clearances. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Water-heater insulation forms",
@@ -54,10 +45,7 @@
       "Connection cut-outs",
       "Operating temperature"
     ],
-    "application": "Specify tank geometry, connection cut-outs and operating temperature. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/hvac-domestic-appliances/"
-    ]
+    "application": "Specify tank geometry, connection cut-outs and operating temperature. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Hydraulic manifold insulation",
@@ -69,10 +57,7 @@
       "Connection spacing",
       "Interface temperature"
     ],
-    "application": "Specify manifold profile, connection spacing and interface temperature. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/hvac-domestic-appliances/"
-    ]
+    "application": "Specify manifold profile, connection spacing and interface temperature. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Condensate collection trays",
@@ -84,10 +69,7 @@
       "Installed slope",
       "Moisture exposure"
     ],
-    "application": "Specify drain position, installed slope and moisture exposure. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/hvac-domestic-appliances/"
-    ]
+    "application": "Specify drain position, installed slope and moisture exposure. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Fan-coil structural supports",
@@ -99,10 +81,7 @@
       "Component mass",
       "Vibration conditions"
     ],
-    "application": "Specify fastening layout, component mass and vibration conditions. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/hvac-domestic-appliances/"
-    ]
+    "application": "Specify fastening layout, component mass and vibration conditions. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Aircraft seating foam cores",
@@ -114,10 +93,7 @@
       "Core geometry",
       "Aircraft qualification"
     ],
-    "application": "Specify seating interfaces, core geometry and aircraft qualification. Confirm aircraft approval requirements and grade traceability.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/aviation-solutions/aircraft-interior-components/"
-    ]
+    "application": "Specify seating interfaces, core geometry and aircraft qualification. Confirm aircraft approval requirements and grade traceability."
   },
   {
     "name": "Aircraft armrest and headrest supports",
@@ -129,10 +105,7 @@
       "Insert interfaces",
       "Approval documents"
     ],
-    "application": "Specify support geometry, insert interfaces and approval documents. Confirm aircraft approval requirements and grade traceability.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/aviation-solutions/aircraft-interior-components/"
-    ]
+    "application": "Specify support geometry, insert interfaces and approval documents. Confirm aircraft approval requirements and grade traceability."
   },
   {
     "name": "Aircraft air-distribution components",
@@ -144,10 +117,7 @@
       "System interfaces",
       "Material qualification"
     ],
-    "application": "Specify air-path geometry, system interfaces and material qualification. Confirm aircraft approval requirements and grade traceability.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/aviation-solutions/aircraft-interior-components/"
-    ]
+    "application": "Specify air-path geometry, system interfaces and material qualification. Confirm aircraft approval requirements and grade traceability."
   },
   {
     "name": "Split square corner protectors",
@@ -159,10 +129,7 @@
       "Edge profile",
       "Packing method"
     ],
-    "application": "Specify split pattern, edge profile and packing method. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/furniture/corner-protectors/"
-    ]
+    "application": "Specify split pattern, edge profile and packing method. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Mirror corner guards",
@@ -174,10 +141,7 @@
       "Surface contact",
       "Impact exposure"
     ],
-    "application": "Specify glass thickness, surface contact and impact exposure. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/furniture/corner-protectors/"
-    ]
+    "application": "Specify glass thickness, surface contact and impact exposure. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Flexible EPP corner protectors",
@@ -189,10 +153,7 @@
       "Compression response",
       "Reuse cycles"
     ],
-    "application": "Specify corner geometry, compression response and reuse cycles. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/furniture/corner-protectors/"
-    ]
+    "application": "Specify corner geometry, compression response and reuse cycles. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Furniture seating cores",
@@ -204,10 +165,7 @@
       "Sitting loads",
       "Support geometry"
     ],
-    "application": "Specify upholstery interface, sitting loads and support geometry. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/furniture/foam-furniture/"
-    ]
+    "application": "Specify upholstery interface, sitting loads and support geometry. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Vehicle floor panels",
@@ -219,10 +177,7 @@
       "Supported loads",
       "Assembly clearances"
     ],
-    "application": "Specify floor profile, supported loads and assembly clearances. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/epp-mobility/"
-    ]
+    "application": "Specify floor profile, supported loads and assembly clearances. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Vehicle seat foam components",
@@ -234,10 +189,7 @@
       "Repeated loading",
       "Mounting features"
     ],
-    "application": "Specify seat structure, repeated loading and mounting features. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/epp-mobility/"
-    ]
+    "application": "Specify seat structure, repeated loading and mounting features. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Vehicle storage organizers",
@@ -249,10 +201,7 @@
       "Access openings",
       "Retention geometry"
     ],
-    "application": "Specify item layout, access openings and retention geometry. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/epp-mobility/"
-    ]
+    "application": "Specify item layout, access openings and retention geometry. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Battery protective inserts",
@@ -264,10 +213,7 @@
       "Thermal conditions",
       "Protection targets"
     ],
-    "application": "Specify battery envelope, thermal conditions and protection targets. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/epp-mobility/"
-    ]
+    "application": "Specify battery envelope, thermal conditions and protection targets. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Vehicle insulating panels",
@@ -279,10 +225,7 @@
       "Thermal interfaces",
       "Acoustic targets"
     ],
-    "application": "Specify available space, thermal interfaces and acoustic targets. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/epp-mobility/"
-    ]
+    "application": "Specify available space, thermal interfaces and acoustic targets. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Vehicle energy absorbers",
@@ -294,10 +237,7 @@
       "Load cases",
       "Assembly validation"
     ],
-    "application": "Specify installed geometry, load cases and assembly validation. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/"
-    ]
+    "application": "Specify installed geometry, load cases and assembly validation. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Vehicle acoustic inserts",
@@ -309,10 +249,7 @@
       "Contact interfaces",
       "Temperature exposure"
     ],
-    "application": "Specify noise target, contact interfaces and temperature exposure. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/"
-    ]
+    "application": "Specify noise target, contact interfaces and temperature exposure. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Vehicle parts shuttle trays",
@@ -324,10 +261,7 @@
       "Handling access",
       "Return journey"
     ],
-    "application": "Specify part arrangement, handling access and return journey. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/automotive/"
-    ]
+    "application": "Specify part arrangement, handling access and return journey. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Sports helmet foam liners",
@@ -339,10 +273,7 @@
       "Impact targets",
       "Equipment testing"
     ],
-    "application": "Specify liner fit, impact targets and equipment testing. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/sport-leisures/custom-sports-equipment-manufacturer/"
-    ]
+    "application": "Specify liner fit, impact targets and equipment testing. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Foam insole components",
@@ -354,10 +285,7 @@
       "Repeated compression",
       "Comfort targets"
     ],
-    "application": "Specify footwear profile, repeated compression and comfort targets. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/sport-leisures/custom-sports-equipment-manufacturer/"
-    ]
+    "application": "Specify footwear profile, repeated compression and comfort targets. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Surfboard foam cores",
@@ -369,10 +297,7 @@
       "Skin interface",
       "Use conditions"
     ],
-    "application": "Specify board outline, skin interface and use conditions. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/sport-leisures/custom-sports-equipment-manufacturer/"
-    ]
+    "application": "Specify board outline, skin interface and use conditions. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Modular foam play forms",
@@ -384,10 +309,7 @@
       "Connection layout",
       "Cleaning method"
     ],
-    "application": "Specify intended age, connection layout and cleaning method. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/childhood/plastic-toys-manufactured/"
-    ]
+    "application": "Specify intended age, connection layout and cleaning method. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Educational toy shapes",
@@ -399,10 +321,7 @@
       "Accessible edges",
       "Small-part assessment"
     ],
-    "application": "Specify activity brief, accessible edges and small-part assessment. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/childhood/plastic-toys-manufactured/"
-    ]
+    "application": "Specify activity brief, accessible edges and small-part assessment. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Child-seat foam cores",
@@ -414,10 +333,7 @@
       "Installed fit",
       "System approval"
     ],
-    "application": "Specify seat interfaces, installed fit and system approval. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/childhood/manufacturer-accessories/"
-    ]
+    "application": "Specify seat interfaces, installed fit and system approval. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Nursery foam storage forms",
@@ -429,10 +345,7 @@
       "Age suitability",
       "Cleaning routine"
     ],
-    "application": "Specify storage access, age suitability and cleaning routine. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/childhood/manufacturer-accessories/"
-    ]
+    "application": "Specify storage access, age suitability and cleaning routine. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Movement-course play blocks",
@@ -444,10 +357,7 @@
       "Surface stability",
       "Intended users"
     ],
-    "application": "Specify activity layout, surface stability and intended users. Assess finished equipment against its applicable user and testing requirements.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/childhood/manufacturer-accessories/"
-    ]
+    "application": "Specify activity layout, surface stability and intended users. Assess finished equipment against its applicable user and testing requirements."
   },
   {
     "name": "Cheese display cloches",
@@ -459,10 +369,7 @@
       "Closure fit",
       "Food-contact documentation"
     ],
-    "application": "Specify cheese profile, closure fit and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/cheese-packaging/"
-    ]
+    "application": "Specify cheese profile, closure fit and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Cheese ripening containers",
@@ -474,10 +381,7 @@
       "Air exchange",
       "Cleaning requirements"
     ],
-    "application": "Specify ripening conditions, air exchange and cleaning requirements. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/cheese-packaging/"
-    ]
+    "application": "Specify ripening conditions, air exchange and cleaning requirements. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Spreadable-cheese containers",
@@ -489,10 +393,7 @@
       "Closure method",
       "Food-contact documentation"
     ],
-    "application": "Specify filling conditions, closure method and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/cheese-packaging/"
-    ]
+    "application": "Specify filling conditions, closure method and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Macaron packaging inserts",
@@ -504,10 +405,7 @@
       "Cavity spacing",
       "Handling route"
     ],
-    "application": "Specify product diameter, cavity spacing and handling route. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
-    ]
+    "application": "Specify product diameter, cavity spacing and handling route. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Tart and cake blisters",
@@ -519,10 +417,7 @@
       "Release method",
       "Lid clearance"
     ],
-    "application": "Specify product outline, release method and lid clearance. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
-    ]
+    "application": "Specify product outline, release method and lid clearance. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Reusable bakery filling trays",
@@ -534,10 +429,7 @@
       "Washing cycle",
       "Food-contact documentation"
     ],
-    "application": "Specify filling process, washing cycle and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
-    ]
+    "application": "Specify filling process, washing cycle and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Bakery assembly trays",
@@ -549,10 +441,7 @@
       "Product positions",
       "Line handling"
     ],
-    "application": "Specify machine interface, product positions and line handling. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
-    ]
+    "application": "Specify machine interface, product positions and line handling. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Ice cream tubs",
@@ -564,10 +453,7 @@
       "Frozen conditions",
       "Lid application"
     ],
-    "application": "Specify usable volume, frozen conditions and lid application. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/ice-cream-packaging/"
-    ]
+    "application": "Specify usable volume, frozen conditions and lid application. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Herb packaging trays",
@@ -579,10 +465,7 @@
       "Moisture conditions",
       "Transport route"
     ],
-    "application": "Specify herb profile, moisture conditions and transport route. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/fresh-fruit-vegetable-packaging/"
-    ]
+    "application": "Specify herb profile, moisture conditions and transport route. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Fresh-cut produce pots",
@@ -594,10 +477,7 @@
       "Sealing method",
       "Food-contact documentation"
     ],
-    "application": "Specify portion volume, sealing method and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/agrifood/fresh-fruit-vegetable-packaging/"
-    ]
+    "application": "Specify portion volume, sealing method and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions."
   },
   {
     "name": "Wall and facade insulation boards",
@@ -609,10 +489,7 @@
       "Fixing method",
       "Thermal targets"
     ],
-    "application": "Specify wall build-up, fixing method and thermal targets. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/structural-work/"
-    ]
+    "application": "Specify wall build-up, fixing method and thermal targets. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Floor insulation panels",
@@ -624,10 +501,7 @@
       "Compressive loads",
       "Installation detail"
     ],
-    "application": "Specify floor build-up, compressive loads and installation detail. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/structural-work/"
-    ]
+    "application": "Specify floor build-up, compressive loads and installation detail. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Roof and attic insulation boards",
@@ -639,10 +513,7 @@
       "Moisture control",
       "Thermal targets"
     ],
-    "application": "Specify roof assembly, moisture control and thermal targets. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/structural-work/"
-    ]
+    "application": "Specify roof assembly, moisture control and thermal targets. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Thermal-break components",
@@ -654,10 +525,7 @@
       "Structural loads",
       "Thermal modelling"
     ],
-    "application": "Specify junction geometry, structural loads and thermal modelling. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/structural-work/custom-insulation/"
-    ]
+    "application": "Specify junction geometry, structural loads and thermal modelling. Test representative assemblies against agreed service conditions."
   },
   {
     "name": "Industrial pallet boxes",
@@ -669,9 +537,6 @@
       "Fork access",
       "Empty returns"
     ],
-    "application": "Specify payload layout, fork access and empty returns. Test representative assemblies against agreed service conditions.",
-    "sourceURLs": [
-      "https://www.knauf-industries.com/logistics-and-handling/industrial-storage-bins/"
-    ]
+    "application": "Specify payload layout, fork access and empty returns. Test representative assemblies against agreed service conditions."
   }
 ]

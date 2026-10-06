@@ -6,7 +6,7 @@ const origin = process.env.PREVIEW_URL || 'http://127.0.0.1:3000';
 const industryNames = ['Sports, Leisure & Early Childhood', 'Logistics & Material Handling', 'HVAC', 'Automotive'];
 const industryPaths = ['/markets/sports-leisure/', '/markets/logistics-handling/', '/markets/hvac/', '/markets/mobility/'];
 const guidePath = '/materials/expanded-polypropylene/';
-const guideAnchors = ['epp-properties', 'epp-manufacturing', 'epp-applications', 'epp-comparison', 'epp-design', 'epp-faq', 'epp-sources'];
+const guideAnchors = ['epp-properties', 'epp-manufacturing', 'epp-applications', 'epp-comparison', 'epp-design', 'epp-faq', 'epp-project'];
 const browser = await chromium.launch();
 mkdirSync('artifacts', {recursive: true});
 
@@ -60,6 +60,17 @@ try {
   await page.waitForTimeout(850);
   assert.equal(await page.locator('.modern-home').count(), 1);
   assert.equal(await page.locator('.modern-home .filters').count(), 0);
+  assert.equal(await page.locator('.modern-home > section').count(), 7, 'Homepage keeps the seven-section journey');
+  await expect(page.locator('#product-challenges')).toHaveCount(0);
+  const intro = page.locator('section[aria-labelledby="epp-intro-heading"]');
+  await expect(intro.getByRole('list', {name: 'Key EPP properties'}).getByRole('listitem')).toHaveCount(3);
+  const catalogue = page.getByRole('link', {name: /Download catalogue/});
+  await expect(catalogue).toHaveAttribute('download', '');
+  const catalogueHref = await catalogue.getAttribute('href');
+  assert.ok(catalogueHref?.endsWith('.pdf'), 'The catalogue remains a direct PDF download');
+  const catalogueResponse = await page.request.get(new URL(catalogueHref, origin).href);
+  assert.ok(catalogueResponse.ok(), 'The catalogue download is available');
+  assert.equal((await catalogueResponse.body()).subarray(0, 5).toString(), '%PDF-', 'The catalogue response is a PDF');
 
   const industries = page.locator('section[aria-labelledby="industry-heading"]');
   assert.equal(await industries.locator('select, button').count(), 0);
@@ -109,10 +120,8 @@ try {
   await checkIndustryMenu(page, true);
 
   await page.setViewportSize({width: 1440, height: 1000});
-  const knowledge = page.locator('section[aria-labelledby="epp-knowledge-heading"]');
-  await expect(knowledge).toContainText('EPP');
-  await toggleFirstDetail(knowledge, 'Home EPP knowledge');
-  await knowledge.getByRole('link', {name: 'Read the complete EPP guide', exact: true}).click();
+  await toggleFirstDetail(applications, 'Home EPP applications');
+  await intro.getByRole('link', {name: 'Explore the EPP guide', exact: true}).click();
   await page.waitForURL(`**${guidePath}`);
   await expect(page.locator('main h1')).toContainText(/EPP|Expanded polypropylene/i);
   for (const anchor of guideAnchors) await expect(page.locator(`#${anchor}`)).toHaveCount(1);
@@ -139,13 +148,14 @@ try {
   const heading = staticPage.getByRole('heading', {name: 'Made to protect. Shaped to perform.'});
   assert.ok(await heading.isVisible());
   assert.equal(await heading.evaluate(el => getComputedStyle(el).opacity), '1');
-  await toggleFirstDetail(staticPage.locator('section[aria-labelledby="epp-knowledge-heading"]'), 'No-JS home EPP knowledge');
-  await staticPage.goto(`${origin}${guidePath}`);
+  await toggleFirstDetail(staticPage.locator('section[aria-labelledby="epp-applications-heading"]'), 'No-JS home EPP applications');
+  await staticPage.getByRole('link', {name: 'Explore the EPP guide', exact: true}).click();
+  await staticPage.waitForURL(`**${guidePath}`);
   await expect(staticPage.locator('main h1')).toContainText(/EPP|Expanded polypropylene/i);
   await toggleFirstDetail(staticPage.locator('#epp-faq'), 'No-JS EPP guide FAQ');
   await noOverflow(staticPage, 'No-JS mobile EPP guide');
   await noScript.close();
-  console.log('Modern experience passed: six viewports, four visible industries, desktop/mobile industry menus, reduced motion, EPP guide and native FAQs, four-market catalogue with childhood products, and no-JS disclosure operation.');
+  console.log('Modern experience passed: compact seven-section home and PDF download, six viewports, four visible industries, desktop/mobile industry menus, reduced motion, EPP guide and native FAQs, four-market catalogue with childhood products, and no-JS guide navigation and application disclosures.');
 } finally {
   await browser.close();
 }

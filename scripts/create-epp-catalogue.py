@@ -9,7 +9,9 @@ from functools import partial
 from html import escape
 import json
 from pathlib import Path
+import re
 import subprocess
+from urllib.parse import urlparse
 
 import fitz
 from reportlab.lib import colors
@@ -120,16 +122,10 @@ def build(data: dict) -> None:
         'cell': ParagraphStyle('Cell', fontName=body_font, fontSize=10.1, leading=14, textColor=ink),
     }
     edu = data['education']
-    source_numbers = {source['id']: index + 1 for index, source in enumerate(edu['eppSources'])}
     story = []
 
     def text(value: str, style: str = 'body', raw: bool = False):
         return Paragraph(value if raw else escape(value), styles[style])
-
-    def cite(row: dict) -> str:
-        return ' <font size="8" color="#536a73">[' + ', '.join(
-            str(source_numbers[key]) for key in row.get('sourceIds', [])
-        ) + ']</font>' if row.get('sourceIds') else ''
 
     def section(label: str, title: str, intro: str | None = None):
         story.extend([text(label.upper(), 'label'), text(title, 'h1')])
@@ -137,9 +133,9 @@ def build(data: dict) -> None:
             story.append(text(intro))
         story.append(Spacer(1, 10))
 
-    def entry(title: str, body: str, row: dict, style: str = 'h2'):
+    def entry(title: str, body: str, style: str = 'h2'):
         story.append(KeepTogether([text(title, style),
-                     text(escape(body) + cite(row), raw=True), Spacer(1, 5)]))
+                     text(body), Spacer(1, 5)]))
 
     def footer(canvas, doc):
         canvas.saveState()
@@ -160,9 +156,9 @@ def build(data: dict) -> None:
     logo = ROOT / 'public/images/park-nonwoven-logo.png'
     if logo.exists():
         story.extend([Image(str(logo), width=252, height=41.34, hAlign='LEFT'), Spacer(1, 49)])
-    section('Material possibilities', 'EPP & engineered materials', 'Product-family catalogue and practical material guide')
+    section('PARK Nonwoven', 'Future of light weight.', 'EPP product families and application guide')
     story.extend([Spacer(1, 14), text(f"{len(data['markets'])} industries. {data['total']} product families.", 'h1')])
-    story.append(text('Explore the current product range, understand EPP behaviour and prepare a clearer specification for your next component or packaging project.'))
+    story.append(text('Explore PARK\u2019s application range and plan your next component with a practical understanding of EPP. Use this guide to connect the shape, material and working conditions before preparing a project enquiry.'))
     story.append(Spacer(1, 25))
     for market in data['markets']:
         story.append(text(f"{market['number']}  {market['name']}", 'h2'))
@@ -173,20 +169,20 @@ def build(data: dict) -> None:
                   text('sales@parknonwoven.com', 'h2'), PageBreak()])
 
     section('Material guide', 'What EPP makes possible', edu['eppOverview']['summary'])
-    story.append(text(escape(edu['eppOverview']['detail']) + cite(edu['eppOverview']), raw=True))
+    story.append(text(edu['eppOverview']['detail']))
     story.append(Spacer(1, 10))
     for prop in edu['eppProperties']:
-        entry(prop['title'], prop['benefit'] + ' ' + prop['consideration'], prop)
+        entry(prop['title'], prop['benefit'] + ' ' + prop['consideration'])
     story.append(PageBreak())
 
     section('Process & specification', 'From beads to a useful part')
     for index, step in enumerate(edu['eppManufacturingSteps'], 1):
-        entry(f"0{index}  {step['title']}", step['description'], step)
+        entry(f"0{index}  {step['title']}", step['description'])
     story.append(Spacer(1, 9))
     story.append(text('Build the application brief', 'h1'))
     checklist = []
     for item in edu['eppSelectionChecklist']:
-        checklist.append([text(item['title'], 'h2'), text(escape(item['detail']) + cite(item), raw=True)])
+        checklist.append([text(item['title'], 'h2'), text(item['detail'])])
     table = Table(checklist, colWidths=[usable * .32, usable * .68], hAlign='LEFT')
     table.setStyle(TableStyle([
         ('VALIGN', (0, 0), (-1, -1), 'TOP'), ('LEFTPADDING', (0, 0), (-1, -1), 10),
@@ -225,7 +221,7 @@ def build(data: dict) -> None:
     section('Material decisions', 'EPP and EPS: compare the application')
     rows = [[text('Consideration', 'h2'), text('EPP', 'h2'), text('EPS', 'h2')]]
     for item in edu['eppComparison']:
-        rows.append([text(escape(item['topic']) + cite(item), 'cell', raw=True),
+        rows.append([text(item['topic'], 'cell'),
                      text(item['epp'], 'cell'), text(item['eps'], 'cell')])
     comparison = Table(rows, colWidths=[usable * .27, usable * .365, usable * .365], hAlign='LEFT')
     comparison.setStyle(TableStyle([
@@ -236,22 +232,29 @@ def build(data: dict) -> None:
     ]))
     story.extend([comparison, Spacer(1, 22), text('Common specification questions', 'h1')])
     for faq in edu['eppFaqs'][:4]:
-        entry(faq['question'], faq['answer'], faq)
+        entry(faq['question'], faq['answer'])
     story.append(PageBreak())
 
     section('Qualifications & service life', 'Ask for the evidence that matters')
     for faq in edu['eppFaqs'][4:]:
-        entry(faq['question'], faq['answer'], faq)
+        entry(faq['question'], faq['answer'])
     story.extend([Spacer(1, 8), text('Start a project conversation', 'h1'),
                   text('Send the drawing revision, target quantities, operating conditions and acceptance criteria to sales@parknonwoven.com. Confirm the final material, geometry and validation plan for the specific application.'), PageBreak()])
 
-    section('Primary references', 'Material and design sources',
-            'Numbered references identify the producer guidance behind the material guide. These sources describe material behaviour and selection considerations; they do not certify a PARK product or assembly.')
-    for index, source in enumerate(edu['eppSources'], 1):
-        story.append(text(f"[{index}] {source['organisation']}", 'h2'))
-        story.append(text(source['title']))
-        story.append(text(f'<link href="{escape(source["url"], quote=True)}" color="#087d78">Open primary source</link>', raw=True))
-        story.append(Spacer(1, 15))
+    section('Your project with PARK', 'From an idea to a clear brief.',
+            'A useful enquiry explains the job the part needs to do. Bring the following information together so that material and design options can be discussed around your application.')
+    for title, body in [
+        ('01  Application and users', 'Describe what the part supports, protects or insulates, who handles it, and where it fits into the complete product or delivery process.'),
+        ('02  Drawings and interfaces', 'Include the current drawing revision, dimensions and any surfaces that must locate, seal, clip or clear another component. Mark the dimensions that matter most.'),
+        ('03  Conditions in use', 'Set out loading, handling frequency, temperature exposure, moisture and cleaning. For packaging, include the payload and the storage, transport and return routes.'),
+        ('04  Quantity and timing', 'Share the expected sample quantity, production volumes and project milestones. Identify any changes that may be needed between prototype and production.'),
+        ('05  Acceptance and next life', 'Define how samples will be checked in the finished assembly. Include requirements for reuse, inspection, separation and collection at the end of service.'),
+    ]:
+        entry(title, body)
+    contact_href = data['origin'].rstrip('/') + '/contact/'
+    story.extend([Spacer(1, 8),
+                  text('<link href="mailto:sales@parknonwoven.com" color="#087d78">sales@parknonwoven.com</link>', 'h2', raw=True),
+                  text(f'<link href="{escape(contact_href, quote=True)}" color="#087d78">Discuss your application with PARK</link>', raw=True)])
     story.extend([Spacer(1, 10), HRFlowable(width=usable, thickness=1, color=line), Spacer(1, 16),
                   text('Use current grade documentation and representative component tests when making a specification. Performance, approvals and available recycling routes depend on the selected material and finished design.'),
                   text('This edition follows the current online catalogue: ' + str(data['total']) + ' product families in ' + str(len(data['markets'])) + ' industries.', 'small')])
@@ -259,7 +262,7 @@ def build(data: dict) -> None:
     DESTINATION.parent.mkdir(parents=True, exist_ok=True)
     document = SimpleDocTemplate(str(DESTINATION), pagesize=A4,
         title='PARK EPP & engineered materials catalogue', author='PARK Nonwoven',
-        subject=f"{len(data['markets'])} industries and {data['total']} current product families",
+        subject=f"PARK application guide: {len(data['markets'])} industries and {data['total']} current product families",
         leftMargin=margin, rightMargin=margin, topMargin=58, bottomMargin=51,
         allowSplitting=True)
     document.build(story, onFirstPage=footer, onLaterPages=footer,
@@ -270,6 +273,23 @@ def verify(data: dict) -> dict:
     with fitz.open(DESTINATION) as pdf:
         raw = '\n'.join(page.get_text() for page in pdf)
         compact = ' '.join(raw.split())
+        public_text = compact + ' ' + json.dumps(pdf.metadata)
+        excluded_brands = r'\b(?:Knauf|BEWI|JSP|ARPRO|Neopolen|NEOPS|CELOOPS|EOPS|Kaneka|Busterbak|Drainbox|E-Food-Box)\b'
+        if re.search(excluded_brands, public_text, re.IGNORECASE):
+            raise AssertionError('Manufacturer-branded reference content must not appear in the public catalogue.')
+        if re.search(r'\[\d+(?:\s*,\s*\d+)*\]', compact):
+            raise AssertionError('Reference citation numbers must not appear in the public catalogue.')
+        allowed_origin = urlparse(data['origin']).netloc.lower()
+        links = [link for page in pdf for link in page.get_links()]
+        for link in links:
+            uri = link.get('uri', '')
+            if not uri:
+                continue
+            parsed = urlparse(uri)
+            site_link = parsed.scheme in ('https', 'http') and parsed.netloc.lower() == allowed_origin
+            email_link = uri == 'mailto:sales@parknonwoven.com'
+            if not site_link and not email_link:
+                raise AssertionError('Unexpected external catalogue link: ' + uri)
         if not 6 <= len(pdf) <= 12:
             raise AssertionError(f'Catalogue must remain readable within 6–12 pages; got {len(pdf)}.')
         for market in data['markets']:
@@ -284,7 +304,7 @@ def verify(data: dict) -> dict:
             if retired.lower() in compact.lower():
                 raise AssertionError('Retired public catalogue content: ' + retired)
         return {'pages': len(pdf), 'industries': len(data['markets']), 'products': data['total'],
-                'links': sum(len(page.get_links()) for page in pdf),
+                'links': len(links), 'external_manufacturer_links': 0,
                 'bytes': DESTINATION.stat().st_size, 'output': str(DESTINATION)}
 
 

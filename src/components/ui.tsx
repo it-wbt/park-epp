@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import {useEffect,useRef,useState} from 'react';
 import {markets,products,activeProducts,marketSourceSlugs} from '../lib/catalog';
-import formatData from '../lib/reference-formats.json';
 import {productVisual,productVisualAlt} from '../lib/content';
 
 export function Icon({kind='box',className=''}:{kind?:string,className?:string}) {
@@ -11,7 +10,7 @@ export function Icon({kind='box',className=''}:{kind?:string,className?:string})
 }
 export function Catalogue({compact=false}:{compact?:boolean}) {
  const [q,setQ]=useState(''),[market,setMarket]=useState(''),[material,setMaterial]=useState('All materials');
- const filtered=activeProducts.filter(p=>(!market||marketSourceSlugs(market).includes(p.marketSlug))&&(material==='All materials'||p.material.split(' / ').includes(material))&&`${p.name} ${p.material} ${p.market} ${formatData.filter(f=>f.familySlug===p.slug).map(f=>f.name).join(' ')}`.toLowerCase().includes(q.toLowerCase()));
+ const filtered=activeProducts.filter(p=>(!market||marketSourceSlugs(market).includes(p.marketSlug))&&(material==='All materials'||p.material.split(' / ').includes(material))&&`${p.name} ${p.material} ${p.market}`.toLowerCase().includes(q.toLowerCase()));
  const result=compact?filtered.slice(0,8):filtered;
  return <><div className="filters"><label><span>Search products</span><div className="input-icon"><Icon kind="search"/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="What are you looking for?"/></div></label><label><span>Industry</span><select value={market} onChange={e=>setMarket(e.target.value)}><option value="">All industries</option>{markets.map(m=><option key={m.slug} value={m.slug}>{m.name}</option>)}</select></label><label><span>Material</span><select value={material} onChange={e=>setMaterial(e.target.value)}><option>All materials</option>{['EPP','EPS','PP','PET','PS','PE','Cellular foam'].map(m=><option key={m}>{m}</option>)}</select></label></div><div className="result-meta" aria-live="polite"><span>{filtered.length} product families</span><button onClick={()=>{setQ('');setMarket('');setMaterial('All materials');}}>Reset filters ↺</button></div><div className="product-grid">{result.map(p=><ProductCard key={p.slug} product={p}/>)}</div>{!result.length&&<div className="empty"><h2>No products match those filters.</h2><p>Try a broader search or reset the filters.</p></div>}</>;
 }

@@ -1,3 +1,18 @@
-import {ReferenceFormat,TechnicalGuide} from '../lib/reference-types';
-export function ProductFormats({formats}:{formats:ReferenceFormat[]}){if(!formats.length)return null;return <section className="section pale reference-details"><div className="section-heading"><div><p className="eyebrow">FORMAT REFERENCES</p><h2>Explore published model information.</h2></div><p>These manufacturer specifications describe the named reference models.</p></div>{formats.map(f=><article key={f.name}><h3>{f.name}</h3><p>{f.summary}</p><table className="selection-table"><tbody><tr><th>Material</th><td>{f.material}</td></tr>{f.facts.map((fact,i)=><tr key={i}><th>{fact.label}</th><td>{fact.value}</td></tr>)}{f.variants.length>0&&<tr><th>Published variants</th><td>{f.variants.join(' · ')}</td></tr>}</tbody></table><a className="text-link" href={f.url} target="_blank" rel="noopener noreferrer">Manufacturer technical reference ↗</a></article>)}</section>;}
-export function DetailedGuide({guide}:{guide?:TechnicalGuide}){if(!guide)return null;return <section className="section expanded-guide"><div className="focus-grid">{guide.sections.map(s=><article key={s.heading}><h3>{s.heading}</h3><p>{s.text}</p></article>)}</div>{guide.facts.length>0&&<div className="reference-details"><h3>Published material information</h3><table className="selection-table"><tbody>{guide.facts.map((fact,i)=><tr key={i}><th>{fact.label}</th><td>{fact.value}</td></tr>)}</tbody></table></div>}<a className="text-link" href={guide.source} target="_blank" rel="noopener noreferrer">Further technical reading ↗</a></section>;}
+import Link from 'next/link';
+import type {TechnicalGuide} from '../lib/reference-types';
+
+export function DetailedGuide({guide}: {guide?: TechnicalGuide}) {
+  if (!guide) return null;
+  return <section className="section expanded-guide">
+    <div className="focus-grid">{guide.sections.map(section => <article key={section.heading}>
+      <h3>{section.heading}</h3><p>{section.text}</p>
+    </article>)}</div>
+    {guide.facts.length > 0 && <div className="reference-details">
+      <h3>Material and design considerations</h3>
+      <table className="selection-table"><tbody>{guide.facts.map((fact, index) => <tr key={index}>
+        <th>{fact.label}</th><td>{fact.value}</td>
+      </tr>)}</tbody></table>
+    </div>}
+    <Link className="text-link" href="/contact/">Discuss your application with PARK ↗</Link>
+  </section>;
+}

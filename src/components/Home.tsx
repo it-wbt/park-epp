@@ -1,26 +1,19 @@
-'use client';
-import Link from 'next/link';
-import {markets,activeProducts,articles} from '../lib/catalog';
-import {eppOverview,eppProperties} from '../lib/epp-education';
-import {marketImagePath} from '../lib/navigation';
 import IndustryExplorer from './IndustryExplorer';
 import HomeApplications from './HomeApplications';
 import HomeExpertise from './HomeExpertise';
-import SolutionExplorer from './SolutionExplorer';
 import HomeContact from './HomeContact';
+import HomeIntro from './HomeIntro';
+import HomeResources from './HomeResources';
 import ManufacturingHero from './ManufacturingHero';
-import EppKnowledge from './EppKnowledge';
-import {Film,Icon} from './ui';
-export default function Home(){return <div className="modern-home">
-<ManufacturingHero/>
-<div className="park-benefits">{[['layers','Lightweight material thinking'],['shield','Protection shaped to fit'],['leaf','A considered next life']].map(([icon,text])=><div key={text}><Icon kind={icon}/><span>{text}</span></div>)}</div>
-<section id="discover" className="section park-intro"><div><p className="eyebrow">MEET EXPANDED POLYPROPYLENE</p><h2>What is EPP?<br/><span>A lighter way to make.</span></h2><div className="material-tags"><span>Bead foam</span><span>Closed-cell structure</span><span>Custom moulded shapes</span></div></div><div><p>{eppOverview.summary}</p><p>{eppOverview.detail}</p><div className="park-stats"><div><strong>{markets.length}</strong><span>focused industries</span></div><div><strong>{activeProducts.length}</strong><span>product families to explore</span></div><div><strong>{eppProperties.length}</strong><span>material properties explained</span></div></div><Link className="text-link" href="/materials/expanded-polypropylene/">Get to know EPP <Icon kind="arrow"/></Link></div></section>
-<IndustryExplorer/>
-<HomeApplications/>
-<HomeExpertise/>
-<EppKnowledge/>
-<SolutionExplorer/>
-<section className="section"><div className="section-heading"><div><p className="eyebrow">YOUR PROJECT. A CLEARER PATH.</p><h2>Good questions lead to better components.</h2></div></div><div className="process-grid">{[['Define the application','Share the operating environment, geometry, interfaces and the problem you want to solve.'],['Compare the options','Bring candidate materials, manufacturing processes and assembly requirements into the same review.'],['Validate the design','Use representative samples and agree measurable criteria for fit, handling and performance.'],['Plan the next life','Consider cleaning, reuse, separation and recovery alongside the original product design.']].map(([h,p],i)=><div key={h}><span>0{i+1}</span><h3>{h}</h3><p>{p}</p></div>)}</div></section>
-<section className="park-circular"><img src="/images/generated/factory-logistics.webp" alt="AI factory illustration of reusable foam transport packaging at a manufacturing line" loading="lazy"/><div><p className="eyebrow">RESPONSIBLE BY DESIGN</p><h2>Think beyond the first journey.</h2><p>Plan an EPP part for its working life: handling, cleaning, inspection and collection. Select recycled-content grades where they meet the brief, and check which local recovery route accepts the finished component.</p><Link className="button light" href="/materials/expanded-polypropylene/#epp-faq">Explore EPP reuse & recovery <Icon kind="arrow"/></Link></div></section>
-<section className="section"><div className="section-heading"><div><p className="eyebrow">INSIGHTS & RESOURCES</p><h2>Fresh thinking. Practical guidance.</h2></div><Link className="text-link" href="/resources/">All resources ↗</Link></div><div className="article-grid">{articles.slice(0,3).map((a,i)=><Link key={a.slug} href={`/resources/${a.slug}/`}><img src={marketImagePath(['hvac','logistics-handling','sports-leisure'][i])} alt="" loading="lazy"/><div><p className="eyebrow">{a.category}</p><h3>{a.title}</h3><p>{a.intro}</p><span>Read guide ↗</span></div></Link>)}</div><div className="park-download"><div><p className="eyebrow">PRODUCT CATALOGUE & FILM</p><h3>Take the possibilities with you.</h3><p>Explore the product-family catalogue and the EPP moulding process.</p></div><a className="button" href="/downloads/park-nonwoven-epp-catalogue.pdf" download>Download catalogue <Icon kind="download"/></a><Film/></div></section>
-<HomeContact/></div>;}
+
+export default function Home() {
+  return <div className="modern-home">
+    <ManufacturingHero/>
+    <HomeIntro/>
+    <IndustryExplorer/>
+    <HomeApplications/>
+    <HomeExpertise/>
+    <HomeResources/>
+    <HomeContact/>
+  </div>;
+}
