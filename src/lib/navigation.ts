@@ -1,7 +1,7 @@
 import formatData from './reference-formats.json';
 import {markets, activeProducts} from './catalog';
 
-export const marketImage:Record<string,string> = {'hvac':'industry-hvac','aviation':'aviation','furniture':'furniture','mobility':'industry-automotive','domestic-appliances':'appliances','logistics-handling':'industry-logistics','sports-leisure':'industry-childhood','childhood':'industry-childhood','agrifood':'agrifood','building':'building','pharma-health':'pharma','insulation-waterproofing':'roofing','swimming-pools-filtration':'pools','appliances-hvac':'hvac','revegetation-drainage':'roofing'};
+export const marketImage:Record<string,string> = {'hvac':'factory-hvac','aviation':'aviation','furniture':'furniture','mobility':'factory-automotive','domestic-appliances':'appliances','logistics-handling':'factory-logistics','sports-leisure':'factory-childhood','childhood':'factory-childhood','agrifood':'agrifood','building':'building','pharma-health':'pharma','insulation-waterproofing':'roofing','swimming-pools-filtration':'pools','appliances-hvac':'hvac','revegetation-drainage':'roofing'};
 export const marketImagePath = (slug:string) => `/images/generated/${marketImage[slug] || 'logistics'}.webp`;
 export type MenuLink = {name:string;href:string;description?:string;image?:string};
 export type MenuGroup = {name:string;intro:string;href:string;image:string;links:MenuLink[];applications?:{name:string;links:MenuLink[]}[]};
@@ -21,7 +21,7 @@ export const marketGroups = industryGroups;
 
 const activeFamilySlugs = new Set(activeProducts.map(product => product.slug));
 export const productGroups:MenuGroup[] = [
-  {name:'Standard format references',intro:'Published manufacturer model names and linked product-family guides for our four industries.',href:'/resources/standard-catalogue/',image:'/images/packaging.webp',links:formatData.filter(format=>activeFamilySlugs.has(format.familySlug)).map(format=>({name:format.name,href:`/products/${format.familySlug}/`,description:format.material}))},
+  {name:'Standard format references',intro:'Published manufacturer model names and linked product-family guides for our four industries.',href:'/resources/standard-catalogue/',image:'/images/generated/factory-logistics.webp',links:formatData.filter(format=>activeFamilySlugs.has(format.familySlug)).map(format=>({name:format.name,href:`/products/${format.familySlug}/`,description:format.material}))},
   {name:'Technical components',intro:'Moulded components shaped around automotive assemblies, HVAC insulation and lightweight integration.',href:'/products/',image:marketImagePath('hvac'),links:picks(['hvac','mobility'])},
   {name:'Packaging & material handling',intro:'Protective cushions, returnable containers, lightweight pallets and insulated transport formats.',href:'/markets/logistics-handling/',image:marketImagePath('logistics-handling'),links:picks(['logistics-handling'])},
   {name:'Sports & play products',intro:'Lightweight equipment, recreational forms and moulded accessories for sport, leisure and early childhood.',href:'/markets/sports-leisure/',image:marketImagePath('sports-leisure'),links:picks(['sports-leisure','childhood'])},

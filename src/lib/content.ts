@@ -1,5 +1,6 @@
 import expandedFamilies from './expanded-families.json';
 import {industryStories} from './industry-stories';
+import {factoryVisualFor} from './factory-media';
 type Copy={summary:string;focus:string[]};
 const rows=`Custom HVAC components|Shaped components that bring air-channel geometry, insulation and equipment interfaces into one coordinated design.|Air channel dimensions;Condensation interfaces;Assembly tolerances
 Moulded air ducts|Lightweight shaped air passages for connecting sections of an HVAC assembly with a defined airflow path.|Pressure and flow;Duct connections;Access for cleaning
@@ -82,6 +83,8 @@ export const productCopy:Record<string,Copy>=Object.fromEntries(rows.split('\n')
 Object.assign(productCopy,Object.fromEntries(expandedFamilies.map(f=>[f.name,{summary:f.summary,focus:f.focus}])));
 export type Product={name:string;slug:string;market:string;marketSlug:string;material:string;summary:string;application:string;image:string};
 export function productVisual(p: Product) {
+  const factory = factoryVisualFor(p);
+  if (factory) return factory.src;
   if (/ice cream tubs|ice cream presentation/i.test(p.name)) return '/images/products/icecream-tubs.webp';
   if (/heat-pump|hydraulic|water-heater|condensate|fan-coil/i.test(p.name)) return '/images/products/hvac-parts.webp';
   if (p.marketSlug === 'aviation') return '/images/products/aviation-seat.webp';
@@ -111,6 +114,9 @@ export function productVisual(p: Product) {
   if (p.marketSlug === 'sports-leisure') return '/images/generated/sports.webp';
   return '/images/technical.webp';
 }
+export const productVisualAlt = (p: Product) => factoryVisualFor(p)?.alt || `Illustrative generic ${p.name.toLowerCase()} application`;
+export const productVisualCaption = (p: Product) => factoryVisualFor(p) ? 'AI-generated factory scene' : 'Product-family design visual';
+
 export const marketGuides:Record<string,{overview:string;applications:string[];priorities:[string,string][];faq:[string,string][]}>={
  'hvac':{overview:'HVAC components have to fit within a working system. Air movement, insulation, access and assembly often compete for the same space. A shaped foam housing or duct can be explored around these interfaces rather than treated as a separate piece of packaging.',applications:['Air handling assemblies','Ventilation channels','Insulated equipment housings','Thermal and acoustic interfaces'],priorities:[['Start with airflow','Record the air path, connections, required flow and allowable resistance. A duct geometry should be assessed within the equipment rather than in isolation.'],['Coordinate the interfaces','Keep seal locations, service access, fasteners and condensation-sensitive surfaces in the design review.'],['Prototype realistically','Use representative materials and operating conditions when investigating fit, thermal behaviour or noise.']],faq:[['Which material should I start with?','The answer depends on heat exposure, geometry, load and processing. EPP foam and rigid moulded polymers support different design routes. Compare the finished design with its requirements.'],['Can insulation and air management share one part?','A combined component is a design option. It needs a review of air paths, thermal interfaces, sealing and the manufacturing route.']]},
  'aviation':{overview:'Aircraft interior development begins with the installation and approval route. Lightweight foam or polymer components can be studied for fit and integration, while traceability, environmental exposure and the applicable test requirements remain part of the brief.',applications:['Cabin interior integration','Lightweight support inserts','Interior component packaging','Assembly and service interfaces'],priorities:[['Define the approval route','Identify the aircraft application, relevant requirements and documentation expected from the material and component suppliers.'],['Review complete assemblies','A sample material result does not establish the performance of a finished component. Include attachments, coverings and neighbouring parts.'],['Keep traceability visible','Agree material identification, revision control and the evidence required at each project milestone.']],faq:[['Are these components automatically aircraft approved?','No blanket qualification is implied by a product family. Approval depends on the specific grade, component design, installation and applicable test evidence.'],['What should the first brief contain?','Include the installation area, drawing, interfaces, weight target and the approval process that the finished component must follow.']]},

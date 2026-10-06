@@ -24,7 +24,7 @@ export default function IndustryDetail({story}: {story: IndustryStory}) {
         <h1 id="industry-title">{story.title[0]}<br/><span>{story.title[1]}</span></h1>
         <p className={styles.heroIntro}>{story.intro}</p>
         <div className={styles.heroActions}><a href="#industry-applications" className={styles.primary}>Explore applications <Icon kind="arrow"/></a><a href="#industry-brief" className={styles.heroLink}>Discuss your project <span>↗</span></a></div>
-        <div className={styles.heroFooter}><span>PARK NONWOVEN / {market.name}</span><a href="#industry-overview" aria-label="Discover this industry"><span>Discover more</span> ↓</a></div>
+        <div className={styles.heroFooter}><span>{market.name} / AI FACTORY VISUAL</span><a href="#industry-overview" aria-label="Discover this industry"><span>Discover more</span> ↓</a></div>
       </div>
     </section>
 

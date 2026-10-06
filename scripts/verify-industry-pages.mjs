@@ -4,10 +4,10 @@ import {mkdirSync} from 'node:fs';
 
 const origin = process.env.PREVIEW_URL || 'http://127.0.0.1:3000';
 const industries = [
-  {slug: 'sports-leisure', name: 'Sports, Leisure & Early Childhood', image: 'industry-childhood'},
-  {slug: 'logistics-handling', name: 'Logistics & Material Handling', image: 'industry-logistics'},
-  {slug: 'hvac', name: 'HVAC', image: 'industry-hvac'},
-  {slug: 'mobility', name: 'Automotive', image: 'industry-automotive'},
+  {slug: 'sports-leisure', name: 'Sports, Leisure & Early Childhood', image: 'factory-childhood'},
+  {slug: 'logistics-handling', name: 'Logistics & Material Handling', image: 'factory-logistics'},
+  {slug: 'hvac', name: 'HVAC', image: 'factory-hvac'},
+  {slug: 'mobility', name: 'Automotive', image: 'factory-automotive'},
 ];
 const browser = await chromium.launch();
 mkdirSync('artifacts', {recursive: true});
@@ -113,7 +113,7 @@ try {
     await expect(page.locator('main h1')).toHaveCount(1);
     await expect(page.locator('main h1')).not.toHaveText('');
     await expect(page.locator('main')).toContainText(industry.name);
-    await expect(page.locator(`main img[src="/images/generated/${industry.image}.webp"]`)).toHaveCount(1);
+    await expect(page.locator(`section[aria-labelledby="industry-title"] img[src="/images/generated/${industry.image}.webp"]`)).toHaveCount(1);
 
     const applicationLinks = page.locator('#industry-applications a[href^="/products/"]');
     const destinations = await applicationLinks.evaluateAll(links => links.map(link => link.getAttribute('href')));

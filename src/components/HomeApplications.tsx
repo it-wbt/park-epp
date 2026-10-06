@@ -5,8 +5,8 @@ import styles from './HomeApplications.module.css';
 const applications = [
   {
     title: 'Protective packaging',
-    image: '/images/generated/logistics.webp',
-    alt: 'Moulded foam transport containers and fitted protective inserts',
+    image: '/images/generated/factory-logistics.webp',
+    alt: 'AI factory illustration of moulded foam containers beside a production line',
     icon: 'shield',
     description: 'Fitted cushions, inserts and returnable packs shaped around your product and its handling journey.',
     examples: 'Transit protection · Custom inserts · Returnable packaging',
@@ -15,8 +15,8 @@ const applications = [
   },
   {
     title: 'Thermal insulation',
-    image: '/images/generated/hvac.webp',
-    alt: 'Moulded EPP insulation housing around an HVAC assembly',
+    image: '/images/generated/factory-hvac.webp',
+    alt: 'AI factory illustration of HVAC housings beside guarded moulding equipment',
     icon: 'snow',
     description: 'Insulated containers and equipment housings developed around temperature, space and operating conditions.',
     examples: 'Insulated transport · Equipment housings · Cold-chain packs',
@@ -25,8 +25,8 @@ const applications = [
   },
   {
     title: 'Lightweight components',
-    image: '/images/generated/mobility.webp',
-    alt: 'Shaped foam components alongside a vehicle interior assembly',
+    image: '/images/generated/factory-automotive.webp',
+    alt: 'AI factory illustration of automotive foam supports on an inspection fixture',
     icon: 'layers',
     description: 'Moulded forms that bring material, geometry and assembly interfaces together in a considered component.',
     examples: 'Vehicle components · Shaped supports · Assembly inserts',

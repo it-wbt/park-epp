@@ -25,8 +25,8 @@ export const industryStories: Record<string, IndustryStory> = {
     ],
     "intro": "From training equipment to early learning, PARK shapes lightweight foam components around grip, fit and everyday use. Bring your activity, age group and product idea into the design.",
     "homeSummary": "Lightweight foam forms for training, imaginative play and everyday movement, shaped around the people who use them.",
-    "heroImage": "/images/generated/industry-childhood.webp",
-    "heroAlt": "Illustration of moulded foam play forms and sports components",
+    "heroImage": "/images/generated/factory-childhood.webp",
+    "heroAlt": "AI factory illustration of moulded play forms being inspected at a foam finishing workstation",
     "overview": {
       "eyebrow": "DESIGNED AROUND PEOPLE",
       "title": "Good ideas start with how they feel.",
@@ -54,29 +54,29 @@ export const industryStories: Record<string, IndustryStory> = {
         "title": "Modular play forms",
         "text": "Build a family of shapes around stacking, movement and imaginative play, with connections suited to the age group.",
         "productSlug": "modular-foam-play-forms",
-        "image": "/images/products/playforms.webp",
-        "imageAlt": "Pastel foam arch, blocks, ramp and rocker shapes"
+        "image": "/images/generated/factory-childhood.webp",
+        "imageAlt": "AI factory illustration of moulded play forms being inspected at a foam finishing workstation"
       },
       {
         "title": "Helmet liners",
         "text": "Develop liner geometry around the shell, head profile and ventilation layout, with testing of the complete helmet.",
         "productSlug": "sports-helmet-foam-liners",
-        "image": "/images/products/helmet-liner.webp",
-        "imageAlt": "Charcoal vented foam helmet liner with its inner cavity visible"
+        "image": "/images/generated/factory-childhood.webp",
+        "imageAlt": "AI factory illustration of moulded play forms being inspected at a foam finishing workstation"
       },
       {
         "title": "Child-seat components",
         "text": "Shape cushioning inserts around the seat shell, contact surfaces and attachment layout.",
         "productSlug": "child-seat-foam-cores",
-        "image": "/images/products/child-seat.webp",
-        "imageAlt": "Charcoal foam seat insert and side pieces beside a generic seat shell"
+        "image": "/images/generated/factory-childhood.webp",
+        "imageAlt": "AI factory illustration of moulded play forms being inspected at a foam finishing workstation"
       },
       {
         "title": "Footwear support forms",
         "text": "Match left and right profiles, heel depth and arch contours to the footwear construction.",
         "productSlug": "foam-insole-components",
-        "image": "/images/products/foam-insoles.webp",
-        "imageAlt": "Pair of contoured charcoal foam insole support forms"
+        "image": "/images/generated/factory-foam-finishing.webp",
+        "imageAlt": "AI factory illustration of cellular foam sheets and shaped blanks at a finishing workstation"
       }
     ],
     "material": {
@@ -120,8 +120,8 @@ export const industryStories: Record<string, IndustryStory> = {
     ],
     "intro": "PARK develops packaging around the way goods move: into storage, across the delivery route and back for another cycle. Give every product a defined place and every operator clear access.",
     "homeSummary": "Fitted cushioning and reusable containers that organise goods, simplify handling and protect products through the delivery cycle.",
-    "heroImage": "/images/generated/industry-logistics.webp",
-    "heroAlt": "Illustration of moulded foam containers and protective packaging in a warehouse",
+    "heroImage": "/images/generated/factory-logistics.webp",
+    "heroAlt": "AI factory illustration of reusable foam containers and fitted trays beside a moulding line",
     "overview": {
       "eyebrow": "THINK THROUGH THE JOURNEY",
       "title": "Design the pack around the process.",
@@ -149,29 +149,29 @@ export const industryStories: Record<string, IndustryStory> = {
         "title": "Returnable containers",
         "text": "Organise components for repeat journeys, with accessible handholds and a layout matched to loading stations.",
         "productSlug": "reusable-industrial-containers",
-        "image": "/images/generated/logistics.webp",
-        "imageAlt": "Charcoal foam containers, lids and a fitted insert on a warehouse pallet"
+        "image": "/images/generated/factory-logistics.webp",
+        "imageAlt": "AI factory illustration of reusable foam containers and fitted trays beside a moulding line"
       },
       {
         "title": "Custom cushioning",
         "text": "Locate delicate parts with shaped pockets, allowing removal without catching connectors or finished surfaces.",
         "productSlug": "custom-cushioning-foams",
-        "image": "/images/products/mobility-inserts.webp",
-        "imageAlt": "Fitted charcoal foam inserts holding mechanical and electronic components"
+        "image": "/images/generated/factory-foam-finishing.webp",
+        "imageAlt": "AI factory illustration of cellular foam sheets and shaped blanks at a finishing workstation"
       },
       {
         "title": "Insulated transport boxes",
         "text": "Coordinate the box, lid, payload and coolant around the route's time and temperature profile.",
         "productSlug": "polystyrene-insulated-boxes",
-        "image": "/images/products/cooler.webp",
-        "imageAlt": "White insulated foam box and lid beside a blue handling container"
+        "image": "/images/generated/factory-logistics.webp",
+        "imageAlt": "AI factory illustration of reusable foam containers and fitted trays beside a moulding line"
       },
       {
         "title": "Pallet formats",
         "text": "Match the footprint, fork access and load support to warehouse equipment and storage arrangements.",
         "productSlug": "plastic-pallets",
-        "image": "/images/products/pallet.webp",
-        "imageAlt": "Black rigid plastic pallet beside a smaller white foam pallet"
+        "image": "/images/generated/factory-polymer-inspection.webp",
+        "imageAlt": "AI factory illustration of foam packaging and rigid polymer components being dimensionally checked"
       }
     ],
     "material": {
@@ -215,8 +215,8 @@ export const industryStories: Record<string, IndustryStory> = {
     ],
     "intro": "PARK shapes foam housings, ducts and insulation around heating, ventilation and cooling assemblies. Connect thermal performance with installation space, component support and the access needed for maintenance.",
     "homeSummary": "Moulded housings, air ducts and insulation that connect thermal performance with precise assembly fit and practical maintenance access.",
-    "heroImage": "/images/generated/industry-hvac.webp",
-    "heroAlt": "Illustration of moulded foam insulation and air-management components beside HVAC equipment",
+    "heroImage": "/images/generated/factory-hvac.webp",
+    "heroAlt": "AI factory illustration of foam insulation housings and ducts beside guarded moulding equipment",
     "overview": {
       "eyebrow": "ONE COMPONENT. SEVERAL FUNCTIONS.",
       "title": "Make every interface count.",
@@ -244,29 +244,29 @@ export const industryStories: Record<string, IndustryStory> = {
         "title": "Air ducts",
         "text": "Shape transitions and bends around airflow requirements, connection sizes and the space available inside the unit.",
         "productSlug": "moulded-air-ducts",
-        "image": "/images/generated/hvac.webp",
-        "imageAlt": "Charcoal moulded air ducts and a foam housing beside ventilation equipment"
+        "image": "/images/generated/factory-hvac.webp",
+        "imageAlt": "AI factory illustration of foam insulation housings and ducts beside guarded moulding equipment"
       },
       {
         "title": "Insulating housings",
         "text": "Bring insulation zones and component locations together while preserving seals and service access.",
         "productSlug": "hvac-insulation-housings",
-        "image": "/images/products/hvac-parts.webp",
-        "imageAlt": "Split charcoal foam housing with moulded recesses and a duct elbow"
+        "image": "/images/generated/factory-hvac.webp",
+        "imageAlt": "AI factory illustration of foam insulation housings and ducts beside guarded moulding equipment"
       },
       {
         "title": "Heat-pump covers",
         "text": "Develop fitted cover sections around the unit envelope, connection points and removable panels.",
         "productSlug": "heat-pump-covers",
-        "image": "/images/products/hvac-parts.webp",
-        "imageAlt": "Illustrative split foam enclosure and shaped insulation components"
+        "image": "/images/generated/factory-hvac.webp",
+        "imageAlt": "AI factory illustration of foam insulation housings and ducts beside guarded moulding equipment"
       },
       {
         "title": "Hydraulic insulation",
         "text": "Fit insulation around manifolds and connections, leaving practical access for installation and adjustment.",
         "productSlug": "hydraulic-manifold-insulation",
-        "image": "/images/products/hvac-parts.webp",
-        "imageAlt": "Moulded foam halves with openings for equipment connections"
+        "image": "/images/generated/factory-hvac.webp",
+        "imageAlt": "AI factory illustration of foam insulation housings and ducts beside guarded moulding equipment"
       }
     ],
     "material": {
@@ -310,8 +310,8 @@ export const industryStories: Record<string, IndustryStory> = {
     ],
     "intro": "PARK develops moulded foam components around the vehicle assembly and its production journey. From energy-management forms to fitted storage, give each feature a clear function within the available space.",
     "homeSummary": "Lightweight foam components for energy management, fitted storage and production handling, developed around each vehicle assembly's functional requirements.",
-    "heroImage": "/images/generated/industry-automotive.webp",
-    "heroAlt": "Illustration of moulded foam vehicle components beside an automotive assembly",
+    "heroImage": "/images/generated/factory-automotive.webp",
+    "heroAlt": "AI factory illustration of automotive foam supports at a component inspection fixture",
     "overview": {
       "eyebrow": "DESIGNED INTO THE ASSEMBLY",
       "title": "A lighter part starts with a clear job.",
@@ -339,29 +339,29 @@ export const industryStories: Record<string, IndustryStory> = {
         "title": "Energy absorbers",
         "text": "Develop foam shapes around defined load cases and their position within the complete vehicle assembly.",
         "productSlug": "vehicle-energy-absorbers",
-        "image": "/images/generated/mobility.webp",
-        "imageAlt": "Charcoal bumper-shaped foam forms and other components beside a vehicle structure"
+        "image": "/images/generated/factory-automotive.webp",
+        "imageAlt": "AI factory illustration of automotive foam supports at a component inspection fixture"
       },
       {
         "title": "Floor components",
         "text": "Fit floor profiles around neighbouring structures, supported loads and assembly clearances.",
         "productSlug": "vehicle-floor-panels",
-        "image": "/images/generated/mobility.webp",
-        "imageAlt": "Moulded charcoal foam panels and components with a vehicle floor assembly"
+        "image": "/images/generated/factory-automotive.webp",
+        "imageAlt": "AI factory illustration of automotive foam supports at a component inspection fixture"
       },
       {
         "title": "Storage organisers",
         "text": "Give tools and loose equipment dedicated locations, with retention features and finger access for removal.",
         "productSlug": "vehicle-storage-organizers",
-        "image": "/images/generated/mobility.webp",
-        "imageAlt": "Illustrative moulded foam vehicle organiser among lightweight automotive components"
+        "image": "/images/generated/factory-automotive.webp",
+        "imageAlt": "AI factory illustration of automotive foam supports at a component inspection fixture"
       },
       {
         "title": "Parts shuttle trays",
         "text": "Protect components between production stages with repeatable placement and access for loading and unloading.",
         "productSlug": "vehicle-parts-shuttle-trays",
-        "image": "/images/products/mobility-inserts.webp",
-        "imageAlt": "Mechanical and electronic parts nested in a fitted foam transport tray"
+        "image": "/images/generated/factory-polymer-inspection.webp",
+        "imageAlt": "AI factory illustration of foam packaging and rigid polymer components being dimensionally checked"
       }
     ],
     "material": {

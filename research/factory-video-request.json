@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-10-06",
+  "status": "Prepared; new AI video has not been generated. Runway installation/account connection is not confirmed.",
+  "purpose": "Original photoreal EPP factory process film for the PARK website, replacing none of the existing assets until generated and reviewed.",
+  "provenance": "Generic AI manufacturing scene, not recorded footage of PARK or another named manufacturer.",
+  "format": {
+    "aspectRatio": "16:9",
+    "durationSeconds": 24,
+    "audio": false
+  },
+  "referenceImage": "public/images/generated/factory-beads.webp",
+  "globalDirection": "Photoreal industrial documentary. Same unbranded practical factory, realistic charcoal expanded polypropylene bead foam, guarded metal steam-chest moulding equipment, soft overhead factory lighting. Natural restrained camera motion. Solid physically consistent supported parts. No text, brand, logo, watermark, transparent machinery, liquid polymer, open-tool fusion, dramatic steam jets or slideshow transitions. Never imply the scene documents a specific factory. Use the reference image for visual continuity rather than animating the still with a zoom.",
+  "shots": [
+    {
+      "seconds": 6,
+      "prompt": "A close camera move past already-expanded charcoal EPP beads in a supply bin towards the pneumatic feed line of a guarded moulding machine. The tool remains closed. Subtle real motion of beads in the feed system; no hand pouring directly into an open hot cavity."
+    },
+    {
+      "seconds": 6,
+      "prompt": "Continue inside the same practical factory with the moulding tool closed. A quiet steam-fusion cycle is suggested by restrained equipment motion and pipework, followed by cooling. No transparent cutaways and no visible molten material. This is an edited illustration, not a real machine cycle timing."
+    },
+    {
+      "seconds": 6,
+      "prompt": "After cooling, the two halves of the moulding tool separate slowly to reveal one solid charcoal bead-foam transport insert. A supported ejector/outfeed fixture receives the stable shaped insert. Consistent geometry, no object morphing, no floating part and no person reaching inside operating machinery."
+    },
+    {
+      "seconds": 6,
+      "prompt": "A gloved technician at a separate safe quality-inspection bench gently rotates the cooled insert and checks a moulded edge with a caliper. Close realistic fused-bead texture, quiet factory activity behind, natural hand anatomy. End on the supported finished part."
+    }
+  ],
+  "websiteVideoCurrentlyAvailable": {
+    "path": "public/videos/park-epp-manufacturing.mp4",
+    "type": "Existing original 3D process film; shown on demand and labelled 3D process film"
+  }
+}

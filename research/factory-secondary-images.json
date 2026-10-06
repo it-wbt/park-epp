@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-06",
+  "mode": "Built-in image_gen.imagegen, one original generation per scene",
+  "skill": "C:/Users/lenovo/.codex/skills/.system/imagegen/SKILL.md",
+  "purpose": "Complement EPP moulding imagery with generic inspection and foam finishing contexts for mixed-material or unspecified product families.",
+  "provenance": "Original AI-generated illustrative factory scenes. No external reference images were supplied or copied. These are not photographs of a PARK facility or evidence of actual production equipment, certifications, product specifications or a shared manufacturing route.",
+  "optimization": {
+    "tool": "sharp",
+    "format": "webp",
+    "width": 1440,
+    "height": 960,
+    "quality": 85,
+    "fit": "inside",
+    "preserveGeneratedFrame": true
+  },
+  "assets": [
+    {
+      "name": "factory-polymer-inspection",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial manufacturing photograph for an industrial materials website. Create a photorealistic practical quality-control station on a clean working factory floor. Foreground: an open white expanded bead-foam insulated shipping box supported on a sturdy industrial inspection bench; its matching lid lies flat nearby. A gloved technician stands to the side of the bench, torso and hands visible, face outside the main focus, using a normal digital caliper to check the thickness of the box's accessible upper rim. Keep the caliper mechanically plausible and its display blank or unreadable, with no invented readings. Nearby on separate low inspection fixtures are a lightweight white bead-foam pallet and a blue rigid-polymer handling bin. These are different products being inspected, not objects emerging from one machine. The white foam has visible fine fused closed-cell bead texture and matte surfaces; the blue bin has a realistic restrained molded-polymer finish and practical reinforcing ribs. Background: guarded neutral industrial machinery, orderly shelves and factory utilities, softly out of focus, no identifiable machine brand or particular manufacturing process. Natural industrial daylight mixed with soft overhead lighting, realistic wear and contact shadows, authentic documentary photography, no glossy CGI styling. Wide 3:2 composition, 1536 by 1024 pixels, all principal products fully inside frame, convincing workshop context rather than an isolated showroom product portrait. No text, no readable labels or values, no brand names, no PARK logo, no watermark, no certification marks, no unsafe action. This is an illustrative generic factory inspection scene, not an actual named facility.",
+      "referenceImages": [],
+      "transparentBackground": false,
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10c1f-e6b1-7fc1-8b1d-ea0a195dcf40/exec-5e48d6c0-82ce-42d4-a752-c5e0d0467554.png",
+      "master": "research/generated-assets/factory-polymer-inspection.png",
+      "websiteAsset": "public/images/generated/factory-polymer-inspection.webp",
+      "inspection": {
+        "status": "accepted",
+        "notes": "White bead-foam shipping box and lid on an inspection bench, white foam pallet and blue rigid-polymer bin on separate fixtures, gloved technician checking a rim with an unreadable caliper display. Guarded background machinery. Generic inspection context; different items do not imply a common production process. White pallet is naturally clipped at the far-left frame edge."
+      },
+      "masterMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "bytes": 2322904
+      },
+      "webMetadata": {
+        "width": 1440,
+        "height": 960,
+        "format": "webp",
+        "bytes": 142320,
+        "sha256": "3d223afbe8c09e9edb1de5ccab1ea864398112a0f0e21da9cf80bf373a74d9e8"
+      }
+    },
+    {
+      "name": "factory-foam-finishing",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial factory photograph for an industrial foam components website. Create a photorealistic foam converting and finishing workshop in active use, with a solid industrial workbench as the main scene. On the bench are neatly stacked cellular foam sheets in charcoal and pale grey, a fitted transport insert with clean cut cavities, and a complementary pair of cut shoe-insole blanks showing recognizable left and right foot outlines. Materials are matte cellular foam with realistic fine pores and clean cut edges; the different samples need not all share a bead-molding texture or material grade. A technician stands beside the bench, wearing work gloves, inspecting the edge and fit of the transport insert with both hands while it remains supported on the stationary bench. Torso and hands may be visible but no face is a focal point. No cutting blade in the technician's hands, no exposed active tool, no unsafe action. A generic guarded cutting machine is visible in the workshop background with its enclosure closed, along with ordered material racks and normal industrial utilities. Balanced natural window and overhead lighting, grounded contact shadows, realistic workshop details, documentary manufacturing photography, no glossy CGI or showroom staging. Wide 3:2 composition, 1536 by 1024 pixels, broad workbench and sufficient background context; all key foam samples fully within frame. No text, no readable labels, no logos or brands, no PARK logo, no watermark, no medical or certification symbols. This is an illustrative generic foam finishing and inspection scene, not a photograph of a named factory.",
+      "referenceImages": [],
+      "transparentBackground": false,
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10c1f-e6b1-7fc1-8b1d-ea0a195dcf40/exec-a4408ae4-a6d8-4265-a976-1990705e8574.png",
+      "master": "research/generated-assets/factory-foam-finishing.png",
+      "websiteAsset": "public/images/generated/factory-foam-finishing.webp",
+      "inspection": {
+        "status": "accepted",
+        "notes": "Charcoal and light-grey cellular foam sheet stacks, fitted insert and two complementary insole blanks on a practical bench, inspected by a gloved technician. Closed guarded cutting equipment and material racks in background. No active exposed cutting action, readable labels, brand marks or certification claims. Left sheet stack is naturally clipped at the frame edge."
+      },
+      "masterMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "bytes": 2693605
+      },
+      "webMetadata": {
+        "width": 1440,
+        "height": 960,
+        "format": "webp",
+        "bytes": 195926,
+        "sha256": "ecb1b6a813aab1944c7cce3b36a35ae3fe960bb5f5447c7be8f034ada0a954f6"
+      }
+    }
+  ]
+}

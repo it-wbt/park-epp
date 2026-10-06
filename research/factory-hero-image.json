@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-06",
+  "tool": "Built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "prompt": "Use case: photorealistic-natural\nAsset type: wide 16:9 homepage hero photograph for an expanded polypropylene materials company.\nPrimary request: a premium, highly photorealistic industrial editorial photograph inside a plausible EPP bead-foam moulding factory, photographed at eye level with a 35 mm full-frame lens. In the lower-right foreground, a practical stainless-steel supply bin contains small charcoal expanded polypropylene beads, with visibly fine cellular texture. Behind it, a closed-feed hopper and metal pneumatic feed pipe connect to a guarded steam-chest moulding machine. The closed tool, sensible safety guards, pipes, and adjacent production equipment recede into depth along the right side of the frame. The left 42 percent should remain relatively subdued and uncluttered, with believable dim industrial wall/floor space suitable for a website text overlay.\nLighting/mood: natural roof-window light with restrained overhead factory lighting; realistic soft reflections, navy-grey shadows, gently worn metal and concrete, sharp but natural detail, premium documentary photography.\nComposition/framing: landscape 16:9, wide perspective, factory and bead bin on the right, room at the left for copy; continuous physical factory scene. No graphic overlays.\nConstraints: no people, no logos, no readable text, no watermarks, no dramatic smoke, no melt, no technical cutaway, no beads being poured into an open hot cavity, no plastic injection-moulding screw cutaways, no impossible floating parts. This is an illustrative generic EPP factory scene, not evidence of a specific real factory.",
+  "source": "C:/Users/lenovo/.codex/generated_images/01a10bdb-a830-74d1-a97f-427987fcb088/exec-468edd5d-4179-4239-bea2-0fa8f95e670a.png",
+  "master": "research/generated-assets/factory-beads.png",
+  "asset": "public/images/generated/factory-beads.webp",
+  "processing": {
+    "width": 1920,
+    "format": "webp",
+    "quality": 85
+  },
+  "caption": "AI factory visual",
+  "inspection": "Inspected generated output: believable guarded industrial production line, closed tooling, charcoal bead supply bin, clear left copy area, no people or logos. Generic illustrative scene; does not depict or establish an actual PARK facility."
+}
