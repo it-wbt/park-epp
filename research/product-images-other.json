@@ -1,0 +1,43 @@
+{
+  "mode": "Built-in imagegen, generate",
+  "purpose": "Restore missing relevant product visuals on existing aviation, ice-cream packaging and bakery insert pages.",
+  "note": "Generated conceptual product illustrations, not photographs or certification evidence for specific PARK products.",
+  "assets": [
+    {
+      "name": "aviation-seat",
+      "master": "research/generated-assets/aviation-seat.png",
+      "webAsset": "public/images/products/aviation-seat.webp",
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10bdb-a830-74d1-a97f-427987fcb088/exec-89f526e8-da6e-42d9-b080-699751da97fd.png",
+      "webAssetDimensions": [
+        1100,
+        733
+      ],
+      "webpQuality": 85,
+      "prompt": "Use case: product-mockup. Asset type: website product catalogue photograph. Primary request: photorealistic product packshot of unbranded generic aircraft interior foam support components: a charcoal moulded fine-bead foam seat-base core, a shaped backrest support and two smaller armrest-support inserts, arranged beside a minimal generic aluminium aircraft-seat frame to explain the application. The foam components are the main subject, removed from upholstery so the fine fused bead texture is clearly visible. Scene/backdrop: pale blue-grey seamless industrial studio floor and background. Composition/framing: landscape 3:2, three-quarter front camera view, all foam objects entirely visible with generous clean margins, no cropped edges. Lighting: soft directional studio light and believable contact shadows. Materials: matte charcoal fine-cell expanded bead foam with coherent moulded edges, subtly metallic frame. Constraints: conceptual manufacturer-neutral components; no actual airline, people, upholstery branding, text, logos, labels, watermarks, certification marks or approval marks. Do not imply a certified aircraft product."
+    },
+    {
+      "name": "icecream-tubs",
+      "master": "research/generated-assets/icecream-tubs.png",
+      "webAsset": "public/images/products/icecream-tubs.webp",
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10bdb-a830-74d1-a97f-427987fcb088/exec-1bd8b0e1-0423-46be-a02b-21588f5d7082.png",
+      "webAssetDimensions": [
+        1100,
+        733
+      ],
+      "webpQuality": 85,
+      "prompt": "Use case: product-mockup. Asset type: website product catalogue photograph. Primary request: photorealistic studio packshot of two empty rectangular white moulded bead-foam insulated ice-cream tubs, one deeper transport tub and one shallow presentation container, with two matching removable insulated lids resting beside them. Clearly show empty smooth-walled interiors, thick insulating sidewalls, fitted lid lips and restrained realistic fine fused bead texture on the exterior. Scene/backdrop: pale blue-grey seamless industrial studio floor and background. Composition/framing: landscape 3:2, elevated three-quarter camera view, every tub and lid entirely within the frame with comfortable breathing room. Lighting: soft natural studio lighting, subtle physical contact shadows, white foam remains clearly defined against the cool backdrop. Materials/textures: matte white expanded bead foam, realistic small fused beads and manufactured corners; no glossy plastic finish. Constraints: no food, people, branding, text, logos, watermarks or certification marks."
+    },
+    {
+      "name": "bakery-inserts",
+      "master": "research/generated-assets/bakery-inserts.png",
+      "webAsset": "public/images/products/bakery-inserts.webp",
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10bdb-a830-74d1-a97f-427987fcb088/exec-90b14689-db12-4ee5-ad44-04e1c5a604c6.png",
+      "webAssetDimensions": [
+        1100,
+        733
+      ],
+      "webpQuality": 85,
+      "prompt": "Use case: product-mockup. Asset type: website product catalogue photograph. Primary request: photorealistic studio packshot of light-grey moulded protective bakery tray inserts: one rectangular insert with neat rows of shallow circular macaron nesting recesses, and one broader insert with a single circular cake-sized nesting recess. One plain beige macaron placed in one small recess provides scale; all other recesses empty. The main subject is the industrial packaging inserts and their shaped recesses. Scene/backdrop: pale blue-grey seamless industrial studio surface. Composition/framing: landscape 3:2, elevated three-quarter view; both trays fully visible with clean margins and no overlapping important cavity details. Lighting: soft directional studio light, natural shadows inside each cavity and beneath the trays. Material: matte light-grey fine-cell moulded expanded bead foam, subtle small fused bead texture, clean coherent moulded rims and edges. Constraints: no people, food branding, packaging graphics, logos, text, watermarks or food-contact certification symbols."
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
     "build": "node scripts/build.mjs",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "check:images": "node scripts/verify-image-assets.mjs"
   },
   "keywords": [],
   "author": "",

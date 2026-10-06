@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-10-06",
+  "mode": "built-in image_gen; generate",
+  "useCase": "product-mockup",
+  "provenance": "Original AI-generated product illustrations created for this website. Generic illustrative designs; not photographs of specific supplied parts, approved CAD, or a customer's products.",
+  "sourceFilesModified": false,
+  "optimization": {
+    "tool": "sharp",
+    "width": 1100,
+    "quality": 85,
+    "format": "webp"
+  },
+  "assets": [
+    {
+      "name": "mobility-inserts",
+      "master": "research/generated-assets/mobility-inserts.png",
+      "websiteAsset": "public/images/products/mobility-inserts.webp",
+      "prompt": "Use case: product-mockup.\nAsset type: photorealistic product photograph for an automotive protective packaging product page.\nPrimary request: a reusable charcoal-black expanded polypropylene (EPP) moulded transport tray with precision fitted cavities protecting two generic automotive components: a small machined metal housing and a compact sensor module. An additional empty EPP protective insert sits alongside the loaded tray. Clearly show protective packaging inserts, not a car seat.\nScene/backdrop: pale blue-grey seamless industrial studio backdrop and matching work surface.\nMaterials/textures: realistic fine fused irregular EPP bead texture on every foam surface; subtle matte surface. The machined metal housing and sensor module sit firmly inside their fitted protective cavities.\nComposition/framing: wide 3:2 composition, three-quarter product view, complete objects comfortably inside frame, clear separation between the loaded tray and empty insert, suitable for a product catalogue.\nLighting/mood: premium natural studio product photography, soft directional light, realistic physical contact shadows, crisp material detail.\nConstraints: generic unbranded components, no text, labels, logos, watermarks, certification symbols, or diagram elements. No car seats.",
+      "inspection": "Photorealistic three-quarter view of charcoal EPP packaging: loaded precision-cavity tray protects a generic metal automotive housing and a compact sensor module; matching empty protective insert alongside. Complete objects inside frame; fused foam bead texture; pale blue-grey studio background; no visible text, brands, watermarks, or certification marks."
+    },
+    {
+      "name": "hvac-parts",
+      "master": "research/generated-assets/hvac-parts.png",
+      "websiteAsset": "public/images/products/hvac-parts.webp",
+      "prompt": "Use case: product-mockup.\nAsset type: photorealistic product catalogue photograph of EPP components for heat-pump and HVAC assemblies.\nPrimary request: realistic charcoal-black expanded polypropylene (EPP) moulded insulation shells, two complementary half-shells with accurately formed pipe passages and a compact duct elbow. Arrange them as a clear small set of separate finished components, with the half-shell interiors visible so their insulating purpose and mating geometry are understandable.\nScene/backdrop: pale blue-grey seamless industrial studio backdrop and matching surface.\nMaterials/textures: fine fused irregular EPP bead texture across the moulded surfaces and interiors, matte cellular foam, substantial wall thickness, clean realistic moulded edges.\nComposition/framing: wide 3:2 composition, three-quarter industrial studio packshot, entire objects inside frame with breathing room, clear separation between components.\nLighting/mood: natural soft directional studio light, highly realistic material detail and physical contact shadows.\nConstraints: no brands, text, labels, logos, watermarks, certification symbols, diagram elements, or technical annotations. These are lightweight moulded foam insulation parts, not shiny plastic or metal components.",
+      "inspection": "Photorealistic charcoal EPP insulation parts: separate moulded half-shells with internal cavities and pipe passages, plus compact duct elbow. Fine fused bead surface, complete objects inside frame, pale blue-grey studio background, no visible text, brands, watermarks, or certification marks."
+    }
+  ]
+}

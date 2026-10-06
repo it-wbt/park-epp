@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-06",
+  "generationMethod": "Built-in image_gen.imagegen tool; one new image per asset; no CLI/API fallback.",
+  "skill": "C:/Users/lenovo/.codex/skills/.system/imagegen/SKILL.md",
+  "intendedUse": "Illustrative product-category visuals for the EPP catalogue.",
+  "provenanceNote": "AI-generated product illustrations in a photorealistic style. These are not photographs of Park Nonwoven manufactured products and do not establish product specifications, certification or medical claims.",
+  "processing": {
+    "library": "sharp",
+    "width": 1100,
+    "format": "webp",
+    "quality": 85,
+    "resizeFit": "inside",
+    "withoutEnlargement": true,
+    "preserveEntireGeneratedFrame": true
+  },
+  "assets": [
+    {
+      "id": "helmet-liner",
+      "useCase": "product-mockup",
+      "prompt": "Use case: product-mockup. Asset type: industrial EPP product catalogue photograph. Create one photorealistic studio photograph of a charcoal-black expanded polypropylene (EPP) protective helmet inner foam liner, shown by itself without the outer helmet shell. The object is an ergonomic hollow dome with a clearly visible curved inner head cavity, robust rounded perimeter, and a plausible series of elongated ventilation openings. Fine fused expanded-bead texture is visibly present on all foam surfaces: tiny irregular closed-cell beads, matte charcoal finish, no fuzzy open-cell sponge. Three-quarter slightly elevated viewpoint so the hollow liner shape and vents are immediately readable. Pale blue-grey seamless industrial studio background and ground plane, soft directional studio lighting, restrained natural contact shadow. Horizontal 3:2 composition, full object entirely in frame with generous clear margin, centered product occupying about 70 percent of the image. Premium realistic product photography, crisp material detail. No text, no logos, no people, no watermark, no certification marks, no claims of actual certification, no outer shell, no straps.",
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10c1f-e6b1-7fc1-8b1d-ea0a195dcf40/exec-b99456f5-84f2-41f5-ac9a-44fa968f2551.png",
+      "masterFile": "research/generated-assets/helmet-liner.png",
+      "websiteFile": "public/images/products/helmet-liner.webp",
+      "referenceImages": [],
+      "transparentBackground": false,
+      "inspection": {
+        "status": "accepted",
+        "notes": "Charcoal hollow vented helmet liner is fully visible, with fused-bead texture, no outer shell, text, people or certification marks."
+      },
+      "master": {
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2482953,
+        "sha256": "dd62cd331ee4de76d57e6db22cbecad48179511bfca9c0e8cf36354fec33da83"
+      },
+      "optimized": {
+        "format": "webp",
+        "width": 1100,
+        "height": 733,
+        "bytes": 101034,
+        "sha256": "3dbcfceb6d4d1f6fad3ef007137b1c0b3bb5dc5bb06e4f94a3f18bd83422cba9"
+      }
+    },
+    {
+      "id": "surfboard-core",
+      "useCase": "product-mockup",
+      "prompt": "Use case: product-mockup. Asset type: industrial foam product catalogue photograph. Create one photorealistic studio photograph of a white closed-cell foam surfboard blank and a small matching cutaway core section, unbranded. Main object is a smooth unfinished surfboard-shaped foam blank, full length visible, gently tapered pointed nose, rounded tail, modest rocker, no fins, no paint, no fiberglass outer skin. Present it horizontally on a pale blue-grey studio floor at a shallow diagonal in a three-quarter elevated view. Beside the blank in the foreground, a short cross-section offcut shows the gently curved board profile and fine fused expanded-bead foam structure through its thickness. Subtle fine cellular bead texture on white foam surfaces and cut face, believable matte clean foam, no open-cell sponge, no wood core. Pale blue-grey seamless industrial studio backdrop, soft controlled light with delicate contact shadows. Horizontal 3:2 composition, both full objects entirely in frame with ample margins, no cropping. Premium realistic product photography. No ocean or surf action, no people, no text, no logos, no watermark, no certification marks. The blank and core sample are the sole subjects.",
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10c1f-e6b1-7fc1-8b1d-ea0a195dcf40/exec-d6d9d2b5-1cd2-4bf5-8c43-938f10453a3f.png",
+      "masterFile": "research/generated-assets/surfboard-core.png",
+      "websiteFile": "public/images/products/surfboard-core.webp",
+      "referenceImages": [],
+      "transparentBackground": false,
+      "inspection": {
+        "status": "accepted",
+        "notes": "Entire white surfboard blank and separate curved foam cross-section are visible in a neutral studio; no surf action, branding or text."
+      },
+      "master": {
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1884432,
+        "sha256": "04e222dc59a636c3f526f61d8d8cb73b7a0453fec72f5f8978c96b4e7be311f1"
+      },
+      "optimized": {
+        "format": "webp",
+        "width": 1100,
+        "height": 733,
+        "bytes": 23284,
+        "sha256": "5c0df40c06679dae89b52aad56a85a3ca55d0d38b68b702fda2d9ed54ae3742f"
+      }
+    },
+    {
+      "id": "child-seat",
+      "useCase": "product-mockup",
+      "prompt": "Use case: product-mockup. Asset type: industrial EPP component catalogue photograph. Create one photorealistic studio photograph of charcoal-black expanded polypropylene child-seat cushioning and side-protection foam components with a generic unbranded child-seat shell as context. The main subject is a coherent set of molded EPP inserts: one contoured seat/back cushioning insert with a shallow supportive seat pan and paired curved lateral head/torso protection pieces. Place the foam components neatly in the foreground, fully visible. Behind them, a simple pale grey rigid molded seat shell standing upright shows where these inserts fit, without fabric, harness, labels, or branding. Clear genuine component anatomy and realistic wall thicknesses; all dark foam surfaces show fine tightly fused closed-cell beads, matte texture, subtle molded ribs, not rubber, leather or open-cell sponge. Three-quarter slightly elevated catalogue viewpoint. Pale blue-grey seamless industrial studio background and floor, softly directional studio lighting, natural contact shadows. Horizontal 3:2 composition, entire shell and all components inside frame with generous margins, no cropping. Premium realistic product photography. No child, no adults, no people, no text, no logos, no watermark, no certification or safety approval marks, no implied certification.",
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10c1f-e6b1-7fc1-8b1d-ea0a195dcf40/exec-7e43989b-b444-44a6-9c68-e8ec8b6fb914.png",
+      "masterFile": "research/generated-assets/child-seat.png",
+      "websiteFile": "public/images/products/child-seat.webp",
+      "referenceImages": [],
+      "transparentBackground": false,
+      "inspection": {
+        "status": "accepted",
+        "notes": "Charcoal seat insert and paired side components are fully visible in front of an unbranded generic rigid shell; no child, people, text or certification marks."
+      },
+      "master": {
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2254443,
+        "sha256": "4ce42ecf1a8b0461216b2b73c8b73ac53414a2d0fffef6b9584c87db6267f4c2"
+      },
+      "optimized": {
+        "format": "webp",
+        "width": 1100,
+        "height": 733,
+        "bytes": 69706,
+        "sha256": "fbd75d30e6a68c7750f9053ad733a1ca54a763aee976d6cb19a490e7c90ed056"
+      }
+    },
+    {
+      "id": "foam-insoles",
+      "useCase": "product-mockup",
+      "prompt": "Use case: product-mockup. Asset type: industrial foam component catalogue photograph. Create one photorealistic studio photograph of a pair of anatomically shaped charcoal closed-cell foam insole/support forms. Show two distinct complementary left-foot and right-foot profiles, full length, broad rounded forefoot and toe ends, narrowed waists, contoured heel cups and raised medial arch support. They are molded foam support inserts only, with no fabric covering and no shoes. Use a three-quarter elevated view with the pair neatly placed side by side, slightly separated, to clearly reveal the realistic arch contour and heel depth. Surfaces have a fine matte cellular texture from tightly fused expanded foam beads, charcoal dark grey, no open-cell sponge and no rubber shine. Pale blue-grey seamless industrial studio background and ground plane, soft directional light, realistic subtle contact shadows. Horizontal 3:2 composition, both objects entirely within the frame with generous margins, no cropping. Premium realistic product photography. No text, no logos, no watermark, no people, no feet, no shoes, no medical symbols, no medical or therapeutic claims.",
+      "originalGeneratedFile": "C:/Users/lenovo/.codex/generated_images/01a10c1f-e6b1-7fc1-8b1d-ea0a195dcf40/exec-2392b384-bcda-4a22-83f0-cd97295987d0.png",
+      "masterFile": "research/generated-assets/foam-insoles.png",
+      "websiteFile": "public/images/products/foam-insoles.webp",
+      "referenceImages": [],
+      "transparentBackground": false,
+      "inspection": {
+        "status": "accepted",
+        "notes": "Pair of complementary contoured footwear support forms is fully visible, with cellular foam texture and clear heel/arch contours; no shoes, feet, text or medical claims."
+      },
+      "master": {
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2459206,
+        "sha256": "1b676538e6e1c8f517b128f7806ac65c3609a1d3f6fc96dbeb468f1fa432d925"
+      },
+      "optimized": {
+        "format": "webp",
+        "width": 1100,
+        "height": 733,
+        "bytes": 78910,
+        "sha256": "e0e58094d1843cffe565b7d92ef249d462cef980e2b2ee6055ceb517cdd08d6d"
+      }
+    }
+  ]
+}

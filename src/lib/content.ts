@@ -80,7 +80,36 @@ Extendable protective corners|Adjustable corner protection concepts for product 
 export const productCopy:Record<string,Copy>=Object.fromEntries(rows.split('\n').map(row=>{const [name,summary,focus]=row.split('|');return [name,{summary,focus:focus.split(';')}];}));
 Object.assign(productCopy,Object.fromEntries(expandedFamilies.map(f=>[f.name,{summary:f.summary,focus:f.focus}])));
 export type Product={name:string;slug:string;market:string;marketSlug:string;material:string;summary:string;application:string;image:string};
-export function productVisual(p:Product){if(/ice cream tubs|ice cream presentation/i.test(p.name))return '/images/products/icecream-tubs.webp';if(/heat-pump|hydraulic|water-heater|condensate|fan-coil/i.test(p.name))return '/images/products/hvac-parts.webp';if(p.marketSlug==='aviation')return '/images/products/aviation-seat.webp';if(p.marketSlug==='mobility')return '/images/products/mobility-inserts.webp';if(/helmet/i.test(p.name))return '/images/products/helmet-liner.webp';if(/surfboard|insole/i.test(p.name))return '/images/products/surfboard-core.webp';if(/child-seat/i.test(p.name))return '/images/products/child-seat.webp';if(/macaron|cake|bakery filling|bakery assembly/i.test(p.name))return '/images/products/bakery-inserts.webp';if(/corner|appliance protective|support pad/i.test(p.name))return '/images/products/corners.webp';if(/sheet|protective furniture|cushion/i.test(p.name))return '/images/products/sheets.webp';if(/pallet/i.test(p.name))return '/images/products/pallet.webp';if(/drainage|revegetation|roof/i.test(p.name))return '/images/products/drainage.webp';if(/board|floor insulation|thermal-break/i.test(p.name)&&p.marketSlug==='building')return '/images/products/sheets.webp';if(/pool.*block|pool forms|structural foam/i.test(p.name))return '/images/products/poolblock.webp';if(/toy|childhood|foam furniture/i.test(p.name))return '/images/products/playforms.webp';if(p.marketSlug==='agrifood'&&!/box/i.test(p.name))return '/images/products/trays.webp';if(/box|cooler|case|container|crate/i.test(p.name)&&p.marketSlug!=='agrifood')return '/images/products/cooler.webp';if(p.marketSlug==='agrifood')return '/images/food.webp';if(p.marketSlug==='logistics-handling')return '/images/packaging.webp';if(p.marketSlug==='sports-leisure')return '/images/generated/sports.webp';return '/images/technical.webp';}
+export function productVisual(p: Product) {
+  if (/ice cream tubs|ice cream presentation/i.test(p.name)) return '/images/products/icecream-tubs.webp';
+  if (/heat-pump|hydraulic|water-heater|condensate|fan-coil/i.test(p.name)) return '/images/products/hvac-parts.webp';
+  if (p.marketSlug === 'aviation') return '/images/products/aviation-seat.webp';
+  if (p.marketSlug === 'mobility') {
+    return /protective inserts|storage organizers|shuttle trays/i.test(p.name)
+      ? '/images/products/mobility-inserts.webp'
+      : '/images/generated/mobility.webp';
+  }
+  if (/helmet/i.test(p.name)) return '/images/products/helmet-liner.webp';
+  if (/insole/i.test(p.name)) return '/images/products/foam-insoles.webp';
+  if (/surfboard/i.test(p.name)) return '/images/products/surfboard-core.webp';
+  if (/child-seat/i.test(p.name)) return '/images/products/child-seat.webp';
+  if (p.marketSlug === 'childhood') return '/images/products/playforms.webp';
+  if (/exercise jump box/i.test(p.name)) return '/images/generated/sports.webp';
+  if (/macaron|cake|bakery filling|bakery assembly/i.test(p.name)) return '/images/products/bakery-inserts.webp';
+  if (/corner|appliance protective|support pad/i.test(p.name)) return '/images/products/corners.webp';
+  if (/sheet|protective furniture|cushion/i.test(p.name)) return '/images/products/sheets.webp';
+  if (/pallet/i.test(p.name)) return '/images/products/pallet.webp';
+  if (/drainage|revegetation|roof/i.test(p.name)) return '/images/products/drainage.webp';
+  if (/board|floor insulation|thermal-break/i.test(p.name) && p.marketSlug === 'building') return '/images/products/sheets.webp';
+  if (/pool.*block|pool forms|structural foam/i.test(p.name)) return '/images/products/poolblock.webp';
+  if (/toy|childhood|foam furniture/i.test(p.name)) return '/images/products/playforms.webp';
+  if (p.marketSlug === 'agrifood' && !/box/i.test(p.name)) return '/images/products/trays.webp';
+  if (/box|cooler|case|container|crate/i.test(p.name) && p.marketSlug !== 'agrifood') return '/images/products/cooler.webp';
+  if (p.marketSlug === 'agrifood') return '/images/food.webp';
+  if (p.marketSlug === 'logistics-handling') return '/images/packaging.webp';
+  if (p.marketSlug === 'sports-leisure') return '/images/generated/sports.webp';
+  return '/images/technical.webp';
+}
 export const marketGuides:Record<string,{overview:string;applications:string[];priorities:[string,string][];faq:[string,string][]}>={
  'hvac':{overview:'HVAC components have to fit within a working system. Air movement, insulation, access and assembly often compete for the same space. A shaped foam housing or duct can be explored around these interfaces rather than treated as a separate piece of packaging.',applications:['Air handling assemblies','Ventilation channels','Insulated equipment housings','Thermal and acoustic interfaces'],priorities:[['Start with airflow','Record the air path, connections, required flow and allowable resistance. A duct geometry should be assessed within the equipment rather than in isolation.'],['Coordinate the interfaces','Keep seal locations, service access, fasteners and condensation-sensitive surfaces in the design review.'],['Prototype realistically','Use representative materials and operating conditions when investigating fit, thermal behaviour or noise.']],faq:[['Which material should I start with?','The answer depends on heat exposure, geometry, load and processing. EPP foam and rigid moulded polymers support different design routes. Compare the finished design with its requirements.'],['Can insulation and air management share one part?','A combined component is a design option. It needs a review of air paths, thermal interfaces, sealing and the manufacturing route.']]},
  'aviation':{overview:'Aircraft interior development begins with the installation and approval route. Lightweight foam or polymer components can be studied for fit and integration, while traceability, environmental exposure and the applicable test requirements remain part of the brief.',applications:['Cabin interior integration','Lightweight support inserts','Interior component packaging','Assembly and service interfaces'],priorities:[['Define the approval route','Identify the aircraft application, relevant requirements and documentation expected from the material and component suppliers.'],['Review complete assemblies','A sample material result does not establish the performance of a finished component. Include attachments, coverings and neighbouring parts.'],['Keep traceability visible','Agree material identification, revision control and the evidence required at each project milestone.']],faq:[['Are these components automatically aircraft approved?','No blanket qualification is implied by a product family. Approval depends on the specific grade, component design, installation and applicable test evidence.'],['What should the first brief contain?','Include the installation area, drawing, interfaces, weight target and the approval process that the finished component must follow.']]},
