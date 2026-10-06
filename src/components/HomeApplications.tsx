@@ -1,10 +1,15 @@
+'use client';
+
 import Link from 'next/link';
+import {useState} from 'react';
 import {Icon} from './ui';
 import styles from './HomeApplications.module.css';
 
 const applications = [
   {
     title: 'Protective packaging',
+    verb: 'Protect.',
+    focus: 'SHAPED AROUND THE JOURNEY',
     image: '/images/generated/factory-logistics.webp',
     alt: 'AI factory illustration of moulded foam containers beside a production line',
     icon: 'shield',
@@ -15,6 +20,8 @@ const applications = [
   },
   {
     title: 'Thermal insulation',
+    verb: 'Insulate.',
+    focus: 'DESIGNED AROUND TEMPERATURE',
     image: '/images/generated/factory-hvac.webp',
     alt: 'AI factory illustration of HVAC housings beside guarded moulding equipment',
     icon: 'snow',
@@ -25,6 +32,8 @@ const applications = [
   },
   {
     title: 'Lightweight components',
+    verb: 'Lighten.',
+    focus: 'MADE TO FIT THE ASSEMBLY',
     image: '/images/generated/factory-automotive.webp',
     alt: 'AI factory illustration of automotive foam supports on an inspection fixture',
     icon: 'layers',
@@ -36,6 +45,9 @@ const applications = [
 ];
 
 export default function HomeApplications() {
+  const [selected, setSelected] = useState(0);
+  const [expanded, setExpanded] = useState<number | null>(0);
+
   return (
     <section className={styles.section} aria-labelledby="epp-applications-heading">
       <div className={styles.heading} data-reveal>
@@ -46,22 +58,45 @@ export default function HomeApplications() {
         <p>From a fitted transport pack to a part inside an assembly, explore where expanded polypropylene can fit into your next project.</p>
       </div>
 
-      <div className={styles.cards}>
-        {applications.map((application, index) => (
-          <Link className={styles.card} href={application.href} key={application.title} data-reveal>
-            <div className={styles.image}>
-              <img src={application.image} alt={application.alt} width={900} height={600} loading="lazy"/>
-              <span className={styles.number}>0{index + 1}</span>
-              <span className={styles.icon}><Icon kind={application.icon}/></span>
+      <div className={styles.layout} data-reveal>
+        <figure className={styles.visual}>
+          {applications.map((application, index) => (
+            <div className={styles.scene} data-active={selected === index} aria-hidden={selected !== index} key={application.title}>
+              <img src={application.image} alt={application.alt} width={1440} height={960} loading="lazy"/>
+              <div className={styles.sceneCopy}>
+                <span>{application.focus}</span>
+                <strong>{application.verb}</strong>
+              </div>
             </div>
-            <div className={styles.copy}>
-              <h3>{application.title}</h3>
-              <p>{application.description}</p>
-              <p className={styles.examples}>{application.examples}</p>
-              <span className={styles.link}>{application.link}<Icon kind="arrow"/></span>
-            </div>
-          </Link>
-        ))}
+          ))}
+          <div className={styles.visualTop} aria-hidden="true"><span><Icon kind={applications[selected].icon}/> EPP IN PRACTICE</span><span>0{selected + 1} <i>/</i> 03</span></div>
+          <figcaption className={styles.caption}>AI-generated factory illustration</figcaption>
+          <div className={styles.markers} aria-hidden="true">{applications.map((application, index) => <span key={application.title} data-active={selected === index}/>)}</div>
+        </figure>
+
+        <div className={styles.applications}>
+          <p className={styles.listLabel}>ONE MATERIAL. DIFFERENT POSSIBILITIES.</p>
+          <div className={styles.rows}>
+            {applications.map((application, index) => (
+              <details className={styles.application} key={application.title} name="home-epp-applications" open={expanded === index}>
+                <summary onClick={event => {
+                  event.preventDefault();
+                  setSelected(index);
+                  setExpanded(current => current === index ? null : index);
+                }}>
+                  <span className={styles.number}>0{index + 1}</span>
+                  <h3>{application.title}</h3>
+                  <span className={styles.direction}><Icon kind="arrow"/></span>
+                </summary>
+                <div className={styles.copy}>
+                  <p>{application.description}</p>
+                  <p className={styles.examples}>{application.examples}</p>
+                  <Link className={styles.link} href={application.href}>{application.link}<Icon kind="arrow"/></Link>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
