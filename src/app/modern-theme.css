@@ -14,7 +14,19 @@ a:focus-visible, button:focus-visible { outline: 3px solid #0875b2; outline-offs
 .text-link { line-height: 1.6; }
 .park-topbar { background: #0c2e43; color: #edf5fa; }
 .park-header { border-bottom-color: #e2e9ed; box-shadow: 0 4px 24px #173c5107; }
-.park-nav-actions > .button { box-shadow: 0 4px 14px #08639b16; }
+/* Match the Filtration header CTA without inheriting the site's pill buttons. */
+.park-nav-actions > .park-contact-button { min-height: 0; padding: 13px 19px; gap: 24px; border-radius: 0; box-shadow: none; font-size: 13px; font-weight: 650; line-height: normal; }
+.park-nav-actions > .park-contact-button:hover { box-shadow: none; }
+.park-contact-button svg { width: 17px; height: 17px; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .park-nav-actions > .park-contact-button:hover svg { transform: translate(3px, -2px); }
+}
+@media (max-width: 600px) {
+  .park-nav-actions > .park-contact-button { min-height: 36px; padding: 10px; font-size: 10px; }
+}
+@media (max-width: 380px) {
+  .park-nav-actions > .park-contact-button { padding: 9px 7px; }
+}
 .park-nav-actions .icon-button { min-width: 44px; min-height: 44px; border-radius: 50%; }
 .park-footer { background: radial-gradient(ellipse at 95% 0%, #195160, transparent 55%), #0c2e43; }
 .park-footer .park-brand { padding: 14px; border-radius: 12px; background: white; }
