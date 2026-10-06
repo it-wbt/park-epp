@@ -2,6 +2,7 @@ import Link from 'next/link';
 import {articles} from '../lib/catalog';
 import {eppComparison} from '../lib/epp-education';
 import EppApplicationFocus from './EppApplicationFocus';
+import MaterialComparisonSlider from './MaterialComparisonSlider';
 import {Icon} from './ui';
 import styles from './EppVsEpsGuide.module.css';
 
@@ -17,16 +18,7 @@ export default function EppVsEpsGuide() {
           <p className={styles.intro}>{guide.intro}</p>
           <a className={styles.primary} href="#material-comparison">Compare the materials <Icon kind="arrow"/></a>
         </div>
-        <div className={styles.materials} aria-label="EPP and EPS material examples">
-          <figure className={styles.material}>
-            <div className={styles.materialImage}><img src="/images/generated/epp-material-closeup.webp" alt="Illustrative moulded EPP component with a textured bead surface and loose expanded beads" width={1100} height={1100} fetchPriority="high"/></div>
-            <figcaption><strong>EPP</strong><span>Expanded polypropylene</span></figcaption>
-          </figure>
-          <figure className={styles.material}>
-            <div className={styles.materialImage}><img src="/images/products/corners.webp" alt="Illustrative white EPS protective corners with a visible cellular bead texture" width={1400} height={1050}/></div>
-            <figcaption><strong>EPS</strong><span>Expanded polystyrene</span></figcaption>
-          </figure>
-        </div>
+        <MaterialComparisonSlider/>
       </div>
     </section>
 
