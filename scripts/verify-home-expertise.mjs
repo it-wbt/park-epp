@@ -74,11 +74,16 @@ try {
     await page.setViewportSize({width, height: 1000});
     await section.scrollIntoViewIfNeeded();
     await noOverflow(page, `${width}px`);
-    const columns = await linksOn(section).evaluateAll(elements => new Set(elements.map(element => Math.round(element.getBoundingClientRect().left))).size);
-    assert.equal(columns, width >= 1440 ? 4 : width >= 768 ? 2 : 1, `${width}px process stages flow across the expected columns`);
     const bounds = await section.boundingBox();
     assert.ok(bounds && bounds.x >= 0 && bounds.x + bounds.width <= width, `${width}px section fits viewport`);
-    if (width >= 1440) assert.ok(bounds.height <= 680, `${width}px expertise section remains compact (${bounds.height}px)`);
+    const imageBounds = await section.locator('figure').boundingBox();
+    const headingBounds = await section.locator('h2').boundingBox();
+    if (width > 760) assert.ok(headingBounds.x + headingBounds.width <= imageBounds.x, `${width}px compact manufacturing photo sits beside the introduction`);
+    else assert.ok(headingBounds.y + headingBounds.height <= imageBounds.y, `${width}px compact photo follows the introduction`);
+    if (width >= 1440) assert.ok(bounds.height <= 480, `${width}px expertise stays compact (${bounds.height}px)`);
+    assert.ok(imageBounds.height <= 200, `${width}px image leaves room for the expertise content`);
+    const columns = await linksOn(section).evaluateAll(elements => new Set(elements.map(element => Math.round(element.getBoundingClientRect().left))).size);
+    assert.equal(columns, width > 1050 ? 4 : width > 600 ? 2 : 1, `${width}px expertise links remain easy to scan`);
     for (const link of await section.getByRole('link').all()) {
       const target = await link.boundingBox();
       assert.ok(target && target.x >= 16 && target.x + target.width <= width - 16, `${width}px link gutters`);
@@ -86,7 +91,7 @@ try {
     }
     await section.locator('h2').click();
     if ([320, 390, 768, 1440, 1920].includes(width)) await section.screenshot({path: `artifacts/home-expertise-${width}.png`});
-    measurements.push({width, height: bounds.height, columns});
+    measurements.push({width, height: bounds.height, imageHeight: imageBounds.height, columns, layout: 'open production flow'});
   }
 
   const reducedContext = await browser.newContext({reducedMotion: 'reduce', viewport: {width: 390, height: 844}});
@@ -121,7 +126,7 @@ try {
   await expect(staticPage.locator('main h1')).toContainText(stages[3].title);
   await noScript.close();
   assert.deepEqual(errors, [], 'No browser runtime errors');
-  writeFileSync('artifacts/home-expertise-check.json', JSON.stringify({passed: true, measurements, errors, checks: ['Four preserved expertise stages and descriptions', 'Five working expertise links', 'Manufacturing image decode', 'Scroll reveal settles', 'Keyboard focus/navigation', 'Six widths with 4/2/1 stage flow', 'Reduced motion', 'No-JS content and navigation']}, null, 2));
+  writeFileSync('artifacts/home-expertise-check.json', JSON.stringify({passed: true, measurements, errors, checks: ['Four preserved expertise stages and descriptions', 'Five working expertise links', 'Manufacturing image decode', 'Scroll reveal settles', 'Keyboard focus/navigation', 'Six widths with compact photo and 4/2/1 production flow', 'Reduced motion', 'No-JS content and navigation']}, null, 2));
   console.log('Home expertise passed: four stages, content/image/routes, scroll reveal, keyboard, six responsive widths, reduced motion and no-JS navigation.');
 } finally {
   await browser.close();

@@ -1,0 +1,73 @@
+/* The shared PARK Filtration template, with EPP content and interactions. */
+:root { --blue: #08639b; --navy: #0c2e43; --deep: #0c2e43; --ink: #152f3f; --muted: #63747e; --pale: #f2f6f8; --line: #dfe7eb; }
+body { background: #fff; font-size: 15px; }
+h2 { font-weight: 500; line-height: 1.22; }
+.section { padding: 40px 4%; max-width: 1440px; }
+.eyebrow { font-size: 12px; letter-spacing: 1.2px; }
+.button { min-height: 0; padding: 17px 24px; gap: 28px; border-radius: 0; background: var(--blue); color: #fff; font-size: 13px; font-weight: 600; box-shadow: none; }
+.button.light { background: #fff; color: var(--navy); }
+.button.small, .button.compact { min-height: 0; padding: 13px 19px; gap: 24px; border-radius: 0; }
+.button svg, .text-link svg { transition: transform .2s; }
+.text-link { font-size: 14px; line-height: 1.6; }
+.breadcrumb { font-size: 13px; }
+.page-hero { padding: 28px 4% 32px; background: #fff; border-bottom: 1px solid var(--line); }
+.page-hero h1 { max-width: 900px; font-size: clamp(34px, 4vw, 50px); line-height: 1.13; letter-spacing: -1.8px; font-weight: 500; }
+.page-hero > p:not(.eyebrow), .page-hero > div > p:not(.eyebrow) { max-width: 740px; font-size: 18px; line-height: 1.65; }
+.page-hero img, .detail-context img { border-radius: 0; }
+.article-body { max-width: 1120px; padding: 40px 4%; }
+.article-body section + section { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 24px; }
+.article-body h2 { font-size: 30px; }
+.article-body p, .article-body li { font-size: 16px; line-height: 1.75; }
+.article-note { border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 18px 0; background: transparent; font-size: 13px; }
+.cta { background: #f0f5f7; padding: 40px 4%; }
+.cta h2 { font-size: 37px; }
+.product-grid { gap: 16px; row-gap: 24px; }
+.product-image { border: 1px solid var(--line); border-radius: 12px; background: radial-gradient(ellipse at 50% 35%, #fff, #f0f5f7); }
+.product-copy h3 { font-size: 19px; line-height: 1.4; font-weight: 650; letter-spacing: -.4px; }
+.product-copy p { font-size: 16px; line-height: 1.75; }
+.product-card .card-bottom { font-size: 13px; }
+.filters { border-radius: 0; }
+.filters label > span { font-size: 15px; }
+.filters input, .filters select { border-radius: 3px; font-size: 15px; min-height: 44px; }
+.result-meta { font-size: 13px; }
+.detail-body { gap: 32px; }
+.detail-body p, .detail-body li { font-size: 16px; line-height: 1.75; }
+.detail-body aside { border-radius: 0; background: var(--pale); }
+.material-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.material-tags span { padding: 7px 11px; border: 1px solid var(--line); border-radius: 0; font-size: 13px; }
+.enquiry { min-width: 0; border: 1px solid var(--line); border-radius: 10px; background: #fff; padding: 22px; box-shadow: none; }
+.enquiry label { font-size: 15px; }
+.enquiry input:not([type=checkbox]), .enquiry textarea { min-height: 44px; padding: 12px; border: 1px solid var(--line); border-radius: 4px; background: #fff; font-size: 15px; }
+.enquiry .checkbox, .form-note { font-size: 13px; }
+.enquiry input[type=checkbox] { width: 18px; height: 18px; flex-shrink: 0; accent-color: var(--blue); }
+@media (min-width: 1024px) {
+  body { font-size: 16px; }
+  .section p, .section-heading > p { font-size: 16px; line-height: 1.75; }
+  main .button { font-size: 14px; }
+  .lead { font-size: 19px; line-height: 1.6; }
+}
+@media (max-width: 1050px) { .section { padding: 32px 4%; } }
+@media (max-width: 760px) {
+  .section { padding: 28px 16px; }
+  .eyebrow { font-size: 10px; }
+  .breadcrumb { font-size: 11px; }
+  .page-hero { padding: 28px 16px; }
+  .page-hero h1 { font-size: 36px; }
+  .page-hero > p:not(.eyebrow), .page-hero > div > p:not(.eyebrow) { font-size: 15px; }
+  .article-body { padding: 28px 16px; }
+  .article-body h2 { font-size: 27px; }
+  .article-body p, .article-body li { font-size: 14px; }
+  .cta { padding: 28px 16px; }
+  .cta h2 { font-size: 30px; }
+  .product-copy h3 { font-size: 15px; }
+  .product-copy p { font-size: 13px; }
+  .product-card .card-bottom { font-size: 11px; }
+  .filters label > span { font-size: 13px; }
+  .filters input, .filters select { font-size: 16px; }
+  .detail-body p, .detail-body li { font-size: 14px; }
+  .enquiry { padding: 18px; }
+  .enquiry input:not([type=checkbox]), .enquiry textarea { font-size: 16px; }
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .button:hover svg, .text-link:hover svg { transform: translateX(3px); }
+}

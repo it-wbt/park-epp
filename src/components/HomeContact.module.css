@@ -151,6 +151,22 @@
 .deliveryNote { display: flex; gap: 7px; align-items: flex-start; color: #81949e; font-size: 9px; line-height: 1.6; margin: 16px 0 0; }
 .deliveryNote svg { flex-shrink: 0; margin-top: 1px; }
 
+/* Match Filtration's current desktop reading scale. */
+@media (min-width: 1024px) {
+  .section { font-size: 16px; }
+  .introduction h2 { letter-spacing: -.4px; }
+  .introduction > p { font-size: 16px; line-height: 1.75; margin-bottom: 16px; }
+  .cardHeading p { font-size: 16px; line-height: 1.75; }
+  .card label, .card .control :is(input, select, textarea) { font-size: 15px; }
+  .topics { font-size: 15px; line-height: 1.65; }
+  .eyebrow, .kicker { font-size: 12px; letter-spacing: 1.2px; }
+  .card label small, .messageLabel > span:first-child small, .submitCaption { font-size: 13px; }
+  .messageMeta, .deliveryNote, .industryHint { font-size: 13px; line-height: 1.65; }
+  .submit { font-size: 14px; }
+  .submitRow { flex-wrap: wrap; }
+  .submitCaption { max-width: none; }
+}
+
 @media (min-width: 1600px) {
   .section { padding-inline: max(4%, calc((100vw - 1320px) / 2)); }
 }

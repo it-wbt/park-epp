@@ -1,7 +1,7 @@
-.section { max-width: 1440px; margin-inline: auto; padding: 34px 4%; color: #173746; }
+.section { max-width: 1440px; margin-inline: auto; padding: 40px 4%; background: #fff; color: #152f3f; }
 .layout { display: grid; grid-template-columns: .85fr 1.5fr 1fr; align-items: center; gap: clamp(24px, 3vw, 44px); border-block: 1px solid #d8e3e7; padding-block: 26px; }
-.eyebrow { margin: 0 0 10px; color: #08639b; font-size: 10px; font-weight: 600; letter-spacing: 1.7px; line-height: 1.6; }
-.heading h2 { margin: 0; font-size: clamp(27px, 2.25vw, 32px); font-weight: 500; line-height: 1.2; letter-spacing: -1px; }
+.eyebrow { margin: 0 0 14px; color: #08639b; font-size: 12px; font-weight: 700; letter-spacing: 1.2px; line-height: 1.6; }
+.heading h2 { margin: 0; font-size: clamp(30px, 3vw, 43px); font-weight: 500; line-height: 1.22; letter-spacing: -.4px; }
 .allResources, .readGuide { display: inline-flex; align-items: center; gap: 20px; min-height: 44px; color: #08639b; font-size: 14px; font-weight: 600; }
 .allResources { margin-top: 12px; }
 .allResources svg, .readGuide svg { width: 19px; height: 19px; }
@@ -15,18 +15,18 @@
 .guidePanel { grid-area: 1 / 1; }
 .guidePanel[hidden] { display: block; visibility: hidden; pointer-events: none; }
 .guidePanel h3 { max-width: 480px; font-size: 20px; font-weight: 500; line-height: 1.35; letter-spacing: -.4px; }
-.guidePanel > p { margin-top: 10px; color: #536b79; font-size: 14px; line-height: 1.65; }
+.guidePanel > p { margin: 10px 0 0; color: #63747e; font-size: 16px; line-height: 1.75; }
 .readGuide { margin-top: 8px; }
 .catalogue { min-width: 0; border-left: 1px solid #d8e3e7; padding-left: 24px; }
 .cataloguePreview { display: grid; grid-template-columns: 74px minmax(0, 1fr); align-items: center; gap: 16px; }
 .cover { display: block; aspect-ratio: 1050 / 1485; box-shadow: 3px 4px 0 #dce6ea, 0 6px 14px #15384a12; }
 .cover img { width: 100%; height: 100%; object-fit: contain; }
 .catalogueCopy { min-width: 0; }
-.category { display: block; margin-bottom: 7px; color: #536b79; font-size: 10px; font-weight: 600; line-height: 1.6; letter-spacing: .65px; }
+.category { display: block; margin-bottom: 7px; color: #63747e; font-size: 12px; font-weight: 600; line-height: 1.6; letter-spacing: 1.2px; }
 .catalogueTitle { display: block; font-size: 21px; font-weight: 500; line-height: 1.3; letter-spacing: -.5px; }
-.previewLabel { display: flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 5px; color: #08639b; font-size: 13px; font-weight: 600; }
+.previewLabel { display: flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 5px; color: #08639b; font-size: 14px; font-weight: 600; }
 .previewLabel svg { width: 18px; height: 18px; }
-.download { display: flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 18px; padding-top: 10px; border-top: 1px solid #d8e3e7; color: #08639b; font-size: 13px; font-weight: 600; }
+.download { display: flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 18px; padding-top: 10px; border-top: 1px solid #d8e3e7; color: #08639b; font-size: 14px; font-weight: 600; }
 .download > svg { width: 18px; height: 18px; }
 .fileType { margin-left: auto; color: #627680; font-size: 10px; letter-spacing: 1px; font-weight: 400; }
 .section a:focus-visible, .section button:focus-visible, .guidePanel:focus-visible { outline: 2px solid #0875b9; outline-offset: 5px; }
@@ -72,12 +72,22 @@
   .tabs { gap: 16px; }
   .tab { font-size: 13px; }
 }
+@media (max-width: 1050px) {
+  .section { padding: 32px 4%; }
+}
+@media (max-width: 1023px) {
+  .eyebrow { font-size: 10px; letter-spacing: 2.1px; }
+  .heading h2 { letter-spacing: -1.7px; }
+  .category { font-size: 10px; letter-spacing: .65px; }
+  .guidePanel > p { font-size: 14px; }
+  .previewLabel, .download { font-size: 13px; }
+}
 @media (max-width: 760px) {
-  .section { padding: 28px 20px; }
+  .section { padding: 28px 16px; }
   .layout { grid-template-columns: 1fr; gap: 22px; padding-block: 22px; }
   .heading { display: grid; grid-template-columns: 1fr auto; gap: 0 12px; align-items: center; }
-  .heading .eyebrow { grid-column: 1 / -1; font-size: 10px; letter-spacing: 1.4px; }
-  .heading h2 { font-size: 27px; }
+  .heading .eyebrow { grid-column: 1 / -1; font-size: 8px; letter-spacing: 1.6px; }
+  .heading h2 { font-size: 31px; }
   .allResources { margin: 0; gap: 8px; font-size: 12px; }
   .allResources svg { width: 16px; height: 16px; }
   .tabs { gap: 26px; }

@@ -1,17 +1,20 @@
-:global(.modern-home) .hero:global(.park-hero) { background: #0b202b; }
+:global(.modern-home) .hero:global(.park-hero) { display: flex; align-items: center; padding: 0; height: calc(100svh - var(--banner-header-height, 101px)); min-height: 480px; max-height: none; overflow: hidden; background: #092b40; }
 .backgroundVideo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
 :global(.modern-home) .hero .shade { pointer-events: none; background: linear-gradient(90deg, #071e2bef 0%, #071e2bd6 26%, #071e2b63 52%, #071e2b10 79%), linear-gradient(0deg, #071b28d9, transparent 28%); }
-:global(.modern-home) .hero .copy { max-width: 770px; margin: 0; padding: 36px 4% 120px; width: 53%; }
-:global(.modern-home) .hero h1 { font-size: clamp(43px, 4.1vw, 70px); line-height: 1.1; letter-spacing: -2px; margin-bottom: 24px; }
-:global(.modern-home) .hero .copy > p:not(:global(.eyebrow)) { max-width: 500px; font-size: clamp(14px, 1.06vw, 17px); line-height: 1.75; }
-:global(.modern-home) .hero :global(.eyebrow) { font-size: 8px; letter-spacing: 1.1px; margin-bottom: 25px; }
-:global(.modern-home) .hero :global(.hero-buttons) { flex-wrap: wrap; gap: 12px 24px; }
-:global(.modern-home) .hero :global(.button) { padding: 16px 22px; min-height: 50px; font-size: 13px; }
+:global(.modern-home) .hero .copy { display: block; width: 100%; height: auto; min-height: 0; max-width: 1600px; margin: 0 auto; padding: 44px 3% 110px; }
+:global(.modern-home) .hero h1 { max-width: 40%; font-size: clamp(40px, 3.8vw, 64px); font-weight: 500; line-height: 1.08; letter-spacing: -2px; margin-bottom: 24px; }
+:global(.modern-home) .hero h1 span { color: #fff; }
+:global(.modern-home) .hero .copy > p:not(:global(.eyebrow)) { max-width: 35%; font-size: 17px; line-height: 1.7; margin-bottom: 17px; }
+:global(.modern-home) .hero :global(.eyebrow) { max-width: 44%; padding: 0; border: 0; border-radius: 0; background: none; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 1.2px; margin-bottom: 28px; }
+:global(.modern-home) .hero :global(.eyebrow)::before { content: none; }
+:global(.modern-home) .hero :global(.hero-buttons) { display: flex; flex-direction: column; align-items: flex-start; max-width: 40%; margin-top: 28px; gap: 10px; }
+:global(.modern-home) .hero :global(.button) { padding: 15px 18px; min-height: 0; border-radius: 4px; background: #fff; color: #0c2e43; font-size: 14px; box-shadow: none; }
+:global(.modern-home) .hero :global(.park-white-link) { font-size: 14px; line-height: 1.6; }
 .visualLabel { position: absolute; right: 4%; bottom: 110px; padding: 5px 8px; border-radius: 4px; background: #071e2b80; color: #e0e9e9; font-size: 10px; line-height: 1.5; }
 .footer { position: absolute; left: 4%; right: 4%; bottom: 25px; display: flex; justify-content: space-between; align-items: center; gap: 18px; padding-top: 18px; border-top: 1px solid #ffffff3d; }
 .heroControls { display: flex; align-items: center; gap: 10px; }
 .discover { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 11px; letter-spacing: 1.1px; }
-.watch { display: inline-flex; align-items: center; justify-content: center; gap: 11px; min-height: 44px; padding: 10px 17px; border: 1px solid #ffffff65; border-radius: 999px; background: #102d3a70; color: #fff; font-size: 13px; font-weight: 500; }
+.watch { display: inline-flex; align-items: center; justify-content: center; gap: 11px; min-height: 44px; padding: 10px 17px; border: 1px solid #ffffff65; border-radius: 4px; background: #102d3a70; color: #fff; font-size: 13px; font-weight: 500; }
 .watch svg { width: 17px; height: 17px; }
 .watch:focus-visible, .discover:focus-visible { outline: 2px solid #d7f58a; outline-offset: 5px; }
 
@@ -45,28 +48,33 @@
   .timeline button:hover .line { background: #769c7d; }
 }
 @media (min-width: 761px) and (max-height: 700px) {
-  :global(.modern-home) .hero .copy { padding-top: 18px; padding-bottom: 90px; }
-  :global(.modern-home) .hero h1 { font-size: clamp(34px, 3.4vw, 46px); margin-bottom: 16px; }
-  :global(.modern-home) .hero :global(.eyebrow) { margin-bottom: 16px; }
+  :global(.modern-home) .hero:global(.park-hero) { min-height: 420px; }
+  :global(.modern-home) .hero .copy { padding-top: 14px; padding-bottom: 84px; }
+  :global(.modern-home) .hero h1 { font-size: clamp(38px, 3.4vw, 44px); margin-bottom: 16px; }
+  :global(.modern-home) .hero :global(.eyebrow) { font-size: 10px; margin-bottom: 14px; }
+  :global(.modern-home) .hero .copy > p:not(:global(.eyebrow)) { max-width: 48%; font-size: 14px; line-height: 1.6; margin-bottom: 14px; }
   :global(.modern-home) .hero :global(.button) { padding: 12px 18px; min-height: 44px; }
+  :global(.modern-home) .hero :global(.hero-buttons) { flex-direction: row; flex-wrap: wrap; align-items: center; max-width: 65%; margin-top: 16px; gap: 12px 20px; }
   .footer { bottom: 16px; padding-top: 12px; }
   .visualLabel { bottom: 89px; }
 }
 @media (max-width: 1050px) and (min-width: 761px) {
-  :global(.modern-home) .hero .copy { width: 60%; }
-  :global(.modern-home) .hero :global(.eyebrow) { font-size: 7px; letter-spacing: .6px; padding: 8px; }
+  :global(.modern-home) .hero :global(.eyebrow) { max-width: 48%; }
+}
+@media (max-width: 1050px) and (min-width: 761px) and (min-height: 701px) {
+  :global(.modern-home) .hero .copy > p:not(:global(.eyebrow)) { max-width: 42%; font-size: 15px; }
 }
 @media (max-width: 760px) {
-  :global(.modern-home) .hero:global(.park-hero) { height: auto; min-height: min(680px, calc(100svh - var(--banner-header-height, 92px))); }
+  :global(.modern-home) .hero:global(.park-hero) { height: auto; min-height: max(680px, calc(100svh - var(--banner-header-height, 89px))); }
   :global(.modern-home) .hero > .backgroundVideo { object-position: 68% center; }
   :global(.modern-home) .hero .shade { background: linear-gradient(90deg, #071e2be8, #071e2b83 70%), linear-gradient(0deg, #071e2bf2, transparent 55%); }
-  :global(.modern-home) .hero .copy { width: 100%; max-width: 590px; height: auto; min-height: min(680px, calc(100svh - var(--banner-header-height, 92px))); padding: 36px 20px 160px; }
-  :global(.modern-home) .hero h1 { font-size: clamp(38px, 9.3vw, 56px); line-height: 1.1; letter-spacing: -1.4px; margin-bottom: 20px; }
-  :global(.modern-home) .hero :global(.eyebrow) { font-size: 7px; letter-spacing: .65px; padding: 8px 9px; margin-bottom: 23px; }
-  :global(.modern-home) .hero .copy > p:not(:global(.eyebrow)) { max-width: 450px; font-size: 14px; line-height: 1.7; }
-  :global(.modern-home) .hero :global(.hero-buttons) { gap: 10px 20px; margin-top: 23px; }
-  :global(.modern-home) .hero :global(.button) { padding: 13px 18px; min-height: 46px; font-size: 12px; }
-  :global(.modern-home) .hero :global(.park-white-link) { font-size: 12px; min-height: 44px; display: inline-flex; align-items: center; }
+  :global(.modern-home) .hero .copy { width: 100%; max-width: 590px; height: auto; min-height: 0; padding: 32px 22px 170px; }
+  :global(.modern-home) .hero h1 { max-width: none; font-size: 40px; line-height: 1.08; letter-spacing: -1.2px; margin-bottom: 24px; }
+  :global(.modern-home) .hero :global(.eyebrow) { max-width: 100%; font-size: 12px; letter-spacing: 1.2px; padding: 0; margin-bottom: 28px; }
+  :global(.modern-home) .hero .copy > p:not(:global(.eyebrow)) { max-width: none; font-size: 17px; line-height: 1.65; }
+  :global(.modern-home) .hero :global(.hero-buttons) { max-width: 100%; gap: 10px; margin-top: 28px; }
+  :global(.modern-home) .hero :global(.button) { padding: 15px 18px; min-height: 0; font-size: 14px; }
+  :global(.modern-home) .hero :global(.park-white-link) { font-size: 14px; min-height: 44px; display: inline-flex; align-items: center; }
   .footer { left: 20px; right: 20px; bottom: 18px; padding-top: 14px; gap: 10px; align-items: center; flex-wrap: wrap; }
   .heroControls { gap: 8px; flex-wrap: wrap; }
   .discover { font-size: 9px; letter-spacing: .4px; }
@@ -88,8 +96,6 @@
 }
 @media (max-width: 380px) {
   :global(.modern-home) .hero .copy { padding-bottom: 185px; }
-  :global(.modern-home) .hero :global(.eyebrow) { font-size: 6px; letter-spacing: .35px; }
-  :global(.modern-home) .hero h1 { font-size: 37px; }
   .footer { justify-content: flex-start; gap: 2px; }
   .visualLabel { bottom: 134px; }
   .heroControls { gap: 6px; }

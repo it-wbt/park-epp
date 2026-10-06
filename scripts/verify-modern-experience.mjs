@@ -27,17 +27,18 @@ async function toggleFirstDetail(scope, label) {
 }
 
 async function checkIndustryMenu(page, mobile = false) {
-  if (mobile) await page.getByRole('button', {name: 'Toggle navigation'}).click();
+  if (mobile) await page.getByRole('button', {name: 'Open menu', exact: true}).click();
   const trigger = page.getByRole('button', {name: 'Industries', exact: true});
   if (mobile) await trigger.click();
   else await trigger.hover();
-  const menu = page.locator('#park-mega');
+  const menu = page.locator('#park-mega-industries');
   await expect(menu).toBeVisible();
   const options = menu.locator('.mega-category');
   assert.deepEqual(await options.locator('> span:nth-child(2)').allTextContents(), industryNames);
   for (let index = 0; index < industryNames.length; index++) {
     await options.nth(index).click();
-    await expect(options.nth(index)).toHaveAttribute('aria-pressed', 'true');
+    await expect(options.nth(index)).toHaveAttribute('aria-selected', 'true');
+    await expect(menu.getByRole('tabpanel')).toHaveAttribute('aria-labelledby', `park-industries-category-${index}`);
     const previews = menu.locator('.product-menu-link');
     await expect(previews.first()).toBeVisible();
     const count = await previews.count();
@@ -47,8 +48,40 @@ async function checkIndustryMenu(page, mobile = false) {
   }
   const bounds = await menu.boundingBox();
   assert.ok(bounds && bounds.x >= 0 && bounds.x + bounds.width <= page.viewportSize().width + 1, 'Menu stays within viewport');
+  await options.first().focus();
+  await page.keyboard.press('End');
+  await expect(options.last()).toBeFocused();
+  await expect(options.last()).toHaveAttribute('aria-selected', 'true');
+  await page.keyboard.press('Home');
+  await expect(options.first()).toHaveAttribute('aria-selected', 'true');
+  await page.keyboard.press('ArrowDown');
+  await expect(options.nth(1)).toBeFocused();
+  await expect(options.nth(1)).toHaveAttribute('aria-selected', 'true');
   await page.keyboard.press('Escape');
   await expect(menu).toHaveCount(0);
+  await expect(mobile ? page.getByRole('button', {name: 'Open menu', exact: true}) : trigger).toBeFocused();
+}
+
+async function checkHeaderTemplate(page) {
+  const header = page.locator('header.park-header');
+  await expect(header.locator('.park-brand > span')).toHaveCount(0);
+  assert.deepEqual((await header.locator('.park-nav > a').allTextContents()).map(text => text.trim()), ['About us', 'Our technology', 'Let’s talk']);
+  assert.equal(await header.locator('.park-brand').evaluate(el => el.getBoundingClientRect().width), 260);
+  const navigationStyle = await header.locator('.nav-trigger').first().evaluate(el => ({fontSize: getComputedStyle(el).fontSize, fontWeight: getComputedStyle(el).fontWeight}));
+  assert.deepEqual(navigationStyle, {fontSize: '16px', fontWeight: '650'});
+  assert.equal(await header.locator('.park-contact-button').evaluate(el => getComputedStyle(el).borderRadius), '0px');
+  await expect(page.locator('.park-topbar')).toContainText('Advanced materials. Meaningful possibilities.');
+  const productsTrigger = header.getByRole('button', {name: 'Our products', exact: true});
+  await productsTrigger.click();
+  const productMenu = header.locator('#park-mega-products');
+  await expect(productMenu.locator('.product-menu-link')).toHaveCount(5);
+  await expect(productMenu.locator('.product-menu-preview h3')).toHaveText('Custom HVAC components');
+  await productMenu.getByRole('button', {name: 'Search catalogue', exact: true}).click();
+  await header.getByRole('searchbox', {name: 'Search products', exact: true}).fill('HVAC');
+  await expect(header.locator('.search-results a').first()).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(header.locator('.park-search-panel')).toHaveCount(0);
+  await expect(productsTrigger).toBeFocused();
 }
 
 try {
@@ -58,6 +91,7 @@ try {
   await page.goto(origin);
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(850);
+  await checkHeaderTemplate(page);
   assert.equal(await page.locator('.modern-home').count(), 1);
   assert.equal(await page.locator('.modern-home .filters').count(), 0);
   assert.equal(await page.locator('.modern-home > section').count(), 7, 'Homepage keeps the seven-section journey');
@@ -73,14 +107,26 @@ try {
   assert.equal((await catalogueResponse.body()).subarray(0, 5).toString(), '%PDF-', 'The catalogue response is a PDF');
 
   const industries = page.locator('section[aria-labelledby="industry-heading"]');
+  const industryChoices = industries.getByRole('navigation', {name: 'Choose an industry'}).getByRole('link');
   assert.equal(await industries.locator('select, button').count(), 0);
-  assert.deepEqual(await industries.locator('h3').allTextContents(), industryNames);
-  assert.deepEqual(await industries.locator('a').evaluateAll(links => links.map(link => link.getAttribute('href'))), industryPaths);
+  assert.deepEqual(await industryChoices.locator('> span:nth-child(2)').allTextContents(), industryNames);
+  assert.deepEqual(await industryChoices.evaluateAll(links => links.map(link => link.getAttribute('href'))), industryPaths);
+  for (let index = 0; index < industryNames.length; index++) {
+    await industryChoices.nth(index).focus();
+    await expect(industryChoices.nth(index)).toHaveAttribute('aria-current', 'true');
+    await expect(industries.locator('h3')).toHaveText(industryNames[index]);
+    await expect(industries.getByRole('link', {name: 'Explore industry', exact: true})).toHaveAttribute('href', industryPaths[index]);
+  }
   for (const width of [1920, 1440, 1024, 768, 390, 320]) {
     await page.setViewportSize({width, height: 900});
     await noOverflow(page, `${width}px home`);
-    const columns = await industries.locator('a').evaluateAll(links => new Set(links.map(link => Math.round(link.getBoundingClientRect().left))).size);
-    assert.equal(columns, width > 1100 ? 4 : width > 560 ? 2 : 1, `Industry columns at ${width}px`);
+    for (let index = 0; index < industryNames.length; index++) {
+      await industryChoices.nth(index).click();
+      await expect(industries.locator('h3')).toHaveText(industryNames[index]);
+      await expect(industries.getByRole('img')).toHaveCount(1);
+      await expect(industries.getByRole('link', {name: 'Explore industry', exact: true})).toHaveAttribute('href', industryPaths[index]);
+    }
+    await noOverflow(page, `${width}px selected industry`);
   }
 
   await page.setViewportSize({width: 1440, height: 1000});
@@ -96,7 +142,7 @@ try {
   await applications.screenshot({path: 'artifacts/modern-applications.png'});
 
   assert.ok(await industries.evaluate(el => parseFloat(getComputedStyle(el).paddingLeft) >= 16));
-  assert.ok((await industries.boundingBox()).height <= 600, 'Four-industry section remains compact on desktop');
+  assert.ok((await industries.boundingBox()).height <= 720, 'Industry chooser and preview fit within a desktop screen');
   await industries.scrollIntoViewIfNeeded();
   await page.waitForTimeout(850);
   assert.ok(await industries.locator('img').evaluateAll(images => images.every(image => image.complete && image.naturalWidth > 0)), 'All four industry images load');
@@ -145,6 +191,12 @@ try {
   const noScript = await browser.newContext({javaScriptEnabled: false, viewport: {width: 390, height: 844}});
   const staticPage = await noScript.newPage();
   await staticPage.goto(origin);
+  const staticIndustryChoices = staticPage.getByRole('navigation', {name: 'Choose an industry'}).getByRole('link');
+  assert.deepEqual(await staticIndustryChoices.evaluateAll(links => links.map(link => link.getAttribute('href'))), industryPaths);
+  await staticIndustryChoices.last().click();
+  await staticPage.waitForURL(`**${industryPaths[3]}`);
+  await expect(staticPage.locator('main h1')).toBeVisible();
+  await staticPage.goto(origin);
   const heading = staticPage.getByRole('heading', {name: 'Made to protect. Shaped to perform.'});
   assert.ok(await heading.isVisible());
   assert.equal(await heading.evaluate(el => getComputedStyle(el).opacity), '1');
@@ -155,7 +207,7 @@ try {
   await toggleFirstDetail(staticPage.locator('#epp-faq'), 'No-JS EPP guide FAQ');
   await noOverflow(staticPage, 'No-JS mobile EPP guide');
   await noScript.close();
-  console.log('Modern experience passed: compact seven-section home and PDF download, six viewports, four visible industries, desktop/mobile industry menus, reduced motion, EPP guide and native FAQs, four-market catalogue with childhood products, and no-JS guide navigation and application disclosures.');
+  console.log('Modern experience passed: seven-section home and PDF download, six viewports, four-industry chooser and matching previews, desktop/mobile industry menus, reduced motion, EPP guide and native FAQs, four-market catalogue with childhood products, and no-JS industry/guide navigation and application disclosures.');
 } finally {
   await browser.close();
 }

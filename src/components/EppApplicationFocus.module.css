@@ -1,32 +1,32 @@
-.section { background: #f2f6f6; color: #173b4b; scroll-margin-top: 108px; }
-.layout { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.5fr); gap: clamp(28px, 5vw, 72px); max-width: 1440px; margin-inline: auto; padding: 36px 4%; }
+.section { background: #f2f6f8; color: #152f3f; scroll-margin-top: 108px; }
+.layout { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.5fr); gap: clamp(28px, 5vw, 72px); max-width: 1320px; margin-inline: auto; padding: 40px 0;  width: 88%;}
 .heading { padding-top: 3px; }
-.eyebrow { margin: 0 0 13px; color: #08649a; font-size: 10px; font-weight: 600; line-height: 1.5; letter-spacing: 1.7px; }
-.heading h2 { max-width: 350px; margin: 0; font-size: clamp(28px, 2.4vw, 34px); font-weight: 500; letter-spacing: -1.05px; line-height: 1.18; }
-.intro { max-width: 300px; margin: 14px 0 0; color: #526879; font-size: 14px; line-height: 1.65; }
+.eyebrow { margin: 0 0 13px; color: #08639b; font-size: 12px; font-weight: 600; line-height: 1.5; letter-spacing: 1.2px; }
+.heading h2 { max-width: 350px; margin: 0; font-size: clamp(32px, 2.9vw, 43px); font-weight: 600; letter-spacing: -.7px; line-height: 1.18; }
+.intro { max-width: 300px; margin: 14px 0 0; color: #63747e; font-size: 16px; line-height: 1.75; }
 .applications { min-width: 0; border-top: 1px solid #c8d7db; }
 .application { border-bottom: 1px solid #c8d7db; }
 .application summary { display: flex; align-items: center; gap: 14px; min-height: 56px; padding: 13px 2px; list-style: none; cursor: pointer; }
 .application summary::-webkit-details-marker { display: none; }
 .number { flex-shrink: 0; color: #6d818b; font-size: 11px; font-variant-numeric: tabular-nums; }
-.application h3 { flex: 1; min-width: 0; margin: 0; color: #173b4b; font-size: 20px; font-weight: 500; letter-spacing: -.55px; line-height: 1.35; transition: color .2s; }
-.indicator { position: relative; flex-shrink: 0; width: 22px; height: 22px; color: #08649a; }
+.application h3 { flex: 1; min-width: 0; margin: 0; color: #152f3f; font-size: 21px; font-weight: 600; letter-spacing: -.4px; line-height: 1.35; transition: color .2s; }
+.indicator { position: relative; flex-shrink: 0; width: 22px; height: 22px; color: #08639b; }
 .indicator::before, .indicator::after { content: ''; position: absolute; background: currentColor; }
 .indicator::before { top: 10px; left: 4px; width: 14px; height: 1px; }
 .indicator::after { top: 4px; left: 10px; width: 1px; height: 14px; transition: transform .22s; }
 .application[open] .indicator::after { transform: scaleY(0); }
-.application[open] h3 { color: #08649a; }
-.body { padding: 0 4px 8px 30px; color: #526879; font-size: 14px; line-height: 1.6; }
+.application[open] h3 { color: #08639b; }
+.body { padding: 0 4px 8px 30px; color: #63747e; font-size: 16px; line-height: 1.75; }
 .comparison { margin: 0; font-size: inherit; line-height: 1.6; }
-.comparison strong { display: block; margin-bottom: 3px; color: #173b4b; font-size: 11px; font-weight: 600; letter-spacing: .3px; }
+.comparison strong { display: block; margin-bottom: 3px; color: #152f3f; font-size: 12px; font-weight: 600; letter-spacing: .3px; }
 .body ul { display: grid; gap: 3px; margin: 9px 0 2px; padding-left: 17px; }
 .body li { padding-left: 2px; }
 .body li::marker { color: #7896a2; }
-.link { display: inline-flex; align-items: center; gap: 19px; min-height: 44px; color: #08649a; font-size: 13px; font-weight: 600; }
+.link { display: inline-flex; align-items: center; gap: 19px; min-height: 44px; color: #08639b; font-size: 14px; font-weight: 600; }
 .link svg { flex-shrink: 0; width: 20px; height: 20px; transition: transform .2s; }
 .application summary:focus-visible, .link:focus-visible { outline: 2px solid #0875b9; outline-offset: 4px; }
 @media (hover: hover) and (pointer: fine) {
-  .application summary:hover h3 { color: #08649a; }
+  .application summary:hover h3 { color: #08639b; }
   .link:hover { text-decoration: underline; text-underline-offset: 4px; }
   .link:hover svg { transform: translateX(4px); }
 }
@@ -35,14 +35,14 @@
   @keyframes openCopy { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 }
 @media (max-width: 760px) {
-  .layout { grid-template-columns: 1fr; gap: 24px; padding: 28px 20px; }
+  .layout { width: calc(100% - 40px); grid-template-columns: 1fr; gap: 24px; padding: 28px 0; }
   .heading { padding-top: 0; }
   .heading h2 { max-width: 340px; font-size: 29px; }
-  .eyebrow { margin-bottom: 10px; font-size: 9px; letter-spacing: 1.4px; }
-  .intro { max-width: 340px; margin-top: 10px; }
+  .eyebrow { margin-bottom: 10px; font-size: 11px; letter-spacing: 1.2px; }
+  .intro { max-width: 340px; margin-top: 10px; font-size: 14px; }
   .application summary { min-height: 56px; gap: 12px; }
   .application h3 { font-size: 19px; }
-  .body { padding-left: 0; }
+  .body { padding-left: 0; font-size: 14px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .application h3, .indicator::after, .link svg { transition: none; }
