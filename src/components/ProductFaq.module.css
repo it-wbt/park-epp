@@ -1,0 +1,59 @@
+.section { padding-block: 56px; background: #f2f6f4; border-block: 1px solid #e0e8e4; color: #173a49; }
+.layout { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.4fr); align-items: start; gap: clamp(40px, 6vw, 96px); width: 88%; max-width: 1320px; margin-inline: auto; }
+.eyebrow { margin: 0 0 20px; color: #08639b; font-size: 11px; font-weight: 650; line-height: 1.5; letter-spacing: 1.8px; }
+.intro h2 { margin: 0; font-size: clamp(30px, 2.8vw, 40px); font-weight: 500; line-height: 1.16; letter-spacing: -1.4px; }
+.intro h2 span { color: #55746a; }
+.description { max-width: 310px; margin-top: 20px; color: #586e77; font-size: 15px; line-height: 1.75; text-wrap: pretty; }
+.contact { display: inline-flex; align-items: center; gap: 20px; min-height: 44px; margin-top: 24px; border-bottom: 1px solid #a9bdb5; color: #08639b; font-size: 14px; font-weight: 600; }
+.contact svg { width: 20px; height: 20px; transition: transform .2s ease; }
+.label { margin: 0 0 16px; color: #5e756b; font-size: 10px; line-height: 1.65; letter-spacing: 1.4px; font-weight: 600; }
+.item { border-top: 1px solid #cbdad3; }
+.item:last-child { border-bottom: 1px solid #cbdad3; }
+.question { display: grid; grid-template-columns: 24px minmax(0, 1fr) 34px; align-items: center; gap: 17px; min-height: 76px; padding-block: 17px; list-style: none; cursor: pointer; }
+.question::-webkit-details-marker { display: none; }
+.question::marker { content: ''; }
+.number { color: #718679; font-size: 11px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.questionText { font-size: 17px; font-weight: 500; line-height: 1.5; transition: color .2s ease; }
+.toggle { position: relative; width: 34px; height: 34px; border: 1px solid #ccdad3; border-radius: 50%; background: #ffffff8c; transition: background .2s ease, border-color .2s ease; }
+.toggle::before, .toggle::after { content: ''; position: absolute; top: 50%; left: 50%; width: 12px; height: 1.5px; background: #08639b; transform: translate(-50%, -50%); transition: transform .2s ease, opacity .2s ease; }
+.toggle::after { transform: translate(-50%, -50%) rotate(90deg); }
+.item[open] .toggle { border-color: #173a49; background: #173a49; }
+.item[open] .toggle::before, .item[open] .toggle::after { background: #e4f2d0; }
+.item[open] .toggle::after { transform: translate(-50%, -50%) rotate(0deg); opacity: 0; }
+.item[open] .questionText { color: #08639b; }
+.answer { padding: 0 51px 24px 41px; }
+.answer p { margin: 0; color: #586e77; font-size: 15px; line-height: 1.8; max-width: 64ch; }
+.item[open] .answer { animation: appear .22s ease-out; }
+.question:focus-visible, .contact:focus-visible { outline: 2px solid #08639b; outline-offset: 5px; border-radius: 3px; }
+@keyframes appear { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+@media (hover: hover) and (pointer: fine) {
+  .question:hover .questionText { color: #08639b; }
+  .question:hover .toggle { border-color: #08639b; }
+  .contact:hover svg { transform: translateX(4px); }
+}
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; gap: 32px; width: 88%; }
+  .intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 36px; align-items: start; }
+  .eyebrow { grid-column: 1 / -1; margin-bottom: 16px; }
+  .intro h2 { grid-row: span 2; font-size: 34px; }
+  .description { margin-top: 0; }
+  .contact { justify-self: start; margin-top: 12px; }
+}
+@media (max-width: 600px) {
+  .section { padding-block: 34px; }
+  .layout { width: calc(100% - 40px); gap: 30px; }
+  .intro { display: block; }
+  .intro h2 { font-size: 32px; letter-spacing: -1px; }
+  .description { margin-top: 16px; max-width: 100%; }
+  .contact { margin-top: 12px; }
+  .label { font-size: 9px; letter-spacing: 1.15px; margin-bottom: 12px; }
+  .question { grid-template-columns: 19px minmax(0, 1fr) 30px; gap: 10px; min-height: 74px; padding-block: 16px; }
+  .questionText { font-size: 16px; line-height: 1.5; }
+  .toggle { width: 30px; height: 30px; }
+  .answer { padding: 0 12px 22px 29px; }
+  .answer p { font-size: 14px; line-height: 1.8; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .section *, .section *::before, .section *::after { transition: none; animation: none; }
+  .contact:hover svg { transform: none; }
+}
