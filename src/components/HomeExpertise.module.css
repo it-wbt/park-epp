@@ -14,7 +14,6 @@
 .factory figcaption { position: absolute; z-index: 1; left: 28px; right: 28px; bottom: 25px; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; }
 .factory figcaption span { display: block; margin-bottom: 10px; font-size: 9px; line-height: 1.5; letter-spacing: 1.8px; color: #e5f5cc; }
 .factory figcaption p { font-family: Manrope, Arial, sans-serif; font-size: 23px; line-height: 1.25; letter-spacing: -.6px; color: #fff; }
-.factory figcaption small { color: #d4e1e5; font-size: 9px; line-height: 1.5; white-space: nowrap; }
 .journey { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 30px 0 0; padding: 0; list-style: none; }
 .stage { position: relative; min-width: 0; border-top: 1px solid #597381; }
 .stage::before { content: ''; position: absolute; left: 0; top: -4px; width: 7px; height: 7px; background: #b8d1cc; border-radius: 50%; pointer-events: none; }
@@ -56,7 +55,6 @@
   .factory figcaption { left: 18px; right: 18px; bottom: 16px; display: block; }
   .factory figcaption p { font-size: 20px; max-width: 280px; }
   .factory figcaption span { font-size: 8px; margin-bottom: 8px; letter-spacing: 1.3px; }
-  .factory figcaption small { display: block; margin-top: 10px; font-size: 8px; }
   .journey { margin-top: 24px; gap: 24px; }
 }
 @media (max-width: 600px) {

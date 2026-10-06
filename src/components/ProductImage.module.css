@@ -1,3 +1,2 @@
 .factory { background: transparent; }
 .factory > img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
-.factory > span { padding: 12px 0; font-size: 11px; line-height: 1.5; color: #63747e; border-bottom: 1px solid #dbe5e9; }

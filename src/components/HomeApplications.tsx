@@ -70,7 +70,6 @@ export default function HomeApplications() {
             </div>
           ))}
           <div className={styles.visualTop} aria-hidden="true"><span><Icon kind={applications[selected].icon}/> EPP IN PRACTICE</span><span>0{selected + 1} <i>/</i> 03</span></div>
-          <figcaption className={styles.caption}>AI-generated factory illustration</figcaption>
           <div className={styles.markers} aria-hidden="true">{applications.map((application, index) => <span key={application.title} data-active={selected === index}/>)}</div>
         </figure>
 

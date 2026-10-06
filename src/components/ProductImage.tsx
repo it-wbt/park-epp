@@ -3,8 +3,9 @@ import {factoryVisualFor} from '../lib/factory-media';
 import styles from './ProductImage.module.css';
 
 export default function ProductImage({product}: {product: Product}) {
-  return <div className={`detail-image ${factoryVisualFor(product) ? styles.factory : ''}`}>
+  const isFactory = Boolean(factoryVisualFor(product));
+  return <div className={`detail-image ${isFactory ? styles.factory : ''}`}>
     <img src={productVisual(product)} alt={productVisualAlt(product)} width="1440" height="960" fetchPriority="high"/>
-    <span>{productVisualCaption(product)}</span>
+    {!isFactory && <span>{productVisualCaption(product)}</span>}
   </div>;
 }

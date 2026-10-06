@@ -24,7 +24,6 @@ export default function HomeExpertise() {
         <img src="/images/generated/factory-foam-finishing.webp" alt="AI factory illustration of shaped foam components at a finishing and inspection workstation" width={1440} height={960} loading="lazy"/>
         <figcaption>
           <div><span>PRECISION MEETS POSSIBILITY</span><p>More than a material. Part of your design.</p></div>
-          <small>AI-generated factory illustration</small>
         </figcaption>
       </figure>
 
