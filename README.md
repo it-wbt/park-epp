@@ -1,6 +1,6 @@
-# Parknonwoven EPP
+# park-epp
 
-Next.js industrial website using the owner's PARK filtration visual system: forest-film hero, PARK logo, blue/navy/green palette and three-column nested mega menus. Industry and product-family coverage was researched from Knauf Industries; all editorial copy and generated visuals are original. The website uses the Parknonwoven EPP name supplied by the owner.
+Parknonwoven EPP is a Next.js industrial website using the owner's PARK filtration visual system, with an EPP manufacturing film, responsive navigation and the tagline "Future of light weight". The current site focuses on four industries: Sports, Leisure & Early Childhood, Logistics & Material Handling, HVAC and Automotive. It includes 47 active product families, an EPP material guide, an illustrated material explainer and a downloadable catalogue. Earlier research and asset-generation notes are retained below.
 
 ## Run
 

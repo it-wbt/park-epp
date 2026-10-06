@@ -1,0 +1,589 @@
+[
+  {
+    "slug": "custom-plastic-parts",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/manufacturer-of-custom-plastic-parts/",
+    "sections": [
+      {
+        "heading": "Define the function",
+        "text": "Record the product interfaces, loading, operating environment and intended lifetime. Packaging, a structural insert and an enclosure require different evidence even when they share a polymer family."
+      },
+      {
+        "heading": "Compare manufacturing routes",
+        "text": "Bead foams suit shaped cushioning and insulation. Injection supports rigid features and repeatable assembly details. Thermoforming converts sheet into trays and protective formats. Select the route alongside geometry and expected quantities."
+      },
+      {
+        "heading": "Prepare the project brief",
+        "text": "Bring drawings, the current design, target volumes and acceptance criteria. Include part handling, assembly, inspection and end-of-life arrangements so the component can be evaluated as part of its operating system."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "foam-moulding",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/foam-molding/",
+    "sections": [
+      {
+        "heading": "From particles to a part",
+        "text": "A mould receives the prepared beads and heat joins them into the required geometry. Cooling and stabilisation prepare the part for release, finishing and assembly; preparation differs by material and grade."
+      },
+      {
+        "heading": "Integrate the useful details",
+        "text": "Review ribs, wall thickness, inserts, joining surfaces and areas exposed to compression. Tooling texture and surface treatment can affect the part experience alongside its dimensional and mechanical behaviour."
+      },
+      {
+        "heading": "Validate the finished shape",
+        "text": "Select density around actual loads and interfaces. Test representative moulded parts for the required thermal, dimensional and impact behaviour instead of treating raw-material properties as the complete product specification."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "injection-moulding",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/plastic-injection-molding/",
+    "sections": [
+      {
+        "heading": "Design for the tool",
+        "text": "Discuss draft, ribs, gates, wall transitions and parting lines before fixing the drawing. These details influence filling, shrinkage, ejection and the final appearance."
+      },
+      {
+        "heading": "Select the resin for use",
+        "text": "The reference discusses PP and PS. The precise grade must match temperature exposure, impact requirements and any food-contact or cleaning requirements, rather than relying on a polymer abbreviation alone."
+      },
+      {
+        "heading": "Plan decoration and assembly",
+        "text": "In-mould labelling can integrate decoration during production. Label compatibility, artwork, assembly features and inspection should form part of the specification; availability needs a project review."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "extrusion-thermoforming",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/plastic-thermoforming/",
+    "sections": [
+      {
+        "heading": "Understand the route",
+        "text": "The sheet is positioned and softened, then formed using vacuum, pressure or mechanical assistance. It cools before trimming and finishing. Extrusion provides the sheet that feeds the forming process."
+      },
+      {
+        "heading": "Work from the packing line",
+        "text": "Bring cavity depth, flange dimensions, stack handling, filling temperature and lidding details into the design review. Trial the format with representative product and equipment."
+      },
+      {
+        "heading": "Match material and format",
+        "text": "PP, PET and suitable recycled-content alternatives are referenced. Confirm the chosen grade, draw behaviour and food-contact documentation, and review absorbent pads separately where exudate management is needed."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "cellular-foam-cutting",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/",
+    "sections": [
+      {
+        "heading": "Capture the product geometry",
+        "text": "Work from a drawing or representative product and identify bearing surfaces, fragile features and clearances. Include accessories and the way operators pack and unpack the assembly."
+      },
+      {
+        "heading": "Choose the protection layout",
+        "text": "Separate location features from cushioning zones. Sheet or block format, joining, contact finish and reusable assembly requirements determine how the insert is organised."
+      },
+      {
+        "heading": "Check real handling",
+        "text": "A fitted cavity alone does not prove protection. Evaluate representative loads, compression, vibration and drop conditions for the complete package and product."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "co-development",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/co-development/",
+    "sections": [
+      {
+        "heading": "Agree the specification",
+        "text": "Document technical and economic constraints, known problems and the most useful improvement. Rank the criteria before choosing a concept or committing to tooling."
+      },
+      {
+        "heading": "Iterate with evidence",
+        "text": "Use design models, suitable simulation, representative prototypes and targeted tests. Each iteration should answer a defined question and record why a material or geometry changed."
+      },
+      {
+        "heading": "Prepare production and follow-up",
+        "text": "Review initial samples, inspection and assembly alongside the production plan. Maintain change control and compare actual operating results with the assumptions made during development."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "research-development",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/idlab-our-research-development-center/",
+    "sections": [
+      {
+        "heading": "Choose a focused question",
+        "text": "Examples include replacing a heavier part, selecting a specialty foam, improving recovery or testing an alternative feedstock. Define how the result will be judged and which application conditions must be represented."
+      },
+      {
+        "heading": "Combine physical and digital tools",
+        "text": "Simulation, dimensional scanning and suitable prototypes can compare concepts efficiently. Material data and the prototype method should match the behaviour under investigation."
+      },
+      {
+        "heading": "Assess environmental options",
+        "text": "Traceability, actual material consumption, reuse assumptions and recovery routes provide the basis for a useful comparison. Environmental calculations require a stated boundary and reliable inputs."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "numerical-simulation",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/numerical-simulation/",
+    "sections": [
+      {
+        "heading": "Create a relevant model",
+        "text": "Capture contacts, constraints and expected loading. Use material data that represent the selected grade and manufacturing route, and document important simplifications."
+      },
+      {
+        "heading": "Compare design options",
+        "text": "Study geometry, thickness, reinforcement and material distribution against the same requirements. Evaluate deformation and stresses to identify a promising balance between performance and material use."
+      },
+      {
+        "heading": "Correlate with tests",
+        "text": "Use prototype measurements to assess the assumptions in the model. Simulation supports tooling and design decisions while representative tests establish the behaviour of the finished application."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "testing-validation",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/our-test-laboratory-services/",
+    "sections": [
+      {
+        "heading": "Choose the right prototype",
+        "text": "A geometric print can assess fit and assembly, while machining in the intended material or moulded samples may be needed for functional behaviour. Match the method to the question."
+      },
+      {
+        "heading": "Measure what controls performance",
+        "text": "Relevant checks can include dimensions, ageing, impact, deformation and thermal response. Record the complete test setup so that later versions can be compared."
+      },
+      {
+        "heading": "Feed the result into design",
+        "text": "Use findings to review wall thickness, geometry, material and tolerances. Keep component tests distinct from system approvals, and agree whether additional verification is needed before production."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "industrialisation",
+    "section": "expertise",
+    "source": "https://www.knauf-industries.com/industrialization-of-plastic-parts/",
+    "sections": [
+      {
+        "heading": "Review manufacturability",
+        "text": "Translate design priorities into achievable tooling details, process settings and inspection points. Consider part handling, assembly sequence and packaging alongside the geometry."
+      },
+      {
+        "heading": "Approve representative samples",
+        "text": "Establish the inspection method and the acceptance criteria for initial production. Confirm the selected material and process on samples representative of the intended manufacturing route."
+      },
+      {
+        "heading": "Control production changes",
+        "text": "Document the agreed drawing, material and process revisions. Track recurring issues and use the information to improve consistency across the planned product lifetime."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "expanded-polypropylene",
+    "section": "materials",
+    "source": "https://www.knauf-industries.com/expanded-polypropylene/",
+    "sections": [
+      {
+        "heading": "Use resilience where it matters",
+        "text": "EPP can support cushioning and repeated handling in returnable containers, furniture cores and vehicle inserts. Assess impact recovery under the actual frequency and load."
+      },
+      {
+        "heading": "Integrate multiple functions",
+        "text": "A shaped foam part can combine location features, insulating walls and protection. Review contact interfaces, fastening and service access alongside thermal or vibration targets."
+      },
+      {
+        "heading": "Check the chosen grade",
+        "text": "Ask for grade-specific mechanical, temperature and chemical data. Reuse cycles, acoustic results and fire performance depend on the complete design and qualification conditions."
+      }
+    ],
+    "facts": [
+      {
+        "label": "Reference application groups",
+        "value": "Sports and childhood; logistics; HVAC; automotive; furniture."
+      },
+      {
+        "label": "Reference forms",
+        "value": "Moulded technical components, reusable containers and foam sheets."
+      }
+    ]
+  },
+  {
+    "slug": "polypropylene",
+    "section": "materials",
+    "source": "https://www.knauf-industries.com/polypropylene/",
+    "sections": [
+      {
+        "heading": "Specify the operating conditions",
+        "text": "Consider chemical exposure, cleaning, heating or freezing alongside mechanical loading. For food packaging, the selected grade needs documentation for the intended contact and conditions."
+      },
+      {
+        "heading": "Connect geometry and sealing",
+        "text": "Trays and containers need a flange and wall layout suited to their process. Trial the actual lid, seal and filling line rather than making a general promise about sealing quality."
+      },
+      {
+        "heading": "Plan identification and recovery",
+        "text": "Review the label, colour and any attached materials with the intended sorting route. Mono-material construction can simplify separation but local collection remains relevant."
+      }
+    ],
+    "facts": [
+      {
+        "label": "Reference PP variations",
+        "value": "Homopolymer, random copolymer and block copolymer."
+      },
+      {
+        "label": "External branded reference families",
+        "value": "Kapseal®, Kapclear® and Kaplight®"
+      }
+    ]
+  },
+  {
+    "slug": "expanded-polystyrene",
+    "section": "materials",
+    "source": "https://www.knauf-industries.com/expanded-polystyrene/",
+    "sections": [
+      {
+        "heading": "Start with the job",
+        "text": "Transport protection, a cold-chain box and a construction insulation layer need different evaluation plans. Review compression, moisture, interfaces and handling for the relevant system."
+      },
+      {
+        "heading": "Choose the form",
+        "text": "Moulding creates shaped packaging and construction blocks, while cutting can provide boards and inserts. EPS and extruded polystyrene use different manufacturing routes and should be specified separately."
+      },
+      {
+        "heading": "Plan after-use handling",
+        "text": "Discuss material separation, contamination and the available collection service in the destination region. The existence of a recycling process does not establish access for every shipment."
+      }
+    ],
+    "facts": [
+      {
+        "label": "Reference processing description",
+        "value": "Expandable PS beads are expanded and then moulded."
+      },
+      {
+        "label": "Reference formats",
+        "value": "Insulated boxes, protective corners, foam pallets, insulation boards and swimming-pool blocks."
+      }
+    ]
+  },
+  {
+    "slug": "polystyrene",
+    "section": "materials",
+    "source": "https://www.knauf-industries.com/polystyrene/",
+    "sections": [
+      {
+        "heading": "Select the formulation",
+        "text": "The transparent crystal form is comparatively hard and brittle. Impact modification changes the balance of properties, so appearance alone is not enough to select a grade."
+      },
+      {
+        "heading": "Match the forming process",
+        "text": "Injection, extrusion and thermoforming are referenced routes. Wall layout, detail, forming behaviour and finish need to be considered with the chosen resin."
+      },
+      {
+        "heading": "Validate the application",
+        "text": "Check impact response, temperature exposure, sealing and product contact under intended conditions. Discuss collection and recovery for the complete format."
+      }
+    ],
+    "facts": [
+      {
+        "label": "Reference distinction",
+        "value": "Clear crystal PS versus impact-modified PS."
+      },
+      {
+        "label": "Reference processing routes",
+        "value": "Injection, extrusion and thermoforming."
+      }
+    ]
+  },
+  {
+    "slug": "polyethylene-terephthalate",
+    "section": "materials",
+    "source": "https://www.knauf-industries.com/pet/",
+    "sections": [
+      {
+        "heading": "Balance visibility and protection",
+        "text": "Review clarity and the contents' barrier needs alongside puncture and impact exposure. The final pack must also suit the handling and closure system."
+      },
+      {
+        "heading": "Specify recycled PET carefully",
+        "text": "Ask for recycled-content evidence and the relevant food-contact documentation where needed. Feedstock origin and processing conditions belong in the material review."
+      },
+      {
+        "heading": "Think through the whole format",
+        "text": "Lids, trays, labels and sealing elements may affect sorting or separation. Evaluate the finished package with the available recovery route."
+      }
+    ],
+    "facts": [
+      {
+        "label": "Reference chemistry",
+        "value": "Polymer based on ethylene glycol and terephthalic acid."
+      },
+      {
+        "label": "Reference alternative",
+        "value": "rPET derived from recovered PET packaging."
+      }
+    ]
+  },
+  {
+    "slug": "epp-grade-selection",
+    "section": "materials",
+    "source": "https://www.knauf-industries.com/neopolen-epp/",
+    "sections": [
+      {
+        "heading": "Compare grade families",
+        "text": "The source lists standard black grades, six coloured variants and speciality options. Select around moulded density, appearance, electrical requirements and operating conditions."
+      },
+      {
+        "heading": "Review recycled-content options",
+        "text": "P 9235R+, P 7217R+ and P 7225R+ appear in the current reference range. Use the specific technical sheet and supply documentation rather than extending one grade's declaration to all EPP."
+      },
+      {
+        "heading": "Read the technical basis",
+        "text": "Physical-property tables describe guideline values for samples made under stated conditions. Geometry and process parameters can change the result; raw material data do not certify the finished component."
+      }
+    ],
+    "facts": [
+      {
+        "label": "Source-listed standard grades",
+        "value": "P 8220 K; P 9225 K; P 9230 K; P 9235+; P 9255; P 9270; P 92HD."
+      },
+      {
+        "label": "Source-listed colour grades",
+        "value": "P 9335 MG; P 9435 AB/LB/SR/DY/DG."
+      },
+      {
+        "label": "Published general moulded-density range",
+        "value": "20–100 kg/m³, manufacturer reference range; not PARK's production range."
+      },
+      {
+        "label": "P 9235R+ recycled content",
+        "value": "30%, Technical Information v6.1, printed 2026-02-02."
+      },
+      {
+        "label": "P 9235R+ bulk density",
+        "value": "30–36 kg/m³; bulk density is different from moulded core density."
+      },
+      {
+        "label": "P 7217R+ recycled content / bulk density",
+        "value": "30% recycled material; bulk density 14–17 kg/m³, Technical Information v6.1, printed 2026-02-05."
+      },
+      {
+        "label": "P 9230 ESD surface resistance",
+        "value": "<10⁷ Ω, DIN IEC 60093, guideline moulded-sample table at core densities 40, 50, 60 and 70 kg/m³."
+      },
+      {
+        "label": "P 9230 ESD thermal conductivity",
+        "value": "0.038 / 0.039 / 0.040 / 0.041 W·m⁻¹·K⁻¹ at respective core densities 40 / 50 / 60 / 70 kg/m³; DIN 52612, guideline values."
+      },
+      {
+        "label": "Grade-data limitation",
+        "value": "Manufacturer requires processors' own tests; published values depend on part geometry and processing."
+      }
+    ]
+  },
+  {
+    "slug": "circular-material-options",
+    "section": "materials",
+    "source": "https://www.knauf-industries.com/circular-material/",
+    "sections": [
+      {
+        "heading": "Distinguish the feedstock route",
+        "text": "Mechanically recycled content physically enters the resin or foam. Mass-balance schemes account for alternative inputs through a certified supply system. State the basis of the declaration."
+      },
+      {
+        "heading": "Evaluate the application",
+        "text": "Check traceability, relevant grade documentation and intended use. Colour, process behaviour and validation may need review when the material changes."
+      },
+      {
+        "heading": "Plan a realistic recovery loop",
+        "text": "Simpler material combinations, controlled collection and repeat-use arrangements can support circular design. Record who collects the product and which recovery route is available."
+      }
+    ],
+    "facts": [
+      {
+        "label": "NEOPS® external reference",
+        "value": "EPS alternative using renewable feedstock allocation by mass balance."
+      },
+      {
+        "label": "CELOOPS® external reference",
+        "value": "EPS alternative associated with post-consumer recycled feedstock."
+      },
+      {
+        "label": "RELOOPS® external reference",
+        "value": "Mechanical recycling of pre- and post-consumer PS/EPS."
+      },
+      {
+        "label": "RELOOPP® external reference",
+        "value": "EPP alternative based on recovered post-consumer EPP."
+      },
+      {
+        "label": "R’KAP® external reference",
+        "value": "Circular PP-based family for formed or injected packaging."
+      },
+      {
+        "label": "rPET reference",
+        "value": "Recycled PET from recovered bottles and packaging."
+      }
+    ]
+  },
+  {
+    "slug": "reduce-weight",
+    "section": "solutions",
+    "source": "https://www.knauf-industries.com/weight-reduction/",
+    "sections": [
+      {
+        "heading": "Look beyond density",
+        "text": "Review ribs, wall thickness, contact points and opportunities to integrate multiple functions. A lighter raw material is only useful when the finished design meets the load case."
+      },
+      {
+        "heading": "Include the packaging journey",
+        "text": "Compare protection, packed volume and handling effort alongside material quantity. Keep the same test conditions when assessing alternative pack layouts."
+      },
+      {
+        "heading": "Validate the trade-off",
+        "text": "Record weight, dimensional fit and functional results on representative samples. Use these findings to decide whether the change supports the actual product and logistics requirements."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "reduce-environmental-impact",
+    "section": "solutions",
+    "source": "https://www.knauf-industries.com/plastic-carbon-footprint/",
+    "sections": [
+      {
+        "heading": "Set a comparable boundary",
+        "text": "Identify production, shipment, use and after-use stages included in the comparison. State quantities and assumptions so alternatives can be assessed consistently."
+      },
+      {
+        "heading": "Test circular design options",
+        "text": "Explore less material, a recoverable material combination or a return loop with the project requirements in view. Ask for feedstock traceability and declared content."
+      },
+      {
+        "heading": "Use evidence for claims",
+        "text": "Measure actual reuse, losses and return transport where relevant. Keep supplier declarations and published case studies separate from the results of the PARK project."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "develop-new-ideas",
+    "section": "solutions",
+    "source": "https://www.knauf-industries.com/innovative-technical-parts/",
+    "sections": [
+      {
+        "heading": "Specify the improvement",
+        "text": "Define which feature should change: weight, fit, protection, use experience or another measurable target. Include the existing design as a baseline."
+      },
+      {
+        "heading": "Explore alternatives",
+        "text": "Compare material families and manufacturing routes alongside candidate layouts. Consider recovery and lifetime requirements before selecting a visual concept."
+      },
+      {
+        "heading": "Prototype for the next decision",
+        "text": "Choose a model or sample that answers the most uncertain question. Record the finding and use it to guide the next design iteration."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "preserve-contents",
+    "section": "solutions",
+    "source": "https://www.knauf-industries.com/insulating-packaging/",
+    "sections": [
+      {
+        "heading": "Describe the product and route",
+        "text": "Record temperature limits, duration, payload and transfer conditions. Include waiting periods and realistic seasonal exposure in the brief."
+      },
+      {
+        "heading": "Define the packing system",
+        "text": "Container, coolant, product placement and handling instructions must work together. The right packing method matters alongside the foam material and wall thickness."
+      },
+      {
+        "heading": "Qualify the journey",
+        "text": "Agree the test profile and acceptance criteria with the product owner. Record measurements and the exact configuration before the package is put into regular use."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "manage-temperature",
+    "section": "solutions",
+    "source": "https://www.knauf-industries.com/insulate/",
+    "sections": [
+      {
+        "heading": "Map heat transfer",
+        "text": "Consider wall thickness, contact surfaces, gaps and thermal bridges. A material's conductivity is one input; joints and surrounding components also affect the result."
+      },
+      {
+        "heading": "Address noise and vibration",
+        "text": "Identify the source and the transmission path. Review contact stiffness, airflow geometry and component mounting before selecting a target or test method."
+      },
+      {
+        "heading": "Integrate the component",
+        "text": "Review protection, location features and service access alongside insulation. Test a representative assembly to verify the intended thermal or acoustic effect."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "protect-in-transit",
+    "section": "solutions",
+    "source": "https://www.knauf-industries.com/protect/",
+    "sections": [
+      {
+        "heading": "Identify the hazard",
+        "text": "Describe impact, vibration, stacking and abrasion exposure across the handling route. Identify fragile surfaces and acceptable movement."
+      },
+      {
+        "heading": "Shape the protective system",
+        "text": "Locate load-bearing areas and distribute cushioning where it can work. Check the contact finish, packed space and operator access."
+      },
+      {
+        "heading": "Test the complete pack",
+        "text": "Use representative products and pack configurations under an agreed protocol. Separate repeated-use expectations from demonstrated operating results."
+      }
+    ],
+    "facts": []
+  },
+  {
+    "slug": "improve-presentation",
+    "section": "solutions",
+    "source": "https://www.knauf-industries.com/innovative-materials/",
+    "sections": [
+      {
+        "heading": "Start with the experience",
+        "text": "Identify how the user sees, opens and handles the pack. Review brand colours, visibility and information placement without losing the practical requirements."
+      },
+      {
+        "heading": "Choose a suitable finish",
+        "text": "Texture, gloss, transparency, colour and in-mould decoration offer different options. Match the technique to the selected material, tool and recovery plan."
+      },
+      {
+        "heading": "Check function with appearance",
+        "text": "Evaluate filling, closing, transport and after-use handling on representative samples. A visual decision should be assessed together with protection and process compatibility."
+      }
+    ],
+    "facts": []
+  }
+]

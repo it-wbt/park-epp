@@ -1,0 +1,9 @@
+{
+  "purpose": "Replace the website's animated-still banner with an AI-generated moving video",
+  "referenceImage": "public/images/generated/epp-hero.webp",
+  "output": "public/videos/park-epp-generated-hero.mp4",
+  "durationSeconds": 10,
+  "aspectRatio": "16:9",
+  "audio": false,
+  "prompt": "One continuous photorealistic industrial product shot. A charcoal bead-textured expanded polypropylene HVAC housing, a black reusable EPP insulated transport box with its fitted lid, and white expanded polystyrene protective end caps holding a metal component, on a navy industrial studio surface. The camera makes a smooth slow lateral dolly with visible parallax, showing genuine depth, changing perspectives and moving highlights across the foam bead texture. The lid of the transport box slowly lifts a few centimetres, revealing the interior, then gently returns to its fitted position. Realistic physically consistent rigid objects; preserve their geometry, material, scale and placement. Soft professional industrial lighting. Keep the left third dark and uncluttered for the existing website headline. Motion begins immediately. End near the starting camera and lid position for a smooth loop. No text, logo, watermark, people, certification claims, dissolves, slide transitions or animated still-image zoom. This is a conceptual EPP product scene, not footage of a specific manufacturer's factory."
+}

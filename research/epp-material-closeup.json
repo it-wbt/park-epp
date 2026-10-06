@@ -1,0 +1,9 @@
+{
+  "mode": "Built-in imagegen, generate",
+  "purpose": "Homepage EPP knowledge section material illustration",
+  "original": "public/images/generated/epp-material-closeup.png",
+  "webAsset": "public/images/generated/epp-material-closeup.webp",
+  "webAssetDimensions": [1100, 1100],
+  "prompt": "Use case: product-mockup. Asset type: premium website homepage material explainer photograph. Primary request: premium macro studio material photography of a sculptural curved corner / cutaway sample of charcoal black expanded polypropylene (EPP) moulded foam, with a small pile of loose expanded beads in the foreground. Scene/backdrop: off-white cool grey seamless studio background. Materials/textures: recognizable fused fine irregular bead texture across the moulded object and its cutaway face; realistic matte cellular expanded bead surface. Loose beads have the same charcoal-black cellular foam character. Composition/framing: square composition suitable for a portrait 4:5 crop; elegant close crop, with the entire object within frame and comfortable breathing room around it. The curved corner is the single main subject. Lighting/mood: soft directional natural studio light, premium photographic realism, strong soft physical contact shadow. Constraints: no text, labels, logos, or watermarks; no glass, metal, plastic gloss, holes, honeycomb schematic, or diagram styling.",
+  "note": "Generated material illustration, not photography of a specific PARK product. WebP derivative is resized and compressed for page delivery."
+}

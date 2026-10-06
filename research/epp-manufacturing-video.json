@@ -1,0 +1,54 @@
+{
+  "recordedAt": "2026-10-05",
+  "title": "PARK EPP manufacturing process visualization",
+  "provenance": {
+    "type": "Original locally authored 3D animation",
+    "description": "A condensed illustration of an EPP shape-moulding cycle using pressure filling into a closed tool, followed by steam fusion, cooling, opening and mechanically supported release.",
+    "factoryIdentity": "The machine, factory setting, tray geometry and handling layout are illustrative. This is not filmed footage or a reconstruction of a specific PARK, Knauf, ARPRO or other manufacturer's factory.",
+    "thirdPartyFootage": false,
+    "referenceUse": "Technical publications inform the process sequence. Their footage, photography, logos, machinery designs, product claims and company capabilities are not licensed or transferred by this record.",
+    "sourceCode": "video/epp-banner/src/EppManufacturingStage.ts",
+    "sharedCaptionTimings": "src/lib/epp-process.ts"
+  },
+  "deliverables": [
+    {"path": "public/videos/park-epp-manufacturing.mp4", "width": 1600, "height": 900, "durationSeconds": 24},
+    {"path": "public/videos/park-epp-manufacturing-mobile.mp4", "width": 960, "height": 540, "durationSeconds": 24}
+  ],
+  "interpretation": [
+    "The film begins with already-expanded EPP beads. It does not present EPS-style pre-expansion as a universal EPP requirement.",
+    "The selected filling method is closed-tool pressure filling. Other EPP processes, including crack filling, exist and depend on grade, tooling and production requirements.",
+    "Temporary mould transparency is an explanatory cutaway. It does not depict a physically transparent production tool.",
+    "The six stage timings are editorial timings for a 24-second film, not machine cycle settings or production parameters.",
+    "Steam and cooling are simplified visual cues. The model does not simulate pressure, heat transfer, bead fusion, shrinkage or actual process control.",
+    "The ejector, gripper and outfeed arrangement is an original illustrative handling design. Grade-specific conditioning, post-mould curing and further finishing are outside this short sequence."
+  ],
+  "technicalReferences": [
+    {
+      "publisher": "Knauf Industries",
+      "title": "Foam Molding",
+      "url": "https://www.knauf-industries.com/foam-molding/",
+      "checkedAt": "2026-10-05",
+      "verification": "Live page opened successfully.",
+      "supports": ["Expanded beads form a shaped component through steam fusion.", "Cooling and stabilization precede demoulding."],
+      "scope": "General bead-foam process reference; the page also discusses EPS and does not establish PARK's equipment or production capabilities."
+    },
+    {
+      "publisher": "Knauf Industries Polymers",
+      "title": "Neopolen P 8220 K Technical Information, version 03.1",
+      "url": "https://info.knauf-industries.com/hubfs/Website/Neopolen-Technical-Data-sheets/Neopolen_P%208220%20K_TDS.pdf",
+      "checkedAt": "2026-10-05",
+      "verification": "Live four-page PDF opened successfully; product definition on page 1 and processing discussion on page 2.",
+      "supports": ["EPP feedstock can be supplied as expanded, predominantly closed-cell polypropylene foam particles.", "This specific grade supports back-pressure processing and also allows crack filling."],
+      "scope": "Grade-specific reference only. The film does not claim to use this grade or reproduce its operating parameters."
+    },
+    {
+      "publisher": "JSP / ARPRO",
+      "title": "General Product and Processing Guidelines for ARPRO EPP, 2018",
+      "url": "https://www.arpro.com/contentassets/0ed490e3594146aaacb8a00e99b984c8/techdoc_productprocessingguideline-epp_2018.pdf",
+      "checkedAt": "2026-10-05",
+      "verification": "The publisher-hosted document's search-indexed text was reviewed. Direct retrieval of the historical URL returned 404 on this check.",
+      "supports": ["Pressure filling conveys beads against back pressure in the chest.", "Steam fuses the beads, followed by water cooling and optional air or vacuum stabilization.", "Air or mechanical ejectors release the part; subsequent conditioning depends on material and part requirements."],
+      "scope": "Historical process reference; no numerical processing settings are carried into the animation."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "checked": "2026-10-05",
+  "license": "https://www.pexels.com/license/",
+  "licenseSummary": "Free website and marketing use; modification permitted; attribution optional.",
+  "context": "Illustrative stock footage of materials and precision tooling. Not footage of PARK facilities or a verified EPP manufacturing process.",
+  "sources": [
+    {
+      "name": "precision-tooling",
+      "creator": "Daniel Smyth",
+      "source": "https://www.pexels.com/video/a-machine-is-cutting-metal-with-a-metal-cutting-tool-9033891/",
+      "download": "https://videos.pexels.com/video-files/9033891/9033891-hd_3840_2160_24fps.mp4",
+      "description": "CNC machining a metal workpiece; general precision-tooling footage."
+    },
+    {
+      "name": "polymer-pellets",
+      "creator": "K",
+      "source": "https://www.pexels.com/video/a-person-is-holding-a-bag-of-sugar-26569058/",
+      "download": "https://videos.pexels.com/video-files/26569058/11965413_3840_2160_24fps.mp4",
+      "description": "Hand handling polymer pellets. Source describes HDPE, not EPP."
+    }
+  ],
+  "edit": "Two filmed shots, horizontal framing adjustment, restrained colour grade, .8-second crossfades and a continuous loop. No audio.",
+  "desktop": {
+    "file": "/videos/park-materials-film.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 14.4,
+    "bytes": 4561448
+  },
+  "mobile": {
+    "file": "/videos/park-materials-film-mobile.mp4",
+    "width": 960,
+    "height": 540,
+    "fps": 30,
+    "duration": 14.4,
+    "bytes": 1117933
+  },
+  "poster": "/images/materials-film-poster.webp",
+  "reproduce": "python scripts/prepare-stock-hero.py"
+}

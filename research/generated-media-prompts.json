@@ -1,0 +1,92 @@
+[
+  {
+    "name": "epp-hero",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one photorealistic wide landscape website hero photograph for PARK Nonwoven EPP & engineered materials. Actual scope: lightweight expanded polypropylene moulded technical components and expanded polystyrene protective packaging. Show on the RIGHT two thirds of frame: charcoal grey bead-textured EPP HVAC insulation housing with precise air duct apertures, black EPP reusable insulated transport box with lid slightly lifted, white EPS custom cushioning end caps protecting a metal equipment part. Visible realistic fused bead structure, mechanically plausible moulded parts, premium clean industrial studio, navy blue backdrop, cool soft directional light, accurate sharp material texture. LEFT third is dark navy negative space for existing white website headline. Wide 16:9 composition, no writing, no logos, no trees, no forest, no invented certifications. This is conceptual application photography, not a specific certified product.",
+    "file": "public/images/generated/epp-hero.webp"
+  },
+  {
+    "name": "hvac",
+    "file": "public/images/generated/hvac.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application image for PARK Nonwoven EPP & engineered materials website. Actual content subject: charcoal EPP moulded air ducts and a two-piece HVAC insulation housing with realistic round airflow ports, beside a small metal air handling unit. Premium industrial photography with believable moulded expanded polymer shapes, accurate fused EPS/EPP bead textures, neutral pale grey environment, cool navy accents, natural soft directional light. 16:9 framing, main object centered with comfortable margins for website cropping. No text, no logos, no watermark, no invented specifications or certifications. NOT a collage."
+  },
+  {
+    "name": "aviation",
+    "file": "public/images/generated/aviation.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application image for PARK Nonwoven EPP & engineered materials website. Actual content subject: lightweight moulded bead-textured EPP aircraft seat cushion cores and fitted protective inserts on an aircraft cabin maintenance workbench, no people. Premium industrial photography with believable moulded expanded polymer shapes, accurate fused EPS/EPP bead textures, neutral pale grey environment, cool navy accents, natural soft directional light. 16:9 framing, main object centered with comfortable margins for website cropping. No text, no logos, no watermark, no invented specifications or certifications. NOT a collage."
+  },
+  {
+    "name": "furniture",
+    "file": "public/images/generated/furniture.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application image for PARK Nonwoven EPP & engineered materials website. Actual content subject: white EPS corner cushions fitted to the corners of a wooden cabinet ready for shipping, charcoal foam surface protection and a moulded EPP furniture shell. Premium industrial photography with believable moulded expanded polymer shapes, accurate fused EPS/EPP bead textures, neutral pale grey environment, cool navy accents, natural soft directional light. 16:9 framing, main object centered with comfortable margins for website cropping. No text, no logos, no watermark, no invented specifications or certifications. NOT a collage."
+  },
+  {
+    "name": "mobility",
+    "file": "public/images/generated/mobility.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: black bead-textured moulded EPP vehicle protective inserts and lightweight structural foam components with ribs and curved geometry, arranged beside a disassembled vehicle interior module. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "appliances",
+    "file": "public/images/generated/appliances.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: white EPS custom moulded end-cap cushioning snugly protecting a domestic appliance at its base and top, in an open shipping carton, realistic handling and fit. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "logistics",
+    "file": "public/images/generated/logistics.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: reusable charcoal EPP insulated transport containers with matching lids, a lightweight polymer pallet and custom foam protective cushioning in a clean logistics warehouse. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "sports",
+    "file": "public/images/generated/sports.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: a black bead-textured EPP plyometric exercise jump box and moulded foam sports accessory forms in a minimal training studio, no safety claims, no people. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "childhood",
+    "file": "public/images/generated/childhood.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: pastel moulded EPP foam play shapes with round smooth edges and lightweight foam stools in a clean play product studio, no children, no small loose parts. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "agrifood",
+    "file": "public/images/generated/agrifood.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: white EPS fresh-fish transport box with lid beside realistic food trays for produce and prepared meals, clean food packaging studio, realistic separate fresh produce and sealed meal tray. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "building",
+    "file": "public/images/generated/building.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: white EPS insulation panels and moulded structural foam forms placed at a clean building installation demonstration, visible bead material structure. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "pharma",
+    "file": "public/images/generated/pharma.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: open white EPS temperature-sensitive shipping container with fitted insert, sealed plain medicine cartons and separately packed coolants, clean professional logistics station, no logos or temperature claims. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "roofing",
+    "file": "public/images/generated/roofing.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: layered roof insulation panel and moulded EPS drainage landscaping forms beside a cutaway rooftop terrace assembly, show thermal insulation and drainage interfaces, realistic materials. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "pools",
+    "file": "public/images/generated/pools.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Single photorealistic landscape application photograph for PARK Nonwoven EPP & engineered materials. Subject drawn from current website copy: white EPS interlocking pool wall construction blocks, pool staircase forms and thermal panels at a clean unfinished swimming pool construction site, no water filters. Mechanically believable parts, accurate expanded polypropylene / expanded polystyrene fused bead textures where relevant, soft clean industrial daylight, pale grey surroundings with navy accents. Wide 16:9 landscape, objects centered with comfortable cropping margins. No text, logos, watermark, certification claims, collage, or unrelated objects. Conceptual application photograph, not an exact manufacturer model."
+  },
+  {
+    "name": "epp-foam-albedo",
+    "file": "video/epp-banner/public/epp-foam-albedo.webp",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Generate a single square seamless PBR base-color texture of genuine charcoal-black expanded polypropylene EPP foam, macro orthographic front view of a flat moulded EPP surface. Entire image is only the material filling the frame edge to edge. Realistic fused irregular rounded foam beads, roughly 60-80 beads across the image, subtle tiny pores and moulded bead boundaries. Charcoal near black, neutral color, very even diffuse lighting, no directional highlights or shadows baked in, no vignette, no depth of field, no perspective, no objects, no background, no text. Texture should tile seamlessly, crisp and detailed suitable for wrapping a 3D insulated shipping box. Not a grid pattern or fabric."
+  }
+]

@@ -1,0 +1,120 @@
+.homeSection, .guide { width: 92%; max-width: 1320px; margin-inline: auto; color: #183a4a; }
+.homeSection { padding-block: 36px; }
+.heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 28px; margin-bottom: 24px; }
+.heading :global(.eyebrow) { margin-bottom: 9px; }
+.heading h2, .overview h2 { font-size: clamp(27px, 2.5vw, 35px); letter-spacing: -1px; font-weight: 500; line-height: 1.2; }
+.heading h2 span { color: #57766a; }
+.heading > p { max-width: 385px; font-size: 13px; line-height: 1.7; color: #526879; }
+.knowledgeGrid { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.4fr); gap: 32px; align-items: start; }
+.structure { background: radial-gradient(ellipse at 90% 0, #2b584c, transparent 65%), #103442; padding: 22px 26px; border-radius: 18px; color: #fff; overflow: hidden; }
+.structure svg { width: 100%; height: 180px; margin-bottom: 14px; }
+.structure span { color: #d7f58a; font-size: 9px; letter-spacing: 1.6px; display: block; }
+.structure strong { display: block; margin-block: 9px; font-size: 25px; letter-spacing: -.6px; font-weight: 500; }
+.structure p { color: #d6e6e8; max-width: 320px; font-size: 12px; line-height: 1.65; }
+.structure small { display: block; color: #a4bdc4; font-size: 10px; margin-top: 14px; }
+.guideLink { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 17px 2px; color: #08639b; font-size: 13px; font-weight: 600; }
+.guideLink svg, .inlineLink svg { width: 19px; height: 19px; flex-shrink: 0; }
+.topics { border-block: 1px solid #d8e3e3; }
+.topics details + details, .faq details + details { border-top: 1px solid #d8e3e3; }
+.topics summary, .faq summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 62px; padding-block: 16px; cursor: pointer; list-style: none; font-size: 16px; font-weight: 550; }
+.topics summary::-webkit-details-marker, .faq summary::-webkit-details-marker { display: none; }
+.topics summary > span { display: flex; align-items: center; gap: 17px; }
+.topics summary small { color: #769189; font-size: 11px; font-variant-numeric: tabular-nums; }
+.topics summary > svg, .faq summary > svg { width: 18px; height: 18px; flex-shrink: 0; transform: rotate(45deg); color: #08639b; }
+.topics details[open] > summary > svg, .faq details[open] > summary > svg { transform: none; }
+.topics h3 { font-size: 13px; line-height: 1.4; font-weight: 650; margin: 0 0 5px; }
+.topics p { font-size: 12px; line-height: 1.65; color: #526879; margin: 0; }
+.miniProperties { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 24px; padding: 0 0 22px 31px; }
+.miniSteps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 0; padding: 0 0 24px 31px; list-style: none; counter-reset: step; }
+.miniSteps li { counter-increment: step; }
+.miniSteps li::before { content: '0' counter(step); display: block; margin-bottom: 7px; color: #719645; font-size: 11px; }
+.quickComparison { padding: 0 0 22px 31px; }
+.quickComparison > div { border-bottom: 1px solid #e0e8e4; padding-bottom: 12px; margin-bottom: 12px; }
+.quickComparison p + p { margin-top: 5px; }
+.quickComparison strong { color: #183a4a; font-size: 10px; margin-right: 5px; }
+.quickComparison > a { display: inline-flex; align-items: center; gap: 15px; color: #08639b; font-size: 12px; }
+.miniChecklist { list-style: none; display: grid; gap: 16px; padding: 0 0 22px 31px; margin: 0; }
+.miniChecklist > li { display: flex; gap: 12px; }
+.miniChecklist svg { flex-shrink: 0; width: 16px; height: 16px; color: #668f40; }
+.guide { padding-bottom: 48px; }
+.contents { display: flex; flex-wrap: wrap; gap: 8px; padding-block: 24px; border-bottom: 1px solid #dce5e6; }
+.contents a { display: inline-flex; gap: 22px; align-items: center; border: 1px solid #dbe6e1; background: #f3f7f5; border-radius: 7px; padding: 10px 13px; color: #31594e; font-size: 12px; }
+.contents a span { color: #72934b; }
+.overview { display: grid; grid-template-columns: 1.3fr .7fr; gap: 65px; align-items: center; padding-block: 40px; }
+.overview :global(.eyebrow) { margin-bottom: 12px; }
+.overview h2 { margin-bottom: 20px; }
+.overview > div > p:not(:global(.eyebrow)) { color: #526879; font-size: 15px; line-height: 1.85; margin-bottom: 15px; }
+.overview .structure svg { height: 145px; }
+.inlineLink { display: inline-flex; align-items: center; gap: 14px; color: #08639b; font-size: 12px; margin-top: 6px; }
+.guideSection { padding-block: 34px; border-top: 1px solid #dce5e6; scroll-margin-top: 108px; }
+.properties { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+.properties article { padding: 22px; border: 1px solid #dce6e1; border-radius: 14px; background: #f6f9f7; }
+.propertyNumber { font-size: 11px; color: #72904f; display: block; margin-bottom: 15px; }
+.guide h3 { font-size: 18px; line-height: 1.35; font-weight: 550; letter-spacing: -.3px; margin-bottom: 9px; }
+.guide h4 { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #688274; margin-bottom: 8px; }
+.guideSection p { font-size: 13px; line-height: 1.75; color: #526879; }
+.guideSection p.consideration { margin-top: 12px; padding-top: 12px; border-top: 1px solid #dce6e1; font-size: 12px; }
+.references { display: flex; flex-wrap: wrap; gap: 5px 13px; margin-top: 12px; font-size: 10px; font-weight: 400; color: #08639b; line-height: 1.5; }
+.references a { text-decoration: underline; text-underline-offset: 3px; }
+.manufacturing { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; list-style: none; margin: 0; padding: 0; }
+.manufacturing > li { padding-top: 18px; border-top: 2px solid #a9c088; }
+.manufacturing > li > span { display: inline-grid; place-items: center; width: 29px; height: 29px; border-radius: 50%; background: #e9f2df; color: #3a6127; font-size: 11px; margin-bottom: 15px; }
+.applicationList article { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; padding: 22px 0; border-top: 1px solid #dce5e6; }
+.applicationList h3 a { color: #08639b; }
+.applicationList h3 span { font-size: 15px; margin-left: 8px; }
+.applicationList .examples { font-size: 11px; color: #3d6c58; margin-top: 12px; }
+.tableWrap { overflow-x: auto; border: 1px solid #dce5e6; border-radius: 12px; }
+.comparison { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.7; }
+.comparison th, .comparison td { text-align: left; vertical-align: top; padding: 17px 20px; border-bottom: 1px solid #dce5e6; }
+.comparison thead th { color: #fff; background: #173b4a; font-size: 12px; font-weight: 500; }
+.comparison tbody th { width: 22%; font-weight: 550; background: #f0f5f1; }
+.comparison td { width: 39%; color: #526879; }
+.comparison tr:last-child > * { border-bottom: none; }
+.checklist { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 44px; list-style: none; padding: 0; margin: 0 0 28px; }
+.checklist > li { display: flex; align-items: flex-start; gap: 14px; }
+.checklist > li > span { flex-shrink: 0; width: 28px; color: #73934d; font-size: 12px; padding-top: 4px; }
+.checklist h3 { font-size: 16px; }
+.faq { border-block: 1px solid #dce5e6; }
+.faq summary { font-size: 15px; min-height: 58px; }
+.faq details > div { max-width: 940px; padding-bottom: 22px; }
+.sources { padding: 26px; border-radius: 14px; background: #f0f5f3; scroll-margin-top: 108px; }
+.sources h2 { font-size: 21px; letter-spacing: -.5px; margin-bottom: 10px; }
+.sources > p { color: #526879; font-size: 12px; line-height: 1.7; }
+.sources ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 30px; list-style: none; padding: 0; margin: 22px 0 0; }
+.sources li { font-size: 12px; line-height: 1.6; }
+.sources li a { color: #08639b; }
+.sources li > span { display: block; color: #668074; font-size: 10px; margin-top: 3px; }
+@media (max-width: 1000px) {
+  .knowledgeGrid { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 24px; }
+  .overview { gap: 30px; }
+  .properties { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .manufacturing { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .homeSection, .guide { width: calc(100% - 32px); }
+  .homeSection { padding-block: 28px; }
+  .heading { flex-direction: column; align-items: flex-start; gap: 13px; margin-bottom: 22px; }
+  .heading h2, .overview h2 { font-size: 28px; }
+  .knowledgeGrid, .overview { grid-template-columns: 1fr; gap: 20px; }
+  .structure { display: grid; grid-template-columns: .9fr 1fr; align-items: center; gap: 12px; padding: 20px 16px; }
+  .structure svg, .overview .structure svg { height: auto; margin: 0; }
+  .structure strong { font-size: 19px; }
+  .structure span { font-size: 7px; }
+  .structure p { font-size: 11px; }
+  .structure small { font-size: 8px; }
+  .miniProperties, .miniSteps { padding-left: 0; gap: 15px; }
+  .topics summary { font-size: 15px; }
+  .quickComparison, .miniChecklist { padding-left: 0; }
+  .overview { padding-block: 28px; }
+  .overview > div > p:not(:global(.eyebrow)) { font-size: 14px; }
+  .guideSection { padding-block: 28px; }
+  .properties { gap: 12px; }
+  .properties article { padding: 17px; }
+  .guide h3 { font-size: 16px; }
+  .applicationList article { grid-template-columns: 1fr; gap: 16px; }
+  .checklist { grid-template-columns: 1fr; gap: 22px; }
+  .comparison { min-width: 660px; }
+  .sources { padding: 22px 18px; }
+  .sources ul { grid-template-columns: 1fr; }
+}
+@media (max-width: 420px) { .properties, .manufacturing { grid-template-columns: 1fr; } }

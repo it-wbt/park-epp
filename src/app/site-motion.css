@@ -1,0 +1,16 @@
+.site-scroll-progress {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 150;
+  height: 3px;
+  background: linear-gradient(90deg, #0068a8 0%, #208fbd 64%, #b5dc7b 100%);
+  pointer-events: none;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-scroll-progress {
+    display: none;
+  }
+}

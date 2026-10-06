@@ -1,0 +1,76 @@
+/* PARK Filtration's compact footer layout, with EPP navigation and content. */
+.footer {
+  padding: 32px 4% 18px;
+  background: #0b2d41;
+  color: #fff;
+  font: 400 15px/normal 'DM Sans', Arial, sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 30px;
+  padding-bottom: 26px;
+}
+
+.main > div { min-width: 0; }
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+  color: #fff;
+}
+
+.logo {
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+.main p {
+  margin: 20px 0 12px;
+  color: #9db3c0;
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.main h4 {
+  margin: 0 0 16px;
+  font: 500 12px/normal 'DM Sans', Arial, sans-serif;
+  letter-spacing: normal;
+}
+
+.main > div > a:not(.brand) {
+  display: block;
+  margin-bottom: 10px;
+  color: #aec1cc;
+  font-size: 12px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff20;
+  padding-top: 16px;
+  font-size: 9px;
+  color: #a0b7c5;
+}
+
+.footer a:focus-visible { outline: 3px solid #4cadd3; outline-offset: 5px; }
+
+@media (max-width: 1050px) {
+  .logo { width: 220px; }
+}
+
+@media (max-width: 760px) {
+  .footer { padding: 28px 16px 16px; }
+  .main { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; }
+  .main > div:first-child { grid-column: 1 / -1; }
+  .logo { width: min(240px, 65vw); }
+  .main > div > a:not(.brand) { font-size: 11px; overflow-wrap: anywhere; }
+  .bottom { flex-direction: column; gap: 10px; line-height: 1.6; }
+}

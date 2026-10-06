@@ -1,0 +1,1295 @@
+{
+  "reviewedAt": "2026-10-05",
+  "referenceManufacturer": "Knauf Industries",
+  "purpose": "Source inventory only. Branded names and specifications refer to Knauf reference products, not independently verified PARK product performance or supply authorization.",
+  "coverage": {
+    "englishCataloguePages": 5,
+    "pageCounts": [
+      9,
+      9,
+      9,
+      9,
+      3
+    ],
+    "standardProducts": 39,
+    "detailPagesRecovered": 39,
+    "detailBodyMismatches": 3,
+    "notes": "All five English standard catalogue pages verified. Pages 4 and 5 became accessible without a trailing slash. The prior 39-name mapping covers the current English standard listing; Busterbak and Sealbak need more precise tub families.",
+    "verifiedDistinctDetailBodies": 36
+  },
+  "sources": [
+    "https://www.knauf-industries.com/",
+    "https://www.knauf-industries.com/products/",
+    "https://www.knauf-industries.com/products/page/2/",
+    "https://www.knauf-industries.com/products/page/3/",
+    "https://www.knauf-industries.com/products/page/4/",
+    "https://www.knauf-industries.com/products/page/5/"
+  ],
+  "inventory": [
+    {
+      "name": "Box Jump",
+      "url": "https://www.knauf-industries.com/products/box-jump/",
+      "category": "sports-leisure",
+      "mappedProduct": "Foam exercise jump boxes",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "dimensions": [
+        "500 × 600 × 750 mm"
+      ],
+      "details": [
+        "Moulded foam jump box for plyometric training, with grip surfaces and carrying handles."
+      ],
+      "variants": [
+        "Black EPP jump box"
+      ],
+      "publishedSpecifications": [
+        "Empty weight: 8.4 kg; maximum load: 150 kg. Reference product only."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Box Jump",
+      "listingPage": 5,
+      "listingUrl": "https://www.knauf-industries.com/products/page/5/"
+    },
+    {
+      "name": "Boxes",
+      "url": "https://www.knauf-industries.com/products/boxes/",
+      "category": "agrifood",
+      "mappedProduct": "Perishable goods transport boxes",
+      "marketSlug": "agrifood",
+      "material": "EPS / NEOPS® / CELOOPS®",
+      "dimensions": [
+        "Outer formats include 185 × 140 × 30 mm through 400 × 250 × 90 mm."
+      ],
+      "details": [
+        "Open foam containers for transporting fresh perishables."
+      ],
+      "variants": [
+        "23 listed formats from BA06CF to PB5/80"
+      ],
+      "publishedSpecifications": [
+        "Listed capacities: 0.5–7 L.",
+        "Grey or black; lid not included."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Boxes",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "Busterbak",
+      "url": "https://www.knauf-industries.com/products/busterbak/",
+      "category": "agrifood",
+      "mappedProduct": "Ice cream tubs",
+      "marketSlug": "agrifood",
+      "material": "PP",
+      "dimensions": [
+        "750 ml: 193 × 126 × 60 mm",
+        "1000 ml: 193 × 126 × 64.5 mm",
+        "2500 ml: 171.3 × 147.3 × 138.7 mm",
+        "5000 ml: 343 × 151 × 131 mm"
+      ],
+      "details": [
+        "Injection-moulded ice-cream tubs with tamper-evident lids and empty nesting."
+      ],
+      "variants": [
+        "750 ml",
+        "1000 ml",
+        "2500 ml",
+        "5000 ml"
+      ],
+      "publishedSpecifications": [
+        "PP; white, natural or grey.",
+        "Reference says microwave, freezing, deep-freezing and dishwasher compatible.",
+        "IML labels, marking or engraving available."
+      ],
+      "availabilityNotes": "Prior generic 'Rigid food trays' mapping was inaccurate. Use a dedicated Ice cream tubs family.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Busterbak",
+      "listingPage": 5,
+      "listingUrl": "https://www.knauf-industries.com/products/page/5/"
+    },
+    {
+      "name": "Drainbox",
+      "url": "https://www.knauf-industries.com/products/drainbox/",
+      "category": "insulation-waterproofing",
+      "mappedProduct": "Moulded drainage panels",
+      "marketSlug": "insulation-waterproofing",
+      "material": "EPS",
+      "dimensions": [
+        "Published table: 1200 × 100 × 40 mm",
+        "Published table: 1200 × 100 × 60 mm"
+      ],
+      "details": [
+        "Perforated EPS drainage boards for planted areas and landscape works."
+      ],
+      "variants": [
+        "DRAINBOX 40",
+        "DRAINBOX 60"
+      ],
+      "publishedSpecifications": [
+        "Density: 25 kg/m³; perforation: 7%; maximum load: 2 t/m².",
+        "Drainage volume stated as 16.5 L/m²."
+      ],
+      "availabilityNotes": "Source publishes 100 mm width. This may be a source typo; retain as reference wording, do not infer a corrected dimension.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Drainbox",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "E-Food-Box",
+      "url": "https://www.knauf-industries.com/products/e-food-box/",
+      "category": "logistics-handling",
+      "mappedProduct": "Stackable delivery boxes",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "dimensions": [
+        "7362: 400 × 600 × 330 mm; 37.7 L",
+        "7452: 400 × 600 × 420 mm; 50.3 L"
+      ],
+      "details": [
+        "Nestable EPP delivery box for temperature-sensitive online food orders."
+      ],
+      "variants": [
+        "7362",
+        "7452"
+      ],
+      "publishedSpecifications": [
+        "Wall: 25 mm; maximum transport load: 20 kg.",
+        "Black and grey; recessed handles; provision for thermal masses."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "E-Food-Box®",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "EPS Boxes",
+      "url": "https://www.knauf-industries.com/products/eps-cases/",
+      "category": "agrifood",
+      "mappedProduct": "EPS transport boxes",
+      "marketSlug": "logistics-handling",
+      "material": "EPS / NEOPS®",
+      "dimensions": [
+        "C32: external footprint 300 × 200 mm; internal height 70–140 mm",
+        "42CC: 400 × 265 mm; internal height 60–120 mm",
+        "43FPE2: 400 × 300 mm; internal height 60–200 mm",
+        "A: 425 × 350 mm; internal height 70–160 mm",
+        "K53: 500 × 300 mm; internal height 80–170 mm",
+        "62FL: 600 × 200 mm; internal height 80–100 mm",
+        "63H: 600 × 265 mm; internal height 60–193 mm",
+        "64DE3: 600 × 400 mm; internal height 80–230 mm",
+        "65T: 600 × 500 mm; internal height 108–190 mm",
+        "83GO: 796 × 300 mm; internal height 130–190 mm",
+        "84JE4: 800 × 400 mm; internal height 120–250 mm",
+        "T24: 1360 × 480 mm; internal height 240 mm"
+      ],
+      "details": [
+        "Insulated fresh-produce crates with optional drainage and lids."
+      ],
+      "variants": [
+        "C32",
+        "42CC",
+        "43FPE2",
+        "A",
+        "K53",
+        "62FL",
+        "63H",
+        "64DE3",
+        "65T",
+        "83GO",
+        "84JE4",
+        "T24"
+      ],
+      "publishedSpecifications": [
+        "White; capacity range 3.3–119.8 L.",
+        "Screen printing, inkjet or sleeves are listed."
+      ],
+      "availabilityNotes": "Correct public detail URL is /products/eps-cases/; /products/eps-boxes/ fails.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "EPS Boxes",
+      "listingPage": 5,
+      "listingUrl": "https://www.knauf-industries.com/products/page/5/"
+    },
+    {
+      "name": "Eurolight",
+      "url": "https://www.knauf-industries.com/products/eurolight/",
+      "category": "logistics-handling",
+      "mappedProduct": "Lightweight foam pallets",
+      "marketSlug": "logistics-handling",
+      "material": "EPS / NEOPS®",
+      "dimensions": [
+        "4-entry: 1200 × 800 × 150, 800 × 600 × 150, 600 × 400 × 150 mm",
+        "2-entry: 560 × 600 × 110, 1000 × 350 × 110, 1100 × 350 × 110, 1120 × 300 × 120, 1120 × 600 × 110 mm"
+      ],
+      "details": [
+        "Lightweight moulded foam pallets for industrial handling."
+      ],
+      "variants": [
+        "128",
+        "86",
+        "64",
+        "5660",
+        "1035",
+        "1135",
+        "1130",
+        "1160"
+      ],
+      "publishedSpecifications": [
+        "White or grey; 2-entry and 4-entry configurations."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Eurolight®",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "Extendable corners",
+      "url": "https://www.knauf-industries.com/products/extendable-corners/",
+      "category": "furniture",
+      "mappedProduct": "Extendable protective corners",
+      "marketSlug": "furniture",
+      "material": "EPS / EPP / PS-PE copolymer",
+      "dimensions": [
+        "Stretch wedge: 120 × 120 × 140 mm; 25 mm thick; adjustment 10–200 mm",
+        "Elastic wedge: 125 × 125 × 80 mm; adjustment 32–400 mm",
+        "Multi-material elastic wedge: 125 × 125 × 82 mm; adjustment 32–300 mm"
+      ],
+      "details": [
+        "Adjustable protective corners reduce the number of fixed-size packaging formats needed."
+      ],
+      "variants": [
+        "Stretch corner",
+        "Elastic corner",
+        "Multi-material elastic corner"
+      ],
+      "publishedSpecifications": [
+        "White or black; loose or preassembled elastic variants."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Extendable corners",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "Flipbox Big",
+      "url": "https://www.knauf-industries.com/products/flipbox/",
+      "category": "logistics-handling",
+      "mappedProduct": "Foldable insulated boxes",
+      "marketSlug": "logistics-handling",
+      "material": "EPP (detail body mismatched; verify grade)",
+      "dimensions": [],
+      "details": [
+        "Foldable insulated transport box."
+      ],
+      "variants": [
+        "Flipbox® Big"
+      ],
+      "publishedSpecifications": [
+        "Catalogue listing states 850 g and folded space reduction of 60%. These belong to the branded reference only."
+      ],
+      "availabilityNotes": "The /products/flipbox/ detail body and table describe Komebac. Do not reuse that table as Flipbox data.",
+      "sourceStatus": "listing_verified_detail_mismatch",
+      "sourceName": "Flipbox® Big",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Freshbox",
+      "url": "https://www.knauf-industries.com/products/freshbox/",
+      "category": "pharma-health",
+      "mappedProduct": "Temperature-sensitive shipping boxes",
+      "marketSlug": "pharma-health",
+      "material": "EPS / graphitized EPS / PS-PE copolymer / NEOPS® / CELOOPS®",
+      "dimensions": [
+        "1 L reference: outer 245 × 195 × 110 mm",
+        "2 L: 260 × 170 × 170 mm",
+        "4 L: 225 × 225 × 210 mm",
+        "6 L: 340 × 250 × 200 mm",
+        "8 L: 330 × 250 × 230 mm",
+        "14 L: 340 × 250 × 321 mm",
+        "16 L: 400 × 300 × 295 mm",
+        "23 L: 415 × 315 × 315 mm",
+        "29 L: 470 × 335 × 325 mm",
+        "36 L: 545 × 380 × 325 mm",
+        "39 L: 410 × 310 × 510 mm",
+        "49 L: 580 × 380 × 390 mm",
+        "55 L: 600 × 400 × 380 mm",
+        "Ring-system base: 1160 × 760 × 250 mm",
+        "Extension ring: 1160 × 760 × 250 mm",
+        "Ring-system lid: 1160 × 760 × 50 mm"
+      ],
+      "details": [
+        "Insulated shipping containers for temperature-sensitive biological and other fragile goods."
+      ],
+      "variants": [
+        "1 L",
+        "2 L",
+        "4 L",
+        "6 L",
+        "8 L",
+        "14 L",
+        "16 L",
+        "23 L",
+        "29 L",
+        "36 L",
+        "39 L",
+        "49 L",
+        "55 L",
+        "Ring-system base",
+        "Extension ring",
+        "Ring-system lid"
+      ],
+      "publishedSpecifications": [
+        "Capacity range stated as 1–138 L; white, grey or black.",
+        "Optional marking, logo, colour, density and individual carton."
+      ],
+      "availabilityNotes": "Source summary capacity range is 1–138 L. The 1 L table row prints useful volume '16', which is inconsistent; that row's volume is excluded.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Freshbox",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "Frobox",
+      "url": "https://www.knauf-industries.com/products/frobox/",
+      "category": "pharma-health",
+      "mappedProduct": "Dry-ice transport crates",
+      "marketSlug": "pharma-health",
+      "material": "EPS / graphitized EPS / PS-PE copolymer / EOPS® / CELOOPS® (EOPS is printed by source)",
+      "dimensions": [
+        "2 L: 280 × 280 × 140 mm",
+        "5 L: 280 × 280 × 205 mm",
+        "8 L: 280 × 280 × 280 mm",
+        "9 L: 420 × 320 × 242 mm",
+        "12 L: 380 × 280 × 285 mm",
+        "14 L: 400 × 280 × 290 mm",
+        "18 L: 460 × 370 × 280 mm",
+        "28 L: 630 × 430 × 265 mm",
+        "32 L: 580 × 380 × 390 mm",
+        "37 L: 500 × 500 × 310 mm",
+        "51 L: 515 × 390 × 615 mm",
+        "53 L: 630 × 430 × 410 mm",
+        "62 L: 660 × 480 × 390 mm",
+        "66 L: 665 × 480 × 360 mm",
+        "75 L: 500 × 500 × 550 mm",
+        "81 L: 635 × 550 × 390 mm",
+        "87 L: 700 × 420 × 590 mm"
+      ],
+      "details": [
+        "Foam crates for solid-CO₂ shipments in laboratory, diagnostic and industrial applications."
+      ],
+      "variants": [
+        "2",
+        "5",
+        "8",
+        "9",
+        "12",
+        "14",
+        "18",
+        "28",
+        "32",
+        "37",
+        "51",
+        "53",
+        "62",
+        "66",
+        "75",
+        "81",
+        "87 L formats"
+      ],
+      "publishedSpecifications": [
+        "Table includes wall thicknesses, useful volumes and heat-transfer coefficient per format.",
+        "Published capacity range: 2.4–100 L.",
+        "Published reference qualification: −80 °C / −20 °C to NF S 99-700."
+      ],
+      "availabilityNotes": "Listed for solid CO₂. Specific source qualification or transport performance must not become a PARK performance claim.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Frobox®",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Convenience",
+      "url": "https://www.knauf-industries.com/products/kary-convenience/",
+      "category": "agrifood",
+      "mappedProduct": "Compartment meal trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "187 × 137 mm; heights 20, 24, 27, 36, 46, 70 mm",
+        "227 × 178 mm; heights 30, 40, 50, 60 mm"
+      ],
+      "details": [
+        "Single or divided meal trays designed for lidding and protective-atmosphere/skin packing."
+      ],
+      "variants": [
+        "Single compartment",
+        "Two-compartment 187 × 137 × 46 mm",
+        "Two-compartment 227 × 178 × 60 mm"
+      ],
+      "publishedSpecifications": [
+        "Natural or carbon-free black.",
+        "Reference lists microwave, freezing and pasteurization compatibility."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Convenience",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "Kary Cristal",
+      "url": "https://www.knauf-industries.com/products/kary-cristal/",
+      "category": "agrifood",
+      "mappedProduct": "Clear multipurpose containers",
+      "marketSlug": "agrifood",
+      "material": "PP: KapClear®",
+      "dimensions": [
+        "138 × 104 × 38 mm: 250 ml",
+        "138 × 104 × 53 mm: 375 ml",
+        "138 × 104 × 68 mm: 500 ml ice version",
+        "159 × 120 × 47 mm: 650 ml",
+        "183 × 139 × 53 mm",
+        "183 × 139 × 67 mm",
+        "183 × 139 × 10 mm as printed for ice version"
+      ],
+      "details": [
+        "Translucent lidded containers for takeaway, prepared food and frozen variants."
+      ],
+      "variants": [
+        "Standard",
+        "Cristal Ice"
+      ],
+      "publishedSpecifications": [
+        "Natural colour; separate lid.",
+        "Reference lists 20 dishwasher cycles to NF EN 12875."
+      ],
+      "availabilityNotes": "Two source rows both print 750 ml, and the ice 1000 ml row prints a 10 mm height. Those capacities need manufacturer verification.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Cristal",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Fresh",
+      "url": "https://www.knauf-industries.com/products/kary-fresh/",
+      "category": "agrifood",
+      "mappedProduct": "Attached-lid takeaway trays",
+      "marketSlug": "agrifood",
+      "material": "PET crystal",
+      "dimensions": [
+        "120 × 90 × 45 mm: 250 ml",
+        "130 × 105 × 50 mm: 375 ml",
+        "150 × 106 × 55 mm: 500 ml",
+        "170 × 130 × 55 mm",
+        "180 × 145 × 60 mm: 1000 ml",
+        "215 × 175 × 60 mm: 1200 ml",
+        "230 × 195 × 65 mm: 1500 ml"
+      ],
+      "details": [
+        "Clear PET takeaway trays with an attached lid for cold prepared food."
+      ],
+      "variants": [
+        "250",
+        "375",
+        "500",
+        "1000",
+        "1200",
+        "1500 ml"
+      ],
+      "publishedSpecifications": [
+        "Natural transparent PET; attached lid."
+      ],
+      "availabilityNotes": "170 × 130 × 55 row prints '7550 ml', apparent typo. Capacity for this row excluded.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Fresh",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Light",
+      "url": "https://www.knauf-industries.com/products/kary-light/",
+      "category": "agrifood",
+      "mappedProduct": "Retail food trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "193 × 144 mm; heights 22, 30, 40, 60 mm"
+      ],
+      "details": [
+        "Retail trays for MAP-packed meat and seafood."
+      ],
+      "variants": [
+        "B29 / 1914 format; four heights"
+      ],
+      "publishedSpecifications": [
+        "Natural, black or custom colour; microwave compatibility listed."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Light",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Meat",
+      "url": "https://www.knauf-industries.com/products/kary-meat/",
+      "category": "agrifood",
+      "mappedProduct": "Minced meat trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "200 × 136.5 mm; heights 40, 50, 60 mm",
+        "202 × 141 mm; heights 31, 46, 56, 76 mm",
+        "211 × 122 × 31 mm: two-cell tray"
+      ],
+      "details": [
+        "MAP trays sized around minced-meat portions."
+      ],
+      "variants": [
+        "350 g",
+        "500 g",
+        "650 g",
+        "800 g portion references",
+        "Two-cell format"
+      ],
+      "publishedSpecifications": [
+        "Natural, black or custom colour; standard sealing tools."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Meat",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Pack",
+      "url": "https://www.knauf-industries.com/products/kary-pack/",
+      "category": "agrifood",
+      "mappedProduct": "High-volume food trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "300 × 215 mm; heights 40, 60, 100 mm",
+        "361 × 213.5 mm; heights 45, 91.5 mm",
+        "380 × 278 mm; heights 65, 85, 110 mm",
+        "400 × 290 mm; heights 60, 80, 110 mm"
+      ],
+      "details": [
+        "Larger food trays for high-volume and family-size packaging."
+      ],
+      "variants": [
+        "11 dimensional formats"
+      ],
+      "publishedSpecifications": [
+        "High mechanical resistance is described, without a universal numerical load claim."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Pack",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Peal",
+      "url": "https://www.knauf-industries.com/products/kary-peal/",
+      "category": "agrifood",
+      "mappedProduct": "Peel-seal trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "232 × 146.5 mm; heights 22, 30, 40, 50, 60, 70, 80 mm",
+        "252.5 × 182 mm; heights 15, 45, 60, 80 mm",
+        "264.5 × 204 mm; heights 30–80 mm and divided formats"
+      ],
+      "details": [
+        "Retail food trays for peelable lidding, MAP and skin packing."
+      ],
+      "variants": [
+        "1523 / B5",
+        "1825 / B6",
+        "2026 / B2",
+        "Single and two-compartment variants"
+      ],
+      "publishedSpecifications": [
+        "Standard market lidding footprints."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Peal",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Peal Pure Line",
+      "url": "https://www.knauf-industries.com/products/kary-peal-pure-line/",
+      "category": "agrifood",
+      "mappedProduct": "Skin-seal food trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "232 × 146.5 mm; heights 12, 21, 25, 29, 40, 60, 80 mm",
+        "259 × 178 × 13 mm",
+        "264.5 × 204 mm; heights 40, 60 mm"
+      ],
+      "details": [
+        "Low-profile food trays for skin or protective-atmosphere packing and upright shelf presentation."
+      ],
+      "variants": [
+        "1523 / B5",
+        "1825 / B6",
+        "2026 / B2"
+      ],
+      "publishedSpecifications": [
+        "Custom colour/material versions listed."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Peal Pure Line",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Kary Resist +",
+      "url": "https://www.knauf-industries.com/products/kary-resist/",
+      "category": "agrifood",
+      "mappedProduct": "Gastronorm catering trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "325 × 265 mm; heights 40, 60, 80, 100 mm"
+      ],
+      "details": [
+        "Half-Gastronorm food trays for 1–3 kg portion formats."
+      ],
+      "variants": [
+        "½ GN; four heights"
+      ],
+      "publishedSpecifications": [
+        "Reference thermal range: −20 °C to 135 °C.",
+        "Microwave, pasteurization and freezing listed."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Kary Resist +",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Keepy",
+      "url": "https://www.knauf-industries.com/products/keepy/",
+      "category": "agrifood",
+      "mappedProduct": "Reusable food containers",
+      "marketSlug": "agrifood",
+      "material": "PP: KapLight®",
+      "dimensions": [
+        "250 ml: 138 × 108 × 36 mm",
+        "250 ml lid: 165.3 × 100.8 × 10.1 mm as printed",
+        "1/8 GN 500 ml: 160 × 130 × 45 mm",
+        "K-MIL: 232 × 146.5 × 13 mm"
+      ],
+      "details": [
+        "Reusable food containers designed for washing, traceability and repeat lidding."
+      ],
+      "variants": [
+        "250 ml",
+        "1/8 GN 500 ml",
+        "K-MIL"
+      ],
+      "publishedSpecifications": [
+        "Black PP.",
+        "Reference lists 25 microwave, dishwasher and re-lidding cycles."
+      ],
+      "availabilityNotes": "Published 250 ml lid footprint differs from its tub footprint. Verify exact lid compatibility with the source manufacturer.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Keepy",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Knauf iSHORE",
+      "url": "https://www.knauf-industries.com/products/knauf-ishore/",
+      "category": "furniture",
+      "mappedProduct": "EPP foam sheets",
+      "marketSlug": "furniture",
+      "material": "EPP",
+      "dimensions": [
+        "2012: 2000 × 1200 × 50 mm",
+        "1210: 1200 × 1000 × 160 mm",
+        "108: 1000 × 800 × 140 mm"
+      ],
+      "details": [
+        "EPP sheets for cushioning, crate interiors, machining and decorative forms."
+      ],
+      "variants": [
+        "2012",
+        "1210",
+        "108"
+      ],
+      "publishedSpecifications": [
+        "White or black; densities 20, 30, 45 or 60 kg/m³ depending on format.",
+        "Published reference temperature range: −40 °C to 110 °C."
+      ],
+      "availabilityNotes": "Summary thickness range 50–140 mm conflicts with the 1210 table value of 160 mm. Verify the selected format with the source manufacturer.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Knauf iSHORE®",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "Knauftray",
+      "url": "https://www.knauf-industries.com/products/knauftray/",
+      "category": "agrifood",
+      "mappedProduct": "Insulated food trays",
+      "marketSlug": "agrifood",
+      "material": "EPS / NEOPS®",
+      "dimensions": [
+        "398 × 288 × 70 mm: H60 SC/CC",
+        "398 × 288 × 90 mm: H80 SC/CC",
+        "398 × 288 × 110 mm: H100 SC/CC/CL",
+        "398 × 300 × 128 mm: H115 SC"
+      ],
+      "details": [
+        "Sealable EPS food crates with optional short or long partitions."
+      ],
+      "variants": [
+        "KT43 H60 SC",
+        "KT43 H60 CC",
+        "KT43 H80 SC",
+        "KT43 H80 CC",
+        "KT43 H100 SC",
+        "KT43 H100 CC",
+        "KT43 H100 CL",
+        "KT43 H115 SC"
+      ],
+      "publishedSpecifications": [
+        "Useful volumes in the table: 5.2–10.4 L; white or black.",
+        "Reference reports vertical compression over 300 kg and stacking up to 2 m."
+      ],
+      "availabilityNotes": "Listing summary says 5.6–10.4 L, while H60 CC table lists 5.2 L.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Knauftray",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Komebac",
+      "url": "https://www.knauf-industries.com/products/komebac/",
+      "category": "logistics-handling",
+      "mappedProduct": "Reusable industrial containers",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "dimensions": [
+        "43 series: 395 × 295 mm; heights130/230/280/330 mm",
+        "64 series: 595 × 395 mm; heights130/230/280/330 mm",
+        "66: 595 × 595 × 300 mm",
+        "84: 790 × 390 × 220 mm",
+        "104: 985 × 395 × 310 mm",
+        "125 series: 1190 × 490 mm; heights124/224/274/324/350 mm"
+      ],
+      "details": [
+        "Reusable EPP industrial bins, with lids and identification options."
+      ],
+      "variants": [
+        "43",
+        "64",
+        "66",
+        "84",
+        "104",
+        "125"
+      ],
+      "publishedSpecifications": [
+        "Black, grey and custom colours.",
+        "Published weights vary by format; some rows exceed the summary maximum of 2 kg."
+      ],
+      "availabilityNotes": "Do not use the summary's universal 2 kg maximum: the 104 row is 2.2 kg and the 125 × 350 row is 2.9 kg.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Komebac®",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Komebac Cool",
+      "url": "https://www.knauf-industries.com/products/komebac-cool/",
+      "category": "logistics-handling",
+      "mappedProduct": "Reusable industrial coolers",
+      "marketSlug": "logistics-handling",
+      "material": "EPP; marine-waste-content EPP also stated",
+      "dimensions": [
+        "20 L: 470 × 340 × 265 mm",
+        "25 L: 470 × 340 × 315 mm",
+        "35 L: 470 × 340 × 410 mm"
+      ],
+      "details": [
+        "Reusable EPP coolers for food and sample transport."
+      ],
+      "variants": [
+        "20 L",
+        "25 L",
+        "35 L"
+      ],
+      "publishedSpecifications": [
+        "Empty weights: 1, 1.2 and 1.6 kg respectively.",
+        "Source qualification: +2 °C to +8 °C for 36 hours, to NF S 99-700. This belongs to the reference system.",
+        "Logo, colour and traceability options are listed."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Komebac® Cool",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Mitsy",
+      "url": "https://www.knauf-industries.com/products/mitsy/",
+      "category": "agrifood",
+      "mappedProduct": "Last-mile fresh produce trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal®; PET lid",
+      "dimensions": [
+        "4308: 408.5 × 273.5 × 75 mm",
+        "4310: 408.5 × 273.5 × 100 mm",
+        "CV43: 418.5 × 283.5 × 10.5 mm",
+        "6306: 589 × 254 × 60 mm",
+        "6308: 589 × 254 × 84 mm",
+        "CV63: 600 × 265 × 25 mm"
+      ],
+      "details": [
+        "Last-mile fresh-food crates with optional drainage, heat sealing and lids."
+      ],
+      "variants": [
+        "4308",
+        "4310",
+        "6306",
+        "6308",
+        "CV43 lid",
+        "CV63 lid"
+      ],
+      "publishedSpecifications": [
+        "Designed for 3–5 kg of fresh produce.",
+        "Reference vertical-compression figure: 99 kg.",
+        "White PP crate with a separate transparent PET lid."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Mitsy",
+      "listingPage": 3,
+      "listingUrl": "https://www.knauf-industries.com/products/page/3/"
+    },
+    {
+      "name": "Nemo",
+      "url": "https://www.knauf-industries.com/products/nemo/",
+      "category": "agrifood",
+      "mappedProduct": "Seafood presentation platters",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal®; PET lid",
+      "dimensions": [
+        "Round350: diameter350 ×65 mm",
+        "Round500: diameter500 ×65 mm",
+        "Oval490: 490 ×350 ×65 mm"
+      ],
+      "details": [
+        "Rigid seafood presentation trays with clip-on transparent lids."
+      ],
+      "variants": [
+        "Round 350",
+        "Round 500",
+        "Oval 490",
+        "Separate covers"
+      ],
+      "publishedSpecifications": [
+        "White PP; clear PET cover.",
+        "Reference load figure: up to 8 kg."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Nemo",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Oceane",
+      "url": "https://www.knauf-industries.com/products/oceane/",
+      "category": "agrifood",
+      "mappedProduct": "Shellfish trays",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "279 × 175 mm; heights 40, 50, 67, 72, 88 or 100 mm"
+      ],
+      "details": [
+        "Retail trays for shellfish, crustaceans and fish fillets."
+      ],
+      "variants": [
+        "Six heights"
+      ],
+      "publishedSpecifications": [
+        "White, natural, black or custom colours.",
+        "Published reference temperature range: −20 °C to 135 °C."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Océane",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Phonixx Pad",
+      "url": "https://www.knauf-industries.com/products/phonixx-pad/",
+      "category": "building",
+      "mappedProduct": "Under-screed insulation pads",
+      "marketSlug": "building",
+      "material": "EPS",
+      "dimensions": [
+        "1200 × 800 mm; total/base thickness pairs: 46/26, 62/42, 77.4/57.4, 91/71, 101.2/81.2 and 122.4/102.4 mm"
+      ],
+      "details": [
+        "Studded EPS panels for under-screed insulation and underfloor heating."
+      ],
+      "variants": [
+        "Six thickness variants"
+      ],
+      "publishedSpecifications": [
+        "White EPS; tube diameters 12–16 mm.",
+        "Published thermal conductivity: 34 mW/(m·K); impact-noise improvement: 21 dB.",
+        "Published operating load: 500 kg/m²; NF DTU 52.10 class SC1a2ACh."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Phonixx Pad",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Poolineasy",
+      "url": "https://www.knauf-industries.com/products/poolineasy/",
+      "category": "swimming-pools",
+      "mappedProduct": "Pool staircase & deck kits",
+      "marketSlug": "swimming-pools-filtration",
+      "material": "Not verified: detail body is Thermapool",
+      "dimensions": [],
+      "details": [
+        "Corner pool staircase and deck kit, as listed in the standard catalogue."
+      ],
+      "variants": [
+        "Poolineasy®kit"
+      ],
+      "publishedSpecifications": [],
+      "availabilityNotes": "The detail body describes THERMAPOOL. Material and dimensions for the staircase/deck kit are therefore not verified.",
+      "sourceStatus": "listing_verified_detail_mismatch",
+      "sourceName": "Poolineasy®",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Protective corners",
+      "url": "https://www.knauf-industries.com/products/protective-corners/",
+      "category": "furniture",
+      "mappedProduct": "Corner protectors",
+      "marketSlug": "furniture",
+      "material": "EPS / EPP",
+      "dimensions": [
+        "Standardformats: 70 ×70 ×20,75 ×75 ×75,90 ×90 ×90,135 ×135 ×80,150 ×150 ×150 mm",
+        "Splitcorner: 100 ×100 ×100 mm",
+        "Mirrorcornerformats: 110 ×110 ×50,120 ×120 ×44,120 ×120 ×120,150 ×150 ×72,150 ×150 ×70,150 ×150 ×104 mm"
+      ],
+      "details": [
+        "Fixed foam corners for transport protection and packing stations."
+      ],
+      "variants": [
+        "Standard corners",
+        "Split square corners",
+        "Mirror corners"
+      ],
+      "publishedSpecifications": [
+        "White or black; thicknesses 10–50 mm."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Protective corners",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    },
+    {
+      "name": "Ringbox",
+      "url": "https://www.knauf-industries.com/products/ringbox/",
+      "category": "pharma-health",
+      "mappedProduct": "Modular dry-ice containers",
+      "marketSlug": "pharma-health",
+      "material": "EPS / graphitized EPS / PS-PE copolymer / NEOPS® / CELOOPS®",
+      "dimensions": [
+        "300 L two-/four-entry: 1200 × 800 × 690 mm",
+        "300 L flat bottom: 1200 × 800 × 590 mm",
+        "150 L extension ring: 1200 × 800 × 215 mm"
+      ],
+      "details": [
+        "Modular solid-CO₂ shipping container with several base designs and extension rings."
+      ],
+      "variants": [
+        "Flat bottom",
+        "Two-entry bottom",
+        "Four-entry bottom",
+        "150 L extension ring"
+      ],
+      "publishedSpecifications": [
+        "300 L base weights: 6.3, 7.1 and 6.8 kg respectively; wall thickness 70 mm.",
+        "CEMAFROID qualification stated for the reference system."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Ringbox®",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Seafood platters in EPS",
+      "url": "https://www.knauf-industries.com/products/seafood-platters-in-eps/",
+      "category": "agrifood",
+      "mappedProduct": "Foam seafood platters",
+      "marketSlug": "agrifood",
+      "material": "EPS / NEOPS®; PET cover",
+      "dimensions": [
+        "Round diameters: 280, 350 or 500 mm",
+        "Oval: 490 × 350 × 65 or 700 × 400 × 75 mm",
+        "Square footprint: 230 × 230 or 390 × 390 mm",
+        "Boat: 429 × 246 × 102, 550 × 315 × 131 or 681 × 390 × 162 mm"
+      ],
+      "details": [
+        "Foam seafood serving platters, with optional transparent covers."
+      ],
+      "variants": [
+        "Round",
+        "Oval",
+        "Square",
+        "Boat",
+        "PET covers"
+      ],
+      "publishedSpecifications": [
+        "White or black; serving references for 2–8 people."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Seafood platters in EPS",
+      "listingPage": 2,
+      "listingUrl": "https://www.knauf-industries.com/products/page/2/"
+    },
+    {
+      "name": "Sealbak",
+      "url": "https://www.knauf-industries.com/products/sealbak/",
+      "category": "agrifood",
+      "mappedProduct": "Ice cream presentation trays",
+      "marketSlug": "agrifood",
+      "material": "PP",
+      "dimensions": [
+        "250 ml: 121 ×90 ×42.5 mm",
+        "500 ml: 170 ×95 ×51.3 mm",
+        "750 ml: 182 ×124 ×51.5 mm",
+        "Lids: 119 ×88.5 ×6; 167.6 ×92.6 ×6; 179.6 ×121.6 ×6 mm"
+      ],
+      "details": [
+        "Small injection-moulded PP ice-cream tubs with tamper-evident lids."
+      ],
+      "variants": [
+        "250 ml",
+        "500 ml",
+        "750 ml"
+      ],
+      "publishedSpecifications": [
+        "Natural translucent PP; reference lists microwave, freezer and dishwasher compatibility.",
+        "IML labelling and lid marking are listed."
+      ],
+      "availabilityNotes": "Prior mapping 'Ice cream presentation trays' is broad. A dedicated PP ice-cream tub family is more precise.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Sealbak",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Skinboard Neo",
+      "url": "https://www.knauf-industries.com/products/skinboard-neo/",
+      "category": "agrifood",
+      "mappedProduct": "Skin packaging boards",
+      "marketSlug": "agrifood",
+      "material": "PP: KapSeal® / KapClear® / KapLight® / R’Kap®",
+      "dimensions": [
+        "232 × 146.5 × 6 mm",
+        "259 × 178 × 6 mm"
+      ],
+      "details": [
+        "Rigid low-profile skin-packaging boards for retail display."
+      ],
+      "variants": [
+        "B5",
+        "B6"
+      ],
+      "publishedSpecifications": [
+        "White, natural, black or custom colours.",
+        "Reference lists microwave and pasteurization compatibility."
+      ],
+      "availabilityNotes": "Listing codes 1523/B5 and 1826/B6 are retained; the dimension table supplies the two exact footprints.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Skinboard Neo",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Techniplot",
+      "url": "https://www.knauf-industries.com/products/techniplot/",
+      "category": "furniture",
+      "mappedProduct": "Adhesive foam support pads",
+      "marketSlug": "logistics-handling",
+      "material": "EPS / PE / EPP / NEOPS®",
+      "dimensions": [
+        "50 × 50 × 25, 50 × 50 × 50, 75 × 75 × 25, 75 × 75 × 50, 100 × 100 × 25 or 100 × 100 × 50 mm"
+      ],
+      "details": [
+        "Adhesive foam pads to secure and cushion products inside packages."
+      ],
+      "variants": [
+        "ADL repositionable adhesive",
+        "ADP permanent adhesive"
+      ],
+      "publishedSpecifications": [
+        "White or black; PE density 24 kg/m³ listed.",
+        "Supplied in cartons."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Techniplot®",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Thermapool",
+      "url": "https://www.knauf-industries.com/products/thermapool/",
+      "category": "swimming-pools",
+      "mappedProduct": "Pool thermal panels",
+      "marketSlug": "swimming-pools-filtration",
+      "material": "EPS",
+      "dimensions": [
+        "1200 × 800 mm; thicknesses 50, 80 or 100 mm"
+      ],
+      "details": [
+        "EPS panels for insulation beneath private-pool concrete bases."
+      ],
+      "variants": [
+        "50 mm",
+        "80 mm",
+        "100 mm"
+      ],
+      "publishedSpecifications": [
+        "White; area 0.96 m²; thermal conductivity 0.034 W/(m·K).",
+        "Published compression stress at 10% strain: 160 kPa.",
+        "Source use conditions include flat-bottom pools and water height up to 1.5 m."
+      ],
+      "availabilityNotes": "Enquiry-based reference listing; prices, stock and delivery times not stated.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Thermapool®",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Thermokuli",
+      "url": "https://www.knauf-industries.com/products/thermokuli/",
+      "category": "logistics-handling",
+      "mappedProduct": "Catering transport boxes",
+      "marketSlug": "logistics-handling",
+      "material": "Not verified: detail body is Komebac",
+      "dimensions": [],
+      "details": [
+        "Insulated boxes for professional catering transport."
+      ],
+      "variants": [
+        "Thermokuli®"
+      ],
+      "publishedSpecifications": [],
+      "availabilityNotes": "The detail body describes Komebac. Its table is excluded, and the listing's HACCP claim must not be applied to PARK.",
+      "sourceStatus": "listing_verified_detail_mismatch",
+      "sourceName": "Thermokuli®",
+      "listingPage": 1,
+      "listingUrl": "https://www.knauf-industries.com/products/"
+    },
+    {
+      "name": "Vacherins boxes",
+      "url": "https://www.knauf-industries.com/products/vacherins-boxes/",
+      "category": "agrifood",
+      "mappedProduct": "Insulated dessert boxes",
+      "marketSlug": "agrifood",
+      "material": "EPS / NEOPS®",
+      "dimensions": [
+        "No1: 250 ×250 ×210 mm; 7.5 L",
+        "No2: 300 ×300 ×205 mm; 11.4 L",
+        "No3: 340 ×340 ×215 mm; 15.7 L"
+      ],
+      "details": [
+        "Insulated boxes for transporting and storing frozen desserts."
+      ],
+      "variants": [
+        "No. 1",
+        "No. 2",
+        "No. 3"
+      ],
+      "publishedSpecifications": [
+        "White or black; EPS or NEOPS®."
+      ],
+      "availabilityNotes": "Source says black and/or NEOPS® versions available on request, subject to a minimum order.",
+      "sourceStatus": "detail_verified",
+      "sourceName": "Vacherins boxes",
+      "listingPage": 4,
+      "listingUrl": "https://www.knauf-industries.com/products/page/4/"
+    }
+  ],
+  "additionalMentions": [
+    {
+      "name": "Kary Green",
+      "url": "https://www.knauf-industries.com/agrifood/meat-packaging/",
+      "details": [
+        "Mentioned for sausages, grills and barbecue meats in the meat-packaging FAQ and a French food-packaging archive."
+      ],
+      "sourceStatus": "application_mention_only_not_current_english_standard_listing",
+      "material": null,
+      "dimensions": [],
+      "mappedProduct": "Grill and sausage trays",
+      "marketSlug": "agrifood"
+    }
+  ],
+  "inaccessibleURLs": [
+    {
+      "url": "https://www.knauf-industries.com/shop/",
+      "reason": "Direct timeout; origin requests return Cloudflare 403. The search index shows an empty Shop landing."
+    },
+    {
+      "url": "https://www.knauf-industries.com/shop/page/2/",
+      "reason": "Not accessible directly."
+    },
+    {
+      "url": "https://www.knauf-industries.com/shop/page/3/",
+      "reason": "Direct timeout; cached search result confirms 33–39 of 39 results."
+    },
+    {
+      "url": "https://www.knauf-industries.com/wp-sitemap.xml",
+      "reason": "Not accessible; origin Cloudflare 403."
+    },
+    {
+      "url": "https://www.knauf-industries.com/sitemap_index.xml",
+      "reason": "Not accessible; origin Cloudflare 403."
+    }
+  ],
+  "sourceDataIssues": [
+    "Thermokuli and Flipbox detail bodies duplicate Komebac.",
+    "Poolineasy detail body duplicates Thermapool.",
+    "Kary Fresh's 170 × 130 × 55 mm row prints 7550 ml.",
+    "Freshbox's 1 L row prints useful volume 16.",
+    "iSHORE's summary says 50–140 mm thickness; the 1210 table says 160 mm.",
+    "Drainbox's published width is 100 mm and may be erroneous.",
+    "Keepy's published 250 ml lid footprint differs from the tub.",
+    "Komebac's 2 kg summary maximum conflicts with 2.2 kg and 2.9 kg table rows."
+  ],
+  "assetPolicy": "No source images, logos, video, marketing paragraphs or customer endorsements copied."
+}

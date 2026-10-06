@@ -1,0 +1,677 @@
+[
+  {
+    "name": "Heat-pump covers",
+    "marketSlug": "hvac",
+    "summary": "Cover forms fitted around heat-pump units.",
+    "material": "EPP / EPS",
+    "focus": [
+      "Unit geometry",
+      "Service access",
+      "Insulation zones"
+    ],
+    "application": "Specify unit geometry, service access and insulation zones. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/hvac-domestic-appliances/"
+    ]
+  },
+  {
+    "name": "Heat-pump support frames",
+    "marketSlug": "hvac",
+    "summary": "Support frames arranged around heat-pump assemblies.",
+    "material": "EPP / EPS",
+    "focus": [
+      "Mounting loads",
+      "Assembly clearances",
+      "Outdoor exposure"
+    ],
+    "application": "Specify mounting loads, assembly clearances and outdoor exposure. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/hvac-domestic-appliances/"
+    ]
+  },
+  {
+    "name": "Hydraulic module supports",
+    "marketSlug": "hvac",
+    "summary": "Support forms for hydraulic assemblies and their connections.",
+    "material": "EPP / EPS",
+    "focus": [
+      "Pipe interfaces",
+      "Support layout",
+      "Access clearances"
+    ],
+    "application": "Specify pipe interfaces, support layout and access clearances. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/hvac-domestic-appliances/"
+    ]
+  },
+  {
+    "name": "Water-heater insulation forms",
+    "marketSlug": "hvac",
+    "summary": "Insulation geometry fitted around water-heating equipment.",
+    "material": "EPP / EPS",
+    "focus": [
+      "Tank geometry",
+      "Connection cut-outs",
+      "Operating temperature"
+    ],
+    "application": "Specify tank geometry, connection cut-outs and operating temperature. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/hvac-domestic-appliances/"
+    ]
+  },
+  {
+    "name": "Hydraulic manifold insulation",
+    "marketSlug": "hvac",
+    "summary": "Fitted insulation around manifolds and heat-distribution connections.",
+    "material": "EPP / EPS",
+    "focus": [
+      "Manifold profile",
+      "Connection spacing",
+      "Interface temperature"
+    ],
+    "application": "Specify manifold profile, connection spacing and interface temperature. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/hvac-domestic-appliances/"
+    ]
+  },
+  {
+    "name": "Condensate collection trays",
+    "marketSlug": "hvac",
+    "summary": "Collection forms integrated into cooling equipment.",
+    "material": "Material selection required",
+    "focus": [
+      "Drain position",
+      "Installed slope",
+      "Moisture exposure"
+    ],
+    "application": "Specify drain position, installed slope and moisture exposure. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/hvac-domestic-appliances/"
+    ]
+  },
+  {
+    "name": "Fan-coil structural supports",
+    "marketSlug": "hvac",
+    "summary": "Support geometry for fan-coil and terminal assemblies.",
+    "material": "Material selection required",
+    "focus": [
+      "Fastening layout",
+      "Component mass",
+      "Vibration conditions"
+    ],
+    "application": "Specify fastening layout, component mass and vibration conditions. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/hvac-domestic-appliances/"
+    ]
+  },
+  {
+    "name": "Aircraft seating foam cores",
+    "marketSlug": "aviation",
+    "summary": "Shaped cores for non-structural aircraft seating assemblies.",
+    "material": "EPP / technical thermoplastics",
+    "focus": [
+      "Seating interfaces",
+      "Core geometry",
+      "Aircraft qualification"
+    ],
+    "application": "Specify seating interfaces, core geometry and aircraft qualification. Confirm aircraft approval requirements and grade traceability.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/aviation-solutions/aircraft-interior-components/"
+    ]
+  },
+  {
+    "name": "Aircraft armrest and headrest supports",
+    "marketSlug": "aviation",
+    "summary": "Support forms for armrest, headrest and cushion-related functions.",
+    "material": "EPP / technical thermoplastics",
+    "focus": [
+      "Support geometry",
+      "Insert interfaces",
+      "Approval documents"
+    ],
+    "application": "Specify support geometry, insert interfaces and approval documents. Confirm aircraft approval requirements and grade traceability.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/aviation-solutions/aircraft-interior-components/"
+    ]
+  },
+  {
+    "name": "Aircraft air-distribution components",
+    "marketSlug": "aviation",
+    "summary": "Duct and insulation forms for cabin air management.",
+    "material": "EPP / technical thermoplastics",
+    "focus": [
+      "Air-path geometry",
+      "System interfaces",
+      "Material qualification"
+    ],
+    "application": "Specify air-path geometry, system interfaces and material qualification. Confirm aircraft approval requirements and grade traceability.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/aviation-solutions/aircraft-interior-components/"
+    ]
+  },
+  {
+    "name": "Split square corner protectors",
+    "marketSlug": "furniture",
+    "summary": "Sectioned protective corners for differently sized edges.",
+    "material": "Material selection required",
+    "focus": [
+      "Split pattern",
+      "Edge profile",
+      "Packing method"
+    ],
+    "application": "Specify split pattern, edge profile and packing method. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/furniture/corner-protectors/"
+    ]
+  },
+  {
+    "name": "Mirror corner guards",
+    "marketSlug": "furniture",
+    "summary": "Protective corner shapes for glass and mirror edges.",
+    "material": "Material selection required",
+    "focus": [
+      "Glass thickness",
+      "Surface contact",
+      "Impact exposure"
+    ],
+    "application": "Specify glass thickness, surface contact and impact exposure. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/furniture/corner-protectors/"
+    ]
+  },
+  {
+    "name": "Flexible EPP corner protectors",
+    "marketSlug": "furniture",
+    "summary": "Flexible corner forms for variable shapes and repeated handling.",
+    "material": "EPP",
+    "focus": [
+      "Corner geometry",
+      "Compression response",
+      "Reuse cycles"
+    ],
+    "application": "Specify corner geometry, compression response and reuse cycles. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/furniture/corner-protectors/"
+    ]
+  },
+  {
+    "name": "Furniture seating cores",
+    "marketSlug": "furniture",
+    "summary": "Internal structures for seats, armchairs and modular furniture.",
+    "material": "EPP / EPS / PE",
+    "focus": [
+      "Upholstery interface",
+      "Sitting loads",
+      "Support geometry"
+    ],
+    "application": "Specify upholstery interface, sitting loads and support geometry. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/furniture/foam-furniture/"
+    ]
+  },
+  {
+    "name": "Vehicle floor panels",
+    "marketSlug": "mobility",
+    "summary": "Floor forms specified around installed space and loading.",
+    "material": "EPP",
+    "focus": [
+      "Floor profile",
+      "Supported loads",
+      "Assembly clearances"
+    ],
+    "application": "Specify floor profile, supported loads and assembly clearances. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/epp-mobility/"
+    ]
+  },
+  {
+    "name": "Vehicle seat foam components",
+    "marketSlug": "mobility",
+    "summary": "Foam forms evaluated within vehicle seating assemblies.",
+    "material": "EPP",
+    "focus": [
+      "Seat structure",
+      "Repeated loading",
+      "Mounting features"
+    ],
+    "application": "Specify seat structure, repeated loading and mounting features. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/epp-mobility/"
+    ]
+  },
+  {
+    "name": "Vehicle storage organizers",
+    "marketSlug": "mobility",
+    "summary": "Fitted storage layouts for tools and loose equipment.",
+    "material": "EPP",
+    "focus": [
+      "Item layout",
+      "Access openings",
+      "Retention geometry"
+    ],
+    "application": "Specify item layout, access openings and retention geometry. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/epp-mobility/"
+    ]
+  },
+  {
+    "name": "Battery protective inserts",
+    "marketSlug": "mobility",
+    "summary": "Protective components specified around battery integration.",
+    "material": "EPP",
+    "focus": [
+      "Battery envelope",
+      "Thermal conditions",
+      "Protection targets"
+    ],
+    "application": "Specify battery envelope, thermal conditions and protection targets. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/epp-mobility/"
+    ]
+  },
+  {
+    "name": "Vehicle insulating panels",
+    "marketSlug": "mobility",
+    "summary": "Panels evaluated within vehicle insulation assemblies.",
+    "material": "EPP",
+    "focus": [
+      "Available space",
+      "Thermal interfaces",
+      "Acoustic targets"
+    ],
+    "application": "Specify available space, thermal interfaces and acoustic targets. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/epp-mobility/"
+    ]
+  },
+  {
+    "name": "Vehicle energy absorbers",
+    "marketSlug": "mobility",
+    "summary": "Foam components evaluated within impact-related vehicle assemblies.",
+    "material": "EPP / EPS",
+    "focus": [
+      "Installed geometry",
+      "Load cases",
+      "Assembly validation"
+    ],
+    "application": "Specify installed geometry, load cases and assembly validation. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/"
+    ]
+  },
+  {
+    "name": "Vehicle acoustic inserts",
+    "marketSlug": "mobility",
+    "summary": "Shaped inserts specified around cabin noise and vibration.",
+    "material": "EPP / EPS",
+    "focus": [
+      "Noise target",
+      "Contact interfaces",
+      "Temperature exposure"
+    ],
+    "application": "Specify noise target, contact interfaces and temperature exposure. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/"
+    ]
+  },
+  {
+    "name": "Vehicle parts shuttle trays",
+    "marketSlug": "mobility",
+    "summary": "Returnable layouts for component transport and repeated handling.",
+    "material": "Material selection required",
+    "focus": [
+      "Part arrangement",
+      "Handling access",
+      "Return journey"
+    ],
+    "application": "Specify part arrangement, handling access and return journey. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/automotive/"
+    ]
+  },
+  {
+    "name": "Sports helmet foam liners",
+    "marketSlug": "sports-leisure",
+    "summary": "Liner forms developed within complete protective helmets.",
+    "material": "EPS / EPP",
+    "focus": [
+      "Liner fit",
+      "Impact targets",
+      "Equipment testing"
+    ],
+    "application": "Specify liner fit, impact targets and equipment testing. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/sport-leisures/custom-sports-equipment-manufacturer/"
+    ]
+  },
+  {
+    "name": "Foam insole components",
+    "marketSlug": "sports-leisure",
+    "summary": "Footwear support forms specified around fit and repeated loading.",
+    "material": "EPS / EPP",
+    "focus": [
+      "Footwear profile",
+      "Repeated compression",
+      "Comfort targets"
+    ],
+    "application": "Specify footwear profile, repeated compression and comfort targets. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/sport-leisures/custom-sports-equipment-manufacturer/"
+    ]
+  },
+  {
+    "name": "Surfboard foam cores",
+    "marketSlug": "sports-leisure",
+    "summary": "Core geometry developed alongside surfboard construction.",
+    "material": "EPS / EPP",
+    "focus": [
+      "Board outline",
+      "Skin interface",
+      "Use conditions"
+    ],
+    "application": "Specify board outline, skin interface and use conditions. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/sport-leisures/custom-sports-equipment-manufacturer/"
+    ]
+  },
+  {
+    "name": "Modular foam play forms",
+    "marketSlug": "childhood",
+    "summary": "Connectable play shapes for age-specific handling and construction.",
+    "material": "EPP",
+    "focus": [
+      "Intended age",
+      "Connection layout",
+      "Cleaning method"
+    ],
+    "application": "Specify intended age, connection layout and cleaning method. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/childhood/plastic-toys-manufactured/"
+    ]
+  },
+  {
+    "name": "Educational toy shapes",
+    "marketSlug": "childhood",
+    "summary": "Moulded forms developed around learning and play activities.",
+    "material": "EPP",
+    "focus": [
+      "Activity brief",
+      "Accessible edges",
+      "Small-part assessment"
+    ],
+    "application": "Specify activity brief, accessible edges and small-part assessment. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/childhood/plastic-toys-manufactured/"
+    ]
+  },
+  {
+    "name": "Child-seat foam cores",
+    "marketSlug": "childhood",
+    "summary": "Foam parts evaluated within child-seat and booster systems.",
+    "material": "EPP",
+    "focus": [
+      "Seat interfaces",
+      "Installed fit",
+      "System approval"
+    ],
+    "application": "Specify seat interfaces, installed fit and system approval. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/childhood/manufacturer-accessories/"
+    ]
+  },
+  {
+    "name": "Nursery foam storage forms",
+    "marketSlug": "childhood",
+    "summary": "Storage geometry for supervised childcare and nursery settings.",
+    "material": "EPP",
+    "focus": [
+      "Storage access",
+      "Age suitability",
+      "Cleaning routine"
+    ],
+    "application": "Specify storage access, age suitability and cleaning routine. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/childhood/manufacturer-accessories/"
+    ]
+  },
+  {
+    "name": "Movement-course play blocks",
+    "marketSlug": "childhood",
+    "summary": "Play forms for supervised balance and movement activities.",
+    "material": "EPP",
+    "focus": [
+      "Activity layout",
+      "Surface stability",
+      "Intended users"
+    ],
+    "application": "Specify activity layout, surface stability and intended users. Assess finished equipment against its applicable user and testing requirements.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/childhood/manufacturer-accessories/"
+    ]
+  },
+  {
+    "name": "Cheese display cloches",
+    "marketSlug": "agrifood",
+    "summary": "Display lids and cloches arranged around cheese presentation.",
+    "material": "Material selection required",
+    "focus": [
+      "Cheese profile",
+      "Closure fit",
+      "Food-contact documentation"
+    ],
+    "application": "Specify cheese profile, closure fit and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/cheese-packaging/"
+    ]
+  },
+  {
+    "name": "Cheese ripening containers",
+    "marketSlug": "agrifood",
+    "summary": "Containers developed around maturation and air exchange.",
+    "material": "Material selection required",
+    "focus": [
+      "Ripening conditions",
+      "Air exchange",
+      "Cleaning requirements"
+    ],
+    "application": "Specify ripening conditions, air exchange and cleaning requirements. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/cheese-packaging/"
+    ]
+  },
+  {
+    "name": "Spreadable-cheese containers",
+    "marketSlug": "agrifood",
+    "summary": "Container formats specified for dairy filling and closure.",
+    "material": "Material selection required",
+    "focus": [
+      "Filling conditions",
+      "Closure method",
+      "Food-contact documentation"
+    ],
+    "application": "Specify filling conditions, closure method and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/cheese-packaging/"
+    ]
+  },
+  {
+    "name": "Macaron packaging inserts",
+    "marketSlug": "agrifood",
+    "summary": "Individual product locations for delicate macarons.",
+    "material": "Material selection required",
+    "focus": [
+      "Product diameter",
+      "Cavity spacing",
+      "Handling route"
+    ],
+    "application": "Specify product diameter, cavity spacing and handling route. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
+    ]
+  },
+  {
+    "name": "Tart and cake blisters",
+    "marketSlug": "agrifood",
+    "summary": "Shaped packs for supporting and presenting pastries.",
+    "material": "Material selection required",
+    "focus": [
+      "Product outline",
+      "Release method",
+      "Lid clearance"
+    ],
+    "application": "Specify product outline, release method and lid clearance. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
+    ]
+  },
+  {
+    "name": "Reusable bakery filling trays",
+    "marketSlug": "agrifood",
+    "summary": "Washable trays for filling and repeated production use.",
+    "material": "Material selection required",
+    "focus": [
+      "Filling process",
+      "Washing cycle",
+      "Food-contact documentation"
+    ],
+    "application": "Specify filling process, washing cycle and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
+    ]
+  },
+  {
+    "name": "Bakery assembly trays",
+    "marketSlug": "agrifood",
+    "summary": "Support layouts for pastry assembly and line handling.",
+    "material": "Material selection required",
+    "focus": [
+      "Machine interface",
+      "Product positions",
+      "Line handling"
+    ],
+    "application": "Specify machine interface, product positions and line handling. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/bakery-packaging/"
+    ]
+  },
+  {
+    "name": "Ice cream tubs",
+    "marketSlug": "agrifood",
+    "summary": "Rigid tubs for frozen filling, lidding and portion access.",
+    "material": "PP",
+    "focus": [
+      "Usable volume",
+      "Frozen conditions",
+      "Lid application"
+    ],
+    "application": "Specify usable volume, frozen conditions and lid application. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/ice-cream-packaging/"
+    ]
+  },
+  {
+    "name": "Herb packaging trays",
+    "marketSlug": "agrifood",
+    "summary": "Tray layouts specified around fragile herbs and moisture.",
+    "material": "Material selection required",
+    "focus": [
+      "Herb profile",
+      "Moisture conditions",
+      "Transport route"
+    ],
+    "application": "Specify herb profile, moisture conditions and transport route. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/fresh-fruit-vegetable-packaging/"
+    ]
+  },
+  {
+    "name": "Fresh-cut produce pots",
+    "marketSlug": "agrifood",
+    "summary": "Portion containers for prepared fruit and vegetable products.",
+    "material": "Material selection required",
+    "focus": [
+      "Portion volume",
+      "Sealing method",
+      "Food-contact documentation"
+    ],
+    "application": "Specify portion volume, sealing method and food-contact documentation. Verify food-contact documentation and trial the intended filling conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/agrifood/fresh-fruit-vegetable-packaging/"
+    ]
+  },
+  {
+    "name": "Wall and facade insulation boards",
+    "marketSlug": "building",
+    "summary": "Board layouts evaluated within wall and facade systems.",
+    "material": "EPS",
+    "focus": [
+      "Wall build-up",
+      "Fixing method",
+      "Thermal targets"
+    ],
+    "application": "Specify wall build-up, fixing method and thermal targets. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/structural-work/"
+    ]
+  },
+  {
+    "name": "Floor insulation panels",
+    "marketSlug": "building",
+    "summary": "Insulation panels coordinated with screed and supported loads.",
+    "material": "EPS",
+    "focus": [
+      "Floor build-up",
+      "Compressive loads",
+      "Installation detail"
+    ],
+    "application": "Specify floor build-up, compressive loads and installation detail. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/structural-work/"
+    ]
+  },
+  {
+    "name": "Roof and attic insulation boards",
+    "marketSlug": "building",
+    "summary": "Insulation formats coordinated with roof and attic assemblies.",
+    "material": "EPS",
+    "focus": [
+      "Roof assembly",
+      "Moisture control",
+      "Thermal targets"
+    ],
+    "application": "Specify roof assembly, moisture control and thermal targets. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/structural-work/"
+    ]
+  },
+  {
+    "name": "Thermal-break components",
+    "marketSlug": "building",
+    "summary": "Insulating elements evaluated around building junctions.",
+    "material": "EPS",
+    "focus": [
+      "Junction geometry",
+      "Structural loads",
+      "Thermal modelling"
+    ],
+    "application": "Specify junction geometry, structural loads and thermal modelling. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/structural-work/custom-insulation/"
+    ]
+  },
+  {
+    "name": "Industrial pallet boxes",
+    "marketSlug": "logistics-handling",
+    "summary": "Container formats for palletized storage and handling.",
+    "material": "EPP",
+    "focus": [
+      "Payload layout",
+      "Fork access",
+      "Empty returns"
+    ],
+    "application": "Specify payload layout, fork access and empty returns. Test representative assemblies against agreed service conditions.",
+    "sourceURLs": [
+      "https://www.knauf-industries.com/logistics-and-handling/industrial-storage-bins/"
+    ]
+  }
+]
