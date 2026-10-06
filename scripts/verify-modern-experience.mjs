@@ -94,7 +94,8 @@ try {
 
   await page.emulateMedia({reducedMotion: 'reduce'});
   await page.waitForTimeout(100);
-  await expect(page.locator('.park-hero video')).toHaveCount(0);
+  await expect(page.locator('.park-hero video')).toHaveCount(1);
+  await expect.poll(() => page.locator('.park-hero video').evaluate(video => video.paused)).toBe(true);
   assert.ok(await page.locator('video[aria-label="EPP moulding 3D process film"]').evaluate(video => video.paused));
   assert.equal(await page.locator('.site-scroll-progress').evaluate(el => getComputedStyle(el).display), 'none');
   await applications.scrollIntoViewIfNeeded();

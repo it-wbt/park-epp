@@ -1,5 +1,5 @@
 :global(.modern-home) .hero:global(.park-hero) { background: #0b202b; }
-.image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 65% center; }
+.backgroundVideo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
 :global(.modern-home) .hero .shade { pointer-events: none; background: linear-gradient(90deg, #071e2bef 0%, #071e2bd6 26%, #071e2b63 52%, #071e2b10 79%), linear-gradient(0deg, #071b28d9, transparent 28%); }
 :global(.modern-home) .hero .copy { max-width: 770px; margin: 0; padding: 36px 4% 120px; width: 53%; }
 :global(.modern-home) .hero h1 { font-size: clamp(43px, 4.1vw, 70px); line-height: 1.1; letter-spacing: -2px; margin-bottom: 24px; }
@@ -9,6 +9,7 @@
 :global(.modern-home) .hero :global(.button) { padding: 16px 22px; min-height: 50px; font-size: 13px; }
 .visualLabel { position: absolute; right: 4%; bottom: 110px; padding: 5px 8px; border-radius: 4px; background: #071e2b80; color: #e0e9e9; font-size: 10px; line-height: 1.5; }
 .footer { position: absolute; left: 4%; right: 4%; bottom: 25px; display: flex; justify-content: space-between; align-items: center; gap: 18px; padding-top: 18px; border-top: 1px solid #ffffff3d; }
+.heroControls { display: flex; align-items: center; gap: 10px; }
 .discover { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 11px; letter-spacing: 1.1px; }
 .watch { display: inline-flex; align-items: center; justify-content: center; gap: 11px; min-height: 44px; padding: 10px 17px; border: 1px solid #ffffff65; border-radius: 999px; background: #102d3a70; color: #fff; font-size: 13px; font-weight: 500; }
 .watch svg { width: 17px; height: 17px; }
@@ -57,7 +58,7 @@
 }
 @media (max-width: 760px) {
   :global(.modern-home) .hero:global(.park-hero) { height: auto; min-height: min(680px, calc(100svh - var(--banner-header-height, 92px))); }
-  .image { object-position: 69% center; }
+  :global(.modern-home) .hero > .backgroundVideo { object-position: 68% center; }
   :global(.modern-home) .hero .shade { background: linear-gradient(90deg, #071e2be8, #071e2b83 70%), linear-gradient(0deg, #071e2bf2, transparent 55%); }
   :global(.modern-home) .hero .copy { width: 100%; max-width: 590px; height: auto; min-height: min(680px, calc(100svh - var(--banner-header-height, 92px))); padding: 36px 20px 160px; }
   :global(.modern-home) .hero h1 { font-size: clamp(38px, 9.3vw, 56px); line-height: 1.1; letter-spacing: -1.4px; margin-bottom: 20px; }
@@ -67,9 +68,10 @@
   :global(.modern-home) .hero :global(.button) { padding: 13px 18px; min-height: 46px; font-size: 12px; }
   :global(.modern-home) .hero :global(.park-white-link) { font-size: 12px; min-height: 44px; display: inline-flex; align-items: center; }
   .footer { left: 20px; right: 20px; bottom: 18px; padding-top: 14px; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .heroControls { gap: 8px; flex-wrap: wrap; }
   .discover { font-size: 9px; letter-spacing: .4px; }
   .watch { gap: 8px; font-size: 11px; padding: 9px 12px; }
-  .visualLabel { bottom: 100px; right: 20px; font-size: 9px; }
+  .visualLabel { bottom: 132px; right: 20px; font-size: 9px; }
   .dialog { width: calc(100% - 24px); max-height: calc(100svh - 24px); padding: 19px 16px; border-radius: 16px; }
   .dialogHeader { gap: 10px; }
   .dialogHeader h2 { font-size: 23px; }
@@ -89,6 +91,8 @@
   :global(.modern-home) .hero :global(.eyebrow) { font-size: 6px; letter-spacing: .35px; }
   :global(.modern-home) .hero h1 { font-size: 37px; }
   .footer { justify-content: flex-start; gap: 2px; }
-  .visualLabel { bottom: 140px; }
+  .visualLabel { bottom: 134px; }
+  .heroControls { gap: 6px; }
+  .heroControls .watch { padding-inline: 8px; font-size: 10px; gap: 6px; }
 }
 @media (prefers-reduced-motion: reduce) { .line { transition: none; } }

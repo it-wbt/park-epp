@@ -31,31 +31,46 @@ async function seekPaused(page, seconds) {
   await expect.poll(() => page.locator('dialog[aria-labelledby="process-film-heading"] video').evaluate(video => !video.seeking && video.paused)).toBe(true);
 }
 
-async function assertModalClosed(page) {
+async function assertModalClosed(page, backgroundPlaying = true) {
   await expect(page.locator('dialog[aria-labelledby="process-film-heading"]')).not.toBeVisible();
   assert.ok(await page.locator('dialog[aria-labelledby="process-film-heading"] video').evaluate(video => video.paused));
   await expect(page.getByRole('link', {name: 'Watch moulding process', exact: true})).toBeFocused();
   await expect.poll(() => page.evaluate(() => document.body.style.overflow)).not.toBe('hidden');
+  await expect.poll(() => page.locator('.park-hero video').evaluate(video => video.paused)).toBe(!backgroundPlaying);
 }
 
 try {
   const page = await browser.newPage({viewport: {width: 1440, height: 900}});
   observeErrors(page, 'desktop');
-  const initialMediaRequests = [];
-  page.on('request', request => { if (/\.mp4(?:\?|$)/.test(request.url())) initialMediaRequests.push(request.url()); });
   await page.goto(baseUrl);
   await page.evaluate(() => document.fonts.ready);
   const hero = page.locator('.park-hero');
-  const image = hero.locator('img[src="/images/generated/factory-beads.webp"]');
-  await expect(image).toHaveCount(1);
-  await image.evaluate(image => image.decode());
-  await expect(hero).toContainText('AI factory visual');
+  const backgroundVideo = hero.locator('video');
+  await expect(backgroundVideo).toHaveCount(1);
+  await expect.poll(() => backgroundVideo.evaluate(video => video.readyState >= 2 && video.currentTime > .2 && !video.paused)).toBe(true);
+  const background = await backgroundVideo.evaluate(video => ({
+    duration: video.duration, width: video.videoWidth, height: video.videoHeight,
+    autoplay: video.autoplay, loop: video.loop, muted: video.muted, playsInline: video.playsInline,
+    source: video.currentSrc, poster: video.poster,
+  }));
+  assert.ok(background.autoplay && background.loop && background.muted && background.playsInline);
+  assert.ok(Math.abs(background.duration - duration) < .1);
+  assert.equal(background.width, 1600);
+  assert.equal(background.height, 900);
+  assert.ok(background.source.endsWith('/videos/park-epp-manufacturing.mp4'));
+  assert.ok(background.poster.endsWith('/images/epp-manufacturing-poster.webp'));
+  await page.evaluate(async src => { const image = new Image(); image.src = src; await image.decode(); }, background.poster);
   await expect(hero.locator('h1')).toContainText('Future of');
   await expect(hero.locator('h1')).toContainText('light weight');
-  await expect(hero.locator('video')).toHaveCount(0);
   await expect(page.locator('dialog[aria-labelledby="process-film-heading"]')).not.toBeVisible();
   assert.ok(await page.locator('dialog[aria-labelledby="process-film-heading"] video').evaluate(video => video.paused && !video.autoplay));
-  assert.deepEqual(initialMediaRequests, [], 'The static hero does not fetch the film before a request to watch');
+  await hero.getByRole('button', {name: 'Pause background video', exact: true}).click();
+  await expect.poll(() => backgroundVideo.evaluate(video => video.paused)).toBe(true);
+  const pausedTime = await backgroundVideo.evaluate(video => video.currentTime);
+  await page.waitForTimeout(250);
+  assert.ok(Math.abs(await backgroundVideo.evaluate(video => video.currentTime) - pausedTime) < .05, 'Background stops advancing while paused');
+  await hero.getByRole('button', {name: 'Play background video', exact: true}).click();
+  await expect.poll(() => backgroundVideo.evaluate(video => video.paused)).toBe(false);
   await expect(hero.getByRole('link', {name: 'Explore our products'})).toHaveAttribute('href', '/products/');
   await expect(hero.getByRole('link', {name: /Find your industry/})).toHaveAttribute('href', '/markets/');
   await expect(hero.getByRole('link', {name: /Discover the possibilities/})).toHaveAttribute('href', '#discover');
@@ -65,6 +80,7 @@ try {
   await watch.click();
   const dialog = page.locator('dialog[aria-labelledby="process-film-heading"]');
   await expect(dialog).toBeVisible();
+  await expect.poll(() => backgroundVideo.evaluate(video => video.paused)).toBe(true);
   await expect(dialog).toContainText('3D PROCESS FILM');
   await expect(dialog.getByRole('button', {name: 'Close process film'})).toBeFocused();
   await page.waitForFunction(() => document.querySelector('dialog[aria-labelledby="process-film-heading"] video')?.readyState >= 2);
@@ -97,10 +113,15 @@ try {
   await expect.poll(() => page.locator('dialog[aria-labelledby="process-film-heading"] video').evaluate(video => video.paused)).toBe(false);
   await page.keyboard.press('Escape');
   await assertModalClosed(page);
+  await hero.getByRole('button', {name: 'Pause background video', exact: true}).click();
+  await expect.poll(() => backgroundVideo.evaluate(video => video.paused)).toBe(true);
   await watch.click();
+  assert.ok(await backgroundVideo.evaluate(video => video.paused));
   await expect.poll(() => page.locator('dialog[aria-labelledby="process-film-heading"] video').evaluate(video => video.paused)).toBe(false);
   await dialog.getByRole('button', {name: 'Close process film'}).click();
-  await assertModalClosed(page);
+  await assertModalClosed(page, false);
+  await hero.getByRole('button', {name: 'Play background video', exact: true}).click();
+  await expect.poll(() => backgroundVideo.evaluate(video => video.paused)).toBe(false);
 
   for (const [width, height] of [[1440, 900], [1920, 1080], [1024, 600], [768, 900], [390, 844], [320, 740]]) {
     await page.setViewportSize({width, height});
@@ -108,14 +129,17 @@ try {
     const bounds = await hero.boundingBox();
     const actions = await hero.locator('.hero-buttons').boundingBox();
     const filmLink = await watch.boundingBox();
-    assert.ok(bounds && actions && filmLink);
+    const playback = await hero.getByRole('button', {name: 'Pause background video', exact: true}).boundingBox();
+    assert.ok(bounds && actions && filmLink && playback);
     assert.ok(actions.y + actions.height <= filmLink.y, `Hero actions overlap film link at ${width}px`);
     assert.ok(filmLink.y + filmLink.height <= bounds.y + bounds.height, `Watch link leaves hero at ${width}px`);
+    assert.ok(playback.x >= bounds.x && playback.x + playback.width <= bounds.x + bounds.width && playback.y + playback.height <= bounds.y + bounds.height, `Background playback control stays in hero at ${width}px`);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${width}px overflow`);
     if (width > 900) assert.ok(Math.abs(bounds.y + bounds.height - height) < 2, `${width}px hero fills first screen`);
     if (width < 761) assert.ok(bounds.height <= Math.max(700, height - bounds.y), `${width}px hero remains compact`);
-    if ([1440, 390].includes(width)) await hero.screenshot({path: `artifacts/factory-hero-${width === 1440 ? 'desktop' : 'mobile'}.png`});
+    if ([1440, 390].includes(width)) await hero.screenshot({path: `artifacts/video-hero-${width === 1440 ? 'desktop' : 'mobile'}.png`});
     await watch.click();
+    await expect.poll(() => backgroundVideo.evaluate(video => video.paused)).toBe(true);
     const modalBounds = await dialog.boundingBox();
     assert.ok(modalBounds && modalBounds.x >= 0 && modalBounds.x + modalBounds.width <= width && modalBounds.y >= 0 && modalBounds.y + modalBounds.height <= height, `${width}px dialog fits screen`);
     assert.ok(await dialog.evaluate(el => el.scrollWidth <= el.clientWidth), `${width}px dialog horizontal overflow`);
@@ -125,9 +149,19 @@ try {
     results.push({width, height, heroHeight: bounds.height, fits: true});
   }
 
-  const mobilePage = await browser.newPage({viewport: {width: 390, height: 844}, reducedMotion: 'reduce'});
-  observeErrors(mobilePage, 'mobile reduced motion');
+  const mobilePage = await browser.newPage({viewport: {width: 390, height: 844}});
+  observeErrors(mobilePage, 'mobile');
   await mobilePage.goto(baseUrl);
+  await expect.poll(() => mobilePage.locator('.park-hero video').evaluate(video => !video.paused && video.currentTime > .2)).toBe(true);
+  const mobileBackground = await mobilePage.locator('.park-hero video').evaluate(video => ({source: video.currentSrc, width: video.videoWidth, height: video.videoHeight}));
+  assert.ok(mobileBackground.source.endsWith('/videos/park-epp-manufacturing-mobile.mp4'));
+  assert.equal(mobileBackground.width, 960);
+  assert.equal(mobileBackground.height, 540);
+  await mobilePage.emulateMedia({reducedMotion: 'reduce'});
+  await expect.poll(() => mobilePage.locator('.park-hero video').evaluate(video => video.paused)).toBe(true);
+  await mobilePage.reload();
+  await expect.poll(() => mobilePage.locator('.park-hero video').evaluate(video => video.readyState >= 1 && video.paused)).toBe(true);
+  await expect(mobilePage.getByRole('button', {name: 'Play background video', exact: true})).toBeVisible();
   await mobilePage.getByRole('link', {name: 'Watch moulding process', exact: true}).click();
   await mobilePage.waitForFunction(() => document.querySelector('dialog[aria-labelledby="process-film-heading"] video')?.readyState >= 2);
   const mobile = await mobilePage.locator('dialog[aria-labelledby="process-film-heading"] video').evaluate(video => ({
@@ -142,13 +176,14 @@ try {
   await mobilePage.getByRole('button', {name: 'Play film', exact: true}).click();
   await expect.poll(() => mobilePage.locator('dialog[aria-labelledby="process-film-heading"] video').evaluate(video => video.paused)).toBe(false);
   await mobilePage.keyboard.press('Escape');
-  await assertModalClosed(mobilePage);
+  await assertModalClosed(mobilePage, false);
   await mobilePage.close();
 
   const noScript = await browser.newContext({javaScriptEnabled: false, viewport: {width: 390, height: 844}});
   const staticPage = await noScript.newPage();
   await staticPage.goto(baseUrl);
-  await expect(staticPage.locator('.park-hero img')).toBeVisible();
+  await expect(staticPage.locator('.park-hero video')).toBeVisible();
+  await expect(staticPage.locator('.park-hero video')).toHaveAttribute('poster', '/images/epp-manufacturing-poster.webp');
   const fallback = staticPage.getByRole('link', {name: 'Watch moulding process', exact: true});
   await expect(fallback).toBeVisible();
   await expect(fallback).toHaveAttribute('href', '/videos/park-epp-manufacturing.mp4');
@@ -156,7 +191,7 @@ try {
   await expect(staticPage.locator('dialog[aria-labelledby="process-film-heading"]')).not.toBeVisible();
   await noScript.close();
   assert.deepEqual(errors, [], 'No browser runtime errors');
-  writeFileSync('artifacts/banner-check.json', JSON.stringify({passed: true, media, mobile, stages, viewports: results, errors,
-    checks: ['Static factory image', 'No initial media download or autoplay', 'Native dialog', 'Manual reduced-motion playback', 'Six captions and timeline seeks', 'Escape/button close stops film', 'Focus restoration', 'Desktop/mobile sources', 'Responsive fit', 'No-JS film link']}, null, 2));
-  console.log('Banner checks passed: static factory hero, on-demand 3D process dialog, six stages, playback/close/focus, reduced motion, desktop/mobile sources, six viewports and no-JS fallback.');
+  writeFileSync('artifacts/banner-check.json', JSON.stringify({passed: true, background, mobileBackground, media, mobile, stages, viewports: results, errors,
+    checks: ['Autoplay muted looping banner', 'Background pause/play', 'Matching process poster fallback', 'Native dialog suspends background', 'Closing respects previous playback state', 'Manual reduced-motion playback', 'Six captions and timeline seeks', 'Escape/button close stops film', 'Focus restoration', 'Desktop/mobile sources', 'Responsive fit', 'No-JS film link']}, null, 2));
+  console.log('Banner checks passed: autoplay video banner, pause/play, on-demand process dialog with background suspension/resumption, six stages, close/focus, reduced motion, desktop/mobile sources, six viewports and no-JS fallback.');
 } finally { await browser.close(); }

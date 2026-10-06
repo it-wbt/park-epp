@@ -7,10 +7,13 @@ import {Icon} from './ui';
 import styles from './ManufacturingHero.module.css';
 
 export default function ManufacturingHero() {
+  const backgroundVideo = useRef<HTMLVideoElement>(null);
+  const resumeBackground = useRef(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const opener = useRef<HTMLAnchorElement>(null);
   const [isOpen, setIsOpen] = useState(false);
+  const [backgroundPaused, setBackgroundPaused] = useState(true);
   const [paused, setPaused] = useState(true);
   const [ready, setReady] = useState(false);
   const [stepIndex, setStepIndex] = useState(0);
@@ -19,11 +22,25 @@ export default function ManufacturingHero() {
   useEffect(() => {
     const preference = matchMedia('(prefers-reduced-motion: reduce)');
     const film = video.current;
-    const update = () => { if (preference.matches) film?.pause(); };
+    const background = backgroundVideo.current;
+    const update = () => {
+      if (preference.matches) {
+        film?.pause();
+        background?.pause();
+        if (background) background.autoplay = false;
+        setBackgroundPaused(true);
+        resumeBackground.current = false;
+      }
+    };
+    update();
+    if (!preference.matches && background) {
+      void background.play().then(() => setBackgroundPaused(background.paused)).catch(() => setBackgroundPaused(true));
+    }
     preference.addEventListener('change', update);
     return () => {
       preference.removeEventListener('change', update);
       film?.pause();
+      background?.pause();
     };
   }, []);
 
@@ -39,6 +56,8 @@ export default function ManufacturingHero() {
     const film = video.current;
     if (!panel?.showModal || !film) return;
     event.preventDefault();
+    resumeBackground.current = Boolean(backgroundVideo.current && !backgroundVideo.current.paused);
+    backgroundVideo.current?.pause();
     panel.showModal();
     setIsOpen(true);
     setStepIndex(0);
@@ -53,6 +72,10 @@ export default function ManufacturingHero() {
     video.current?.pause();
     setPaused(true);
     setIsOpen(false);
+    if (resumeBackground.current && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      void backgroundVideo.current?.play().catch(() => setBackgroundPaused(true));
+    }
+    resumeBackground.current = false;
     opener.current?.focus({preventScroll: true});
   };
 
@@ -68,6 +91,13 @@ export default function ManufacturingHero() {
     else film.pause();
   };
 
+  const toggleBackground = () => {
+    const film = backgroundVideo.current;
+    if (!film) return;
+    if (film.paused) void film.play().catch(() => setBackgroundPaused(true));
+    else film.pause();
+  };
+
   const showStep = (index: number) => {
     const film = video.current;
     if (!film || film.readyState < 1) return;
@@ -77,9 +107,12 @@ export default function ManufacturingHero() {
 
   return <>
     <section className={`park-hero ${styles.hero}`} aria-labelledby="hero-heading">
-      <img className={styles.image} src="/images/generated/factory-beads.webp"
-        alt="AI-generated factory scene with charcoal EPP beads and a guarded moulding line"
-        width={1920} height={1081} fetchPriority="high"/>
+      <video ref={backgroundVideo} className={styles.backgroundVideo} autoPlay muted loop playsInline preload="metadata"
+        poster="/images/epp-manufacturing-poster.webp" aria-hidden="true"
+        onPlay={() => setBackgroundPaused(false)} onPause={() => setBackgroundPaused(true)}>
+        <source src="/videos/park-epp-manufacturing-mobile.mp4" media="(max-width: 760px)" type="video/mp4"/>
+        <source src="/videos/park-epp-manufacturing.mp4" type="video/mp4"/>
+      </video>
       <div className={`park-hero-shade ${styles.shade}`} aria-hidden="true"/>
       <div className={`park-hero-content ${styles.copy}`}>
         <p className="eyebrow">PARK NONWOVEN · EPP & ENGINEERED MATERIALS</p>
@@ -90,12 +123,18 @@ export default function ManufacturingHero() {
           <Link className="park-white-link" href="/markets/">Find your industry ↗</Link>
         </div>
       </div>
-      <span className={styles.visualLabel}>AI factory visual</span>
+      <span className={styles.visualLabel}>3D manufacturing film</span>
       <div className={styles.footer}>
         <a className={styles.discover} href="#discover">Discover the possibilities <span aria-hidden="true">↓</span></a>
+        <div className={styles.heroControls}>
+        <button className={styles.watch} type="button" onClick={toggleBackground}
+          aria-label={backgroundPaused ? 'Play background video' : 'Pause background video'}>
+          <Icon kind={backgroundPaused ? 'play' : 'pause'}/>{backgroundPaused ? 'Play video' : 'Pause video'}
+        </button>
         <a ref={opener} className={styles.watch} href="/videos/park-epp-manufacturing.mp4" onClick={openFilm}>
           <Icon kind="play"/>Watch moulding process
         </a>
+        </div>
       </div>
     </section>
 
