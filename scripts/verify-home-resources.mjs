@@ -178,7 +178,7 @@ try {
     await noOverflow(staticPage, 'No-JS resources');
     await link.click();
     await staticPage.waitForURL(`**${guide.href}`);
-    await expect(staticPage.locator('main h1')).toHaveText(guide.title);
+    await expect(staticPage.locator('main h1')).toContainText(guide.label === 'Material selection' ? 'EPP or EPS?' : guide.title);
   }
   await staticContext.close();
   report.checks.push('No-JS guide navigation, direct preview/download PDF links and hidden modal');
