@@ -1,11 +1,12 @@
 'use client';
 import {useState} from 'react';
+import {useEnquirySubmission} from './useEnquirySubmission';
 import {ArrowUpRight, UserRound, Mail, Send, Check, MessageSquareText} from './ContactIcons';
 import styles from './HomeContact.module.css';
 
 /** PARK Filtration's contact layout, with the EPP application content. */
 export default function HomeContact() {
-  const [ready, setReady] = useState(false);
+  const enquiry=useEnquirySubmission('New EPP application enquiry');
   const [message, setMessage] = useState('');
 
   return (
@@ -26,13 +27,8 @@ export default function HomeContact() {
         </a>
       </div>
 
-      <form className={styles.card} data-reveal onChange={() => setReady(false)} onSubmit={event => {
-        event.preventDefault();
-        const data = new FormData(event.currentTarget);
-        const body = `Name: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`;
-        window.location.href = `mailto:sales@parknonwoven.com?subject=${encodeURIComponent('EPP enquiry — ' + data.get('industry'))}&body=${encodeURIComponent(body)}`;
-        setReady(true);
-      }}>
+      <form className={styles.card} data-reveal onChange={enquiry.clear} onReset={() => setMessage('')} onSubmit={enquiry.submit} aria-busy={enquiry.state==='sending'}>
+        <input name="botcheck" type="checkbox" tabIndex={-1} style={{display:'none'}} aria-hidden="true"/>
         <div className={styles.cardHeading}>
           <div>
             <span className={styles.kicker}>YOUR NEXT EPP SOLUTION</span>
@@ -46,20 +42,20 @@ export default function HomeContact() {
           <label htmlFor="contact-name">Your name
             <span className={styles.control}>
               <UserRound size={17} aria-hidden="true"/>
-              <input id="contact-name" name="name" autoComplete="name" placeholder="Full name" required maxLength={100}/>
+              <input disabled={enquiry.state==='sending'} id="contact-name" name="name" autoComplete="name" placeholder="Full name" required maxLength={100}/>
             </span>
           </label>
           <label htmlFor="contact-email">Work email
             <span className={styles.control}>
               <Mail size={17} aria-hidden="true"/>
-              <input id="contact-email" type="email" name="email" autoComplete="email" placeholder="you@company.com" required maxLength={254}/>
+              <input disabled={enquiry.state==='sending'} id="contact-email" type="email" name="email" autoComplete="email" placeholder="you@company.com" required maxLength={254}/>
             </span>
           </label>
         </div>
         <label htmlFor="contact-message" className={styles.messageLabel}>
           <span>What do you need?<small>Application, size, grade or quantity</small></span>
           <span className={`${styles.control} ${styles.textarea}`}>
-            <textarea id="contact-message" name="message" placeholder="Tell us about your application and the component you’re looking for…" required rows={4} maxLength={4000} value={message} onChange={event => setMessage(event.target.value)} aria-describedby="contact-message-help"/>
+            <textarea disabled={enquiry.state==='sending'} id="contact-message" name="message" placeholder="Tell us about your application and the component you’re looking for…" required rows={4} maxLength={4000} value={message} onChange={event => setMessage(event.target.value)} aria-describedby="contact-message-help"/>
           </span>
         </label>
         <div className={styles.messageMeta}>
@@ -67,12 +63,12 @@ export default function HomeContact() {
           <span aria-hidden="true">{message.length.toLocaleString('en-US')} / 4,000</span>
         </div>
         <div className={styles.submitRow}>
-          <button className={styles.submit} type="submit">Prepare email enquiry <Send size={17} aria-hidden="true"/></button>
+          <button className={styles.submit} type="submit" disabled={enquiry.disabled}>{enquiry.state==='sending'?'Sending...':'Send enquiry'} <Send size={17} aria-hidden="true"/></button>
           <span className={styles.submitCaption}>EPP &middot; EXPANDED POLYPROPYLENE</span>
         </div>
-        <p className={styles.deliveryNote} role="status">
+        <p className={styles.deliveryNote} role={enquiry.state==='error'?'alert':'status'}>
           <Mail size={13} aria-hidden="true"/>
-          {ready ? 'Your email app has been requested. Review the message and send it there, or email us directly.' : 'Opens your email app with your enquiry ready to review and send.'}
+          {enquiry.message || 'Submit your enquiry here. Our team will reply to your email.'}
         </p>
       </form>
     </section>

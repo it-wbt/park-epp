@@ -1,4 +1,5 @@
 'use client';
+import {useEnquirySubmission} from './useEnquirySubmission';
 import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {useEffect,useRef,useState} from 'react';
@@ -17,4 +18,18 @@ export function Catalogue({compact=false}:{compact?:boolean}) {
 }
 export function ProductCard({product:p}:{product:typeof products[number]}){return <Link href={`/products/${p.slug}/`} className="product-card"><div className={`product-image ${p.image}`}><ResponsiveImage sizes="(max-width: 760px) 50vw, 25vw" src={productVisual(p)} alt={productVisualAlt(p)} loading="lazy"/><span className="round-arrow">↗</span></div><div className="product-copy"><span className="eyebrow">{p.market}</span><h3>{p.name}</h3><p>{p.summary}</p><div className="card-bottom"><span>{p.material}</span><span>Explore product →</span></div></div></Link>;}
 export function Film(){const [open,setOpen]=useState(false);const dialog=useRef<HTMLDialogElement>(null);useEffect(()=>{if(open)dialog.current?.showModal();else dialog.current?.close();},[open]);return <><button className="film-button" onClick={()=>setOpen(true)}><span><Icon kind="play"/></span>Watch manufacturing process<small>00:24</small></button><dialog ref={dialog} onCancel={()=>setOpen(false)} className="film-dialog"><button className="dialog-close" onClick={()=>setOpen(false)} aria-label="Close film"><Icon kind="close"/></button><h2>From bead to finished shape.</h2>{open&&<video controls autoPlay playsInline poster="/images/epp-manufacturing-poster.webp"><source src="/videos/park-epp-manufacturing.mp4" type="video/mp4"/><track kind="captions" src="/videos/epp-manufacturing.vtt" srcLang="en" label="English" default/></video>}<p>A 3D process illustration of filling, steam fusion, cooling and demoulding. It is not filmed factory footage.</p></dialog></>;}
-export function Enquiry({product=''}:{product?:string}){const [done,setDone]=useState(false);function submit(e:React.FormEvent<HTMLFormElement>){e.preventDefault();const form=e.currentTarget;const d=new FormData(form);const text=`Parknonwoven EPP — PROJECT ENQUIRY\n\nName: ${d.get('name')}\nEmail: ${d.get('email')}\nCompany: ${d.get('company')}\nProduct: ${d.get('product')}\n\nProject brief:\n${d.get('brief')}\n\nThis is a locally generated enquiry brief. It has not been sent.\n`;const url=URL.createObjectURL(new Blob([text],{type:'text/plain'}));const a=document.createElement('a');a.href=url;a.download='parknonwoven-epp-project-enquiry.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);setDone(true);}return <form onSubmit={submit} className="enquiry"><div className="form-grid"><label>Your name<input name="name" required autoComplete="name"/></label><label>Work email<input name="email" required type="email" autoComplete="email"/></label><label>Company<input name="company" required autoComplete="organization"/></label><label>Product / application<input name="product" defaultValue={product}/></label></div><label>Tell us about your project<textarea name="brief" required rows={5} placeholder="Application, quantities, drawings, dimensions and the challenge you want to solve…"/></label><label className="checkbox"><input type="checkbox" required/>Create a downloadable project brief using these details.</label><button className="button" type="submit">Create enquiry brief <Icon kind="arrow"/></button><p className="form-note">Download your brief, then <a href="mailto:sales@parknonwoven.com">email it to PARK at sales@parknonwoven.com ↗</a>.</p>{done&&<p className="success" role="status"><Icon kind="check"/> Your brief is ready. Check your downloads; it has not been sent.</p>}</form>;}
+export function Enquiry({product=''}:{product?:string}) {
+ const enquiry=useEnquirySubmission('New EPP project enquiry');
+ return <form onSubmit={enquiry.submit} onChange={enquiry.clear} className="enquiry" aria-busy={enquiry.state==='sending'}>
+  <input name="botcheck" type="checkbox" tabIndex={-1} style={{display:'none'}} aria-hidden="true"/>
+  <div className="form-grid">
+   <label>Your name<input name="name" required autoComplete="name" maxLength={100} disabled={enquiry.state==='sending'}/></label>
+   <label>Work email<input name="email" required type="email" autoComplete="email" maxLength={254} disabled={enquiry.state==='sending'}/></label>
+   <label>Company<input name="company" required autoComplete="organization" maxLength={200} disabled={enquiry.state==='sending'}/></label>
+   <label>Product / application<input name="product" defaultValue={product} maxLength={200} disabled={enquiry.state==='sending'}/></label>
+  </div>
+  <label>Tell us about your project<textarea name="brief" required rows={5} maxLength={4000} disabled={enquiry.state==='sending'} placeholder="Application, quantities, dimensions and the challenge you want to solve."/></label>
+  <button className="button" type="submit" disabled={enquiry.disabled}>{enquiry.state==='sending'?'Sending...':'Send enquiry'} <Icon kind="arrow"/></button>
+  <p className="form-note" role={enquiry.state==='error'?'alert':'status'}>{enquiry.message || 'Submit your requirements here. PARK will contact you using the email provided.'}</p>
+ </form>;
+}
