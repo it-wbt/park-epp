@@ -1,3 +1,4 @@
+import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {articles} from '../lib/catalog';
 import {Icon} from './ui';
@@ -22,7 +23,7 @@ export default function ReuseGuide() {
           <a className={styles.primary} href="#return-loop">Explore the return journey <Icon kind="arrow"/></a>
         </div>
         <figure className={styles.heroVisual}>
-          <img src="/images/generated/industry-logistics.webp" alt="Moulded foam trays holding industrial components beside stacked transport boxes on a warehouse pallet" width={1440} height={960} fetchPriority="high"/>
+          <ResponsiveImage src="/images/generated/industry-logistics.webp" alt="Moulded foam trays holding industrial components beside stacked transport boxes on a warehouse pallet" width={1440} height={960} fetchPriority="high"/>
           <figcaption><Icon kind="box"/><span>Fitted protection. A planned return.</span></figcaption>
         </figure>
       </div>
@@ -49,6 +50,6 @@ export default function ReuseGuide() {
         </div>
       </div>
     </section>
-    <div className={styles.more}><Link href="/resources/"><Icon kind="arrow"/>All resources</Link><Link href="/resources/epp-or-eps/">Compare EPP and EPS <Icon kind="arrow"/></Link></div>
+    <div className={styles.more}><Link href="/resources/"><Icon kind="arrow"/>All resources</Link><Link href="/resources/epp-grade-selection/">Explore EPP grade selection <Icon kind="arrow"/></Link></div>
   </article>;
 }

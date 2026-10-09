@@ -176,7 +176,7 @@ export const industryStories: Record<string, IndustryStory> = {
     ],
     "material": {
       "title": "Choose the material for the whole cycle.",
-      "text": "EPP supports resilient, reusable packaging. EPS offers lightweight insulation, while rigid polymer formats serve different handling needs. Compare the complete pack and its expected use.",
+      "text": "EPP supports lightweight, resilient and insulated reusable packaging. Choose the moulded density, wall thickness and shape around the complete pack and its expected use.",
       "bullets": [
         "Map payload and contact points.",
         "Include stacking and transport conditions.",

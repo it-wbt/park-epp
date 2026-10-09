@@ -1,0 +1,12 @@
+{
+  "tool": "Built-in image_gen",
+  "useCase": "background-extraction",
+  "prompt": "Remove studio background, ground and cast shadows. Preserve product shapes, colours, bead texture, arrangement, camera view and existing contents. Clear openings to transparency where they reveal background. No text or added objects. Genuine transparent alpha PNG with small clear margin.",
+  "assets": [
+    "/images/products/highlight-delivery-transparent.png",
+    "/images/products/highlight-hvac-transparent.png",
+    "/images/products/highlight-vehicle-transparent.png",
+    "/images/products/highlight-helmet-transparent.png",
+    "/images/products/highlight-cushioning-transparent.png"
+  ]
+}

@@ -5,7 +5,7 @@ export type EppSource = {id: EppSourceId; title: string; organisation: string; u
 
 export const eppSources: EppSource[] = [
   {id: 'bewi-epp', title: 'EPP material properties and production', organisation: 'BEWI', url: 'https://bewi.com/material/epp/'},
-  {id: 'knauf-hvac', title: 'EPP and EPS for technical HVAC components', organisation: 'Knauf Industries', url: 'https://www.knauf-industries.com/hvac-domestic-appliances/custom-made-hvac-components/'},
+  {id: 'knauf-hvac', title: 'EPP for technical HVAC components', organisation: 'Knauf Industries', url: 'https://www.knauf-industries.com/hvac-domestic-appliances/custom-made-hvac-components/'},
   {id: 'arpro-grades', title: 'ARPRO grade selection sheet', organisation: 'JSP', url: 'https://www.arpro.com/getContentAsset/21f4f120-db00-4e9d-bb9f-50227941434c/1771ac74-d775-4539-b7e3-0cbf0ab84455/arpro-grade-sheet-2025-issue-3_english.pdf?language=en-GB'},
   {id: 'knauf-process', title: 'EPP material, moulding and applications', organisation: 'Knauf Industries', url: 'https://info.knauf-industries.com/hubfs/Contenus%20%C3%A0%20t%C3%A9l%C3%A9charger%20-%20PDF/EPP%20MATERIAL%20SHEET%20EN_09-2026.pdf'},
   {id: 'arpro-design', title: 'ARPRO moulded-part design principles', organisation: 'JSP', url: 'https://www.arpro.com/getContentAsset/153f19cb-7bf8-4bd4-8ee8-f4082a783edb/1771ac74-d775-4539-b7e3-0cbf0ab84455/arpro-design-principles-en4.pdf?language=en-GB'},

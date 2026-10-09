@@ -199,3 +199,22 @@
   .control, .control > svg, .submit, .submit svg { transition: none; }
   .submit:hover, .submit:hover svg { transform: none; }
 }
+
+/* Match the current Filtration contact proportions and compact form. */
+.section{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:40px;padding-block:32px}
+.introduction h2{font-size:clamp(32px,2.6vw,40px);line-height:1.2}
+.introduction>p{max-width:440px}
+.topics{font-size:13px;gap:10px}
+.cardHeading{gap:12px;margin-bottom:16px}
+.cardHeading h3{font-size:24px;line-height:1.2;margin-bottom:7px}
+.card label{font-size:13px;gap:6px;margin-bottom:14px}
+.control{min-height:42px;padding-inline:11px;gap:8px;border-radius:7px}
+.card .control :is(input,select,textarea){font:400 14px/1.4 "DM Sans",Arial,sans-serif;padding:9px 0}
+.card .control>input{flex:1;width:0}
+.control textarea{min-height:100px}
+.card label small,.messageLabel>span:first-child small{font-size:11px}
+.messageMeta{font-size:10px;line-height:1.4;gap:10px;margin-bottom:16px}
+.submit{min-height:42px;font-size:13px;padding:11px 15px;gap:14px}
+.submitCaption{font-size:10px}
+.deliveryNote{font-size:11px;line-height:1.4;margin-top:12px}
+@media(max-width:760px){.section{grid-template-columns:1fr;padding:28px 16px;gap:22px}.card .control :is(input,select,textarea){font-size:16px}.introduction h2{font-size:32px}.cardHeading h3{font-size:21px}.messageLabel>span:first-child{flex-wrap:wrap}.control{min-height:46px}}

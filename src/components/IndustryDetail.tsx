@@ -1,3 +1,4 @@
+import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {markets, activeProducts, marketSourceSlugs} from '../lib/catalog';
 import {industryStories, type IndustryStory} from '../lib/industry-stories';
@@ -17,7 +18,7 @@ export default function IndustryDetail({story}: {story: IndustryStory}) {
   const catalogue = activeProducts.filter(product => marketSourceSlugs(story.slug).includes(product.marketSlug));
   return <div className={styles.page}>
     <section className={styles.hero} aria-labelledby="industry-title">
-      <img className={styles.heroImage} src={story.heroImage} alt={story.heroAlt} width="1440" height="960" fetchPriority="high"/>
+      <ResponsiveImage className={styles.heroImage} src={story.heroImage} alt={story.heroAlt} width="1440" height="960" fetchPriority="high"/>
       <div className={styles.heroShade}/>
       <div className={styles.heroInner}>
         <p className={styles.kicker}>{story.eyebrow}</p>
@@ -40,13 +41,13 @@ export default function IndustryDetail({story}: {story: IndustryStory}) {
     <section id="industry-applications" className={styles.applicationSection} aria-labelledby="industry-applications-title"><div className={styles.container}>
       <div className={styles.sectionHeading} data-reveal><div><p className={styles.kicker}>MADE FOR THE WAY YOU WORK</p><h2 id="industry-applications-title">Find your application.</h2></div><a href="#industry-range" className={styles.textLink}>View the product range <Icon kind="arrow"/></a></div>
       <div className={styles.applicationGrid}>{story.applications.map((application, index) => <Link key={application.productSlug} className={styles.application} href={`/products/${application.productSlug}/`} data-reveal>
-        <div className={styles.applicationImage}><img src={application.image} alt={application.imageAlt} width="480" height="320" loading="lazy"/></div>
+        <div className={styles.applicationImage}><ResponsiveImage src={application.image} alt={application.imageAlt} width="480" height="320" loading="lazy"/></div>
         <div><span className={styles.number}>0{index + 1}</span><h3>{application.title}</h3><p>{application.text}</p><span className={styles.applicationLink}>Explore application <Icon kind="arrow"/></span></div>
       </Link>)}</div>
     </div></section>
 
     <section id="industry-material" className={`${styles.container} ${styles.material}`} aria-labelledby="industry-material-title">
-      <div className={styles.materialImage}><img src={story.material.image} alt={story.material.imageAlt} width="1100" height="733" loading="lazy"/><span>EPP / ENGINEERED AROUND THE APPLICATION</span></div>
+      <div className={styles.materialImage}><ResponsiveImage src={story.material.image} alt={story.material.imageAlt} width="1100" height="733" loading="lazy"/><span>EPP / ENGINEERED AROUND THE APPLICATION</span></div>
       <div className={styles.materialCopy} data-reveal><p className={styles.kicker}>LIGHT IN WEIGHT. BIG ON POSSIBILITY.</p><h2 id="industry-material-title">{story.material.title}</h2><p>{story.material.text}</p><ul>{story.material.bullets.map(item => <li key={item}><Icon kind="check"/>{item}</li>)}</ul><Link className={styles.textLink} href="/materials/expanded-polypropylene/">Get to know EPP <Icon kind="arrow"/></Link></div>
     </section>
 
@@ -57,8 +58,8 @@ export default function IndustryDetail({story}: {story: IndustryStory}) {
 
     <section id="industry-range" className={`${styles.container} ${styles.range}`} aria-labelledby="industry-range-title">
       <div className={styles.sectionHeading} data-reveal><div><p className={styles.kicker}>A CLOSER LOOK</p><h2 id="industry-range-title">Explore the range.</h2></div><span className={styles.rangeCount}>{catalogue.length} product families</span></div>
-      <div className={styles.productList}>{catalogue.slice(0, 4).map(product => <Link href={`/products/${product.slug}/`} key={product.slug}><img src={productVisual(product)} alt="" width="92" height="68" loading="lazy"/><span><strong>{product.name}</strong><small>{product.material}</small></span><Icon kind="arrow"/></Link>)}</div>
-      {catalogue.length > 4 && <details className={styles.moreProducts}><summary>See all {catalogue.length} product families <Icon kind="arrow"/></summary><div className={styles.productList}>{catalogue.slice(4).map(product => <Link href={`/products/${product.slug}/`} key={product.slug}><img src={productVisual(product)} alt="" width="92" height="68" loading="lazy"/><span><strong>{product.name}</strong><small>{product.material}</small></span><Icon kind="arrow"/></Link>)}</div></details>}
+      <div className={styles.productList}>{catalogue.slice(0, 4).map(product => <Link href={`/products/${product.slug}/`} key={product.slug}><ResponsiveImage src={productVisual(product)} alt="" width="92" height="68" loading="lazy"/><span><strong>{product.name}</strong><small>{product.material}</small></span><Icon kind="arrow"/></Link>)}</div>
+      {catalogue.length > 4 && <details className={styles.moreProducts}><summary>See all {catalogue.length} product families <Icon kind="arrow"/></summary><div className={styles.productList}>{catalogue.slice(4).map(product => <Link href={`/products/${product.slug}/`} key={product.slug}><ResponsiveImage src={productVisual(product)} alt="" width="92" height="68" loading="lazy"/><span><strong>{product.name}</strong><small>{product.material}</small></span><Icon kind="arrow"/></Link>)}</div></details>}
     </section>
 
     <section className={`${styles.container} ${styles.questions}`} aria-labelledby="industry-faq-title"><div data-reveal><p className={styles.kicker}>BEFORE WE BEGIN</p><h2 id="industry-faq-title">A few useful answers.</h2><p>Start here, then bring us the details that make your project different.</p></div><div className={styles.faq}>{story.faq.map(item => <details key={item.question}><summary>{item.question}<Icon kind="close"/></summary><p>{item.answer}</p></details>)}</div></section>
@@ -74,6 +75,6 @@ export default function IndustryDetail({story}: {story: IndustryStory}) {
 export function IndustryIndex() {
   return <div className={styles.industryIndex}>{markets.map((market, index) => {
     const story = industryStories[market.slug];
-    return <Link href={`/markets/${market.slug}/`} key={market.slug} data-reveal><div className={styles.indexImage}><img src={story.heroImage} alt={story.heroAlt} width="1440" height="960" loading="lazy"/><span>0{index + 1}</span></div><div className={styles.indexCopy}><h2>{market.name}</h2><Icon kind="arrow"/><p>{story.intro}</p></div></Link>;
+    return <Link href={`/markets/${market.slug}/`} key={market.slug} data-reveal><div className={styles.indexImage}><ResponsiveImage src={story.heroImage} alt={story.heroAlt} width="1440" height="960" loading="lazy"/><span>0{index + 1}</span></div><div className={styles.indexCopy}><h2>{market.name}</h2><Icon kind="arrow"/><p>{story.intro}</p></div></Link>;
   })}</div>;
 }

@@ -1,0 +1,21 @@
+{
+  "type": "Original Remotion product-image motion films",
+  "subjects": [
+    "EPP product components",
+    "Protective packaging",
+    "HVAC applications",
+    "EPP bead texture"
+  ],
+  "durationSeconds": 8,
+  "fps": 30,
+  "desktop": [
+    1600,
+    900
+  ],
+  "mobile": [
+    960,
+    540
+  ],
+  "provenance": "Motion applied to existing generated product illustrations. Not filmed factory footage or AI generated moving scenes.",
+  "source": "video/epp-banner/src/ApplicationFilm.tsx"
+}

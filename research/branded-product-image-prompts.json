@@ -1,0 +1,400 @@
+{
+  "tool": "built-in image_gen",
+  "logoReference": "public/images/park-nonwoven-logo.png",
+  "note": "Illustrative generated product designs, not photographs of actual production samples.",
+  "products": [
+    {
+      "name": "Custom HVAC components",
+      "slug": "custom-hvac-components",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "Custom HVAC components",
+      "asset": "/images/products/branded/custom-hvac-components.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-585fe71e-e556-439a-a1af-72d4c9ca8e2e.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: custom HVAC components, charcoal bead-foam split air-handler enclosure and curved duct elbow"
+    },
+    {
+      "name": "Moulded air ducts",
+      "slug": "moulded-air-ducts",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "Moulded air ducts",
+      "asset": "/images/products/branded/moulded-air-ducts.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-c0d7e152-9c78-4a14-b7d4-1f225a088671.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: two moulded air ducts, charcoal EPP bead foam, one long tapered rectangular-to-round duct and one curved smooth-radius elbow with circular open ends. Specific product family: Moulded air ducts. Make this a distinct object, not a generic container."
+    },
+    {
+      "name": "HVAC insulation housings",
+      "slug": "hvac-insulation-housings",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "HVAC insulation housings",
+      "asset": "/images/products/branded/hvac-insulation-housings.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-98d8c892-0c6a-4d18-9de4-113c646e9c8d.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: HVAC insulation housings: two complementary charcoal bead-foam clamshell halves around a rectangular heat exchanger, cavities, gasket channels, pipe pass-through notches. Specific product family: HVAC insulation housings. Make this a distinct object, not a generic container."
+    },
+    {
+      "name": "Heat-pump covers",
+      "slug": "heat-pump-covers",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "Cover forms fitted around heat-pump units.",
+      "asset": "/images/products/branded/heat-pump-covers.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-f84ff301-b504-41b7-a073-f391efc6887e.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: heat-pump covers: tall charcoal EPP bead-foam removable insulation cover, cylinder-shaped heat-pump compressor shroud with pipe openings and separate cap. Specific product family: Heat-pump covers. Make this a distinct object, not a generic container."
+    },
+    {
+      "name": "Heat-pump support frames",
+      "slug": "heat-pump-support-frames",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "Support frames arranged around heat-pump assemblies.",
+      "asset": "/images/products/branded/heat-pump-support-frames.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-4e310651-3ea3-4d9a-b4da-2ffc6056a951.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: heat-pump support frames: robust charcoal EPP rectangular open support frame with four raised corner feet, cross ribs, bolt recesses, not a box. Product family: Heat-pump support frames. Distinct object, not generic packaging."
+    },
+    {
+      "name": "Hydraulic module supports",
+      "slug": "hydraulic-module-supports",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "Support forms for hydraulic assemblies and their connections.",
+      "asset": "/images/products/branded/hydraulic-module-supports.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-a125f8b0-9bff-4e4c-aabd-78a2c039c555.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: hydraulic module supports: charcoal EPP compact shaped base cradle with nested recesses for a circulation pump and three pipe connection channels. Product family: Hydraulic module supports. Distinct object, not generic packaging."
+    },
+    {
+      "name": "Water-heater insulation forms",
+      "slug": "water-heater-insulation-forms",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "Insulation geometry fitted around water-heating equipment.",
+      "asset": "/images/products/branded/water-heater-insulation-forms-epp-v2.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-ca0476b0-393b-4c75-b496-2ac42e4a310f.png",
+      "prompt": "Generate a new realistic industrial studio product cutout of two charcoal grey expanded polypropylene (EPP) bead-foam half cylinder insulation shells for a water heater, with circular top cap and precise pipe openings, visibly fused fine round bead foam, not white EPS. Isolated complete object on a truly transparent alpha background, three-quarter view, generous transparent margin, accurate manufacturing details. Supplied supporting reference is the official PARK NONWOVEN logo: faithfully reproduce its blue wave symbol and PARKNONWOVEN wordmark as a small manufacturer label printed on the visible forward-facing product surface. No other text. No factory, floor, backdrop, checkerboard or shadows outside the object. It is an illustrative product design, not a specific actual production sample.",
+      "subject": "two charcoal grey expanded polypropylene (EPP) bead-foam half cylinder insulation shells for a water heater, with circular top cap and precise pipe openings, visibly fused fine round bead foam, not white EPS"
+    },
+    {
+      "name": "Hydraulic manifold insulation",
+      "slug": "hydraulic-manifold-insulation",
+      "marketSlug": "hvac",
+      "material": "EPP",
+      "summary": "Fitted insulation around manifolds and heat-distribution connections.",
+      "asset": "/images/products/branded/hydraulic-manifold-insulation.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-35fcb8d6-6025-4e8a-9b0c-6f7dc187ae43.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: hydraulic manifold insulation: small black EPP split shell with six parallel pipe channels and round connections, one upper and one lower half. Product family: Hydraulic manifold insulation. Distinct object, not generic packaging."
+    },
+    {
+      "name": "Mobility foam components",
+      "slug": "mobility-foam-components",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Mobility foam components",
+      "asset": "/images/products/branded/mobility-foam-components.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-b665b741-7b9c-4f98-b62e-ecdd8f5ec227.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: mobility foam components: charcoal EPP shaped car rear-seat understructure with two sculpted seating zones and recessed attachment points, not finished upholstered seats. Product family: Mobility foam components. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Vehicle protective inserts",
+      "slug": "vehicle-protective-inserts",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Vehicle protective inserts",
+      "asset": "/images/products/branded/vehicle-protective-inserts.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-abb63315-935c-4c9a-9972-79fd42828402.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: vehicle protective inserts: charcoal EPP precision foam insert with shaped recesses protecting a vehicle headlamp during transport, empty insert only with a contoured lamp-shaped cavity. Product family: Vehicle protective inserts. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Vehicle floor panels",
+      "slug": "vehicle-floor-panels",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Floor forms specified around installed space and loading.",
+      "asset": "/images/products/branded/vehicle-floor-panels.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-a46a0ed1-52f6-4c18-b7da-4dd634711a51.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: vehicle floor panels: two thin charcoal EPP moulded automotive floor panels, asymmetric footwell shapes, channels, raised ribs and fitting cutouts. Product family: Vehicle floor panels. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Vehicle seat foam components",
+      "slug": "vehicle-seat-foam-components",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Foam forms evaluated within vehicle seating assemblies.",
+      "asset": "/images/products/branded/vehicle-seat-foam-components.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-180164e6-87ca-4694-bdaf-c154458abb2c.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: vehicle seat foam components: charcoal EPP anatomical car seat base core and separate shaped backrest core, unfinished visible bead foam with rounded edges. Product family: Vehicle seat foam components. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Vehicle storage organizers",
+      "slug": "vehicle-storage-organizers",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Fitted storage layouts for tools and loose equipment.",
+      "asset": "/images/products/branded/vehicle-storage-organizers.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-5957a392-c1f5-4fcb-8e40-dec9c5b41bcc.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: vehicle storage organizers: black EPP boot tool organizer tray with dedicated circular spare-wheel recess and individual jack and wrench cavities. Product family: Vehicle storage organizers. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Battery protective inserts",
+      "slug": "battery-protective-inserts",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Protective components specified around battery integration.",
+      "asset": "/images/products/branded/battery-protective-inserts.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-87a30573-bc7f-453b-9074-2b1b61ecdbe0.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: battery protective inserts: charcoal EPP pair of protective end cushions and long separator rail for rectangular automotive battery modules, distinct cell-profile recesses. Product family: Battery protective inserts. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Vehicle insulating panels",
+      "slug": "vehicle-insulating-panels",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Panels evaluated within vehicle insulation assemblies.",
+      "asset": "/images/products/branded/vehicle-insulating-panels.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-1087ac52-df1b-458c-b1eb-7478ab6960ea.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: vehicle insulating panels: charcoal EPP large thin curved vehicle-door insulation panel with circular speaker opening, perimeter relief and fixing holes. Product family: Vehicle insulating panels. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Vehicle energy absorbers",
+      "slug": "vehicle-energy-absorbers",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Foam components evaluated within impact-related vehicle assemblies.",
+      "asset": "/images/products/branded/vehicle-energy-absorbers.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-bd679ee9-bf5a-4a33-92ff-80ecc32622b2.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: vehicle energy absorbers: long curved charcoal EPP front bumper impact absorber with closely spaced crush ribs and two mounting pockets. Product family: Vehicle energy absorbers. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Vehicle acoustic inserts",
+      "slug": "vehicle-acoustic-inserts",
+      "marketSlug": "mobility",
+      "material": "EPP",
+      "summary": "Shaped inserts specified around cabin noise and vibration.",
+      "asset": "/images/products/branded/vehicle-acoustic-inserts.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-3edce8e5-8867-4e30-973e-e32c71d7a94a.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: vehicle acoustic inserts: charcoal bead-foam pair of asymmetric dashboard cavity inserts and thin curved tunnel insert with complex rounded edges. Product family: Vehicle acoustic inserts. This particular shape must be unmistakable and different from other product families."
+    },
+    {
+      "name": "Custom cushioning foams",
+      "slug": "custom-cushioning-foams",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Custom cushioning foams",
+      "asset": "/images/products/branded/custom-cushioning-foams.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-ea4c87a8-42c6-470a-88c1-3f1b995c2ae9.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: custom cushioning foams: charcoal EPP precision foam protective insert with round and rectangular fitted cavities beside four shaped cushioning corner blocks, fused bead texture. Product family: Custom cushioning foams. Product-only transparent cutout, distinct geometry."
+    },
+    {
+      "name": "Stackable delivery boxes",
+      "slug": "stackable-delivery-boxes",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Stackable delivery boxes",
+      "asset": "/images/products/branded/stackable-delivery-boxes.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-ff37b964-f4ba-448c-8396-adcee0834eb7.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: stackable delivery boxes: charcoal EPP insulated food delivery container with stacking recesses and lid offset enough to show interior, thick walls, rounded grips, no contents. Product family: Stackable delivery boxes. Product-only transparent cutout, distinct geometry."
+    },
+    {
+      "name": "Catering transport boxes",
+      "slug": "catering-transport-boxes",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Catering transport boxes",
+      "asset": "/images/products/branded/catering-transport-boxes.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-ba50e154-5cd2-4595-ab92-56e25fc54ad7.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: catering transport boxes: tall charcoal EPP front-opening insulated catering carrier with five internal tray rails, front foam door set beside it, no metal contents. Product family: Catering transport boxes. Product-only transparent cutout, distinct geometry."
+    },
+    {
+      "name": "Foldable insulated boxes",
+      "slug": "foldable-insulated-boxes",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Foldable insulated boxes",
+      "asset": "/images/products/branded/foldable-insulated-boxes.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-cd629fd6-9014-4c58-beb3-768e164b2beb.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: foldable insulated boxes: charcoal EPP modular foldable insulated box half assembled with two hinged side panels folded down to show collapsible joints and removable top. Product family: Foldable insulated boxes. Product-only transparent cutout, distinct geometry."
+    },
+    {
+      "name": "Reusable industrial containers",
+      "slug": "reusable-industrial-containers",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Reusable industrial containers",
+      "asset": "/images/products/branded/reusable-industrial-containers.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-eea28f20-643c-401a-8cf9-4e1ac73941a0.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: reusable industrial containers: robust grey EPP returnable rectangular component tote with ribbed sides, handles and custom six-pocket insert visible inside. Product family: Reusable industrial containers. Product-only transparent cutout, distinct geometry."
+    },
+    {
+      "name": "Reusable industrial coolers",
+      "slug": "reusable-industrial-coolers",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Reusable industrial coolers",
+      "asset": "/images/products/branded/reusable-industrial-coolers.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-bd6fbfec-6d99-47ef-828d-d1cd0ea3eca1.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: reusable industrial coolers: charcoal EPP cooler with thick lid slightly lifted, recessed carrying grips, square interior and two slim coolant-pack channels. Product family: Reusable industrial coolers. Product-only transparent cutout, distinct geometry."
+    },
+    {
+      "name": "Lightweight foam pallets",
+      "slug": "lightweight-foam-pallets",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Lightweight foam pallets",
+      "asset": "/images/products/branded/lightweight-foam-pallets-epp-v2.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-eca09ca2-4259-4f7a-b640-ccf394206378.png",
+      "prompt": "Generate a new realistic industrial studio product cutout of lightweight pallet made entirely of charcoal grey expanded polypropylene (EPP) bead foam, visibly fused fine round beads, solid thick top deck on six large molded feet with forklift openings, not rigid plastic not white polystyrene. Isolated complete object on a truly transparent alpha background, three-quarter view, generous transparent margin, accurate manufacturing details. Supplied supporting reference is the official PARK NONWOVEN logo: faithfully reproduce its blue wave symbol and PARKNONWOVEN wordmark as a small manufacturer label printed on the visible forward-facing product surface. No other text. No factory, floor, backdrop, checkerboard or shadows outside the object. It is an illustrative product design, not a specific actual production sample.",
+      "subject": "lightweight pallet made entirely of charcoal grey expanded polypropylene (EPP) bead foam, visibly fused fine round beads, solid thick top deck on six large molded feet with forklift openings, not rigid plastic not white polystyrene"
+    },
+    {
+      "name": "Industrial pallet boxes",
+      "slug": "industrial-pallet-boxes",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Container formats for palletized storage and handling.",
+      "asset": "/images/products/branded/industrial-pallet-boxes.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-d6fe04aa-5b2b-4a63-805d-38bb75d9141b.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: industrial pallet boxes: large charcoal EPP deep bulk container with rectangular open top, ribbed reinforced sides, integrated pallet feet and forklift access. Product family: Industrial pallet boxes. Product-only transparent cutout, distinct geometry."
+    },
+    {
+      "name": "Sports accessories",
+      "slug": "sports-accessories",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "summary": "Sports accessories",
+      "asset": "/images/products/branded/sports-accessories.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-e7cf9a23-afed-43a0-9930-c63a45747349.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: sports accessories: three charcoal EPP sports accessories, molded balance pad with shallow concave center, rounded grip trainer, small foam agility marker dome. Product family: Sports accessories. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Custom sports equipment",
+      "slug": "custom-sports-equipment",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "summary": "Custom sports equipment",
+      "asset": "/images/products/branded/custom-sports-equipment.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-c3c6b478-3c25-42e7-a337-10f60af1a917.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: custom sports equipment: dark-blue EPP curved rocker balance trainer with rounded underside, textured standing surface and hand slots at the ends. Product family: Custom sports equipment. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Leisure equipment components",
+      "slug": "leisure-equipment-components",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "summary": "Leisure equipment components",
+      "asset": "/images/products/branded/leisure-equipment-components.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-20731849-074c-4909-80de-58da457b07d7.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: leisure equipment components: charcoal EPP contoured outdoor camping stool core and separate ergonomic arm-support core, molded bead texture. Product family: Leisure equipment components. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Foam exercise jump boxes",
+      "slug": "foam-exercise-jump-boxes",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "summary": "Foam exercise jump boxes",
+      "asset": "/images/products/branded/foam-exercise-jump-boxes.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-f47d37ff-76e7-4c50-9324-231c9726969d.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: foam exercise jump boxes: three EPP plyometric jump blocks of graduated height, black lower block, dark-blue middle block, grey upper block, chamfered corners, no vinyl or upholstered cover. Product family: Foam exercise jump boxes. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Sports helmet foam liners",
+      "slug": "sports-helmet-foam-liners",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "summary": "Liner forms developed within complete protective helmets.",
+      "asset": "/images/products/branded/sports-helmet-foam-liners.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-06c225d4-ea7e-4d56-99a9-180c325f7250.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: sports helmet foam liners: dark-charcoal EPP bicycle helmet internal liner, dome shell with multiple vents, side retention slots, open underside visible; no outer helmet shell. Product family: Sports helmet foam liners. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Foam insole components",
+      "slug": "foam-insole-components",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "summary": "Footwear support forms specified around fit and repeated loading.",
+      "asset": "/images/products/branded/foam-insole-components.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-4eb96506-3968-4bc2-b011-8fffd43b65e4.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: foam insole components: pair of light-grey moulded cellular foam footwear insole cores, left and right foot, heel cup and arch-support geometry, not complete shoes. Product family: Foam insole components. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Surfboard foam cores",
+      "slug": "surfboard-foam-cores",
+      "marketSlug": "sports-leisure",
+      "material": "EPP",
+      "summary": "Core geometry developed alongside surfboard construction.",
+      "asset": "/images/products/branded/surfboard-foam-cores-epp-v2.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-83823dc7-b654-418b-817b-831c34a34e1d.png",
+      "prompt": "Generate a new realistic industrial studio product cutout of unfinished long pale grey expanded polypropylene (EPP) bead-foam surfboard core blank, pointed nose rounded rails flat tail, fine fused polypropylene bead texture, no fins no paint no complete surfboard, not white polystyrene. Isolated complete object on a truly transparent alpha background, three-quarter view, generous transparent margin, accurate manufacturing details. Supplied supporting reference is the official PARK NONWOVEN logo: faithfully reproduce its blue wave symbol and PARKNONWOVEN wordmark as a small manufacturer label printed on the visible forward-facing product surface. No other text. No factory, floor, backdrop, checkerboard or shadows outside the object. It is an illustrative product design, not a specific actual production sample.",
+      "subject": "unfinished long pale grey expanded polypropylene (EPP) bead-foam surfboard core blank, pointed nose rounded rails flat tail, fine fused polypropylene bead texture, no fins no paint no complete surfboard, not white polystyrene"
+    },
+    {
+      "name": "Childhood accessories",
+      "slug": "childhood-accessories",
+      "marketSlug": "childhood",
+      "material": "EPP",
+      "summary": "Childhood accessories",
+      "asset": "/images/products/branded/childhood-accessories.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-7b0cd023-579c-4961-a5b1-28be85372483.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: childhood accessories: teal EPP rounded child step-stool core with two steps and oval grip slot, molded bead texture, stable wide base. Product family: Childhood accessories. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Modular foam play forms",
+      "slug": "modular-foam-play-forms",
+      "marketSlug": "childhood",
+      "material": "EPP",
+      "summary": "Connectable play shapes for age-specific handling and construction.",
+      "asset": "/images/products/branded/modular-foam-play-forms.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-a36572b1-9fa5-4db8-9f1a-d928a4f747c6.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: modular foam play forms: teal blue green EPP interlocking large play pieces, one arch, one bridge and two connector blocks with visible puzzle joints. Product family: Modular foam play forms. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Educational toy shapes",
+      "slug": "educational-toy-shapes",
+      "marketSlug": "childhood",
+      "material": "EPP",
+      "summary": "Moulded forms developed around learning and play activities.",
+      "asset": "/images/products/branded/educational-toy-shapes.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-5592cafa-e694-4600-995c-f2506b592bc6.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: educational toy shapes: EPP learning shapes, blue cube, green cylinder, yellow triangular prism and teal sphere, rounded child-friendly edges, distinct from play arches. Product family: Educational toy shapes. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Child-seat foam cores",
+      "slug": "child-seat-foam-cores",
+      "marketSlug": "childhood",
+      "material": "EPP",
+      "summary": "Foam parts evaluated within child-seat and booster systems.",
+      "asset": "/images/products/branded/child-seat-foam-cores.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-8c31d4ba-ff13-4353-ba31-9d7e9c41c2d7.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: child-seat foam cores: charcoal EPP child car-seat shell core with deep seating recess, high side wings and head-rest core beside it, no upholstery no harness. Product family: Child-seat foam cores. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Nursery foam storage forms",
+      "slug": "nursery-foam-storage-forms",
+      "marketSlug": "childhood",
+      "material": "EPP",
+      "summary": "Storage geometry for supervised childcare and nursery settings.",
+      "asset": "/images/products/branded/nursery-foam-storage-forms.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-4ee8dfb1-c9da-47f4-bace-07e5207479e5.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: nursery foam storage forms: teal EPP rounded open storage cubby with three large compartments and removable low bin, molded bead texture. Product family: Nursery foam storage forms. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Movement-course play blocks",
+      "slug": "movement-course-play-blocks",
+      "marketSlug": "childhood",
+      "material": "EPP",
+      "summary": "Play forms for supervised balance and movement activities.",
+      "asset": "/images/products/branded/movement-course-play-blocks.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-e2432537-d057-4f40-a3d2-eb4051c815a8.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: movement-course play blocks: blue and green EPP balance-course shapes, one broad wedge ramp, two stepping stones and a low beam, rounded molded beads. Product family: Movement-course play blocks. Make this one product family only. Distinct shapes and readable official branding."
+    },
+    {
+      "name": "Adhesive foam support pads",
+      "slug": "adhesive-foam-support-pads",
+      "marketSlug": "logistics-handling",
+      "material": "EPP",
+      "summary": "Foam support pads with adhesive backing",
+      "asset": "/images/products/branded/adhesive-foam-support-pads.webp",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-0870a47a-3e7f-4eea-8752-2d85655c50b2.png",
+      "prompt": "Create a NEW photorealistic product-only studio photograph on a genuinely transparent alpha background. Complete isolated product, three-quarter view, centered with generous clear margin, sharp realistic manufacturing details and material texture. No scene, no factory, no people, no floor, no opaque backdrop, no fake checkerboard. Use the supplied official PARK NONWOVEN logo image as a supporting branding insert: accurately reproduce its blue wave symbol and PARKNONWOVEN lettering as a small printed manufacturer label directly on the forward-facing product surface. Keep official logo proportions, not an invented wordmark. No other text or labels. Premium commercial catalogue photography. Subject: adhesive foam support pads: six black cellular foam support pads, two rectangular two circular two L-shaped, one peeled white release-liner corner showing adhesive backing. Product family: Adhesive foam support pads. Make this one product family only. Distinct shapes and readable official branding."
+    }
+  ]
+}

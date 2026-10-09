@@ -1,0 +1,62 @@
+[
+  {
+    "source": "public\\videos\\use-automotive-mobile.mp4",
+    "output": "public\\videos\\use-automotive-mobile-fast-v1.mp4",
+    "before": 622095,
+    "after": 246204
+  },
+  {
+    "source": "public\\videos\\use-automotive.mp4",
+    "output": "public\\videos\\use-automotive-fast-v1.mp4",
+    "before": 1902902,
+    "after": 715816
+  },
+  {
+    "source": "public\\videos\\use-food-delivery-mobile.mp4",
+    "output": "public\\videos\\use-food-delivery-mobile-fast-v1.mp4",
+    "before": 690618,
+    "after": 261406
+  },
+  {
+    "source": "public\\videos\\use-food-delivery.mp4",
+    "output": "public\\videos\\use-food-delivery-fast-v1.mp4",
+    "before": 1963056,
+    "after": 761811
+  },
+  {
+    "source": "public\\videos\\use-food-packing-mobile.mp4",
+    "output": "public\\videos\\use-food-packing-mobile-fast-v1.mp4",
+    "before": 478460,
+    "after": 197663
+  },
+  {
+    "source": "public\\videos\\use-food-packing.mp4",
+    "output": "public\\videos\\use-food-packing-fast-v1.mp4",
+    "before": 1632317,
+    "after": 566521
+  },
+  {
+    "source": "public\\videos\\use-logistics-mobile.mp4",
+    "output": "public\\videos\\use-logistics-mobile-fast-v1.mp4",
+    "before": 388191,
+    "after": 158069
+  },
+  {
+    "source": "public\\videos\\use-logistics.mp4",
+    "output": "public\\videos\\use-logistics-fast-v1.mp4",
+    "before": 1587402,
+    "after": 495337
+  },
+  {
+    "source": "public\\videos\\use-sports-mobile.mp4",
+    "output": "public\\videos\\use-sports-mobile-fast-v1.mp4",
+    "before": 864614,
+    "after": 356816
+  },
+  {
+    "source": "public\\videos\\use-sports.mp4",
+    "output": "public\\videos\\use-sports-fast-v1.mp4",
+    "before": 2570364,
+    "after": 977905
+  }
+]

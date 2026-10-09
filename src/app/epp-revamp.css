@@ -1,0 +1,59 @@
+/* Shared proportions from the owner's PARK Filtration website. */
+.page-hero{padding:40px 6%;background:linear-gradient(125deg,#edf4f8,#fff);border-bottom:1px solid #dce7ed}
+.page-hero h1{font-weight:500;color:#15394f}
+.page-hero.with-image{align-items:center;gap:40px}
+.page-hero img{border-radius:14px}
+.product-grid .product-card{overflow:hidden;border:1px solid #dce7ed;border-radius:12px;background:#fff}
+.product-grid .product-card .product-copy{padding:18px}
+.product-grid .product-card .product-image{border:0;border-radius:0}
+.cta{background:linear-gradient(125deg,#edf4f7,#f3f7f5)}
+.article-body h2,.detail-body h2{color:#176b8a}
+.filters{border:1px solid #dce7ed;border-radius:10px;background:#f4f8fb}
+.filters input,.filters select{border-radius:7px}
+.button{border-radius:6px}
+.button:focus-visible,.text-link:focus-visible{outline:3px solid #efb649;outline-offset:3px}
+.filtration-home .park-industry-cards{grid-template-columns:repeat(4,minmax(0,1fr))}
+.filtration-home .park-industry-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .65s ease}
+.filtration-home .park-industry-card:hover>img{transform:scale(1.055)}
+.park-banner-link svg,.park-banner-pause svg{width:18px;height:18px}
+.park-banner-arrows{z-index:3}
+.filtration-home .epp-banner-tagline{font-family:'Manrope',Arial,sans-serif;font-size:clamp(28px,3.2vw,48px);font-weight:600;line-height:1.15;letter-spacing:-1px;color:#fff;margin-bottom:14px;text-shadow:0 2px 16px #04162955}
+.filtration-home .park-banner-copy h1{font-size:clamp(22px,2vw,32px);line-height:1.2}
+@media(max-width:760px){.filtration-home .epp-banner-tagline{font-size:32px;letter-spacing:-.6px}.filtration-home .park-banner-copy h1{font-size:24px}}
+.filtration-home .park-banner-panel{background:linear-gradient(90deg,#051b30e8 0%,#051b30b3 30%,#051b3020 68%),linear-gradient(0deg,#051b3066,transparent 45%)}
+.filtration-home .park-banner-copy{width:58%;justify-content:center;padding:32px 7%}
+.filtration-home .park-banner-video{object-position:center}
+.park-banner-arrows button{font-size:28px}
+.epp-material-stage,.epp-partner-intro,.epp-product-highlights{padding:34px 6%;max-width:1600px;margin:auto}
+.epp-material-stage{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;gap:40px;background:#f1f6f9}
+.epp-material-stage h2,.epp-partner-intro h2,.epp-product-highlights h2{font-size:clamp(27px,2.3vw,38px);line-height:1.25;letter-spacing:-.7px;margin:0 0 20px}
+.filtration-home .eyebrow{font-size:10px;letter-spacing:1.7px;color:#176b8a}
+.epp-material-stage p,.epp-partner-intro p{font-size:16px;line-height:1.75;color:#647b8a}
+.epp-material-stage h2 span,.epp-partner-intro h2 span,.epp-product-highlights h2 span{color:#176b8a}
+.epp-material-visual{position:relative;min-width:0;overflow:hidden;border-radius:14px}
+.epp-material-visual img{display:block;width:100%;aspect-ratio:1.6;object-fit:cover}
+.epp-material-visual>span{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,#0c2e43e6);padding:40px 22px 20px;color:white;font-size:10px;letter-spacing:1.5px}
+.epp-material-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.epp-material-tags span{font-size:12px;color:#176b8a;border:1px solid #cbdde7;padding:8px 12px;border-radius:5px;background:#fff}
+.epp-material-stage .epp-material-note{font-size:12px}
+.epp-partner-intro{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;background:radial-gradient(ellipse at 20% 70%,#edf6fa80,transparent 55%),#fff}
+.epp-range-proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;border-top:1px solid #dce7ed;margin-top:26px;padding-top:22px}
+.epp-range-proof strong{font-size:38px;line-height:1.2;font-weight:500;color:#176b8a}
+.epp-range-proof span{display:block;font-size:12px;color:#758b97;margin-top:6px}
+.epp-product-highlights{background:#f5f8fa}
+.epp-product-highlights .product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.epp-product-highlights .product-card{background:#fff;border:1px solid #dce7ed;border-radius:12px;overflow:hidden}
+.epp-product-highlights .product-image{border:0;border-radius:0;height:220px}
+.epp-product-highlights .product-image img{object-fit:cover;padding:0}
+.epp-product-highlights .product-copy{padding:18px}
+.epp-product-highlights .product-copy h3{font-size:18px}
+.epp-product-highlights .product-copy p{font-size:13px;line-height:1.65}
+.epp-products-help{display:flex;align-items:center;justify-content:space-between;gap:24px;border-top:1px solid #dce7ee;margin-top:24px;padding-top:18px}
+.epp-products-help p{font-size:13px;color:#6a8190;max-width:720px}
+.epp-products-help a{flex-shrink:0}
+@media(max-width:1000px){.epp-product-highlights .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.filtration-home .park-industry-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.filtration-home .park-industry-card:last-child{grid-column:auto}.epp-partner-intro{gap:30px}}
+@media(max-width:760px){.epp-material-stage,.epp-partner-intro{grid-template-columns:1fr;gap:24px}.epp-material-stage,.epp-partner-intro,.epp-product-highlights{padding:28px 16px}.epp-material-stage p,.epp-partner-intro p{font-size:14px}.epp-range-proof{gap:14px}.epp-range-proof strong{font-size:30px}.epp-products-help{align-items:flex-start;flex-direction:column;gap:10px}.epp-product-highlights .product-copy{padding:12px}.epp-product-highlights .product-copy h3{font-size:16px}.epp-product-highlights .product-image{height:170px}}
+@media(prefers-reduced-motion:reduce){.filtration-home .park-industry-card>img{transition:none}.filtration-home .park-industry-card:hover>img{transform:none}}
+@media(max-width:760px){.filtration-home .park-banner-copy{width:100%;padding:240px 24px 84px;justify-content:flex-end}.filtration-home .park-banner-video{object-position:65% center}.filtration-home .park-banner-panel{background:linear-gradient(0deg,#051b30f2,#051b3080 55%,#051b3010)}}
+
+.epp-only-filters{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}@media(max-width:760px){.epp-only-filters{grid-template-columns:1fr}}

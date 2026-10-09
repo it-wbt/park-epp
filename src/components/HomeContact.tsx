@@ -1,28 +1,21 @@
 'use client';
-
 import {useState} from 'react';
-import {markets} from '../lib/catalog';
-import {ArrowUpRight, UserRound, Mail, Building2, Factory, ChevronDown, Send, Check, MessageSquareText} from './ContactIcons';
+import {ArrowUpRight, UserRound, Mail, Send, Check, MessageSquareText} from './ContactIcons';
 import styles from './HomeContact.module.css';
-
-const industryHints: Record<string, string> = Object.fromEntries([
-  ...markets.map(market => [market.name, market.intro]),
-]);
 
 /** PARK Filtration's contact layout, with the EPP application content. */
 export default function HomeContact() {
   const [ready, setReady] = useState(false);
-  const [industry, setIndustry] = useState('');
   const [message, setMessage] = useState('');
 
   return (
     <section id="contact" className={styles.section} aria-labelledby="home-contact-heading">
       <div className={styles.introduction} data-reveal>
-        <div className={styles.eyebrow}>LET’S TALK</div>
-        <h2 id="home-contact-heading">Your next idea<br/>starts here.</h2>
-        <p>Tell us what your product needs to do. Bring your drawings, dimensions, planned quantities and the challenge you want to solve.</p>
+        <div className={styles.eyebrow}>TELL US YOUR EPP APPLICATION</div>
+        <h2 id="home-contact-heading">Need help choosing?<br/>Talk to PARK.</h2>
+        <p>Whether you need protective packaging or a lightweight moulded component, tell us what the part needs to do. We can discuss suitable EPP grades, shapes and the details needed for your enquiry.</p>
         <div className={styles.topics}>
-          {['Find a material for your application', 'Discuss dimensions and custom formats', 'Explore materials and grade options'].map(text => (
+          {['Find an EPP solution for your application', 'Discuss dimensions and custom formats', 'Explore EPP grades and density options'].map(text => (
             <div key={text}><span><Check size={15} aria-hidden="true"/></span>{text}</div>
           ))}
         </div>
@@ -36,7 +29,7 @@ export default function HomeContact() {
       <form className={styles.card} data-reveal onChange={() => setReady(false)} onSubmit={event => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
-        const body = `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nCompany: ${data.get('company') || 'Not specified'}\nIndustry: ${data.get('industry')}\n\n${data.get('message')}`;
+        const body = `Name: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`;
         window.location.href = `mailto:sales@parknonwoven.com?subject=${encodeURIComponent('EPP enquiry — ' + data.get('industry'))}&body=${encodeURIComponent(body)}`;
         setReady(true);
       }}>
@@ -63,26 +56,6 @@ export default function HomeContact() {
             </span>
           </label>
         </div>
-        <div className={styles.fieldRow}>
-          <label htmlFor="contact-company"><span>Company <small>Optional</small></span>
-            <span className={styles.control}>
-              <Building2 size={17} aria-hidden="true"/>
-              <input id="contact-company" name="company" autoComplete="organization" placeholder="Company or organisation" maxLength={150}/>
-            </span>
-          </label>
-          <label htmlFor="contact-industry">Your industry
-            <span className={`${styles.control} ${styles.select}`}>
-              <Factory size={17} aria-hidden="true"/>
-              <select id="contact-industry" name="industry" value={industry} onChange={event => setIndustry(event.target.value)} aria-describedby={industry ? 'contact-industry-hint' : undefined} required>
-                <option value="" disabled>Select your industry</option>
-                {Object.keys(industryHints).map(item => <option key={item}>{item}</option>)}
-              </select>
-              <ChevronDown size={15} className={styles.selectArrow} aria-hidden="true"/>
-            </span>
-          </label>
-        </div>
-        {industry && <p className={styles.industryHint} id="contact-industry-hint"><span/>{industryHints[industry]}</p>}
-
         <label htmlFor="contact-message" className={styles.messageLabel}>
           <span>What do you need?<small>Application, size, grade or quantity</small></span>
           <span className={`${styles.control} ${styles.textarea}`}>
@@ -95,7 +68,7 @@ export default function HomeContact() {
         </div>
         <div className={styles.submitRow}>
           <button className={styles.submit} type="submit">Prepare email enquiry <Send size={17} aria-hidden="true"/></button>
-          <span className={styles.submitCaption}>EPP · EPS · ENGINEERED MATERIALS</span>
+          <span className={styles.submitCaption}>EPP &middot; EXPANDED POLYPROPYLENE</span>
         </div>
         <p className={styles.deliveryNote} role="status">
           <Mail size={13} aria-hidden="true"/>

@@ -1,0 +1,392 @@
+{
+  "custom-hvac-components": {
+    "summary": "Lightweight EPP parts that combine equipment fit, insulation and air management.",
+    "benefits": [
+      "Low component weight",
+      "Moulded to your assembly",
+      "Thermal insulation"
+    ],
+    "uses": "Air-handling units and HVAC equipment",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "moulded-air-ducts": {
+    "summary": "Move air through your equipment with lightweight, shaped EPP ducts.",
+    "benefits": [
+      "Defined airflow paths",
+      "Lightweight installation",
+      "Insulated duct walls"
+    ],
+    "uses": "Ventilation and air-handling assemblies",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "hvac-insulation-housings": {
+    "summary": "Fitted EPP housings that add insulation without unnecessary weight.",
+    "benefits": [
+      "Thermal insulation",
+      "Lightweight construction",
+      "Shaped equipment fit"
+    ],
+    "uses": "Heat exchangers and HVAC housings",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "heat-pump-covers": {
+    "summary": "Lightweight EPP covers shaped around heat-pump components and pipe connections.",
+    "benefits": [
+      "Insulation around components",
+      "Low part weight",
+      "Fitted openings"
+    ],
+    "uses": "Heat-pump assemblies",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "heat-pump-support-frames": {
+    "summary": "Shaped EPP frames for locating and supporting heat-pump components.",
+    "benefits": [
+      "Low component weight",
+      "Defined support points",
+      "Assembly-ready geometry"
+    ],
+    "uses": "Heat-pump component mounting",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "hydraulic-module-supports": {
+    "summary": "Keep pumps and hydraulic connections positioned with a fitted EPP support.",
+    "benefits": [
+      "Component positioning",
+      "Lightweight handling",
+      "Shaped pipe channels"
+    ],
+    "uses": "Pumps and hydraulic modules",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "water-heater-insulation-forms": {
+    "summary": "Fitted EPP insulation shells for water-heater assemblies.",
+    "benefits": [
+      "Thermal insulation",
+      "Lightweight shells",
+      "Shaped pipe openings"
+    ],
+    "uses": "Water-heating equipment",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "hydraulic-manifold-insulation": {
+    "summary": "Insulate manifold connections with compact, fitted EPP forms.",
+    "benefits": [
+      "Thermal insulation",
+      "Fitted connection channels",
+      "Low part weight"
+    ],
+    "uses": "Heating manifolds and pipe connections",
+    "detail": "EPP brings insulation and low weight into the same component. A fitted shape helps organise the air path, pipe connections or equipment interfaces while keeping the part easy to handle during assembly. Choose the geometry and density around your equipment and its operating conditions."
+  },
+  "mobility-foam-components": {
+    "summary": "Lightweight EPP components shaped for vehicle assemblies.",
+    "benefits": [
+      "Lower component weight",
+      "Moulded assembly fit",
+      "Resilient foam structure"
+    ],
+    "uses": "Vehicle interior assemblies",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "vehicle-protective-inserts": {
+    "summary": "Protect vehicle parts in transit with EPP inserts shaped to hold them in place.",
+    "benefits": [
+      "Fitted product cavities",
+      "Impact cushioning",
+      "Reusable handling format"
+    ],
+    "uses": "Automotive component transport",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "vehicle-floor-panels": {
+    "summary": "Lightweight EPP floor forms shaped around vehicle footwells and installed space.",
+    "benefits": [
+      "Low component weight",
+      "Contoured floor fit",
+      "Moulded channels"
+    ],
+    "uses": "Vehicle floor assemblies",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "vehicle-seat-foam-components": {
+    "summary": "Lightweight EPP cores shaped for vehicle seating assemblies.",
+    "benefits": [
+      "Low core weight",
+      "Contoured seat geometry",
+      "Assembly integration"
+    ],
+    "uses": "Vehicle seat bases and backrests",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "vehicle-storage-organizers": {
+    "summary": "Keep vehicle tools and equipment organised with fitted EPP compartments.",
+    "benefits": [
+      "Dedicated tool cavities",
+      "Lightweight handling",
+      "Less loose-item movement"
+    ],
+    "uses": "Boot storage and tool organisers",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "battery-protective-inserts": {
+    "summary": "Fitted EPP cushions for positioning and protecting battery modules.",
+    "benefits": [
+      "Defined module spacing",
+      "Impact cushioning",
+      "Lightweight integration"
+    ],
+    "uses": "Battery handling and assemblies",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "vehicle-insulating-panels": {
+    "summary": "Lightweight EPP panels shaped around vehicle insulation spaces.",
+    "benefits": [
+      "Thermal insulation",
+      "Low panel weight",
+      "Fitted mounting geometry"
+    ],
+    "uses": "Vehicle doors and interior panels",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "vehicle-energy-absorbers": {
+    "summary": "Shaped EPP foam components for energy-absorbing vehicle designs.",
+    "benefits": [
+      "Energy-absorbing foam",
+      "Low component weight",
+      "Shaped assembly fit"
+    ],
+    "uses": "Automotive impact-management assemblies",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "vehicle-acoustic-inserts": {
+    "summary": "Fitted EPP inserts for vehicle acoustic and vibration-management designs.",
+    "benefits": [
+      "Fills complex spaces",
+      "Low part weight",
+      "Moulded assembly fit"
+    ],
+    "uses": "Dashboard and cabin assemblies",
+    "detail": "EPP combines low weight with a resilient cellular structure, making it useful where a component needs to fit a vehicle assembly or protect parts during handling. Moulded shapes can incorporate cavities, ribs and locating features. Match the finished design to the space, loading and temperature conditions of your application."
+  },
+  "custom-cushioning-foams": {
+    "summary": "Protect delicate products with EPP cushioning shaped to their exact fit.",
+    "benefits": [
+      "Impact cushioning",
+      "Dedicated product cavities",
+      "Reusable protective format"
+    ],
+    "uses": "Electronics and industrial component packing",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "stackable-delivery-boxes": {
+    "summary": "Lightweight, insulated EPP boxes for meal delivery and everyday transport. Stack neatly, carry easily and reuse.",
+    "benefits": [
+      "Insulation for food transport",
+      "Stackable, space-saving format",
+      "Lightweight and reusable"
+    ],
+    "uses": "Meal delivery, catering and food distribution",
+    "detail": "Make everyday deliveries easier with a box designed for packing, carrying and stacking. EPP?s insulating walls help slow heat transfer, while its low weight makes handling more practical. A reusable format can support repeat delivery routes. Choose the internal size around your meal packs and the stacking layout around your vehicle or storage space."
+  },
+  "catering-transport-boxes": {
+    "summary": "Carry prepared meals in lightweight EPP catering containers with insulating walls.",
+    "benefits": [
+      "Thermal insulation",
+      "Practical carrying format",
+      "Reusable transport design"
+    ],
+    "uses": "Catering, kitchens and meal transport",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "foldable-insulated-boxes": {
+    "summary": "Insulated EPP boxes designed to reduce empty storage and return volume.",
+    "benefits": [
+      "Space-saving foldable format",
+      "Thermal insulation",
+      "Lightweight handling"
+    ],
+    "uses": "Returnable delivery and insulated transport",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "reusable-industrial-containers": {
+    "summary": "Move and organise components with lightweight, returnable EPP containers.",
+    "benefits": [
+      "Reusable handling format",
+      "Product protection",
+      "Lightweight construction"
+    ],
+    "uses": "Factory logistics and component transport",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "reusable-industrial-coolers": {
+    "summary": "Reusable EPP coolers for temperature-sensitive transport.",
+    "benefits": [
+      "Thermal insulation",
+      "Low container weight",
+      "Returnable transport format"
+    ],
+    "uses": "Insulated distribution and delivery",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "lightweight-foam-pallets": {
+    "summary": "Lightweight EPP pallet forms for moving packaged goods.",
+    "benefits": [
+      "Low pallet weight",
+      "Defined load-support areas",
+      "Fork-entry geometry"
+    ],
+    "uses": "Packaging and unit-load handling",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "industrial-pallet-boxes": {
+    "summary": "EPP bulk containers that combine pallet handling with protective storage.",
+    "benefits": [
+      "Pallet-compatible format",
+      "Lightweight construction",
+      "Reusable component storage"
+    ],
+    "uses": "Bulk storage and factory logistics",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "sports-accessories": {
+    "summary": "Lightweight EPP shapes for sports accessories and activity equipment.",
+    "benefits": [
+      "Easy handling",
+      "Resilient foam structure",
+      "Shaped for the activity"
+    ],
+    "uses": "Sports accessories and training products",
+    "detail": "EPP keeps sports and leisure components light while offering a resilient foam structure. Moulded shapes can follow the required grip, profile and equipment interfaces. This makes the material useful for products that need easy handling and a considered fit within a complete equipment design."
+  },
+  "custom-sports-equipment": {
+    "summary": "Develop sports equipment around lightweight, moulded EPP forms.",
+    "benefits": [
+      "Low equipment weight",
+      "Custom-shaped geometry",
+      "Resilient foam structure"
+    ],
+    "uses": "Balance trainers and sports equipment",
+    "detail": "EPP keeps sports and leisure components light while offering a resilient foam structure. Moulded shapes can follow the required grip, profile and equipment interfaces. This makes the material useful for products that need easy handling and a considered fit within a complete equipment design."
+  },
+  "leisure-equipment-components": {
+    "summary": "Lightweight EPP components for recreation and leisure products.",
+    "benefits": [
+      "Easy handling",
+      "Moulded product geometry",
+      "Resilient foam structure"
+    ],
+    "uses": "Leisure furniture and recreational equipment",
+    "detail": "EPP keeps sports and leisure components light while offering a resilient foam structure. Moulded shapes can follow the required grip, profile and equipment interfaces. This makes the material useful for products that need easy handling and a considered fit within a complete equipment design."
+  },
+  "foam-exercise-jump-boxes": {
+    "summary": "Lightweight EPP jump-box forms for exercise and training setups.",
+    "benefits": [
+      "Easy repositioning",
+      "Broad standing surface",
+      "Resilient foam structure"
+    ],
+    "uses": "Fitness and supervised training setups",
+    "detail": "EPP keeps sports and leisure components light while offering a resilient foam structure. Moulded shapes can follow the required grip, profile and equipment interfaces. This makes the material useful for products that need easy handling and a considered fit within a complete equipment design."
+  },
+  "sports-helmet-foam-liners": {
+    "summary": "Lightweight EPP liner forms for integration into complete helmet designs.",
+    "benefits": [
+      "Low liner weight",
+      "Moulded head-fit geometry",
+      "Energy-absorbing foam"
+    ],
+    "uses": "Protective helmet development",
+    "detail": "EPP?s low weight and energy-absorbing cellular structure make it useful for liner development. Moulded profiles can follow the head shape and provide space for ventilation and assembly features. The liner needs to be evaluated within the complete helmet, including its shell, retention system and intended protective use."
+  },
+  "foam-insole-components": {
+    "summary": "Shaped EPP support cores for footwear assemblies.",
+    "benefits": [
+      "Low component weight",
+      "Contoured support geometry",
+      "Defined heel and arch shape"
+    ],
+    "uses": "Footwear component development",
+    "detail": "EPP keeps sports and leisure components light while offering a resilient foam structure. Moulded shapes can follow the required grip, profile and equipment interfaces. This makes the material useful for products that need easy handling and a considered fit within a complete equipment design."
+  },
+  "surfboard-foam-cores": {
+    "summary": "Lightweight EPP core forms shaped for surfboard construction.",
+    "benefits": [
+      "Low core weight",
+      "Shaped board profile",
+      "Resilient foam structure"
+    ],
+    "uses": "Surfboard development",
+    "detail": "EPP keeps sports and leisure components light while offering a resilient foam structure. Moulded shapes can follow the required grip, profile and equipment interfaces. This makes the material useful for products that need easy handling and a considered fit within a complete equipment design."
+  },
+  "childhood-accessories": {
+    "summary": "Lightweight EPP accessories shaped for childhood product designs.",
+    "benefits": [
+      "Easy handling",
+      "Rounded moulded forms",
+      "Low product weight"
+    ],
+    "uses": "Childhood accessories and step forms",
+    "detail": "Lightweight EPP forms are easy to move and arrange within supervised play, learning or childcare settings. Rounded shapes and a resilient foam structure offer useful design options. Select the dimensions, contact surfaces and complete product design around the intended age group and activity."
+  },
+  "modular-foam-play-forms": {
+    "summary": "Lightweight EPP shapes that connect into different play layouts.",
+    "benefits": [
+      "Connectable shapes",
+      "Easy rearrangement",
+      "Rounded moulded edges"
+    ],
+    "uses": "Supervised play and construction activities",
+    "detail": "Lightweight EPP forms are easy to move and arrange within supervised play, learning or childcare settings. Rounded shapes and a resilient foam structure offer useful design options. Select the dimensions, contact surfaces and complete product design around the intended age group and activity."
+  },
+  "educational-toy-shapes": {
+    "summary": "Lightweight EPP learning shapes for hands-on play.",
+    "benefits": [
+      "Simple learning shapes",
+      "Easy handling",
+      "Rounded moulded edges"
+    ],
+    "uses": "Supervised learning and shape activities",
+    "detail": "Lightweight EPP forms are easy to move and arrange within supervised play, learning or childcare settings. Rounded shapes and a resilient foam structure offer useful design options. Select the dimensions, contact surfaces and complete product design around the intended age group and activity."
+  },
+  "child-seat-foam-cores": {
+    "summary": "Lightweight EPP cores shaped for child-seat and booster assemblies.",
+    "benefits": [
+      "Low core weight",
+      "Contoured seating geometry",
+      "Moulded assembly fit"
+    ],
+    "uses": "Child-seat product development",
+    "detail": "A moulded EPP core can provide a lightweight, contoured form within a child-seat assembly. Seating recesses, side profiles and locating features can be developed around the complete design. The finished seat, including its shell, harness and attachment system, needs testing for the intended use."
+  },
+  "nursery-foam-storage-forms": {
+    "summary": "Lightweight EPP storage forms for organising nursery spaces.",
+    "benefits": [
+      "Defined storage compartments",
+      "Easy repositioning",
+      "Rounded moulded forms"
+    ],
+    "uses": "Nursery storage and organisation",
+    "detail": "Lightweight EPP forms are easy to move and arrange within supervised play, learning or childcare settings. Rounded shapes and a resilient foam structure offer useful design options. Select the dimensions, contact surfaces and complete product design around the intended age group and activity."
+  },
+  "movement-course-play-blocks": {
+    "summary": "Arrange lightweight EPP blocks into supervised balance and movement courses.",
+    "benefits": [
+      "Easy layout changes",
+      "Varied movement shapes",
+      "Lightweight handling"
+    ],
+    "uses": "Supervised activity courses",
+    "detail": "Lightweight EPP forms are easy to move and arrange within supervised play, learning or childcare settings. Rounded shapes and a resilient foam structure offer useful design options. Select the dimensions, contact surfaces and complete product design around the intended age group and activity."
+  },
+  "adhesive-foam-support-pads": {
+    "summary": "Position and cushion products with shaped EPP support pads and an adhesive interface.",
+    "benefits": [
+      "Product positioning",
+      "Localised cushioning",
+      "Shaped contact areas"
+    ],
+    "uses": "Protective packaging assemblies",
+    "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  }
+}

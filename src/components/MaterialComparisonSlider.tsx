@@ -1,4 +1,5 @@
 'use client';
+import ResponsiveImage from './ResponsiveImage';
 
 import {useEffect, useId, useRef, useState, type CSSProperties, type PointerEvent} from 'react';
 import styles from './MaterialComparisonSlider.module.css';
@@ -49,11 +50,11 @@ export default function MaterialComparisonSlider() {
       onLostPointerCapture={() => { activePointer.current = null; }}
     >
       <div className={styles.eppLayer}>
-        <img src="/images/generated/material-compare-epp.webp" width={1536} height={1024} alt="Protective transport tray in dark expanded polypropylene, with a visible moulded bead texture" fetchPriority="high" draggable={false}/>
+        <ResponsiveImage src="/images/generated/material-compare-epp.webp" width={1536} height={1024} alt="Protective transport tray in dark expanded polypropylene, with a visible moulded bead texture" fetchPriority="high" draggable={false}/>
         <span className={styles.eppLabel} aria-hidden="true">EPP</span>
       </div>
       <div className={styles.epsLayer}>
-        <img src="/images/generated/material-compare-eps.webp" width={1536} height={1024} alt="The same protective transport tray in white expanded polystyrene, shown from the same angle" draggable={false}/>
+        <ResponsiveImage src="/images/generated/material-compare-eps.webp" width={1536} height={1024} alt="The same protective transport tray in white expanded polystyrene, shown from the same angle" draggable={false}/>
         <span className={styles.epsLabel} aria-hidden="true">EPS</span>
       </div>
       <input

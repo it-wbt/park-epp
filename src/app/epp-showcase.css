@@ -1,0 +1,140 @@
+.home-showcase{margin:18px 10px 0;background:#f2f2f2;border-radius:0 0 24px 24px;overflow:hidden}
+.park-banner{position:relative;isolation:isolate;min-height:340px;height:clamp(340px,23vw,450px);overflow:hidden;background:#255f99}
+.park-banner-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+
+.park-banner-panel{position:absolute;inset:0;background:#255f99;clip-path:polygon(0 0,38% 0,52% 100%,0 100%)}
+.park-banner-copy{position:relative;z-index:1;width:42%;padding:20px 24px;color:#fff}
+.park-banner-copy h1{margin:0 0 24px;font-family:inherit;font-size:clamp(29px,2.65vw,52px);font-weight:400;line-height:1.25;letter-spacing:0;white-space:pre-line;color:#fff}
+.park-banner-copy p{margin:0 0 22px;max-width:660px;font-size:clamp(16px,1.55vw,29px);line-height:1.45;color:#fff}
+.park-banner-link{display:inline-flex;align-items:center;gap:10px;padding:10px 15px;border:1px solid #ffffff90;border-radius:3px;font-size:14px;color:#fff;background:#ffffff0d}
+.park-banner-link:hover{background:#ffffff20}
+.park-banner-arrows{position:absolute;right:20px;bottom:20px;display:flex;gap:8px}
+.park-banner-arrows button{display:grid;place-items:center;width:40px;height:40px;border:1px solid #ffffffa0;border-radius:50%;background:#123a5cc4;color:#fff}
+.park-banner-controls{position:relative;display:flex;align-items:center;justify-content:center;height:34px;gap:12px}
+.park-banner-dots{display:flex;gap:2px}
+.park-banner-dots button{display:grid;place-items:center;width:24px;height:30px;padding:0;border:0;background:transparent}
+.park-banner-dots span{width:13px;height:13px;border-radius:50%;background:#858585}
+.park-banner-dots button[aria-pressed=true] span{background:#255f99}
+.park-banner-pause{display:grid;place-items:center;padding:4px;border:0;background:transparent;color:#52616b}
+.park-industry-shortcuts{padding:18px 30px 40px}
+.park-industry-shortcuts h2{font-family:inherit;margin:0 0 3px;color:#103746;font-size:clamp(24px,1.8vw,35px);line-height:1.3;letter-spacing:0}
+.park-industry-shortcuts>p{margin:0 0 24px;font-size:clamp(16px,1.4vw,26px);font-style:italic;color:#18344e;line-height:1.4}
+.park-industry-cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(16px,2vw,40px)}
+.park-industry-card{display:block;overflow:hidden;border-radius:0 0 14px 14px;box-shadow:0 4px 7px #0003;background:#fff;transition:transform .2s ease}
+.park-industry-card h3{display:flex;align-items:center;justify-content:space-between;gap:6px;margin:0;min-height:84px;padding:12px 10px;color:#fff;background:#255f99;font-family:inherit;font-size:clamp(16px,1.55vw,29px);font-weight:400;line-height:1.3;letter-spacing:0}
+.park-industry-card h3 svg{flex-shrink:0}
+.park-industry-card video{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover}
+.park-industry-card:hover{transform:translateY(-4px)}
+.home-showcase a:focus-visible,.home-showcase button:focus-visible{outline:3px solid #efb649;outline-offset:-3px}
+@media(max-width:1000px){.park-banner-copy{width:47%;padding:24px 20px}.park-banner-panel{clip-path:polygon(0 0,43% 0,58% 100%,0 100%)}.park-industry-shortcuts{padding:18px 20px 30px}.park-industry-cards{gap:14px}.park-industry-card h3{min-height:65px;font-size:17px}.park-industry-card h3 svg{display:none}}
+@media(max-width:640px){.home-showcase{margin:10px 10px 0}.park-banner{height:auto;min-height:0;padding-top:190px}.park-banner-video{height:190px;object-fit:cover;object-position:right}.park-banner-panel{display:none}.park-banner-copy{width:100%;padding:24px 20px 28px;background:#255f99;min-height:300px}.park-banner-copy h1{font-size:32px;margin-bottom:16px}.park-banner-copy p{font-size:17px;margin-bottom:20px}.park-banner-arrows{top:140px;bottom:auto;right:12px}.park-industry-shortcuts{padding:16px 14px 24px}.park-industry-shortcuts h2{font-size:24px}.park-industry-shortcuts>p{font-size:16px;margin-bottom:20px}.park-industry-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}.park-industry-card h3{min-height:60px;font-size:18px}.park-industry-card:last-child{grid-column:1/-1}.park-industry-card:last-child video{aspect-ratio:2/1}}
+@media(prefers-reduced-motion:reduce){.park-banner-video,.park-industry-card{transition:none}.park-industry-card:hover{transform:none}}
+/* Give the banner more room while keeping the industry cards readable. */
+.park-banner-video{left:38%;width:62%}
+.park-industry-card{display:grid;grid-template-rows:76px minmax(0,1fr);min-width:0}
+.park-industry-card h3{min-height:0;height:100%;font-size:clamp(16px,1.35vw,26px)}
+.park-industry-card video{height:100%;min-height:0;aspect-ratio:auto}
+@media(min-width:1001px){
+ .home-showcase{height:auto;display:grid;grid-template-rows:clamp(480px,62svh,720px) 32px clamp(300px,36svh,390px);margin-top:12px}
+ .park-banner{height:auto;min-height:0}
+ .park-banner-copy{display:flex;flex-direction:column;justify-content:center;height:100%;padding:clamp(18px,2vw,36px);width:43%}
+ .park-banner-copy h1{font-size:clamp(28px,min(2.65vw,5svh),50px);margin-bottom:18px}
+ .home-showcase .park-banner-copy p{font-size:clamp(16px,min(1.4vw,2.5svh),24px);line-height:1.5;margin-bottom:20px}
+ .park-banner-link{align-self:flex-start}
+ .park-industry-shortcuts{min-height:0;display:flex;flex-direction:column;padding:12px 28px 24px}
+ .park-industry-shortcuts h2{font-size:clamp(24px,1.7vw,32px);flex-shrink:0}
+ .home-showcase .park-industry-shortcuts>p{font-size:clamp(15px,1.2vw,21px);margin-bottom:16px;flex-shrink:0}
+ .park-industry-cards{flex:1;min-height:0}
+ .park-industry-card{grid-template-rows:clamp(54px,7svh,76px) minmax(0,1fr)}
+}
+@media(min-width:641px) and (max-width:1000px){.park-banner{height:460px}.park-banner-video{left:43%;width:57%}.park-industry-card{grid-template-rows:70px 150px}}
+@media(max-width:640px){.park-banner{padding-top:240px}.park-banner-video{left:0;width:100%;height:240px}.park-banner-arrows{top:190px}.park-industry-card{grid-template-rows:65px 150px}.park-industry-card:last-child video{aspect-ratio:auto}}
+
+/* Full-bleed industry films with a readable caption and a clear next step. */
+.park-industry-shortcuts{background:linear-gradient(135deg,#f4f8fb,#eef3f6);padding:28px 30px 34px}
+.park-industry-kicker{display:block;color:#256399;font-size:10px;font-weight:700;letter-spacing:2.3px;margin-bottom:10px}
+.park-industry-shortcuts h2{font-weight:600;letter-spacing:-.7px}
+.home-showcase .park-industry-shortcuts>p{font-style:normal;color:#647b8c;margin-top:8px;margin-bottom:25px}
+.park-industry-cards{gap:20px}
+.park-industry-card{position:relative;isolation:isolate;display:block;height:280px;border-radius:14px;background:#12374c;box-shadow:0 5px 16px #183b5218;border:1px solid #ffffff70;transition:transform .3s ease,box-shadow .3s ease}
+.park-industry-card video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .65s ease}
+.park-industry-card::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,#071e3833 0%,transparent 30%,#071e3866 58%,#071e38ed 100%);pointer-events:none}
+.park-industry-number{position:absolute;z-index:2;top:16px;left:16px;display:grid;place-items:center;width:32px;height:32px;border:1px solid #ffffff55;border-radius:50%;background:#10375040;color:#fff;font-size:11px;letter-spacing:1px;backdrop-filter:blur(8px)}
+.park-industry-card-copy{position:absolute;z-index:2;inset:auto 18px 18px}
+.park-industry-card .park-industry-card-copy h3{display:block;padding:0;margin:0 0 12px;background:transparent;height:auto;min-height:0;color:#fff;font-size:clamp(20px,1.5vw,28px);font-weight:550;line-height:1.22;letter-spacing:-.35px;max-width:90%}
+.park-industry-discover{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#e0ecf4;font-size:12px;font-weight:500}
+.park-industry-arrow{display:grid;place-items:center;width:32px;height:32px;border:1px solid #ffffff60;border-radius:50%;background:#ffffff0f;transition:background .25s ease,transform .25s ease}
+.park-industry-arrow svg{display:block!important}
+.park-industry-card:focus-visible{outline-offset:3px}
+@media(hover:hover) and (pointer:fine){.park-industry-card:hover{transform:translateY(-5px);box-shadow:0 14px 26px #183b5230}.park-industry-card:hover video{transform:scale(1.055)}.park-industry-card:hover .park-industry-arrow{background:#2e79b9;transform:translateX(2px)}}
+@media(min-width:1001px){.home-showcase{grid-template-rows:clamp(480px,62svh,720px) 32px auto}.park-industry-shortcuts{padding:28px 28px 34px}.park-industry-cards{flex:none}.park-industry-card{height:clamp(245px,21vw,340px)}}
+@media(min-width:641px) and (max-width:1000px){.park-industry-cards{gap:12px}.park-industry-card{height:260px}.park-industry-card-copy{inset:auto 12px 16px}.park-industry-card .park-industry-card-copy h3{font-size:19px}.park-industry-discover{font-size:10px}.park-industry-arrow{width:26px;height:26px}}
+@media(max-width:640px){.park-industry-shortcuts{padding:24px 14px 26px}.park-industry-cards{gap:14px}.park-industry-card{height:230px}.park-industry-card-copy{inset:auto 14px 16px}.park-industry-card .park-industry-card-copy h3{font-size:21px}.park-industry-discover{font-size:11px}.park-industry-card:last-child{height:230px}.park-industry-number{top:12px;left:12px}.park-industry-shortcuts h2{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.park-industry-card,.park-industry-card video,.park-industry-arrow{transition:none}.park-industry-card:hover,.park-industry-card:hover video,.park-industry-card:hover .park-industry-arrow{transform:none}}
+
+/* A softer transition from the text to the film keeps the hero balanced. */
+.park-banner{background:#103a5b}
+.park-banner-video{left:24%;width:76%;object-position:center}
+.park-banner-panel{display:block;clip-path:none;background:linear-gradient(90deg,#103a5b 0%,#103a5bf7 25%,#103a5bca 40%,#103a5b52 57%,#103a5b0a 75%),linear-gradient(0deg,#09263e55,transparent 35%)}
+.park-banner-copy{width:50%;padding:40px 4%;display:flex;flex-direction:column;justify-content:center;height:100%}
+.park-banner-eyebrow{display:flex;align-items:center;gap:10px;color:#c2dae8;font-size:10px;font-weight:600;letter-spacing:2px;margin-bottom:24px}
+.park-banner-eyebrow>span{width:20px;height:2px;background:#a4c878}
+.park-banner-copy h1{font-size:clamp(34px,3.25vw,60px);font-weight:500;line-height:1.12;letter-spacing:-1.6px;margin:0 0 24px;max-width:680px}
+.home-showcase .park-banner-copy p{font-size:clamp(16px,1.15vw,21px);line-height:1.65;color:#d7e6ef;max-width:560px;margin-bottom:30px}
+.park-banner-link{align-self:flex-start;background:#fff;border:0;border-radius:6px;color:#123e5c;font-weight:600;font-size:14px;padding:14px 20px;gap:24px;box-shadow:0 4px 16px #082b4120}
+.park-banner-link:hover{background:#eaf3f9}
+.park-banner-arrows{right:32px;bottom:28px;align-items:center;gap:10px}
+.park-banner-arrows button{width:44px;height:44px;background:#12374c66;border-color:#ffffff66;backdrop-filter:blur(8px)}
+.park-banner-arrows button:hover{background:#ffffff2b}
+.park-banner-count{color:#fff;font-size:14px;font-weight:600;letter-spacing:1px;margin-right:14px}
+.park-banner-count>span{color:#ffffff90;font-size:12px;font-weight:400}
+.park-banner-controls{height:32px;background:#eef3f6}
+.park-banner-dots button{width:30px}
+.park-banner-dots span{width:6px;height:6px;background:#a9b8c2;transition:width .2s,background .2s;border-radius:8px}
+.park-banner-dots button[aria-pressed=true] span{width:22px;background:#1b668f}
+@media(min-width:1001px){.park-banner-copy{width:50%;padding:40px 4%}.park-banner-copy h1{font-size:clamp(36px,3.25vw,60px)}}
+@media(min-width:641px) and (max-width:1000px){.park-banner-copy{width:60%;padding:30px 4%}.park-banner-copy h1{font-size:36px}.park-banner-video{left:20%;width:80%}}
+@media(max-width:640px){.park-banner{padding:0;min-height:540px;height:auto}.park-banner-video{left:0;width:100%;height:100%;object-position:60% center}.park-banner-panel{background:linear-gradient(0deg,#103a5b 0%,#103a5bf0 30%,#103a5b7a 65%,#103a5b26 100%)}.park-banner-copy{width:100%;min-height:540px;padding:180px 24px 76px;background:transparent;justify-content:flex-end}.park-banner-copy h1{font-size:36px;letter-spacing:-1px;margin-bottom:18px}.park-banner-eyebrow{font-size:9px;letter-spacing:1.5px;margin-bottom:18px}.home-showcase .park-banner-copy p{font-size:15px;line-height:1.6;margin-bottom:22px}.park-banner-link{padding:12px 17px;font-size:13px}.park-banner-arrows{top:auto;bottom:16px;right:18px}.park-banner-arrows button{width:36px;height:36px}.park-banner-count{font-size:12px;margin-right:6px}}
+@media(prefers-reduced-motion:reduce){.park-banner-dots span{transition:none}}
+.park-banner-copy{animation:park-banner-copy-in .65s ease-out both}
+.park-banner-link{transition:background .2s,box-shadow .2s,transform .2s}
+.park-banner-link:hover{transform:translateY(-2px);box-shadow:0 8px 22px #041e3c35}
+.park-banner-link svg{transition:transform .2s}
+.park-banner-link:hover svg{transform:translateX(3px)}
+.park-banner-arrows button{transition:background .2s,transform .2s}
+.park-banner-arrows button:hover{transform:translateY(-2px)}
+.park-banner-eyebrow{color:#dbeaf3}
+@keyframes park-banner-copy-in{from{opacity:0;translate:0 12px}to{opacity:1;translate:0 0}}
+@media(prefers-reduced-motion:reduce){.park-banner-copy{animation:none}.park-banner-link,.park-banner-link svg,.park-banner-arrows button{transition:none}.park-banner-link:hover,.park-banner-link:hover svg,.park-banner-arrows button:hover{transform:none}}
+
+/* Reference-inspired panoramic film with the headline at the lower left. */
+.home-showcase{margin:0;border-radius:0}
+.park-banner-video{left:0;width:100%;object-position:center}
+.park-banner-panel{background:linear-gradient(0deg,#051b30c9 0%,#051b3066 35%,#051b3012 72%);clip-path:none}
+.park-banner-copy{width:78%;justify-content:flex-end;padding:40px 7% 64px;background:transparent}
+.park-banner-copy h1{max-width:1000px;font-size:clamp(38px,3.7vw,68px);font-weight:500;line-height:1.15;letter-spacing:-1px;white-space:normal;margin-bottom:18px;text-shadow:0 2px 16px #04162933}
+.park-banner-eyebrow{margin-bottom:16px;color:#fff}
+.home-showcase .park-banner-copy p{max-width:700px;font-size:17px;line-height:1.6;margin-bottom:24px;color:#e7edf2}
+.park-banner-arrows{right:5%;bottom:34px}
+@media(min-width:1001px){
+ .home-showcase{height:calc(100svh - var(--showcase-header,100px));min-height:540px;grid-template-rows:minmax(0,1.4fr) 28px minmax(0,1fr);margin-top:0}
+ .park-banner-copy{width:78%;padding:24px 7% 36px}
+ .park-banner-copy h1{font-size:clamp(32px,min(3.2vw,5.5svh),54px);margin-bottom:12px}
+ .park-banner-eyebrow{margin-bottom:12px}
+ .home-showcase .park-banner-copy p{font-size:clamp(14px,1.1vw,18px);line-height:1.5;margin-bottom:18px;max-width:720px}
+ .park-banner-link{padding:11px 18px}
+ .park-banner-arrows{bottom:24px}
+ .park-banner-controls{height:28px}
+ .park-industry-shortcuts{padding:12px 28px 18px;min-height:0;overflow:hidden}
+ .park-industry-kicker{margin-bottom:5px;font-size:9px}
+ .park-industry-shortcuts h2{font-size:clamp(21px,1.7vw,30px);line-height:1.2}
+ .home-showcase .park-industry-shortcuts>p{font-size:14px;margin:5px 0 12px;line-height:1.4}
+ .park-industry-cards{flex:1;min-height:0;gap:18px}
+ .park-industry-card{height:100%;min-height:0}
+ .park-industry-number{top:12px;left:12px;width:28px;height:28px}
+ .park-industry-card-copy{inset:auto 14px 12px}
+ .park-industry-card .park-industry-card-copy h3{font-size:clamp(18px,1.4vw,25px);margin-bottom:8px}
+ .park-industry-arrow{width:28px;height:28px}
+}
+@media(min-width:641px) and (max-width:1000px){.park-banner{height:560px}.park-banner-copy{width:85%;padding:30px 6% 70px}.park-banner-video{left:0;width:100%}.park-banner-copy h1{font-size:42px}}
+@media(max-width:640px){.home-showcase{margin:0}.park-banner{min-height:580px}.park-banner-copy{width:100%;min-height:580px;padding:200px 24px 84px;justify-content:flex-end}.park-banner-copy h1{font-size:36px;white-space:normal}.park-banner-panel{background:linear-gradient(0deg,#051b30ed,#051b3080 50%,#051b3012)}.home-showcase .park-banner-copy p{font-size:15px}.park-banner-arrows{bottom:20px;right:24px}}

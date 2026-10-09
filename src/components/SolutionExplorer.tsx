@@ -1,4 +1,5 @@
 'use client';
+import ResponsiveImage from './ResponsiveImage';
 
 import Link from 'next/link';
 import {useState} from 'react';
@@ -40,7 +41,7 @@ export default function SolutionExplorer() {
       <div className={styles.artwork}>
         <div className={styles.window}>
           {visuals.map((visual, index) => <div className={styles.scene} data-active={selected === index} aria-hidden={selected !== index} key={solutions[index].slug}>
-            <img src={visual.src} alt={visual.alt} width={1440} height={960} loading="lazy"/>
+            <ResponsiveImage src={visual.src} alt={visual.alt} width={1440} height={960} loading="lazy"/>
           </div>)}
         </div>
       </div>

@@ -1,0 +1,26 @@
+{
+  "tool": "built-in image_gen",
+  "products": [
+    {
+      "slug": "lightweight-foam-pallets",
+      "subject": "lightweight pallet made entirely of charcoal grey expanded polypropylene (EPP) bead foam, visibly fused fine round beads, solid thick top deck on six large molded feet with forklift openings, not rigid plastic not white polystyrene",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-eca09ca2-4259-4f7a-b640-ccf394206378.png",
+      "prompt": "Generate a new realistic industrial studio product cutout of lightweight pallet made entirely of charcoal grey expanded polypropylene (EPP) bead foam, visibly fused fine round beads, solid thick top deck on six large molded feet with forklift openings, not rigid plastic not white polystyrene. Isolated complete object on a truly transparent alpha background, three-quarter view, generous transparent margin, accurate manufacturing details. Supplied supporting reference is the official PARK NONWOVEN logo: faithfully reproduce its blue wave symbol and PARKNONWOVEN wordmark as a small manufacturer label printed on the visible forward-facing product surface. No other text. No factory, floor, backdrop, checkerboard or shadows outside the object. It is an illustrative product design, not a specific actual production sample.",
+      "asset": "/images/products/branded/lightweight-foam-pallets-epp-v2.webp"
+    },
+    {
+      "slug": "water-heater-insulation-forms",
+      "subject": "two charcoal grey expanded polypropylene (EPP) bead-foam half cylinder insulation shells for a water heater, with circular top cap and precise pipe openings, visibly fused fine round bead foam, not white EPS",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-ca0476b0-393b-4c75-b496-2ac42e4a310f.png",
+      "prompt": "Generate a new realistic industrial studio product cutout of two charcoal grey expanded polypropylene (EPP) bead-foam half cylinder insulation shells for a water heater, with circular top cap and precise pipe openings, visibly fused fine round bead foam, not white EPS. Isolated complete object on a truly transparent alpha background, three-quarter view, generous transparent margin, accurate manufacturing details. Supplied supporting reference is the official PARK NONWOVEN logo: faithfully reproduce its blue wave symbol and PARKNONWOVEN wordmark as a small manufacturer label printed on the visible forward-facing product surface. No other text. No factory, floor, backdrop, checkerboard or shadows outside the object. It is an illustrative product design, not a specific actual production sample.",
+      "asset": "/images/products/branded/water-heater-insulation-forms-epp-v2.webp"
+    },
+    {
+      "slug": "surfboard-foam-cores",
+      "subject": "unfinished long pale grey expanded polypropylene (EPP) bead-foam surfboard core blank, pointed nose rounded rails flat tail, fine fused polypropylene bead texture, no fins no paint no complete surfboard, not white polystyrene",
+      "source": "C:\\Users\\lenovo\\.codex\\generated_images\\01a11b9d-2c13-7e03-a5c5-e92bf807905e\\exec-83823dc7-b654-418b-817b-831c34a34e1d.png",
+      "prompt": "Generate a new realistic industrial studio product cutout of unfinished long pale grey expanded polypropylene (EPP) bead-foam surfboard core blank, pointed nose rounded rails flat tail, fine fused polypropylene bead texture, no fins no paint no complete surfboard, not white polystyrene. Isolated complete object on a truly transparent alpha background, three-quarter view, generous transparent margin, accurate manufacturing details. Supplied supporting reference is the official PARK NONWOVEN logo: faithfully reproduce its blue wave symbol and PARKNONWOVEN wordmark as a small manufacturer label printed on the visible forward-facing product surface. No other text. No factory, floor, backdrop, checkerboard or shadows outside the object. It is an illustrative product design, not a specific actual production sample.",
+      "asset": "/images/products/branded/surfboard-foam-cores-epp-v2.webp"
+    }
+  ]
+}

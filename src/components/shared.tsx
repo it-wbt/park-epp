@@ -1,6 +1,7 @@
+import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {Icon} from './ui';
 export {default as Footer} from './Footer';
 export function CTA(){return <section className="cta"><div><p className="eyebrow">FROM YOUR APPLICATION TO A CLEARER SPECIFICATION</p><h2>Tell us what you need.<br/>Let’s explore the possibilities.</h2></div><div><p>Share your drawing, dimensions or current packaging.<br/>Start a practical conversation about the right format.</p><Link className="button" href="/contact/">Discuss your requirement <Icon kind="arrow"/></Link><a className="cta-email" href="mailto:sales@parknonwoven.com">sales@parknonwoven.com ↗</a></div></section>;}
 export function Breadcrumb({items}:{items:{name:string,href?:string}[]}){return <nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link>{items.map((x,i)=><span key={i}> / {x.href?<Link href={x.href}>{x.name}</Link>:<span aria-current="page">{x.name}</span>}</span>)}</nav>;}
-export function PageHero({eyebrow,title,text,image}:{eyebrow:string,title:string,text:string,image?:string}){return <section className={`page-hero ${image?'with-image':''}`}><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p>{text}</p></div>{image&&<img src={image.startsWith('/')?image:`/images/${image}.webp`} alt={`${title} application`}/>}</section>;}
+export function PageHero({eyebrow,title,text,image}:{eyebrow:string,title:string,text:string,image?:string}){return <section className={`page-hero ${image?'with-image':''}`}><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p>{text}</p></div>{image&&<ResponsiveImage src={image.startsWith('/')?image:`/images/${image}.webp`} alt={`${title} application`}/>}</section>;}

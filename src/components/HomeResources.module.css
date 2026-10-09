@@ -119,3 +119,8 @@
 @media (prefers-reduced-motion: reduce) {
   .cover, .cataloguePreview:hover .cover { transform: none; }
 }
+
+/* Guides fill the space previously occupied by the unavailable catalogue. */
+.layout{grid-template-columns:.85fr 2fr}
+@media(max-width:1100px){.layout{grid-template-columns:.8fr 2fr}}
+@media(max-width:760px){.layout{grid-template-columns:1fr}}

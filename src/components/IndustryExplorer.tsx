@@ -1,4 +1,5 @@
 'use client';
+import ResponsiveImage from './ResponsiveImage';
 
 import Link from 'next/link';
 import {useState, type MouseEvent} from 'react';
@@ -41,7 +42,7 @@ export default function IndustryExplorer() {
           </Link>)}
         </nav>
         <div id="industry-preview" className={styles.visual}>
-          {industries.map((item, index) => <img key={item.slug} src={item.image} alt={item.alt}
+          {industries.map((item, index) => <ResponsiveImage key={item.slug} src={item.image} alt={item.alt}
             className={styles.image} data-active={selected === index} aria-hidden={selected !== index}
             loading="lazy" width={800} height={450}/>)}
           <div className={styles.overlay}>

@@ -1,4 +1,5 @@
 'use client';
+import ResponsiveImage from './ResponsiveImage';
 
 import {useEffect, useRef, useState, type KeyboardEvent, type MouseEvent} from 'react';
 import styles from './ReturnLoopExplorer.module.css';
@@ -118,7 +119,7 @@ export default function ReturnLoopExplorer() {
           role={enhanced ? 'tabpanel' : undefined} aria-labelledby={`return-loop-tab-${index}`}
           tabIndex={enhanced ? 0 : undefined} hidden={enhanced && selected !== index}>
           <div className={styles.imageFrame}>
-            <img src={`/images/generated/${stage.image}.webp`} width={stage.imageWidth} height={stage.imageHeight} alt={stage.alt} loading="lazy"/>
+            <ResponsiveImage src={`/images/generated/${stage.image}.webp`} width={stage.imageWidth} height={stage.imageHeight} alt={stage.alt} loading="lazy"/>
             <span className={styles.imageLabel}><span aria-hidden="true">0{index + 1}</span> {stage.label}</span>
           </div>
           <div className={styles.copy}>

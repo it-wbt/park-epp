@@ -1,0 +1,1227 @@
+{
+  "checkedAt": "2026-10-09T09:25:14.926Z",
+  "seo": {
+    "sitemapPagesPassed": 84,
+    "checks": [
+      "HTTP 200",
+      "Page title and description",
+      "Self canonical",
+      "Single H1",
+      "Image alt attributes",
+      "Product JSON-LD",
+      "Indexable without JavaScript",
+      "robots.txt and sitemap.xml"
+    ],
+    "configuredDomain": "https://park-epp.vercel.app"
+  },
+  "media": {
+    "productImageReductionPercent": 92,
+    "videoReductionPercent": 63,
+    "beforeDevelopment": [
+      {
+        "width": 1440,
+        "pathname": "/",
+        "mediaBytes": 4343764,
+        "mediaRequests": 10,
+        "media": [
+          {
+            "url": "/images/park-nonwoven-logo.png",
+            "bytes": 6094
+          },
+          {
+            "url": "/images/use-food-packing.webp",
+            "bytes": 43050
+          },
+          {
+            "url": "/videos/use-food-packing.mp4",
+            "bytes": 1632317
+          },
+          {
+            "url": "/images/markets/sports.webp",
+            "bytes": 170314
+          },
+          {
+            "url": "/images/markets/logistics.webp",
+            "bytes": 116554
+          },
+          {
+            "url": "/images/markets/hvac.webp",
+            "bytes": 160210
+          },
+          {
+            "url": "/images/markets/mobility.webp",
+            "bytes": 106640
+          },
+          {
+            "url": "/images/generated/epp-material-closeup.webp",
+            "bytes": 161772
+          },
+          {
+            "url": "/images/products/branded/stackable-delivery-boxes.webp",
+            "bytes": 1363072
+          },
+          {
+            "url": "/videos/use-food-packing.mp4",
+            "bytes": 583741
+          }
+        ],
+        "vitals": {
+          "lcp": 1500,
+          "cls": 0.00012725033858185442
+        }
+      },
+      {
+        "width": 1440,
+        "pathname": "/products/stackable-delivery-boxes/",
+        "mediaBytes": 5742420,
+        "mediaRequests": 5,
+        "media": [
+          {
+            "url": "/images/products/branded/stackable-delivery-boxes.webp",
+            "bytes": 1363072
+          },
+          {
+            "url": "/images/park-nonwoven-logo.png",
+            "bytes": 6094
+          },
+          {
+            "url": "/images/products/branded/custom-cushioning-foams.webp",
+            "bytes": 1303574
+          },
+          {
+            "url": "/images/products/branded/catering-transport-boxes.webp",
+            "bytes": 1838810
+          },
+          {
+            "url": "/images/products/branded/foldable-insulated-boxes.webp",
+            "bytes": 1230870
+          }
+        ],
+        "vitals": {
+          "lcp": 344,
+          "cls": 0.0032282085737900808
+        }
+      },
+      {
+        "width": 1440,
+        "pathname": "/products/",
+        "mediaBytes": 37182594,
+        "mediaRequests": 29,
+        "media": [
+          {
+            "url": "/images/park-nonwoven-logo.png",
+            "bytes": 6094
+          },
+          {
+            "url": "/images/products/branded/custom-hvac-components.webp",
+            "bytes": 1540666
+          },
+          {
+            "url": "/images/products/branded/moulded-air-ducts.webp",
+            "bytes": 1290942
+          },
+          {
+            "url": "/images/products/branded/hvac-insulation-housings.webp",
+            "bytes": 1535906
+          },
+          {
+            "url": "/images/products/branded/heat-pump-support-frames.webp",
+            "bytes": 902412
+          },
+          {
+            "url": "/images/products/branded/heat-pump-covers.webp",
+            "bytes": 1487246
+          },
+          {
+            "url": "/images/products/branded/hydraulic-module-supports.webp",
+            "bytes": 1403330
+          },
+          {
+            "url": "/images/products/branded/mobility-foam-components.webp",
+            "bytes": 1130056
+          },
+          {
+            "url": "/images/products/branded/hydraulic-manifold-insulation.webp",
+            "bytes": 1278104
+          },
+          {
+            "url": "/images/products/branded/vehicle-protective-inserts.webp",
+            "bytes": 1564002
+          },
+          {
+            "url": "/images/products/branded/water-heater-insulation-forms-epp-v2.webp",
+            "bytes": 1457136
+          },
+          {
+            "url": "/images/products/branded/vehicle-floor-panels.webp",
+            "bytes": 1145888
+          },
+          {
+            "url": "/images/products/branded/vehicle-seat-foam-components.webp",
+            "bytes": 1279258
+          },
+          {
+            "url": "/images/products/branded/vehicle-storage-organizers.webp",
+            "bytes": 1253164
+          },
+          {
+            "url": "/images/products/branded/battery-protective-inserts.webp",
+            "bytes": 1288850
+          },
+          {
+            "url": "/images/products/branded/vehicle-insulating-panels.webp",
+            "bytes": 1421512
+          },
+          {
+            "url": "/images/products/branded/vehicle-energy-absorbers.webp",
+            "bytes": 1069410
+          },
+          {
+            "url": "/images/products/branded/vehicle-acoustic-inserts.webp",
+            "bytes": 1244836
+          },
+          {
+            "url": "/images/products/branded/custom-cushioning-foams.webp",
+            "bytes": 1303574
+          },
+          {
+            "url": "/images/products/branded/stackable-delivery-boxes.webp",
+            "bytes": 1363072
+          },
+          {
+            "url": "/images/products/branded/catering-transport-boxes.webp",
+            "bytes": 1838810
+          },
+          {
+            "url": "/images/products/branded/foldable-insulated-boxes.webp",
+            "bytes": 1230870
+          },
+          {
+            "url": "/images/products/branded/reusable-industrial-containers.webp",
+            "bytes": 1515250
+          },
+          {
+            "url": "/images/products/branded/reusable-industrial-coolers.webp",
+            "bytes": 1566526
+          },
+          {
+            "url": "/images/products/branded/lightweight-foam-pallets-epp-v2.webp",
+            "bytes": 950754
+          },
+          {
+            "url": "/images/products/branded/industrial-pallet-boxes.webp",
+            "bytes": 1556166
+          },
+          {
+            "url": "/images/products/branded/sports-accessories.webp",
+            "bytes": 1354968
+          },
+          {
+            "url": "/images/products/branded/custom-sports-equipment.webp",
+            "bytes": 919644
+          },
+          {
+            "url": "/images/products/branded/leisure-equipment-components.webp",
+            "bytes": 1284148
+          }
+        ],
+        "vitals": {
+          "lcp": 628,
+          "cls": 0.015197110399787809
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/",
+        "mediaBytes": 2625874,
+        "mediaRequests": 10,
+        "media": [
+          {
+            "url": "/images/park-nonwoven-logo.png",
+            "bytes": 6094
+          },
+          {
+            "url": "/images/use-food-packing.webp",
+            "bytes": 43050
+          },
+          {
+            "url": "/videos/use-food-packing-mobile.mp4",
+            "bytes": 478460
+          },
+          {
+            "url": "/images/markets/sports.webp",
+            "bytes": 170314
+          },
+          {
+            "url": "/images/markets/logistics.webp",
+            "bytes": 116554
+          },
+          {
+            "url": "/images/markets/hvac.webp",
+            "bytes": 160210
+          },
+          {
+            "url": "/images/markets/mobility.webp",
+            "bytes": 106640
+          },
+          {
+            "url": "/images/generated/epp-material-closeup.webp",
+            "bytes": 161772
+          },
+          {
+            "url": "/images/products/branded/stackable-delivery-boxes.webp",
+            "bytes": 1363072
+          },
+          {
+            "url": "/videos/use-food-packing-mobile.mp4",
+            "bytes": 19708
+          }
+        ],
+        "vitals": {
+          "lcp": 244,
+          "cls": 0.0007500237416904084
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/products/stackable-delivery-boxes/",
+        "mediaBytes": 5742420,
+        "mediaRequests": 5,
+        "media": [
+          {
+            "url": "/images/products/branded/stackable-delivery-boxes.webp",
+            "bytes": 1363072
+          },
+          {
+            "url": "/images/park-nonwoven-logo.png",
+            "bytes": 6094
+          },
+          {
+            "url": "/images/products/branded/custom-cushioning-foams.webp",
+            "bytes": 1303574
+          },
+          {
+            "url": "/images/products/branded/catering-transport-boxes.webp",
+            "bytes": 1838810
+          },
+          {
+            "url": "/images/products/branded/foldable-insulated-boxes.webp",
+            "bytes": 1230870
+          }
+        ],
+        "vitals": {
+          "lcp": 256,
+          "cls": 0.011299134912155744
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/products/",
+        "mediaBytes": 18563054,
+        "mediaRequests": 15,
+        "media": [
+          {
+            "url": "/images/park-nonwoven-logo.png",
+            "bytes": 6094
+          },
+          {
+            "url": "/images/products/branded/custom-hvac-components.webp",
+            "bytes": 1540666
+          },
+          {
+            "url": "/images/products/branded/moulded-air-ducts.webp",
+            "bytes": 1290942
+          },
+          {
+            "url": "/images/products/branded/hvac-insulation-housings.webp",
+            "bytes": 1535906
+          },
+          {
+            "url": "/images/products/branded/heat-pump-covers.webp",
+            "bytes": 1487246
+          },
+          {
+            "url": "/images/products/branded/hydraulic-module-supports.webp",
+            "bytes": 1403330
+          },
+          {
+            "url": "/images/products/branded/heat-pump-support-frames.webp",
+            "bytes": 902412
+          },
+          {
+            "url": "/images/products/branded/hydraulic-manifold-insulation.webp",
+            "bytes": 1278104
+          },
+          {
+            "url": "/images/products/branded/water-heater-insulation-forms-epp-v2.webp",
+            "bytes": 1457136
+          },
+          {
+            "url": "/images/products/branded/mobility-foam-components.webp",
+            "bytes": 1130056
+          },
+          {
+            "url": "/images/products/branded/vehicle-protective-inserts.webp",
+            "bytes": 1564002
+          },
+          {
+            "url": "/images/products/branded/vehicle-floor-panels.webp",
+            "bytes": 1145888
+          },
+          {
+            "url": "/images/products/branded/vehicle-seat-foam-components.webp",
+            "bytes": 1279258
+          },
+          {
+            "url": "/images/products/branded/vehicle-storage-organizers.webp",
+            "bytes": 1253164
+          },
+          {
+            "url": "/images/products/branded/battery-protective-inserts.webp",
+            "bytes": 1288850
+          }
+        ],
+        "vitals": {
+          "lcp": 296,
+          "cls": 0.0018056980056980058
+        }
+      }
+    ],
+    "afterDevelopment": [
+      {
+        "width": 1440,
+        "pathname": "/",
+        "mediaBytes": 1078397,
+        "mediaRequests": 10,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/use-food-packing-1440-2df32fa1d7.webp",
+            "bytes": 35794
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+            "bytes": 5334
+          },
+          {
+            "url": "/images/optimized/markets-sports-960-0b67eac803.webp",
+            "bytes": 72648
+          },
+          {
+            "url": "/images/optimized/markets-logistics-960-705dbec336.webp",
+            "bytes": 57242
+          },
+          {
+            "url": "/images/optimized/markets-hvac-960-1b11673cb5.webp",
+            "bytes": 74794
+          },
+          {
+            "url": "/images/optimized/markets-mobility-960-9fa077df57.webp",
+            "bytes": 55372
+          },
+          {
+            "url": "/images/optimized/generated-epp-material-closeup-960-e82c164ed5.webp",
+            "bytes": 96340
+          },
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-960-f5e77331fe.webp",
+            "bytes": 107544
+          },
+          {
+            "url": "/videos/use-food-packing-fast-v1.mp4",
+            "bytes": 566521
+          }
+        ],
+        "vitals": {
+          "lcp": 3168,
+          "cls": 0.0002465677897135417
+        }
+      },
+      {
+        "width": 1440,
+        "pathname": "/products/stackable-delivery-boxes/",
+        "mediaBytes": 439328,
+        "mediaRequests": 6,
+        "media": [
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+            "bytes": 5334
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-cushioning-foams-960-b6d05a4e4b.webp",
+            "bytes": 122684
+          },
+          {
+            "url": "/images/optimized/products-branded-catering-transport-boxes-960-752c3f6265.webp",
+            "bytes": 164800
+          },
+          {
+            "url": "/images/optimized/products-branded-foldable-insulated-boxes-960-1895e946c7.webp",
+            "bytes": 89782
+          }
+        ],
+        "vitals": {
+          "lcp": 636,
+          "cls": 0.0032282085737900808
+        }
+      },
+      {
+        "width": 1440,
+        "pathname": "/products/",
+        "mediaBytes": 1488394,
+        "mediaRequests": 30,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+            "bytes": 5334
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-hvac-components-640-c4a94e3ea7.webp",
+            "bytes": 47044
+          },
+          {
+            "url": "/images/optimized/products-branded-moulded-air-ducts-640-d33967af88.webp",
+            "bytes": 47590
+          },
+          {
+            "url": "/images/optimized/products-branded-hvac-insulation-housings-640-e408ea7c15.webp",
+            "bytes": 57144
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-covers-640-70520ee4bc.webp",
+            "bytes": 111458
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp",
+            "bytes": 36672
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-module-supports-640-d213a4a12a.webp",
+            "bytes": 47996
+          },
+          {
+            "url": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp",
+            "bytes": 121664
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-manifold-insulation-640-97f8148cd0.webp",
+            "bytes": 44442
+          },
+          {
+            "url": "/images/optimized/products-branded-mobility-foam-components-640-da655637a7.webp",
+            "bytes": 34884
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-protective-inserts-640-71f459ce64.webp",
+            "bytes": 53326
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-floor-panels-640-c5b5b9a26b.webp",
+            "bytes": 37630
+          },
+          {
+            "url": "/images/optimized/products-branded-battery-protective-inserts-640-5b3e6a4168.webp",
+            "bytes": 48336
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-seat-foam-components-640-40bcaa581b.webp",
+            "bytes": 56492
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-storage-organizers-640-cbb86fdc96.webp",
+            "bytes": 36732
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-insulating-panels-640-2008daaeae.webp",
+            "bytes": 45398
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp",
+            "bytes": 20706
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-acoustic-inserts-640-831ff9b7f1.webp",
+            "bytes": 54400
+          },
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-cushioning-foams-640-b6d05a4e4b.webp",
+            "bytes": 56698
+          },
+          {
+            "url": "/images/optimized/products-branded-catering-transport-boxes-640-752c3f6265.webp",
+            "bytes": 75982
+          },
+          {
+            "url": "/images/optimized/products-branded-foldable-insulated-boxes-640-1895e946c7.webp",
+            "bytes": 41122
+          },
+          {
+            "url": "/images/optimized/products-branded-reusable-industrial-containers-640-b779334598.webp",
+            "bytes": 45366
+          },
+          {
+            "url": "/images/optimized/products-branded-reusable-industrial-coolers-640-a7e67d7984.webp",
+            "bytes": 68678
+          },
+          {
+            "url": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-640-ce2dcd67a1.webp",
+            "bytes": 39346
+          },
+          {
+            "url": "/images/optimized/products-branded-industrial-pallet-boxes-640-6df3a37a5d.webp",
+            "bytes": 53298
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-sports-equipment-640-55e06d9562.webp",
+            "bytes": 35096
+          },
+          {
+            "url": "/images/optimized/products-branded-sports-accessories-640-4e63ae965d.webp",
+            "bytes": 55944
+          },
+          {
+            "url": "/images/optimized/products-branded-leisure-equipment-components-640-38fced8a38.webp",
+            "bytes": 52888
+          }
+        ],
+        "vitals": {
+          "lcp": 672,
+          "cls": 0.014325759448141717
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/",
+        "mediaBytes": 480919,
+        "mediaRequests": 10,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/use-food-packing-640-2df32fa1d7.webp",
+            "bytes": 14798
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+            "bytes": 15616
+          },
+          {
+            "url": "/images/optimized/markets-sports-640-0b67eac803.webp",
+            "bytes": 38280
+          },
+          {
+            "url": "/images/optimized/markets-logistics-640-705dbec336.webp",
+            "bytes": 33624
+          },
+          {
+            "url": "/images/optimized/markets-hvac-640-1b11673cb5.webp",
+            "bytes": 40160
+          },
+          {
+            "url": "/images/optimized/markets-mobility-640-9fa077df57.webp",
+            "bytes": 32614
+          },
+          {
+            "url": "/images/optimized/generated-epp-material-closeup-640-e82c164ed5.webp",
+            "bytes": 51436
+          },
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/videos/use-food-packing-mobile-fast-v1.mp4",
+            "bytes": 197663
+          }
+        ],
+        "vitals": {
+          "lcp": 368,
+          "cls": 0.0007500237416904084
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/products/stackable-delivery-boxes/",
+        "mediaBytes": 246146,
+        "mediaRequests": 6,
+        "media": [
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+            "bytes": 15616
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-cushioning-foams-640-b6d05a4e4b.webp",
+            "bytes": 56698
+          },
+          {
+            "url": "/images/optimized/products-branded-catering-transport-boxes-640-752c3f6265.webp",
+            "bytes": 75982
+          },
+          {
+            "url": "/images/optimized/products-branded-foldable-insulated-boxes-640-1895e946c7.webp",
+            "bytes": 41122
+          }
+        ],
+        "vitals": {
+          "lcp": 796,
+          "cls": 0.011516722756410254
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/products/",
+        "mediaBytes": 239060,
+        "mediaRequests": 16,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+            "bytes": 15616
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-hvac-components-320-c4a94e3ea7.webp",
+            "bytes": 13488
+          },
+          {
+            "url": "/images/optimized/products-branded-moulded-air-ducts-320-d33967af88.webp",
+            "bytes": 13162
+          },
+          {
+            "url": "/images/optimized/products-branded-hvac-insulation-housings-320-e408ea7c15.webp",
+            "bytes": 15670
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-covers-320-70520ee4bc.webp",
+            "bytes": 29020
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp",
+            "bytes": 10548
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-module-supports-320-d213a4a12a.webp",
+            "bytes": 12710
+          },
+          {
+            "url": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp",
+            "bytes": 33510
+          },
+          {
+            "url": "/images/optimized/products-branded-mobility-foam-components-320-da655637a7.webp",
+            "bytes": 10550
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-manifold-insulation-320-97f8148cd0.webp",
+            "bytes": 13074
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-protective-inserts-320-71f459ce64.webp",
+            "bytes": 14394
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-seat-foam-components-320-40bcaa581b.webp",
+            "bytes": 13990
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-floor-panels-320-c5b5b9a26b.webp",
+            "bytes": 12190
+          },
+          {
+            "url": "/images/optimized/products-branded-battery-protective-inserts-320-5b3e6a4168.webp",
+            "bytes": 13734
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-storage-organizers-320-cbb86fdc96.webp",
+            "bytes": 10596
+          }
+        ],
+        "vitals": {
+          "lcp": 1352,
+          "cls": 0.0018056980056980058
+        }
+      }
+    ],
+    "afterProduction": [
+      {
+        "width": 1440,
+        "pathname": "/",
+        "mediaBytes": 1576219,
+        "mediaRequests": 15,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/use-food-packing-1440-2df32fa1d7.webp",
+            "bytes": 35794
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+            "bytes": 5334
+          },
+          {
+            "url": "/images/optimized/markets-hvac-960-1b11673cb5.webp",
+            "bytes": 74794
+          },
+          {
+            "url": "/images/optimized/markets-logistics-960-705dbec336.webp",
+            "bytes": 57242
+          },
+          {
+            "url": "/images/optimized/markets-sports-960-0b67eac803.webp",
+            "bytes": 72648
+          },
+          {
+            "url": "/images/optimized/markets-mobility-960-9fa077df57.webp",
+            "bytes": 55372
+          },
+          {
+            "url": "/images/optimized/generated-epp-material-closeup-960-e82c164ed5.webp",
+            "bytes": 96340
+          },
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-960-f5e77331fe.webp",
+            "bytes": 107544
+          },
+          {
+            "url": "/videos/use-food-packing-fast-v1.mp4",
+            "bytes": 566521
+          },
+          {
+            "url": "/images/optimized/technical-960-cd8fa816ba.webp",
+            "bytes": 71448
+          },
+          {
+            "url": "/images/optimized/generated-factory-childhood-960-a3ad502e7f.webp",
+            "bytes": 97156
+          },
+          {
+            "url": "/images/optimized/generated-factory-logistics-960-cfcc1703b7.webp",
+            "bytes": 112246
+          },
+          {
+            "url": "/images/optimized/generated-factory-hvac-960-c5a7e73292.webp",
+            "bytes": 111814
+          },
+          {
+            "url": "/images/optimized/generated-factory-automotive-960-5995759134.webp",
+            "bytes": 105158
+          }
+        ],
+        "vitals": {
+          "lcp": 152,
+          "cls": 0.00012725033858185442
+        }
+      },
+      {
+        "width": 1440,
+        "pathname": "/products/stackable-delivery-boxes/",
+        "mediaBytes": 623022,
+        "mediaRequests": 8,
+        "media": [
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+            "bytes": 5334
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-cushioning-foams-960-b6d05a4e4b.webp",
+            "bytes": 122684
+          },
+          {
+            "url": "/images/optimized/products-branded-catering-transport-boxes-960-752c3f6265.webp",
+            "bytes": 164800
+          },
+          {
+            "url": "/images/optimized/products-branded-foldable-insulated-boxes-960-1895e946c7.webp",
+            "bytes": 89782
+          },
+          {
+            "url": "/images/optimized/technical-960-cd8fa816ba.webp",
+            "bytes": 71448
+          },
+          {
+            "url": "/images/optimized/generated-factory-logistics-960-cfcc1703b7.webp",
+            "bytes": 112246
+          }
+        ],
+        "vitals": {
+          "lcp": 264,
+          "cls": 0.0032282085737900808
+        }
+      },
+      {
+        "width": 1440,
+        "pathname": "/products/",
+        "mediaBytes": 1559842,
+        "mediaRequests": 31,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+            "bytes": 5334
+          },
+          {
+            "url": "/images/optimized/products-branded-moulded-air-ducts-640-d33967af88.webp",
+            "bytes": 47590
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-hvac-components-640-c4a94e3ea7.webp",
+            "bytes": 47044
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-module-supports-640-d213a4a12a.webp",
+            "bytes": 47996
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-covers-640-70520ee4bc.webp",
+            "bytes": 111458
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp",
+            "bytes": 36672
+          },
+          {
+            "url": "/images/optimized/products-branded-hvac-insulation-housings-640-e408ea7c15.webp",
+            "bytes": 57144
+          },
+          {
+            "url": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp",
+            "bytes": 121664
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-manifold-insulation-640-97f8148cd0.webp",
+            "bytes": 44442
+          },
+          {
+            "url": "/images/optimized/products-branded-mobility-foam-components-640-da655637a7.webp",
+            "bytes": 34884
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-seat-foam-components-640-40bcaa581b.webp",
+            "bytes": 56492
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-protective-inserts-640-71f459ce64.webp",
+            "bytes": 53326
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-floor-panels-640-c5b5b9a26b.webp",
+            "bytes": 37630
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-storage-organizers-640-cbb86fdc96.webp",
+            "bytes": 36732
+          },
+          {
+            "url": "/images/optimized/products-branded-battery-protective-inserts-640-5b3e6a4168.webp",
+            "bytes": 48336
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp",
+            "bytes": 20706
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-insulating-panels-640-2008daaeae.webp",
+            "bytes": 45398
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-cushioning-foams-640-b6d05a4e4b.webp",
+            "bytes": 56698
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-acoustic-inserts-640-831ff9b7f1.webp",
+            "bytes": 54400
+          },
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/images/optimized/products-branded-catering-transport-boxes-640-752c3f6265.webp",
+            "bytes": 75982
+          },
+          {
+            "url": "/images/optimized/products-branded-foldable-insulated-boxes-640-1895e946c7.webp",
+            "bytes": 41122
+          },
+          {
+            "url": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-640-ce2dcd67a1.webp",
+            "bytes": 39346
+          },
+          {
+            "url": "/images/optimized/products-branded-reusable-industrial-containers-640-b779334598.webp",
+            "bytes": 45366
+          },
+          {
+            "url": "/images/optimized/products-branded-reusable-industrial-coolers-640-a7e67d7984.webp",
+            "bytes": 68678
+          },
+          {
+            "url": "/images/optimized/products-branded-industrial-pallet-boxes-640-6df3a37a5d.webp",
+            "bytes": 53298
+          },
+          {
+            "url": "/images/optimized/products-branded-sports-accessories-640-4e63ae965d.webp",
+            "bytes": 55944
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-sports-equipment-640-55e06d9562.webp",
+            "bytes": 35096
+          },
+          {
+            "url": "/images/optimized/products-branded-leisure-equipment-components-640-38fced8a38.webp",
+            "bytes": 52888
+          },
+          {
+            "url": "/images/optimized/technical-960-cd8fa816ba.webp",
+            "bytes": 71448
+          }
+        ],
+        "vitals": {
+          "lcp": 220,
+          "cls": 0.015197110399787809
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/",
+        "mediaBytes": 592141,
+        "mediaRequests": 12,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/use-food-packing-640-2df32fa1d7.webp",
+            "bytes": 14798
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+            "bytes": 15616
+          },
+          {
+            "url": "/images/optimized/markets-mobility-640-9fa077df57.webp",
+            "bytes": 32614
+          },
+          {
+            "url": "/images/optimized/markets-sports-640-0b67eac803.webp",
+            "bytes": 38280
+          },
+          {
+            "url": "/images/optimized/markets-logistics-640-705dbec336.webp",
+            "bytes": 33624
+          },
+          {
+            "url": "/images/optimized/markets-hvac-640-1b11673cb5.webp",
+            "bytes": 40160
+          },
+          {
+            "url": "/images/optimized/generated-epp-material-closeup-640-e82c164ed5.webp",
+            "bytes": 51436
+          },
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/videos/use-food-packing-mobile-fast-v1.mp4",
+            "bytes": 197663
+          },
+          {
+            "url": "/images/optimized/generated-factory-childhood-640-a3ad502e7f.webp",
+            "bytes": 51740
+          },
+          {
+            "url": "/images/optimized/generated-factory-logistics-640-cfcc1703b7.webp",
+            "bytes": 59482
+          }
+        ],
+        "vitals": {
+          "lcp": 160,
+          "cls": 0.0007500237416904084
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/products/stackable-delivery-boxes/",
+        "mediaBytes": 305628,
+        "mediaRequests": 7,
+        "media": [
+          {
+            "url": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+            "bytes": 49920
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+            "bytes": 15616
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-cushioning-foams-640-b6d05a4e4b.webp",
+            "bytes": 56698
+          },
+          {
+            "url": "/images/optimized/products-branded-catering-transport-boxes-640-752c3f6265.webp",
+            "bytes": 75982
+          },
+          {
+            "url": "/images/optimized/products-branded-foldable-insulated-boxes-640-1895e946c7.webp",
+            "bytes": 41122
+          },
+          {
+            "url": "/images/optimized/generated-factory-logistics-640-cfcc1703b7.webp",
+            "bytes": 59482
+          }
+        ],
+        "vitals": {
+          "lcp": 128,
+          "cls": 0.011299134912155744
+        }
+      },
+      {
+        "width": 390,
+        "pathname": "/products/",
+        "mediaBytes": 333694,
+        "mediaRequests": 18,
+        "media": [
+          {
+            "url": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+            "bytes": 15616
+          },
+          {
+            "url": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+            "bytes": 6808
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-hvac-components-320-c4a94e3ea7.webp",
+            "bytes": 13488
+          },
+          {
+            "url": "/images/optimized/products-branded-moulded-air-ducts-320-d33967af88.webp",
+            "bytes": 13162
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-covers-320-70520ee4bc.webp",
+            "bytes": 29020
+          },
+          {
+            "url": "/images/optimized/products-branded-hvac-insulation-housings-320-e408ea7c15.webp",
+            "bytes": 15670
+          },
+          {
+            "url": "/images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp",
+            "bytes": 10548
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-module-supports-320-d213a4a12a.webp",
+            "bytes": 12710
+          },
+          {
+            "url": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp",
+            "bytes": 33510
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-protective-inserts-320-71f459ce64.webp",
+            "bytes": 14394
+          },
+          {
+            "url": "/images/optimized/products-branded-hydraulic-manifold-insulation-320-97f8148cd0.webp",
+            "bytes": 13074
+          },
+          {
+            "url": "/images/optimized/products-branded-mobility-foam-components-320-da655637a7.webp",
+            "bytes": 10550
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-floor-panels-320-c5b5b9a26b.webp",
+            "bytes": 12190
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-seat-foam-components-320-40bcaa581b.webp",
+            "bytes": 13990
+          },
+          {
+            "url": "/images/optimized/products-branded-battery-protective-inserts-320-5b3e6a4168.webp",
+            "bytes": 13734
+          },
+          {
+            "url": "/images/optimized/products-branded-vehicle-storage-organizers-320-cbb86fdc96.webp",
+            "bytes": 10596
+          },
+          {
+            "url": "/images/optimized/products-branded-moulded-air-ducts-640-d33967af88.webp",
+            "bytes": 47590
+          },
+          {
+            "url": "/images/optimized/products-branded-custom-hvac-components-640-c4a94e3ea7.webp",
+            "bytes": 47044
+          }
+        ],
+        "vitals": {
+          "lcp": 132,
+          "cls": 0.0018056980056980058
+        }
+      }
+    ]
+  },
+  "validation": [
+    "Production static export passed using webpack in isolated build directory",
+    "TypeScript passed",
+    "231 image assets across 88 HTML pages verified",
+    "39 transparent branded product cutouts verified",
+    "Five distinct films play on desktop and mobile",
+    "Offscreen videos stop; reduced motion avoids video downloads"
+  ],
+  "limitations": [
+    "Local media transfer measurements cover the initial 4 seconds; these are not live Core Web Vitals or a Lighthouse score.",
+    "Set NEXT_PUBLIC_SITE_URL to the actual production domain before deploying if it differs from configuredDomain."
+  ]
+}

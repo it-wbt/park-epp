@@ -1,3 +1,4 @@
+import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {expertise} from '../lib/catalog';
 import {Icon} from './ui';
@@ -16,7 +17,7 @@ export default function HomeExpertise() {
         <Link className={styles.allExpertise} href="/expertise/">Explore all expertise <Icon kind="arrow"/></Link>
       </div>
       <figure className={styles.factory} data-reveal>
-        <img src="/images/generated/factory-foam-finishing.webp" alt="AI factory illustration of shaped foam components at a finishing and inspection workstation" width={1440} height={960} loading="lazy"/>
+        <ResponsiveImage src="/images/generated/factory-foam-finishing.webp" alt="AI factory illustration of shaped foam components at a finishing and inspection workstation" width={1440} height={960} loading="lazy"/>
         <figcaption>PRECISION MEETS POSSIBILITY</figcaption>
       </figure>
     </div>

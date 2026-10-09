@@ -1,0 +1,32 @@
+{
+  "license": "https://www.pexels.com/license/",
+  "context": "Illustrative use-case footage. Visible takeaway containers, delivery bags and parcels are not asserted to be EPP or PARK products.",
+  "sources": [
+    {
+      "scene": "food-packing",
+      "source": "https://www.pexels.com/video/packing-delivery-food-6613039/",
+      "creator": "Mikhail Nilov"
+    },
+    {
+      "scene": "food-delivery",
+      "source": "https://www.pexels.com/video/men-packing-food-for-delivery-4170496/",
+      "creator": "Norma Mortenson"
+    },
+    {
+      "scene": "logistics",
+      "source": "https://www.pexels.com/video/unloading-packages-on-a-conveyor-belt-5370836/",
+      "creator": "Erkan Avano?lu"
+    },
+    {
+      "scene": "sports",
+      "source": "https://www.pexels.com/video/people-exercising-in-the-gym-6740133/",
+      "creator": "Mikhail Nilov"
+    },
+    {
+      "scene": "automotive",
+      "sourceManifest": "../park-filtration/reference/home-banner-footage.json",
+      "localSource": "../park-filtration/public/videos/home/family-cabin.mp4"
+    }
+  ],
+  "edit": "Up to 8 seconds, silent H264, 1600x900 desktop, 960x540 mobile, WebP posters."
+}

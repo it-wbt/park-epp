@@ -1,3 +1,4 @@
+import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {brand} from '../lib/catalog';
 import styles from './Footer.module.css';
@@ -17,9 +18,9 @@ export default function Footer() {
       <div className={styles.main}>
         <div>
           <Link className={styles.brand} href="/" aria-label="PARK Nonwoven EPP home">
-            <img className={styles.logo} src="/images/park-nonwoven-logo.png" alt="PARK Nonwoven" width={768} height={126}/>
+            <ResponsiveImage className={styles.logo} src="/images/park-nonwoven-logo.png" alt="PARK Nonwoven" width={768} height={126}/>
           </Link>
-          <p>EPP &amp; EPS components · Protective packaging.<br/>Engineered polymer solutions.</p>
+          <p>EPP components · Protective packaging.<br/>Engineered polymer solutions.</p>
         </div>
         <div>
           <h4>Explore</h4>

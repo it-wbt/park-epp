@@ -1,0 +1,3854 @@
+{
+  "/images/banner-polymer-materials.webp": {
+    "src": "/images/optimized/banner-polymer-materials-960-1f3f3d02ee.webp",
+    "width": 1920,
+    "height": 1080,
+    "srcSet": "/images/optimized/banner-polymer-materials-320-1f3f3d02ee.webp 320w, /images/optimized/banner-polymer-materials-640-1f3f3d02ee.webp 640w, /images/optimized/banner-polymer-materials-960-1f3f3d02ee.webp 960w, /images/optimized/banner-polymer-materials-1440-1f3f3d02ee.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/banner-polymer-materials-320-1f3f3d02ee.webp",
+        "bytes": 3202
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/banner-polymer-materials-640-1f3f3d02ee.webp",
+        "bytes": 7916
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/banner-polymer-materials-960-1f3f3d02ee.webp",
+        "bytes": 13598
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/banner-polymer-materials-1440-1f3f3d02ee.webp",
+        "bytes": 21130
+      }
+    ],
+    "originalBytes": 33854
+  },
+  "/images/banner-precision-tooling.webp": {
+    "src": "/images/optimized/banner-precision-tooling-960-772c2a1624.webp",
+    "width": 1920,
+    "height": 1080,
+    "srcSet": "/images/optimized/banner-precision-tooling-320-772c2a1624.webp 320w, /images/optimized/banner-precision-tooling-640-772c2a1624.webp 640w, /images/optimized/banner-precision-tooling-960-772c2a1624.webp 960w, /images/optimized/banner-precision-tooling-1440-772c2a1624.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/banner-precision-tooling-320-772c2a1624.webp",
+        "bytes": 8182
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/banner-precision-tooling-640-772c2a1624.webp",
+        "bytes": 18898
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/banner-precision-tooling-960-772c2a1624.webp",
+        "bytes": 30714
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/banner-precision-tooling-1440-772c2a1624.webp",
+        "bytes": 45772
+      }
+    ],
+    "originalBytes": 69392
+  },
+  "/images/catalogue-preview/cover.webp": {
+    "src": "/images/optimized/catalogue-preview-cover-960-a327b36127.webp",
+    "width": 1050,
+    "height": 1485,
+    "srcSet": "/images/optimized/catalogue-preview-cover-320-a327b36127.webp 320w, /images/optimized/catalogue-preview-cover-640-a327b36127.webp 640w, /images/optimized/catalogue-preview-cover-960-a327b36127.webp 960w, /images/optimized/catalogue-preview-cover-1050-a327b36127.webp 1050w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/catalogue-preview-cover-320-a327b36127.webp",
+        "bytes": 9420
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/catalogue-preview-cover-640-a327b36127.webp",
+        "bytes": 26418
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/catalogue-preview-cover-960-a327b36127.webp",
+        "bytes": 44524
+      },
+      {
+        "width": 1050,
+        "src": "/images/optimized/catalogue-preview-cover-1050-a327b36127.webp",
+        "bytes": 53050
+      }
+    ],
+    "originalBytes": 65002
+  },
+  "/images/catalogue-preview/products.webp": {
+    "src": "/images/optimized/catalogue-preview-products-960-1d06e8b7f3.webp",
+    "width": 1050,
+    "height": 1485,
+    "srcSet": "/images/optimized/catalogue-preview-products-320-1d06e8b7f3.webp 320w, /images/optimized/catalogue-preview-products-640-1d06e8b7f3.webp 640w, /images/optimized/catalogue-preview-products-960-1d06e8b7f3.webp 960w, /images/optimized/catalogue-preview-products-1050-1d06e8b7f3.webp 1050w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/catalogue-preview-products-320-1d06e8b7f3.webp",
+        "bytes": 14914
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/catalogue-preview-products-640-1d06e8b7f3.webp",
+        "bytes": 46332
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/catalogue-preview-products-960-1d06e8b7f3.webp",
+        "bytes": 82006
+      },
+      {
+        "width": 1050,
+        "src": "/images/optimized/catalogue-preview-products-1050-1d06e8b7f3.webp",
+        "bytes": 98746
+      }
+    ],
+    "originalBytes": 119834
+  },
+  "/images/epp-manufacturing-poster.webp": {
+    "src": "/images/optimized/epp-manufacturing-poster-960-b37447d2c1.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/epp-manufacturing-poster-320-b37447d2c1.webp 320w, /images/optimized/epp-manufacturing-poster-640-b37447d2c1.webp 640w, /images/optimized/epp-manufacturing-poster-960-b37447d2c1.webp 960w, /images/optimized/epp-manufacturing-poster-1440-b37447d2c1.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-manufacturing-poster-320-b37447d2c1.webp",
+        "bytes": 3512
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-manufacturing-poster-640-b37447d2c1.webp",
+        "bytes": 8966
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-manufacturing-poster-960-b37447d2c1.webp",
+        "bytes": 15024
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-manufacturing-poster-1440-b37447d2c1.webp",
+        "bytes": 24716
+      }
+    ],
+    "originalBytes": 35858
+  },
+  "/images/catalogue-preview/project-brief.webp": {
+    "src": "/images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp",
+    "width": 1050,
+    "height": 1485,
+    "srcSet": "/images/optimized/catalogue-preview-project-brief-320-ba2792b79b.webp 320w, /images/optimized/catalogue-preview-project-brief-640-ba2792b79b.webp 640w, /images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp 960w, /images/optimized/catalogue-preview-project-brief-1050-ba2792b79b.webp 1050w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/catalogue-preview-project-brief-320-ba2792b79b.webp",
+        "bytes": 14218
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/catalogue-preview-project-brief-640-ba2792b79b.webp",
+        "bytes": 43046
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp",
+        "bytes": 77444
+      },
+      {
+        "width": 1050,
+        "src": "/images/optimized/catalogue-preview-project-brief-1050-ba2792b79b.webp",
+        "bytes": 90650
+      }
+    ],
+    "originalBytes": 111260
+  },
+  "/images/food.webp": {
+    "src": "/images/optimized/food-960-52717c8630.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/food-320-52717c8630.webp 320w, /images/optimized/food-640-52717c8630.webp 640w, /images/optimized/food-960-52717c8630.webp 960w, /images/optimized/food-1440-52717c8630.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/food-320-52717c8630.webp",
+        "bytes": 7718
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/food-640-52717c8630.webp",
+        "bytes": 21690
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/food-960-52717c8630.webp",
+        "bytes": 40618
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/food-1440-52717c8630.webp",
+        "bytes": 68588
+      }
+    ],
+    "originalBytes": 107786
+  },
+  "/images/generated/agrifood.webp": {
+    "src": "/images/optimized/generated-agrifood-960-983daab5e5.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-agrifood-320-983daab5e5.webp 320w, /images/optimized/generated-agrifood-640-983daab5e5.webp 640w, /images/optimized/generated-agrifood-960-983daab5e5.webp 960w, /images/optimized/generated-agrifood-1440-983daab5e5.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-agrifood-320-983daab5e5.webp",
+        "bytes": 11202
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-agrifood-640-983daab5e5.webp",
+        "bytes": 32170
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-agrifood-960-983daab5e5.webp",
+        "bytes": 59932
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-agrifood-1440-983daab5e5.webp",
+        "bytes": 100616
+      }
+    ],
+    "originalBytes": 193498
+  },
+  "/images/generated/appliances.webp": {
+    "src": "/images/optimized/generated-appliances-960-de669eba5c.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-appliances-320-de669eba5c.webp 320w, /images/optimized/generated-appliances-640-de669eba5c.webp 640w, /images/optimized/generated-appliances-960-de669eba5c.webp 960w, /images/optimized/generated-appliances-1440-de669eba5c.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-appliances-320-de669eba5c.webp",
+        "bytes": 7152
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-appliances-640-de669eba5c.webp",
+        "bytes": 19076
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-appliances-960-de669eba5c.webp",
+        "bytes": 34370
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-appliances-1440-de669eba5c.webp",
+        "bytes": 60906
+      }
+    ],
+    "originalBytes": 131646
+  },
+  "/images/generated/aviation.webp": {
+    "src": "/images/optimized/generated-aviation-960-b3e42933bf.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-aviation-320-b3e42933bf.webp 320w, /images/optimized/generated-aviation-640-b3e42933bf.webp 640w, /images/optimized/generated-aviation-960-b3e42933bf.webp 960w, /images/optimized/generated-aviation-1440-b3e42933bf.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-aviation-320-b3e42933bf.webp",
+        "bytes": 12934
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-aviation-640-b3e42933bf.webp",
+        "bytes": 41682
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-aviation-960-b3e42933bf.webp",
+        "bytes": 80410
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-aviation-1440-b3e42933bf.webp",
+        "bytes": 142722
+      }
+    ],
+    "originalBytes": 250796
+  },
+  "/images/generated/building.webp": {
+    "src": "/images/optimized/generated-building-960-7de6e02ef8.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-building-320-7de6e02ef8.webp 320w, /images/optimized/generated-building-640-7de6e02ef8.webp 640w, /images/optimized/generated-building-960-7de6e02ef8.webp 960w, /images/optimized/generated-building-1440-7de6e02ef8.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-building-320-7de6e02ef8.webp",
+        "bytes": 7878
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-building-640-7de6e02ef8.webp",
+        "bytes": 28216
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-building-960-7de6e02ef8.webp",
+        "bytes": 60304
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-building-1440-7de6e02ef8.webp",
+        "bytes": 114922
+      }
+    ],
+    "originalBytes": 239476
+  },
+  "/images/generated/childhood.webp": {
+    "src": "/images/optimized/generated-childhood-960-4fa4bf45e1.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-childhood-320-4fa4bf45e1.webp 320w, /images/optimized/generated-childhood-640-4fa4bf45e1.webp 640w, /images/optimized/generated-childhood-960-4fa4bf45e1.webp 960w, /images/optimized/generated-childhood-1440-4fa4bf45e1.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-childhood-320-4fa4bf45e1.webp",
+        "bytes": 5354
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-childhood-640-4fa4bf45e1.webp",
+        "bytes": 18426
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-childhood-960-4fa4bf45e1.webp",
+        "bytes": 37842
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-childhood-1440-4fa4bf45e1.webp",
+        "bytes": 68592
+      }
+    ],
+    "originalBytes": 140620
+  },
+  "/images/generated/epp-hero.webp": {
+    "src": "/images/optimized/generated-epp-hero-960-be831effcb.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-epp-hero-320-be831effcb.webp 320w, /images/optimized/generated-epp-hero-640-be831effcb.webp 640w, /images/optimized/generated-epp-hero-960-be831effcb.webp 960w, /images/optimized/generated-epp-hero-1440-be831effcb.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-epp-hero-320-be831effcb.webp",
+        "bytes": 5478
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-epp-hero-640-be831effcb.webp",
+        "bytes": 19356
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-epp-hero-960-be831effcb.webp",
+        "bytes": 41498
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-epp-hero-1440-be831effcb.webp",
+        "bytes": 78882
+      }
+    ],
+    "originalBytes": 172272
+  },
+  "/images/generated/epp-product-motion.webp": {
+    "src": "/images/optimized/generated-epp-product-motion-960-2663e99f42.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-epp-product-motion-320-2663e99f42.webp 320w, /images/optimized/generated-epp-product-motion-640-2663e99f42.webp 640w, /images/optimized/generated-epp-product-motion-960-2663e99f42.webp 960w, /images/optimized/generated-epp-product-motion-1440-2663e99f42.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-epp-product-motion-320-2663e99f42.webp",
+        "bytes": 1768
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-epp-product-motion-640-2663e99f42.webp",
+        "bytes": 4294
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-epp-product-motion-960-2663e99f42.webp",
+        "bytes": 7822
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-epp-product-motion-1440-2663e99f42.webp",
+        "bytes": 13996
+      }
+    ],
+    "originalBytes": 36056
+  },
+  "/images/generated/epp-material-closeup.webp": {
+    "src": "/images/optimized/generated-epp-material-closeup-960-e82c164ed5.webp",
+    "width": 1100,
+    "height": 1100,
+    "srcSet": "/images/optimized/generated-epp-material-closeup-320-e82c164ed5.webp 320w, /images/optimized/generated-epp-material-closeup-640-e82c164ed5.webp 640w, /images/optimized/generated-epp-material-closeup-960-e82c164ed5.webp 960w, /images/optimized/generated-epp-material-closeup-1100-e82c164ed5.webp 1100w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-epp-material-closeup-320-e82c164ed5.webp",
+        "bytes": 14366
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-epp-material-closeup-640-e82c164ed5.webp",
+        "bytes": 51436
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-epp-material-closeup-960-e82c164ed5.webp",
+        "bytes": 96340
+      },
+      {
+        "width": 1100,
+        "src": "/images/optimized/generated-epp-material-closeup-1100-e82c164ed5.webp",
+        "bytes": 145660
+      }
+    ],
+    "originalBytes": 161772
+  },
+  "/images/generated/epp-realistic-poster.webp": {
+    "src": "/images/optimized/generated-epp-realistic-poster-960-9699e0050f.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-epp-realistic-poster-320-9699e0050f.webp 320w, /images/optimized/generated-epp-realistic-poster-640-9699e0050f.webp 640w, /images/optimized/generated-epp-realistic-poster-960-9699e0050f.webp 960w, /images/optimized/generated-epp-realistic-poster-1440-9699e0050f.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-epp-realistic-poster-320-9699e0050f.webp",
+        "bytes": 1472
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-epp-realistic-poster-640-9699e0050f.webp",
+        "bytes": 4408
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-epp-realistic-poster-960-9699e0050f.webp",
+        "bytes": 8514
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-epp-realistic-poster-1440-9699e0050f.webp",
+        "bytes": 16336
+      }
+    ],
+    "originalBytes": 45284
+  },
+  "/images/generated/factory-automotive.webp": {
+    "src": "/images/optimized/generated-factory-automotive-960-5995759134.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-factory-automotive-320-5995759134.webp 320w, /images/optimized/generated-factory-automotive-640-5995759134.webp 640w, /images/optimized/generated-factory-automotive-960-5995759134.webp 960w, /images/optimized/generated-factory-automotive-1440-5995759134.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-factory-automotive-320-5995759134.webp",
+        "bytes": 19578
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-factory-automotive-640-5995759134.webp",
+        "bytes": 57380
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-factory-automotive-960-5995759134.webp",
+        "bytes": 105158
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-factory-automotive-1440-5995759134.webp",
+        "bytes": 215636
+      }
+    ],
+    "originalBytes": 233742
+  },
+  "/images/generated/factory-beads.webp": {
+    "src": "/images/optimized/generated-factory-beads-960-2795945e59.webp",
+    "width": 1920,
+    "height": 1081,
+    "srcSet": "/images/optimized/generated-factory-beads-320-2795945e59.webp 320w, /images/optimized/generated-factory-beads-640-2795945e59.webp 640w, /images/optimized/generated-factory-beads-960-2795945e59.webp 960w, /images/optimized/generated-factory-beads-1440-2795945e59.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-factory-beads-320-2795945e59.webp",
+        "bytes": 14690
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-factory-beads-640-2795945e59.webp",
+        "bytes": 44774
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-factory-beads-960-2795945e59.webp",
+        "bytes": 79816
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-factory-beads-1440-2795945e59.webp",
+        "bytes": 125418
+      }
+    ],
+    "originalBytes": 218992
+  },
+  "/images/generated/factory-childhood.webp": {
+    "src": "/images/optimized/generated-factory-childhood-960-a3ad502e7f.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-factory-childhood-320-a3ad502e7f.webp 320w, /images/optimized/generated-factory-childhood-640-a3ad502e7f.webp 640w, /images/optimized/generated-factory-childhood-960-a3ad502e7f.webp 960w, /images/optimized/generated-factory-childhood-1440-a3ad502e7f.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-factory-childhood-320-a3ad502e7f.webp",
+        "bytes": 16100
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-factory-childhood-640-a3ad502e7f.webp",
+        "bytes": 51740
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-factory-childhood-960-a3ad502e7f.webp",
+        "bytes": 97156
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-factory-childhood-1440-a3ad502e7f.webp",
+        "bytes": 203252
+      }
+    ],
+    "originalBytes": 229242
+  },
+  "/images/generated/factory-foam-finishing.webp": {
+    "src": "/images/optimized/generated-factory-foam-finishing-960-30e782458f.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-factory-foam-finishing-320-30e782458f.webp 320w, /images/optimized/generated-factory-foam-finishing-640-30e782458f.webp 640w, /images/optimized/generated-factory-foam-finishing-960-30e782458f.webp 960w, /images/optimized/generated-factory-foam-finishing-1440-30e782458f.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-factory-foam-finishing-320-30e782458f.webp",
+        "bytes": 14852
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-factory-foam-finishing-640-30e782458f.webp",
+        "bytes": 42602
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-factory-foam-finishing-960-30e782458f.webp",
+        "bytes": 76690
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-factory-foam-finishing-1440-30e782458f.webp",
+        "bytes": 170260
+      }
+    ],
+    "originalBytes": 195926
+  },
+  "/images/generated/factory-hvac.webp": {
+    "src": "/images/optimized/generated-factory-hvac-960-c5a7e73292.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-factory-hvac-320-c5a7e73292.webp 320w, /images/optimized/generated-factory-hvac-640-c5a7e73292.webp 640w, /images/optimized/generated-factory-hvac-960-c5a7e73292.webp 960w, /images/optimized/generated-factory-hvac-1440-c5a7e73292.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-factory-hvac-320-c5a7e73292.webp",
+        "bytes": 18938
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-factory-hvac-640-c5a7e73292.webp",
+        "bytes": 58938
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-factory-hvac-960-c5a7e73292.webp",
+        "bytes": 111814
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-factory-hvac-1440-c5a7e73292.webp",
+        "bytes": 225290
+      }
+    ],
+    "originalBytes": 249424
+  },
+  "/images/generated/factory-logistics.webp": {
+    "src": "/images/optimized/generated-factory-logistics-960-cfcc1703b7.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-factory-logistics-320-cfcc1703b7.webp 320w, /images/optimized/generated-factory-logistics-640-cfcc1703b7.webp 640w, /images/optimized/generated-factory-logistics-960-cfcc1703b7.webp 960w, /images/optimized/generated-factory-logistics-1440-cfcc1703b7.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-factory-logistics-320-cfcc1703b7.webp",
+        "bytes": 19018
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-factory-logistics-640-cfcc1703b7.webp",
+        "bytes": 59482
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-factory-logistics-960-cfcc1703b7.webp",
+        "bytes": 112246
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-factory-logistics-1440-cfcc1703b7.webp",
+        "bytes": 237434
+      }
+    ],
+    "originalBytes": 261226
+  },
+  "/images/generated/factory-polymer-inspection.webp": {
+    "src": "/images/optimized/generated-factory-polymer-inspection-960-c29aa24d7a.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-factory-polymer-inspection-320-c29aa24d7a.webp 320w, /images/optimized/generated-factory-polymer-inspection-640-c29aa24d7a.webp 640w, /images/optimized/generated-factory-polymer-inspection-960-c29aa24d7a.webp 960w, /images/optimized/generated-factory-polymer-inspection-1440-c29aa24d7a.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-factory-polymer-inspection-320-c29aa24d7a.webp",
+        "bytes": 14012
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-factory-polymer-inspection-640-c29aa24d7a.webp",
+        "bytes": 36816
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-factory-polymer-inspection-960-c29aa24d7a.webp",
+        "bytes": 63780
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-factory-polymer-inspection-1440-c29aa24d7a.webp",
+        "bytes": 117462
+      }
+    ],
+    "originalBytes": 142320
+  },
+  "/images/generated/furniture.webp": {
+    "src": "/images/optimized/generated-furniture-960-78fab1b534.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-furniture-320-78fab1b534.webp 320w, /images/optimized/generated-furniture-640-78fab1b534.webp 640w, /images/optimized/generated-furniture-960-78fab1b534.webp 960w, /images/optimized/generated-furniture-1440-78fab1b534.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-furniture-320-78fab1b534.webp",
+        "bytes": 7198
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-furniture-640-78fab1b534.webp",
+        "bytes": 23190
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-furniture-960-78fab1b534.webp",
+        "bytes": 45082
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-furniture-1440-78fab1b534.webp",
+        "bytes": 77588
+      }
+    ],
+    "originalBytes": 151522
+  },
+  "/images/generated/hvac.webp": {
+    "src": "/images/optimized/generated-hvac-960-841c52c39f.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-hvac-320-841c52c39f.webp 320w, /images/optimized/generated-hvac-640-841c52c39f.webp 640w, /images/optimized/generated-hvac-960-841c52c39f.webp 960w, /images/optimized/generated-hvac-1440-841c52c39f.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-hvac-320-841c52c39f.webp",
+        "bytes": 7532
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-hvac-640-841c52c39f.webp",
+        "bytes": 26140
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-hvac-960-841c52c39f.webp",
+        "bytes": 55354
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-hvac-1440-841c52c39f.webp",
+        "bytes": 105898
+      }
+    ],
+    "originalBytes": 202410
+  },
+  "/images/generated/industry-automotive.webp": {
+    "src": "/images/optimized/generated-industry-automotive-960-23d2e1d7f3.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-industry-automotive-320-23d2e1d7f3.webp 320w, /images/optimized/generated-industry-automotive-640-23d2e1d7f3.webp 640w, /images/optimized/generated-industry-automotive-960-23d2e1d7f3.webp 960w, /images/optimized/generated-industry-automotive-1440-23d2e1d7f3.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-industry-automotive-320-23d2e1d7f3.webp",
+        "bytes": 17462
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-industry-automotive-640-23d2e1d7f3.webp",
+        "bytes": 54760
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-industry-automotive-960-23d2e1d7f3.webp",
+        "bytes": 105178
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-industry-automotive-1440-23d2e1d7f3.webp",
+        "bytes": 225322
+      }
+    ],
+    "originalBytes": 251172
+  },
+  "/images/generated/industry-childhood.webp": {
+    "src": "/images/optimized/generated-industry-childhood-960-4f42e9b19e.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-industry-childhood-320-4f42e9b19e.webp 320w, /images/optimized/generated-industry-childhood-640-4f42e9b19e.webp 640w, /images/optimized/generated-industry-childhood-960-4f42e9b19e.webp 960w, /images/optimized/generated-industry-childhood-1440-4f42e9b19e.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-industry-childhood-320-4f42e9b19e.webp",
+        "bytes": 15368
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-industry-childhood-640-4f42e9b19e.webp",
+        "bytes": 53502
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-industry-childhood-960-4f42e9b19e.webp",
+        "bytes": 104676
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-industry-childhood-1440-4f42e9b19e.webp",
+        "bytes": 219310
+      }
+    ],
+    "originalBytes": 247186
+  },
+  "/images/generated/industry-hvac.webp": {
+    "src": "/images/optimized/generated-industry-hvac-960-a00bdd165b.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-industry-hvac-320-a00bdd165b.webp 320w, /images/optimized/generated-industry-hvac-640-a00bdd165b.webp 640w, /images/optimized/generated-industry-hvac-960-a00bdd165b.webp 960w, /images/optimized/generated-industry-hvac-1440-a00bdd165b.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-industry-hvac-320-a00bdd165b.webp",
+        "bytes": 15412
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-industry-hvac-640-a00bdd165b.webp",
+        "bytes": 48980
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-industry-hvac-960-a00bdd165b.webp",
+        "bytes": 97096
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-industry-hvac-1440-a00bdd165b.webp",
+        "bytes": 209936
+      }
+    ],
+    "originalBytes": 230874
+  },
+  "/images/generated/industry-logistics.webp": {
+    "src": "/images/optimized/generated-industry-logistics-960-006ae76143.webp",
+    "width": 1440,
+    "height": 960,
+    "srcSet": "/images/optimized/generated-industry-logistics-320-006ae76143.webp 320w, /images/optimized/generated-industry-logistics-640-006ae76143.webp 640w, /images/optimized/generated-industry-logistics-960-006ae76143.webp 960w, /images/optimized/generated-industry-logistics-1440-006ae76143.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-industry-logistics-320-006ae76143.webp",
+        "bytes": 16376
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-industry-logistics-640-006ae76143.webp",
+        "bytes": 54228
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-industry-logistics-960-006ae76143.webp",
+        "bytes": 109656
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-industry-logistics-1440-006ae76143.webp",
+        "bytes": 248254
+      }
+    ],
+    "originalBytes": 271618
+  },
+  "/images/generated/logistics.webp": {
+    "src": "/images/optimized/generated-logistics-960-92522cc15b.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-logistics-320-92522cc15b.webp 320w, /images/optimized/generated-logistics-640-92522cc15b.webp 640w, /images/optimized/generated-logistics-960-92522cc15b.webp 960w, /images/optimized/generated-logistics-1440-92522cc15b.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-logistics-320-92522cc15b.webp",
+        "bytes": 12014
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-logistics-640-92522cc15b.webp",
+        "bytes": 42242
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-logistics-960-92522cc15b.webp",
+        "bytes": 87276
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-logistics-1440-92522cc15b.webp",
+        "bytes": 164896
+      }
+    ],
+    "originalBytes": 292180
+  },
+  "/images/generated/material-compare-eps.webp": {
+    "src": "/images/optimized/generated-material-compare-eps-960-c758b55c66.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/generated-material-compare-eps-320-c758b55c66.webp 320w, /images/optimized/generated-material-compare-eps-640-c758b55c66.webp 640w, /images/optimized/generated-material-compare-eps-960-c758b55c66.webp 960w, /images/optimized/generated-material-compare-eps-1440-c758b55c66.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-material-compare-eps-320-c758b55c66.webp",
+        "bytes": 4748
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-material-compare-eps-640-c758b55c66.webp",
+        "bytes": 20234
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-material-compare-eps-960-c758b55c66.webp",
+        "bytes": 42134
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-material-compare-eps-1440-c758b55c66.webp",
+        "bytes": 73926
+      }
+    ],
+    "originalBytes": 135214
+  },
+  "/images/generated/material-compare-epp.webp": {
+    "src": "/images/optimized/generated-material-compare-epp-960-5ce567e32b.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/generated-material-compare-epp-320-5ce567e32b.webp 320w, /images/optimized/generated-material-compare-epp-640-5ce567e32b.webp 640w, /images/optimized/generated-material-compare-epp-960-5ce567e32b.webp 960w, /images/optimized/generated-material-compare-epp-1440-5ce567e32b.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-material-compare-epp-320-5ce567e32b.webp",
+        "bytes": 8520
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-material-compare-epp-640-5ce567e32b.webp",
+        "bytes": 36304
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-material-compare-epp-960-5ce567e32b.webp",
+        "bytes": 77578
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-material-compare-epp-1440-5ce567e32b.webp",
+        "bytes": 142804
+      }
+    ],
+    "originalBytes": 250744
+  },
+  "/images/generated/pharma.webp": {
+    "src": "/images/optimized/generated-pharma-960-c0011236dc.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-pharma-320-c0011236dc.webp 320w, /images/optimized/generated-pharma-640-c0011236dc.webp 640w, /images/optimized/generated-pharma-960-c0011236dc.webp 960w, /images/optimized/generated-pharma-1440-c0011236dc.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-pharma-320-c0011236dc.webp",
+        "bytes": 9190
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-pharma-640-c0011236dc.webp",
+        "bytes": 24614
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-pharma-960-c0011236dc.webp",
+        "bytes": 44504
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-pharma-1440-c0011236dc.webp",
+        "bytes": 74448
+      }
+    ],
+    "originalBytes": 145814
+  },
+  "/images/generated/mobility.webp": {
+    "src": "/images/optimized/generated-mobility-960-a23f531699.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-mobility-320-a23f531699.webp 320w, /images/optimized/generated-mobility-640-a23f531699.webp 640w, /images/optimized/generated-mobility-960-a23f531699.webp 960w, /images/optimized/generated-mobility-1440-a23f531699.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-mobility-320-a23f531699.webp",
+        "bytes": 13864
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-mobility-640-a23f531699.webp",
+        "bytes": 47078
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-mobility-960-a23f531699.webp",
+        "bytes": 94978
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-mobility-1440-a23f531699.webp",
+        "bytes": 167198
+      }
+    ],
+    "originalBytes": 304286
+  },
+  "/images/generated/pools.webp": {
+    "src": "/images/optimized/generated-pools-960-408b246089.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-pools-320-408b246089.webp 320w, /images/optimized/generated-pools-640-408b246089.webp 640w, /images/optimized/generated-pools-960-408b246089.webp 960w, /images/optimized/generated-pools-1440-408b246089.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-pools-320-408b246089.webp",
+        "bytes": 10536
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-pools-640-408b246089.webp",
+        "bytes": 34094
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-pools-960-408b246089.webp",
+        "bytes": 67584
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-pools-1440-408b246089.webp",
+        "bytes": 125368
+      }
+    ],
+    "originalBytes": 259900
+  },
+  "/images/generated/roofing.webp": {
+    "src": "/images/optimized/generated-roofing-960-7a4de20e80.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-roofing-320-7a4de20e80.webp 320w, /images/optimized/generated-roofing-640-7a4de20e80.webp 640w, /images/optimized/generated-roofing-960-7a4de20e80.webp 960w, /images/optimized/generated-roofing-1440-7a4de20e80.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-roofing-320-7a4de20e80.webp",
+        "bytes": 12656
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-roofing-640-7a4de20e80.webp",
+        "bytes": 45108
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-roofing-960-7a4de20e80.webp",
+        "bytes": 90670
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-roofing-1440-7a4de20e80.webp",
+        "bytes": 159634
+      }
+    ],
+    "originalBytes": 292418
+  },
+  "/images/hero.webp": {
+    "src": "/images/optimized/hero-960-b67a976e95.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/hero-320-b67a976e95.webp 320w, /images/optimized/hero-640-b67a976e95.webp 640w, /images/optimized/hero-960-b67a976e95.webp 960w, /images/optimized/hero-1440-b67a976e95.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/hero-320-b67a976e95.webp",
+        "bytes": 5862
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/hero-640-b67a976e95.webp",
+        "bytes": 17924
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/hero-960-b67a976e95.webp",
+        "bytes": 34470
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/hero-1440-b67a976e95.webp",
+        "bytes": 58794
+      }
+    ],
+    "originalBytes": 94572
+  },
+  "/images/generated/sports.webp": {
+    "src": "/images/optimized/generated-sports-960-d9e6a45323.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-sports-320-d9e6a45323.webp 320w, /images/optimized/generated-sports-640-d9e6a45323.webp 640w, /images/optimized/generated-sports-960-d9e6a45323.webp 960w, /images/optimized/generated-sports-1440-d9e6a45323.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-sports-320-d9e6a45323.webp",
+        "bytes": 10614
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-sports-640-d9e6a45323.webp",
+        "bytes": 38858
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-sports-960-d9e6a45323.webp",
+        "bytes": 80172
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-sports-1440-d9e6a45323.webp",
+        "bytes": 147266
+      }
+    ],
+    "originalBytes": 259120
+  },
+  "/images/markets/appliances.webp": {
+    "src": "/images/optimized/markets-appliances-960-dcda714cce.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-appliances-320-dcda714cce.webp 320w, /images/optimized/markets-appliances-640-dcda714cce.webp 640w, /images/optimized/markets-appliances-960-dcda714cce.webp 960w, /images/optimized/markets-appliances-1400-dcda714cce.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-appliances-320-dcda714cce.webp",
+        "bytes": 11446
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-appliances-640-dcda714cce.webp",
+        "bytes": 28482
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-appliances-960-dcda714cce.webp",
+        "bytes": 46980
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-appliances-1400-dcda714cce.webp",
+        "bytes": 80996
+      }
+    ],
+    "originalBytes": 92526
+  },
+  "/images/markets/agrifood.webp": {
+    "src": "/images/optimized/markets-agrifood-960-7fc79f8dce.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-agrifood-320-7fc79f8dce.webp 320w, /images/optimized/markets-agrifood-640-7fc79f8dce.webp 640w, /images/optimized/markets-agrifood-960-7fc79f8dce.webp 960w, /images/optimized/markets-agrifood-1400-7fc79f8dce.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-agrifood-320-7fc79f8dce.webp",
+        "bytes": 13240
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-agrifood-640-7fc79f8dce.webp",
+        "bytes": 36118
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-agrifood-960-7fc79f8dce.webp",
+        "bytes": 63360
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-agrifood-1400-7fc79f8dce.webp",
+        "bytes": 117558
+      }
+    ],
+    "originalBytes": 133706
+  },
+  "/images/markets/aviation.webp": {
+    "src": "/images/optimized/markets-aviation-960-fd65fce6ca.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-aviation-320-fd65fce6ca.webp 320w, /images/optimized/markets-aviation-640-fd65fce6ca.webp 640w, /images/optimized/markets-aviation-960-fd65fce6ca.webp 960w, /images/optimized/markets-aviation-1400-fd65fce6ca.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-aviation-320-fd65fce6ca.webp",
+        "bytes": 11364
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-aviation-640-fd65fce6ca.webp",
+        "bytes": 27382
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-aviation-960-fd65fce6ca.webp",
+        "bytes": 44052
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-aviation-1400-fd65fce6ca.webp",
+        "bytes": 71740
+      }
+    ],
+    "originalBytes": 82066
+  },
+  "/images/markets/building.webp": {
+    "src": "/images/optimized/markets-building-960-a61b4734b8.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-building-320-a61b4734b8.webp 320w, /images/optimized/markets-building-640-a61b4734b8.webp 640w, /images/optimized/markets-building-960-a61b4734b8.webp 960w, /images/optimized/markets-building-1400-a61b4734b8.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-building-320-a61b4734b8.webp",
+        "bytes": 10676
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-building-640-a61b4734b8.webp",
+        "bytes": 35666
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-building-960-a61b4734b8.webp",
+        "bytes": 66852
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-building-1400-a61b4734b8.webp",
+        "bytes": 126972
+      }
+    ],
+    "originalBytes": 143278
+  },
+  "/images/markets/childhood.webp": {
+    "src": "/images/optimized/markets-childhood-960-3af7ac3c7d.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-childhood-320-3af7ac3c7d.webp 320w, /images/optimized/markets-childhood-640-3af7ac3c7d.webp 640w, /images/optimized/markets-childhood-960-3af7ac3c7d.webp 960w, /images/optimized/markets-childhood-1400-3af7ac3c7d.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-childhood-320-3af7ac3c7d.webp",
+        "bytes": 13156
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-childhood-640-3af7ac3c7d.webp",
+        "bytes": 34736
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-childhood-960-3af7ac3c7d.webp",
+        "bytes": 58324
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-childhood-1400-3af7ac3c7d.webp",
+        "bytes": 100468
+      }
+    ],
+    "originalBytes": 116886
+  },
+  "/images/markets/forest.webp": {
+    "src": "/images/optimized/markets-forest-960-19adef2397.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-forest-320-19adef2397.webp 320w, /images/optimized/markets-forest-640-19adef2397.webp 640w, /images/optimized/markets-forest-960-19adef2397.webp 960w, /images/optimized/markets-forest-1400-19adef2397.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-forest-320-19adef2397.webp",
+        "bytes": 21706
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-forest-640-19adef2397.webp",
+        "bytes": 77516
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-forest-960-19adef2397.webp",
+        "bytes": 151974
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-forest-1400-19adef2397.webp",
+        "bytes": 313638
+      }
+    ],
+    "originalBytes": 343646
+  },
+  "/images/markets/furniture.webp": {
+    "src": "/images/optimized/markets-furniture-960-5f69859be4.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-furniture-320-5f69859be4.webp 320w, /images/optimized/markets-furniture-640-5f69859be4.webp 640w, /images/optimized/markets-furniture-960-5f69859be4.webp 960w, /images/optimized/markets-furniture-1400-5f69859be4.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-furniture-320-5f69859be4.webp",
+        "bytes": 13526
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-furniture-640-5f69859be4.webp",
+        "bytes": 39314
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-furniture-960-5f69859be4.webp",
+        "bytes": 71858
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-furniture-1400-5f69859be4.webp",
+        "bytes": 136744
+      }
+    ],
+    "originalBytes": 150326
+  },
+  "/images/markets/hvac.webp": {
+    "src": "/images/optimized/markets-hvac-960-1b11673cb5.webp",
+    "width": 1400,
+    "height": 787,
+    "srcSet": "/images/optimized/markets-hvac-320-1b11673cb5.webp 320w, /images/optimized/markets-hvac-640-1b11673cb5.webp 640w, /images/optimized/markets-hvac-960-1b11673cb5.webp 960w, /images/optimized/markets-hvac-1400-1b11673cb5.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-hvac-320-1b11673cb5.webp",
+        "bytes": 13308
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-hvac-640-1b11673cb5.webp",
+        "bytes": 40160
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-hvac-960-1b11673cb5.webp",
+        "bytes": 74794
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-hvac-1400-1b11673cb5.webp",
+        "bytes": 144940
+      }
+    ],
+    "originalBytes": 160210
+  },
+  "/images/markets/logistics.webp": {
+    "src": "/images/optimized/markets-logistics-960-705dbec336.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-logistics-320-705dbec336.webp 320w, /images/optimized/markets-logistics-640-705dbec336.webp 640w, /images/optimized/markets-logistics-960-705dbec336.webp 960w, /images/optimized/markets-logistics-1400-705dbec336.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-logistics-320-705dbec336.webp",
+        "bytes": 12310
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-logistics-640-705dbec336.webp",
+        "bytes": 33624
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-logistics-960-705dbec336.webp",
+        "bytes": 57242
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-logistics-1400-705dbec336.webp",
+        "bytes": 103250
+      }
+    ],
+    "originalBytes": 116554
+  },
+  "/images/markets/mobility.webp": {
+    "src": "/images/optimized/markets-mobility-960-9fa077df57.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-mobility-320-9fa077df57.webp 320w, /images/optimized/markets-mobility-640-9fa077df57.webp 640w, /images/optimized/markets-mobility-960-9fa077df57.webp 960w, /images/optimized/markets-mobility-1400-9fa077df57.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-mobility-320-9fa077df57.webp",
+        "bytes": 12556
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-mobility-640-9fa077df57.webp",
+        "bytes": 32614
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-mobility-960-9fa077df57.webp",
+        "bytes": 55372
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-mobility-1400-9fa077df57.webp",
+        "bytes": 96202
+      }
+    ],
+    "originalBytes": 106640
+  },
+  "/images/markets/pharma.webp": {
+    "src": "/images/optimized/markets-pharma-960-c93c101e79.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-pharma-320-c93c101e79.webp 320w, /images/optimized/markets-pharma-640-c93c101e79.webp 640w, /images/optimized/markets-pharma-960-c93c101e79.webp 960w, /images/optimized/markets-pharma-1400-c93c101e79.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-pharma-320-c93c101e79.webp",
+        "bytes": 10850
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-pharma-640-c93c101e79.webp",
+        "bytes": 26608
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-pharma-960-c93c101e79.webp",
+        "bytes": 43908
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-pharma-1400-c93c101e79.webp",
+        "bytes": 76016
+      }
+    ],
+    "originalBytes": 85752
+  },
+  "/images/markets/pools.webp": {
+    "src": "/images/optimized/markets-pools-960-b0b63a5767.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-pools-320-b0b63a5767.webp 320w, /images/optimized/markets-pools-640-b0b63a5767.webp 640w, /images/optimized/markets-pools-960-b0b63a5767.webp 960w, /images/optimized/markets-pools-1400-b0b63a5767.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-pools-320-b0b63a5767.webp",
+        "bytes": 14006
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-pools-640-b0b63a5767.webp",
+        "bytes": 43740
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-pools-960-b0b63a5767.webp",
+        "bytes": 78790
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-pools-1400-b0b63a5767.webp",
+        "bytes": 148728
+      }
+    ],
+    "originalBytes": 164152
+  },
+  "/images/markets/roofing.webp": {
+    "src": "/images/optimized/markets-roofing-960-fea51e1f1b.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-roofing-320-fea51e1f1b.webp 320w, /images/optimized/markets-roofing-640-fea51e1f1b.webp 640w, /images/optimized/markets-roofing-960-fea51e1f1b.webp 960w, /images/optimized/markets-roofing-1400-fea51e1f1b.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-roofing-320-fea51e1f1b.webp",
+        "bytes": 16326
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-roofing-640-fea51e1f1b.webp",
+        "bytes": 57574
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-roofing-960-fea51e1f1b.webp",
+        "bytes": 113416
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-roofing-1400-fea51e1f1b.webp",
+        "bytes": 240722
+      }
+    ],
+    "originalBytes": 258512
+  },
+  "/images/markets/sports.webp": {
+    "src": "/images/optimized/markets-sports-960-0b67eac803.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-sports-320-0b67eac803.webp 320w, /images/optimized/markets-sports-640-0b67eac803.webp 640w, /images/optimized/markets-sports-960-0b67eac803.webp 960w, /images/optimized/markets-sports-1400-0b67eac803.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-sports-320-0b67eac803.webp",
+        "bytes": 11856
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-sports-640-0b67eac803.webp",
+        "bytes": 38280
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-sports-960-0b67eac803.webp",
+        "bytes": 72648
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-sports-1400-0b67eac803.webp",
+        "bytes": 157238
+      }
+    ],
+    "originalBytes": 170314
+  },
+  "/images/materials-film-poster.webp": {
+    "src": "/images/optimized/materials-film-poster-960-1f523e8b4a.webp",
+    "width": 1920,
+    "height": 1080,
+    "srcSet": "/images/optimized/materials-film-poster-320-1f523e8b4a.webp 320w, /images/optimized/materials-film-poster-640-1f523e8b4a.webp 640w, /images/optimized/materials-film-poster-960-1f523e8b4a.webp 960w, /images/optimized/materials-film-poster-1440-1f523e8b4a.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/materials-film-poster-320-1f523e8b4a.webp",
+        "bytes": 8132
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/materials-film-poster-640-1f523e8b4a.webp",
+        "bytes": 18910
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/materials-film-poster-960-1f523e8b4a.webp",
+        "bytes": 31632
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/materials-film-poster-1440-1f523e8b4a.webp",
+        "bytes": 47094
+      }
+    ],
+    "originalBytes": 70532
+  },
+  "/images/park-nonwoven-logo.png": {
+    "src": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+    "width": 768,
+    "height": 126,
+    "srcSet": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp 320w, /images/optimized/park-nonwoven-logo-640-65315b4f03.webp 640w, /images/optimized/park-nonwoven-logo-768-65315b4f03.webp 768w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+        "bytes": 6808
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+        "bytes": 15616
+      },
+      {
+        "width": 768,
+        "src": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+        "bytes": 5334
+      }
+    ],
+    "originalBytes": 6094
+  },
+  "/images/packaging.webp": {
+    "src": "/images/optimized/packaging-960-5f6b2712ab.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/packaging-320-5f6b2712ab.webp 320w, /images/optimized/packaging-640-5f6b2712ab.webp 640w, /images/optimized/packaging-960-5f6b2712ab.webp 960w, /images/optimized/packaging-1440-5f6b2712ab.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/packaging-320-5f6b2712ab.webp",
+        "bytes": 8442
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/packaging-640-5f6b2712ab.webp",
+        "bytes": 30070
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/packaging-960-5f6b2712ab.webp",
+        "bytes": 63490
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/packaging-1440-5f6b2712ab.webp",
+        "bytes": 121266
+      }
+    ],
+    "originalBytes": 202798
+  },
+  "/images/products/aviation-seat.webp": {
+    "src": "/images/optimized/products-aviation-seat-960-eb399cc4c4.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-aviation-seat-96-eb399cc4c4.webp 96w, /images/optimized/products-aviation-seat-320-eb399cc4c4.webp 320w, /images/optimized/products-aviation-seat-640-eb399cc4c4.webp 640w, /images/optimized/products-aviation-seat-960-eb399cc4c4.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-aviation-seat-96-eb399cc4c4.webp",
+        "bytes": 1268
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-aviation-seat-320-eb399cc4c4.webp",
+        "bytes": 6916
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-aviation-seat-640-eb399cc4c4.webp",
+        "bytes": 22792
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-aviation-seat-960-eb399cc4c4.webp",
+        "bytes": 44506
+      }
+    ],
+    "originalBytes": 84792
+  },
+  "/images/products/bakery-inserts.webp": {
+    "src": "/images/optimized/products-bakery-inserts-960-9e41cef640.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-bakery-inserts-96-9e41cef640.webp 96w, /images/optimized/products-bakery-inserts-320-9e41cef640.webp 320w, /images/optimized/products-bakery-inserts-640-9e41cef640.webp 640w, /images/optimized/products-bakery-inserts-960-9e41cef640.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-bakery-inserts-96-9e41cef640.webp",
+        "bytes": 1072
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-bakery-inserts-320-9e41cef640.webp",
+        "bytes": 5160
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-bakery-inserts-640-9e41cef640.webp",
+        "bytes": 20758
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-bakery-inserts-960-9e41cef640.webp",
+        "bytes": 46336
+      }
+    ],
+    "originalBytes": 96646
+  },
+  "/images/products/branded/adhesive-foam-support-pads.webp": {
+    "src": "/images/optimized/products-branded-adhesive-foam-support-pads-960-1d3ff5fab8.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-adhesive-foam-support-pads-96-1d3ff5fab8.webp 96w, /images/optimized/products-branded-adhesive-foam-support-pads-320-1d3ff5fab8.webp 320w, /images/optimized/products-branded-adhesive-foam-support-pads-640-1d3ff5fab8.webp 640w, /images/optimized/products-branded-adhesive-foam-support-pads-960-1d3ff5fab8.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-adhesive-foam-support-pads-96-1d3ff5fab8.webp",
+        "bytes": 2124
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-adhesive-foam-support-pads-320-1d3ff5fab8.webp",
+        "bytes": 12136
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-adhesive-foam-support-pads-640-1d3ff5fab8.webp",
+        "bytes": 43520
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-adhesive-foam-support-pads-960-1d3ff5fab8.webp",
+        "bytes": 98666
+      }
+    ],
+    "originalBytes": 1352438
+  },
+  "/images/products/branded/battery-protective-inserts.webp": {
+    "src": "/images/optimized/products-branded-battery-protective-inserts-960-5b3e6a4168.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-battery-protective-inserts-96-5b3e6a4168.webp 96w, /images/optimized/products-branded-battery-protective-inserts-320-5b3e6a4168.webp 320w, /images/optimized/products-branded-battery-protective-inserts-640-5b3e6a4168.webp 640w, /images/optimized/products-branded-battery-protective-inserts-960-5b3e6a4168.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-battery-protective-inserts-96-5b3e6a4168.webp",
+        "bytes": 2188
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-battery-protective-inserts-320-5b3e6a4168.webp",
+        "bytes": 13734
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-battery-protective-inserts-640-5b3e6a4168.webp",
+        "bytes": 48336
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-battery-protective-inserts-960-5b3e6a4168.webp",
+        "bytes": 107406
+      }
+    ],
+    "originalBytes": 1288850
+  },
+  "/images/products/branded/child-seat-foam-cores.webp": {
+    "src": "/images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp",
+    "width": 1374,
+    "height": 1145,
+    "srcSet": "/images/optimized/products-branded-child-seat-foam-cores-96-83a9c32ba8.webp 96w, /images/optimized/products-branded-child-seat-foam-cores-320-83a9c32ba8.webp 320w, /images/optimized/products-branded-child-seat-foam-cores-640-83a9c32ba8.webp 640w, /images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-96-83a9c32ba8.webp",
+        "bytes": 1908
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-320-83a9c32ba8.webp",
+        "bytes": 12168
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-640-83a9c32ba8.webp",
+        "bytes": 47342
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp",
+        "bytes": 106012
+      }
+    ],
+    "originalBytes": 1257360
+  },
+  "/images/products/branded/catering-transport-boxes.webp": {
+    "src": "/images/optimized/products-branded-catering-transport-boxes-960-752c3f6265.webp",
+    "width": 1312,
+    "height": 1199,
+    "srcSet": "/images/optimized/products-branded-catering-transport-boxes-96-752c3f6265.webp 96w, /images/optimized/products-branded-catering-transport-boxes-320-752c3f6265.webp 320w, /images/optimized/products-branded-catering-transport-boxes-640-752c3f6265.webp 640w, /images/optimized/products-branded-catering-transport-boxes-960-752c3f6265.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-catering-transport-boxes-96-752c3f6265.webp",
+        "bytes": 2934
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-catering-transport-boxes-320-752c3f6265.webp",
+        "bytes": 20654
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-catering-transport-boxes-640-752c3f6265.webp",
+        "bytes": 75982
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-catering-transport-boxes-960-752c3f6265.webp",
+        "bytes": 164800
+      }
+    ],
+    "originalBytes": 1838810
+  },
+  "/images/products/branded/condensate-collection-trays.webp": {
+    "src": "/images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-condensate-collection-trays-96-b4d525e4fe.webp 96w, /images/optimized/products-branded-condensate-collection-trays-320-b4d525e4fe.webp 320w, /images/optimized/products-branded-condensate-collection-trays-640-b4d525e4fe.webp 640w, /images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-96-b4d525e4fe.webp",
+        "bytes": 1382
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-320-b4d525e4fe.webp",
+        "bytes": 7288
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-640-b4d525e4fe.webp",
+        "bytes": 19838
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp",
+        "bytes": 36262
+      }
+    ],
+    "originalBytes": 605852
+  },
+  "/images/products/branded/childhood-accessories.webp": {
+    "src": "/images/optimized/products-branded-childhood-accessories-960-6e16c60dc1.webp",
+    "width": 1401,
+    "height": 1123,
+    "srcSet": "/images/optimized/products-branded-childhood-accessories-96-6e16c60dc1.webp 96w, /images/optimized/products-branded-childhood-accessories-320-6e16c60dc1.webp 320w, /images/optimized/products-branded-childhood-accessories-640-6e16c60dc1.webp 640w, /images/optimized/products-branded-childhood-accessories-960-6e16c60dc1.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-childhood-accessories-96-6e16c60dc1.webp",
+        "bytes": 2232
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-childhood-accessories-320-6e16c60dc1.webp",
+        "bytes": 16670
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-childhood-accessories-640-6e16c60dc1.webp",
+        "bytes": 60210
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-childhood-accessories-960-6e16c60dc1.webp",
+        "bytes": 122690
+      }
+    ],
+    "originalBytes": 1579780
+  },
+  "/images/products/branded/custom-cushioning-foams.webp": {
+    "src": "/images/optimized/products-branded-custom-cushioning-foams-960-b6d05a4e4b.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-custom-cushioning-foams-96-b6d05a4e4b.webp 96w, /images/optimized/products-branded-custom-cushioning-foams-320-b6d05a4e4b.webp 320w, /images/optimized/products-branded-custom-cushioning-foams-640-b6d05a4e4b.webp 640w, /images/optimized/products-branded-custom-cushioning-foams-960-b6d05a4e4b.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-custom-cushioning-foams-96-b6d05a4e4b.webp",
+        "bytes": 2202
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-custom-cushioning-foams-320-b6d05a4e4b.webp",
+        "bytes": 16458
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-custom-cushioning-foams-640-b6d05a4e4b.webp",
+        "bytes": 56698
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-custom-cushioning-foams-960-b6d05a4e4b.webp",
+        "bytes": 122684
+      }
+    ],
+    "originalBytes": 1303574
+  },
+  "/images/products/branded/custom-hvac-components.webp": {
+    "src": "/images/optimized/products-branded-custom-hvac-components-960-c4a94e3ea7.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-custom-hvac-components-96-c4a94e3ea7.webp 96w, /images/optimized/products-branded-custom-hvac-components-320-c4a94e3ea7.webp 320w, /images/optimized/products-branded-custom-hvac-components-640-c4a94e3ea7.webp 640w, /images/optimized/products-branded-custom-hvac-components-960-c4a94e3ea7.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-custom-hvac-components-96-c4a94e3ea7.webp",
+        "bytes": 2014
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-custom-hvac-components-320-c4a94e3ea7.webp",
+        "bytes": 13488
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-custom-hvac-components-640-c4a94e3ea7.webp",
+        "bytes": 47044
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-custom-hvac-components-960-c4a94e3ea7.webp",
+        "bytes": 105650
+      }
+    ],
+    "originalBytes": 1540666
+  },
+  "/images/products/branded/custom-sports-equipment.webp": {
+    "src": "/images/optimized/products-branded-custom-sports-equipment-960-55e06d9562.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-custom-sports-equipment-96-55e06d9562.webp 96w, /images/optimized/products-branded-custom-sports-equipment-320-55e06d9562.webp 320w, /images/optimized/products-branded-custom-sports-equipment-640-55e06d9562.webp 640w, /images/optimized/products-branded-custom-sports-equipment-960-55e06d9562.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-custom-sports-equipment-96-55e06d9562.webp",
+        "bytes": 1552
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-custom-sports-equipment-320-55e06d9562.webp",
+        "bytes": 10150
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-custom-sports-equipment-640-55e06d9562.webp",
+        "bytes": 35096
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-custom-sports-equipment-960-55e06d9562.webp",
+        "bytes": 71784
+      }
+    ],
+    "originalBytes": 919644
+  },
+  "/images/products/branded/educational-toy-shapes.webp": {
+    "src": "/images/optimized/products-branded-educational-toy-shapes-960-b41d36940a.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-educational-toy-shapes-96-b41d36940a.webp 96w, /images/optimized/products-branded-educational-toy-shapes-320-b41d36940a.webp 320w, /images/optimized/products-branded-educational-toy-shapes-640-b41d36940a.webp 640w, /images/optimized/products-branded-educational-toy-shapes-960-b41d36940a.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-educational-toy-shapes-96-b41d36940a.webp",
+        "bytes": 2188
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-educational-toy-shapes-320-b41d36940a.webp",
+        "bytes": 14746
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-educational-toy-shapes-640-b41d36940a.webp",
+        "bytes": 48054
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-educational-toy-shapes-960-b41d36940a.webp",
+        "bytes": 96798
+      }
+    ],
+    "originalBytes": 1311218
+  },
+  "/images/products/branded/eps-transport-boxes.webp": {
+    "src": "/images/optimized/products-branded-eps-transport-boxes-960-babe31449c.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-eps-transport-boxes-96-babe31449c.webp 96w, /images/optimized/products-branded-eps-transport-boxes-320-babe31449c.webp 320w, /images/optimized/products-branded-eps-transport-boxes-640-babe31449c.webp 640w, /images/optimized/products-branded-eps-transport-boxes-960-babe31449c.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-eps-transport-boxes-96-babe31449c.webp",
+        "bytes": 1456
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-eps-transport-boxes-320-babe31449c.webp",
+        "bytes": 9154
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-eps-transport-boxes-640-babe31449c.webp",
+        "bytes": 24416
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-eps-transport-boxes-960-babe31449c.webp",
+        "bytes": 46194
+      }
+    ],
+    "originalBytes": 821942
+  },
+  "/images/products/branded/fan-coil-structural-supports.webp": {
+    "src": "/images/optimized/products-branded-fan-coil-structural-supports-960-0a86ebaa72.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-fan-coil-structural-supports-96-0a86ebaa72.webp 96w, /images/optimized/products-branded-fan-coil-structural-supports-320-0a86ebaa72.webp 320w, /images/optimized/products-branded-fan-coil-structural-supports-640-0a86ebaa72.webp 640w, /images/optimized/products-branded-fan-coil-structural-supports-960-0a86ebaa72.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-fan-coil-structural-supports-96-0a86ebaa72.webp",
+        "bytes": 2056
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-fan-coil-structural-supports-320-0a86ebaa72.webp",
+        "bytes": 11080
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-fan-coil-structural-supports-640-0a86ebaa72.webp",
+        "bytes": 30444
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-fan-coil-structural-supports-960-0a86ebaa72.webp",
+        "bytes": 56866
+      }
+    ],
+    "originalBytes": 763506
+  },
+  "/images/products/branded/foam-insole-components.webp": {
+    "src": "/images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-foam-insole-components-96-94ac944f1e.webp 96w, /images/optimized/products-branded-foam-insole-components-320-94ac944f1e.webp 320w, /images/optimized/products-branded-foam-insole-components-640-94ac944f1e.webp 640w, /images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-foam-insole-components-96-94ac944f1e.webp",
+        "bytes": 2192
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-foam-insole-components-320-94ac944f1e.webp",
+        "bytes": 10860
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-foam-insole-components-640-94ac944f1e.webp",
+        "bytes": 30250
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp",
+        "bytes": 66928
+      }
+    ],
+    "originalBytes": 1094666
+  },
+  "/images/products/branded/foam-exercise-jump-boxes.webp": {
+    "src": "/images/optimized/products-branded-foam-exercise-jump-boxes-960-595358cfb9.webp",
+    "width": 1312,
+    "height": 1199,
+    "srcSet": "/images/optimized/products-branded-foam-exercise-jump-boxes-96-595358cfb9.webp 96w, /images/optimized/products-branded-foam-exercise-jump-boxes-320-595358cfb9.webp 320w, /images/optimized/products-branded-foam-exercise-jump-boxes-640-595358cfb9.webp 640w, /images/optimized/products-branded-foam-exercise-jump-boxes-960-595358cfb9.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-foam-exercise-jump-boxes-96-595358cfb9.webp",
+        "bytes": 2348
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-foam-exercise-jump-boxes-320-595358cfb9.webp",
+        "bytes": 19822
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-foam-exercise-jump-boxes-640-595358cfb9.webp",
+        "bytes": 77968
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-foam-exercise-jump-boxes-960-595358cfb9.webp",
+        "bytes": 165658
+      }
+    ],
+    "originalBytes": 1733296
+  },
+  "/images/products/branded/foldable-insulated-boxes.webp": {
+    "src": "/images/optimized/products-branded-foldable-insulated-boxes-960-1895e946c7.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-foldable-insulated-boxes-96-1895e946c7.webp 96w, /images/optimized/products-branded-foldable-insulated-boxes-320-1895e946c7.webp 320w, /images/optimized/products-branded-foldable-insulated-boxes-640-1895e946c7.webp 640w, /images/optimized/products-branded-foldable-insulated-boxes-960-1895e946c7.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-foldable-insulated-boxes-96-1895e946c7.webp",
+        "bytes": 1672
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-foldable-insulated-boxes-320-1895e946c7.webp",
+        "bytes": 11216
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-foldable-insulated-boxes-640-1895e946c7.webp",
+        "bytes": 41122
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-foldable-insulated-boxes-960-1895e946c7.webp",
+        "bytes": 89782
+      }
+    ],
+    "originalBytes": 1230870
+  },
+  "/images/products/branded/heat-pump-support-frames.webp": {
+    "src": "/images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-heat-pump-support-frames-96-647999d53c.webp 96w, /images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp 320w, /images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp 640w, /images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-96-647999d53c.webp",
+        "bytes": 1792
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp",
+        "bytes": 10548
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp",
+        "bytes": 36672
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp",
+        "bytes": 75898
+      }
+    ],
+    "originalBytes": 902412
+  },
+  "/images/products/branded/heat-pump-covers.webp": {
+    "src": "/images/optimized/products-branded-heat-pump-covers-960-70520ee4bc.webp",
+    "width": 1024,
+    "height": 1536,
+    "srcSet": "/images/optimized/products-branded-heat-pump-covers-96-70520ee4bc.webp 96w, /images/optimized/products-branded-heat-pump-covers-320-70520ee4bc.webp 320w, /images/optimized/products-branded-heat-pump-covers-640-70520ee4bc.webp 640w, /images/optimized/products-branded-heat-pump-covers-960-70520ee4bc.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-heat-pump-covers-96-70520ee4bc.webp",
+        "bytes": 3068
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-heat-pump-covers-320-70520ee4bc.webp",
+        "bytes": 29020
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-heat-pump-covers-640-70520ee4bc.webp",
+        "bytes": 111458
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-heat-pump-covers-960-70520ee4bc.webp",
+        "bytes": 214716
+      }
+    ],
+    "originalBytes": 1487246
+  },
+  "/images/products/branded/hvac-insulation-housings.webp": {
+    "src": "/images/optimized/products-branded-hvac-insulation-housings-960-e408ea7c15.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-hvac-insulation-housings-96-e408ea7c15.webp 96w, /images/optimized/products-branded-hvac-insulation-housings-320-e408ea7c15.webp 320w, /images/optimized/products-branded-hvac-insulation-housings-640-e408ea7c15.webp 640w, /images/optimized/products-branded-hvac-insulation-housings-960-e408ea7c15.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-hvac-insulation-housings-96-e408ea7c15.webp",
+        "bytes": 2042
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-hvac-insulation-housings-320-e408ea7c15.webp",
+        "bytes": 15670
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-hvac-insulation-housings-640-e408ea7c15.webp",
+        "bytes": 57144
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-hvac-insulation-housings-960-e408ea7c15.webp",
+        "bytes": 123536
+      }
+    ],
+    "originalBytes": 1535906
+  },
+  "/images/products/branded/hydraulic-manifold-insulation.webp": {
+    "src": "/images/optimized/products-branded-hydraulic-manifold-insulation-960-97f8148cd0.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-hydraulic-manifold-insulation-96-97f8148cd0.webp 96w, /images/optimized/products-branded-hydraulic-manifold-insulation-320-97f8148cd0.webp 320w, /images/optimized/products-branded-hydraulic-manifold-insulation-640-97f8148cd0.webp 640w, /images/optimized/products-branded-hydraulic-manifold-insulation-960-97f8148cd0.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-hydraulic-manifold-insulation-96-97f8148cd0.webp",
+        "bytes": 1760
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-hydraulic-manifold-insulation-320-97f8148cd0.webp",
+        "bytes": 13074
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-hydraulic-manifold-insulation-640-97f8148cd0.webp",
+        "bytes": 44442
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-hydraulic-manifold-insulation-960-97f8148cd0.webp",
+        "bytes": 97440
+      }
+    ],
+    "originalBytes": 1278104
+  },
+  "/images/products/branded/hydraulic-module-supports.webp": {
+    "src": "/images/optimized/products-branded-hydraulic-module-supports-960-d213a4a12a.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-hydraulic-module-supports-96-d213a4a12a.webp 96w, /images/optimized/products-branded-hydraulic-module-supports-320-d213a4a12a.webp 320w, /images/optimized/products-branded-hydraulic-module-supports-640-d213a4a12a.webp 640w, /images/optimized/products-branded-hydraulic-module-supports-960-d213a4a12a.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-hydraulic-module-supports-96-d213a4a12a.webp",
+        "bytes": 1904
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-hydraulic-module-supports-320-d213a4a12a.webp",
+        "bytes": 12710
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-hydraulic-module-supports-640-d213a4a12a.webp",
+        "bytes": 47996
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-hydraulic-module-supports-960-d213a4a12a.webp",
+        "bytes": 107160
+      }
+    ],
+    "originalBytes": 1403330
+  },
+  "/images/products/branded/industrial-pallet-boxes.webp": {
+    "src": "/images/optimized/products-branded-industrial-pallet-boxes-960-6df3a37a5d.webp",
+    "width": 1374,
+    "height": 1145,
+    "srcSet": "/images/optimized/products-branded-industrial-pallet-boxes-96-6df3a37a5d.webp 96w, /images/optimized/products-branded-industrial-pallet-boxes-320-6df3a37a5d.webp 320w, /images/optimized/products-branded-industrial-pallet-boxes-640-6df3a37a5d.webp 640w, /images/optimized/products-branded-industrial-pallet-boxes-960-6df3a37a5d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-industrial-pallet-boxes-96-6df3a37a5d.webp",
+        "bytes": 2492
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-industrial-pallet-boxes-320-6df3a37a5d.webp",
+        "bytes": 14380
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-industrial-pallet-boxes-640-6df3a37a5d.webp",
+        "bytes": 53298
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-industrial-pallet-boxes-960-6df3a37a5d.webp",
+        "bytes": 120720
+      }
+    ],
+    "originalBytes": 1556166
+  },
+  "/images/products/branded/industrial-storage-bins.webp": {
+    "src": "/images/optimized/products-branded-industrial-storage-bins-960-50bcecc11b.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-industrial-storage-bins-96-50bcecc11b.webp 96w, /images/optimized/products-branded-industrial-storage-bins-320-50bcecc11b.webp 320w, /images/optimized/products-branded-industrial-storage-bins-640-50bcecc11b.webp 640w, /images/optimized/products-branded-industrial-storage-bins-960-50bcecc11b.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-industrial-storage-bins-96-50bcecc11b.webp",
+        "bytes": 2374
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-industrial-storage-bins-320-50bcecc11b.webp",
+        "bytes": 11390
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-industrial-storage-bins-640-50bcecc11b.webp",
+        "bytes": 29682
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-industrial-storage-bins-960-50bcecc11b.webp",
+        "bytes": 53254
+      }
+    ],
+    "originalBytes": 951562
+  },
+  "/images/products/branded/leisure-equipment-components.webp": {
+    "src": "/images/optimized/products-branded-leisure-equipment-components-960-38fced8a38.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-leisure-equipment-components-96-38fced8a38.webp 96w, /images/optimized/products-branded-leisure-equipment-components-320-38fced8a38.webp 320w, /images/optimized/products-branded-leisure-equipment-components-640-38fced8a38.webp 640w, /images/optimized/products-branded-leisure-equipment-components-960-38fced8a38.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-leisure-equipment-components-96-38fced8a38.webp",
+        "bytes": 2176
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-leisure-equipment-components-320-38fced8a38.webp",
+        "bytes": 14212
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-leisure-equipment-components-640-38fced8a38.webp",
+        "bytes": 52888
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-leisure-equipment-components-960-38fced8a38.webp",
+        "bytes": 112222
+      }
+    ],
+    "originalBytes": 1284148
+  },
+  "/images/products/branded/lightweight-foam-pallets-epp-v2.webp": {
+    "src": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-960-ce2dcd67a1.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-96-ce2dcd67a1.webp 96w, /images/optimized/products-branded-lightweight-foam-pallets-epp-v2-320-ce2dcd67a1.webp 320w, /images/optimized/products-branded-lightweight-foam-pallets-epp-v2-640-ce2dcd67a1.webp 640w, /images/optimized/products-branded-lightweight-foam-pallets-epp-v2-960-ce2dcd67a1.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-96-ce2dcd67a1.webp",
+        "bytes": 1576
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-320-ce2dcd67a1.webp",
+        "bytes": 11226
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-640-ce2dcd67a1.webp",
+        "bytes": 39346
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-epp-v2-960-ce2dcd67a1.webp",
+        "bytes": 83440
+      }
+    ],
+    "originalBytes": 950754
+  },
+  "/images/products/branded/lightweight-foam-pallets.webp": {
+    "src": "/images/optimized/products-branded-lightweight-foam-pallets-960-b80c969a12.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-lightweight-foam-pallets-96-b80c969a12.webp 96w, /images/optimized/products-branded-lightweight-foam-pallets-320-b80c969a12.webp 320w, /images/optimized/products-branded-lightweight-foam-pallets-640-b80c969a12.webp 640w, /images/optimized/products-branded-lightweight-foam-pallets-960-b80c969a12.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-96-b80c969a12.webp",
+        "bytes": 1234
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-320-b80c969a12.webp",
+        "bytes": 7306
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-640-b80c969a12.webp",
+        "bytes": 21544
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-lightweight-foam-pallets-960-b80c969a12.webp",
+        "bytes": 44268
+      }
+    ],
+    "originalBytes": 655798
+  },
+  "/images/products/branded/mobility-foam-components.webp": {
+    "src": "/images/optimized/products-branded-mobility-foam-components-960-da655637a7.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-mobility-foam-components-96-da655637a7.webp 96w, /images/optimized/products-branded-mobility-foam-components-320-da655637a7.webp 320w, /images/optimized/products-branded-mobility-foam-components-640-da655637a7.webp 640w, /images/optimized/products-branded-mobility-foam-components-960-da655637a7.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-mobility-foam-components-96-da655637a7.webp",
+        "bytes": 1748
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-mobility-foam-components-320-da655637a7.webp",
+        "bytes": 10550
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-mobility-foam-components-640-da655637a7.webp",
+        "bytes": 34884
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-mobility-foam-components-960-da655637a7.webp",
+        "bytes": 76378
+      }
+    ],
+    "originalBytes": 1130056
+  },
+  "/images/products/branded/modular-foam-play-forms.webp": {
+    "src": "/images/optimized/products-branded-modular-foam-play-forms-960-9238d29a5f.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-modular-foam-play-forms-96-9238d29a5f.webp 96w, /images/optimized/products-branded-modular-foam-play-forms-320-9238d29a5f.webp 320w, /images/optimized/products-branded-modular-foam-play-forms-640-9238d29a5f.webp 640w, /images/optimized/products-branded-modular-foam-play-forms-960-9238d29a5f.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-modular-foam-play-forms-96-9238d29a5f.webp",
+        "bytes": 1848
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-modular-foam-play-forms-320-9238d29a5f.webp",
+        "bytes": 10692
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-modular-foam-play-forms-640-9238d29a5f.webp",
+        "bytes": 37724
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-modular-foam-play-forms-960-9238d29a5f.webp",
+        "bytes": 79178
+      }
+    ],
+    "originalBytes": 1071870
+  },
+  "/images/products/branded/moulded-air-ducts.webp": {
+    "src": "/images/optimized/products-branded-moulded-air-ducts-960-d33967af88.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-moulded-air-ducts-96-d33967af88.webp 96w, /images/optimized/products-branded-moulded-air-ducts-320-d33967af88.webp 320w, /images/optimized/products-branded-moulded-air-ducts-640-d33967af88.webp 640w, /images/optimized/products-branded-moulded-air-ducts-960-d33967af88.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-moulded-air-ducts-96-d33967af88.webp",
+        "bytes": 1802
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-moulded-air-ducts-320-d33967af88.webp",
+        "bytes": 13162
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-moulded-air-ducts-640-d33967af88.webp",
+        "bytes": 47590
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-moulded-air-ducts-960-d33967af88.webp",
+        "bytes": 102662
+      }
+    ],
+    "originalBytes": 1290942
+  },
+  "/images/products/branded/moulded-plastic-toys.webp": {
+    "src": "/images/optimized/products-branded-moulded-plastic-toys-960-bfb847c87a.webp",
+    "width": 1295,
+    "height": 1214,
+    "srcSet": "/images/optimized/products-branded-moulded-plastic-toys-96-bfb847c87a.webp 96w, /images/optimized/products-branded-moulded-plastic-toys-320-bfb847c87a.webp 320w, /images/optimized/products-branded-moulded-plastic-toys-640-bfb847c87a.webp 640w, /images/optimized/products-branded-moulded-plastic-toys-960-bfb847c87a.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-moulded-plastic-toys-96-bfb847c87a.webp",
+        "bytes": 2196
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-moulded-plastic-toys-320-bfb847c87a.webp",
+        "bytes": 10662
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-moulded-plastic-toys-640-bfb847c87a.webp",
+        "bytes": 28252
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-moulded-plastic-toys-960-bfb847c87a.webp",
+        "bytes": 52052
+      }
+    ],
+    "originalBytes": 662708
+  },
+  "/images/products/branded/movement-course-play-blocks.webp": {
+    "src": "/images/optimized/products-branded-movement-course-play-blocks-960-303ba672fa.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-movement-course-play-blocks-96-303ba672fa.webp 96w, /images/optimized/products-branded-movement-course-play-blocks-320-303ba672fa.webp 320w, /images/optimized/products-branded-movement-course-play-blocks-640-303ba672fa.webp 640w, /images/optimized/products-branded-movement-course-play-blocks-960-303ba672fa.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-movement-course-play-blocks-96-303ba672fa.webp",
+        "bytes": 1952
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-movement-course-play-blocks-320-303ba672fa.webp",
+        "bytes": 11474
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-movement-course-play-blocks-640-303ba672fa.webp",
+        "bytes": 40890
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-movement-course-play-blocks-960-303ba672fa.webp",
+        "bytes": 85004
+      }
+    ],
+    "originalBytes": 1098350
+  },
+  "/images/products/branded/nursery-foam-storage-forms.webp": {
+    "src": "/images/optimized/products-branded-nursery-foam-storage-forms-960-348f45ac64.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-nursery-foam-storage-forms-96-348f45ac64.webp 96w, /images/optimized/products-branded-nursery-foam-storage-forms-320-348f45ac64.webp 320w, /images/optimized/products-branded-nursery-foam-storage-forms-640-348f45ac64.webp 640w, /images/optimized/products-branded-nursery-foam-storage-forms-960-348f45ac64.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-nursery-foam-storage-forms-96-348f45ac64.webp",
+        "bytes": 2444
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-nursery-foam-storage-forms-320-348f45ac64.webp",
+        "bytes": 14920
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-nursery-foam-storage-forms-640-348f45ac64.webp",
+        "bytes": 48744
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-nursery-foam-storage-forms-960-348f45ac64.webp",
+        "bytes": 104924
+      }
+    ],
+    "originalBytes": 1432184
+  },
+  "/images/products/branded/plastic-pallets.webp": {
+    "src": "/images/optimized/products-branded-plastic-pallets-960-7b274342f2.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-plastic-pallets-96-7b274342f2.webp 96w, /images/optimized/products-branded-plastic-pallets-320-7b274342f2.webp 320w, /images/optimized/products-branded-plastic-pallets-640-7b274342f2.webp 640w, /images/optimized/products-branded-plastic-pallets-960-7b274342f2.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-plastic-pallets-96-7b274342f2.webp",
+        "bytes": 2384
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-plastic-pallets-320-7b274342f2.webp",
+        "bytes": 16338
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-plastic-pallets-640-7b274342f2.webp",
+        "bytes": 44936
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-plastic-pallets-960-7b274342f2.webp",
+        "bytes": 82992
+      }
+    ],
+    "originalBytes": 1088074
+  },
+  "/images/products/branded/polystyrene-insulated-boxes.webp": {
+    "src": "/images/optimized/products-branded-polystyrene-insulated-boxes-960-ae0f6eb604.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-polystyrene-insulated-boxes-96-ae0f6eb604.webp 96w, /images/optimized/products-branded-polystyrene-insulated-boxes-320-ae0f6eb604.webp 320w, /images/optimized/products-branded-polystyrene-insulated-boxes-640-ae0f6eb604.webp 640w, /images/optimized/products-branded-polystyrene-insulated-boxes-960-ae0f6eb604.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-polystyrene-insulated-boxes-96-ae0f6eb604.webp",
+        "bytes": 1616
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-polystyrene-insulated-boxes-320-ae0f6eb604.webp",
+        "bytes": 8776
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-polystyrene-insulated-boxes-640-ae0f6eb604.webp",
+        "bytes": 26748
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-polystyrene-insulated-boxes-960-ae0f6eb604.webp",
+        "bytes": 54494
+      }
+    ],
+    "originalBytes": 1018510
+  },
+  "/images/products/branded/reusable-industrial-containers.webp": {
+    "src": "/images/optimized/products-branded-reusable-industrial-containers-960-b779334598.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-reusable-industrial-containers-96-b779334598.webp 96w, /images/optimized/products-branded-reusable-industrial-containers-320-b779334598.webp 320w, /images/optimized/products-branded-reusable-industrial-containers-640-b779334598.webp 640w, /images/optimized/products-branded-reusable-industrial-containers-960-b779334598.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-reusable-industrial-containers-96-b779334598.webp",
+        "bytes": 2286
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-reusable-industrial-containers-320-b779334598.webp",
+        "bytes": 13204
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-reusable-industrial-containers-640-b779334598.webp",
+        "bytes": 45366
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-reusable-industrial-containers-960-b779334598.webp",
+        "bytes": 99568
+      }
+    ],
+    "originalBytes": 1515250
+  },
+  "/images/products/branded/reusable-industrial-coolers.webp": {
+    "src": "/images/optimized/products-branded-reusable-industrial-coolers-960-a7e67d7984.webp",
+    "width": 1374,
+    "height": 1145,
+    "srcSet": "/images/optimized/products-branded-reusable-industrial-coolers-96-a7e67d7984.webp 96w, /images/optimized/products-branded-reusable-industrial-coolers-320-a7e67d7984.webp 320w, /images/optimized/products-branded-reusable-industrial-coolers-640-a7e67d7984.webp 640w, /images/optimized/products-branded-reusable-industrial-coolers-960-a7e67d7984.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-reusable-industrial-coolers-96-a7e67d7984.webp",
+        "bytes": 2304
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-reusable-industrial-coolers-320-a7e67d7984.webp",
+        "bytes": 18900
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-reusable-industrial-coolers-640-a7e67d7984.webp",
+        "bytes": 68678
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-reusable-industrial-coolers-960-a7e67d7984.webp",
+        "bytes": 146098
+      }
+    ],
+    "originalBytes": 1566526
+  },
+  "/images/products/branded/sports-accessories.webp": {
+    "src": "/images/optimized/products-branded-sports-accessories-960-4e63ae965d.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-sports-accessories-96-4e63ae965d.webp 96w, /images/optimized/products-branded-sports-accessories-320-4e63ae965d.webp 320w, /images/optimized/products-branded-sports-accessories-640-4e63ae965d.webp 640w, /images/optimized/products-branded-sports-accessories-960-4e63ae965d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-sports-accessories-96-4e63ae965d.webp",
+        "bytes": 1864
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-sports-accessories-320-4e63ae965d.webp",
+        "bytes": 16096
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-sports-accessories-640-4e63ae965d.webp",
+        "bytes": 55944
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-sports-accessories-960-4e63ae965d.webp",
+        "bytes": 116698
+      }
+    ],
+    "originalBytes": 1354968
+  },
+  "/images/products/branded/sports-helmet-foam-liners.webp": {
+    "src": "/images/optimized/products-branded-sports-helmet-foam-liners-960-3a9e536ef9.webp",
+    "width": 1374,
+    "height": 1145,
+    "srcSet": "/images/optimized/products-branded-sports-helmet-foam-liners-96-3a9e536ef9.webp 96w, /images/optimized/products-branded-sports-helmet-foam-liners-320-3a9e536ef9.webp 320w, /images/optimized/products-branded-sports-helmet-foam-liners-640-3a9e536ef9.webp 640w, /images/optimized/products-branded-sports-helmet-foam-liners-960-3a9e536ef9.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-sports-helmet-foam-liners-96-3a9e536ef9.webp",
+        "bytes": 2626
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-sports-helmet-foam-liners-320-3a9e536ef9.webp",
+        "bytes": 18462
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-sports-helmet-foam-liners-640-3a9e536ef9.webp",
+        "bytes": 65096
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-sports-helmet-foam-liners-960-3a9e536ef9.webp",
+        "bytes": 131196
+      }
+    ],
+    "originalBytes": 1311198
+  },
+  "/images/products/branded/stackable-delivery-boxes.webp": {
+    "src": "/images/optimized/products-branded-stackable-delivery-boxes-960-f5e77331fe.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-stackable-delivery-boxes-96-f5e77331fe.webp 96w, /images/optimized/products-branded-stackable-delivery-boxes-320-f5e77331fe.webp 320w, /images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp 640w, /images/optimized/products-branded-stackable-delivery-boxes-960-f5e77331fe.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-stackable-delivery-boxes-96-f5e77331fe.webp",
+        "bytes": 1952
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-stackable-delivery-boxes-320-f5e77331fe.webp",
+        "bytes": 13554
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-stackable-delivery-boxes-640-f5e77331fe.webp",
+        "bytes": 49920
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-stackable-delivery-boxes-960-f5e77331fe.webp",
+        "bytes": 107544
+      }
+    ],
+    "originalBytes": 1363072
+  },
+  "/images/products/branded/surfboard-foam-cores-epp-v2.webp": {
+    "src": "/images/optimized/products-branded-surfboard-foam-cores-epp-v2-960-8bee5f7656.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-surfboard-foam-cores-epp-v2-96-8bee5f7656.webp 96w, /images/optimized/products-branded-surfboard-foam-cores-epp-v2-320-8bee5f7656.webp 320w, /images/optimized/products-branded-surfboard-foam-cores-epp-v2-640-8bee5f7656.webp 640w, /images/optimized/products-branded-surfboard-foam-cores-epp-v2-960-8bee5f7656.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-epp-v2-96-8bee5f7656.webp",
+        "bytes": 1116
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-epp-v2-320-8bee5f7656.webp",
+        "bytes": 7320
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-epp-v2-640-8bee5f7656.webp",
+        "bytes": 26504
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-epp-v2-960-8bee5f7656.webp",
+        "bytes": 57058
+      }
+    ],
+    "originalBytes": 715186
+  },
+  "/images/products/branded/surfboard-foam-cores.webp": {
+    "src": "/images/optimized/products-branded-surfboard-foam-cores-960-30222c7599.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-surfboard-foam-cores-96-30222c7599.webp 96w, /images/optimized/products-branded-surfboard-foam-cores-320-30222c7599.webp 320w, /images/optimized/products-branded-surfboard-foam-cores-640-30222c7599.webp 640w, /images/optimized/products-branded-surfboard-foam-cores-960-30222c7599.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-96-30222c7599.webp",
+        "bytes": 1148
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-320-30222c7599.webp",
+        "bytes": 5758
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-640-30222c7599.webp",
+        "bytes": 16258
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-surfboard-foam-cores-960-30222c7599.webp",
+        "bytes": 32010
+      }
+    ],
+    "originalBytes": 569920
+  },
+  "/images/products/branded/vehicle-energy-absorbers.webp": {
+    "src": "/images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp",
+    "width": 2170,
+    "height": 725,
+    "srcSet": "/images/optimized/products-branded-vehicle-energy-absorbers-96-4c2f840cfb.webp 96w, /images/optimized/products-branded-vehicle-energy-absorbers-320-4c2f840cfb.webp 320w, /images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp 640w, /images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-96-4c2f840cfb.webp",
+        "bytes": 1128
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-320-4c2f840cfb.webp",
+        "bytes": 6382
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp",
+        "bytes": 20706
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp",
+        "bytes": 43828
+      }
+    ],
+    "originalBytes": 1069410
+  },
+  "/images/products/branded/vehicle-acoustic-inserts.webp": {
+    "src": "/images/optimized/products-branded-vehicle-acoustic-inserts-960-831ff9b7f1.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-vehicle-acoustic-inserts-96-831ff9b7f1.webp 96w, /images/optimized/products-branded-vehicle-acoustic-inserts-320-831ff9b7f1.webp 320w, /images/optimized/products-branded-vehicle-acoustic-inserts-640-831ff9b7f1.webp 640w, /images/optimized/products-branded-vehicle-acoustic-inserts-960-831ff9b7f1.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-acoustic-inserts-96-831ff9b7f1.webp",
+        "bytes": 2184
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-acoustic-inserts-320-831ff9b7f1.webp",
+        "bytes": 14380
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-acoustic-inserts-640-831ff9b7f1.webp",
+        "bytes": 54400
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-acoustic-inserts-960-831ff9b7f1.webp",
+        "bytes": 116730
+      }
+    ],
+    "originalBytes": 1244836
+  },
+  "/images/products/branded/vehicle-floor-panels.webp": {
+    "src": "/images/optimized/products-branded-vehicle-floor-panels-960-c5b5b9a26b.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-vehicle-floor-panels-96-c5b5b9a26b.webp 96w, /images/optimized/products-branded-vehicle-floor-panels-320-c5b5b9a26b.webp 320w, /images/optimized/products-branded-vehicle-floor-panels-640-c5b5b9a26b.webp 640w, /images/optimized/products-branded-vehicle-floor-panels-960-c5b5b9a26b.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-floor-panels-96-c5b5b9a26b.webp",
+        "bytes": 2090
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-floor-panels-320-c5b5b9a26b.webp",
+        "bytes": 12190
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-floor-panels-640-c5b5b9a26b.webp",
+        "bytes": 37630
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-floor-panels-960-c5b5b9a26b.webp",
+        "bytes": 82502
+      }
+    ],
+    "originalBytes": 1145888
+  },
+  "/images/products/branded/vehicle-insulating-panels.webp": {
+    "src": "/images/optimized/products-branded-vehicle-insulating-panels-960-2008daaeae.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-vehicle-insulating-panels-96-2008daaeae.webp 96w, /images/optimized/products-branded-vehicle-insulating-panels-320-2008daaeae.webp 320w, /images/optimized/products-branded-vehicle-insulating-panels-640-2008daaeae.webp 640w, /images/optimized/products-branded-vehicle-insulating-panels-960-2008daaeae.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-insulating-panels-96-2008daaeae.webp",
+        "bytes": 1894
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-insulating-panels-320-2008daaeae.webp",
+        "bytes": 12492
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-insulating-panels-640-2008daaeae.webp",
+        "bytes": 45398
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-insulating-panels-960-2008daaeae.webp",
+        "bytes": 99306
+      }
+    ],
+    "originalBytes": 1421512
+  },
+  "/images/products/branded/vehicle-parts-shuttle-trays.webp": {
+    "src": "/images/optimized/products-branded-vehicle-parts-shuttle-trays-960-1c55dccd6e.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-vehicle-parts-shuttle-trays-96-1c55dccd6e.webp 96w, /images/optimized/products-branded-vehicle-parts-shuttle-trays-320-1c55dccd6e.webp 320w, /images/optimized/products-branded-vehicle-parts-shuttle-trays-640-1c55dccd6e.webp 640w, /images/optimized/products-branded-vehicle-parts-shuttle-trays-960-1c55dccd6e.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-parts-shuttle-trays-96-1c55dccd6e.webp",
+        "bytes": 2082
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-parts-shuttle-trays-320-1c55dccd6e.webp",
+        "bytes": 12208
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-parts-shuttle-trays-640-1c55dccd6e.webp",
+        "bytes": 32172
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-parts-shuttle-trays-960-1c55dccd6e.webp",
+        "bytes": 57790
+      }
+    ],
+    "originalBytes": 974876
+  },
+  "/images/products/branded/vehicle-protective-inserts.webp": {
+    "src": "/images/optimized/products-branded-vehicle-protective-inserts-960-71f459ce64.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-vehicle-protective-inserts-96-71f459ce64.webp 96w, /images/optimized/products-branded-vehicle-protective-inserts-320-71f459ce64.webp 320w, /images/optimized/products-branded-vehicle-protective-inserts-640-71f459ce64.webp 640w, /images/optimized/products-branded-vehicle-protective-inserts-960-71f459ce64.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-protective-inserts-96-71f459ce64.webp",
+        "bytes": 1918
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-protective-inserts-320-71f459ce64.webp",
+        "bytes": 14394
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-protective-inserts-640-71f459ce64.webp",
+        "bytes": 53326
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-protective-inserts-960-71f459ce64.webp",
+        "bytes": 118872
+      }
+    ],
+    "originalBytes": 1564002
+  },
+  "/images/products/branded/vehicle-seat-foam-components.webp": {
+    "src": "/images/optimized/products-branded-vehicle-seat-foam-components-960-40bcaa581b.webp",
+    "width": 1295,
+    "height": 1214,
+    "srcSet": "/images/optimized/products-branded-vehicle-seat-foam-components-96-40bcaa581b.webp 96w, /images/optimized/products-branded-vehicle-seat-foam-components-320-40bcaa581b.webp 320w, /images/optimized/products-branded-vehicle-seat-foam-components-640-40bcaa581b.webp 640w, /images/optimized/products-branded-vehicle-seat-foam-components-960-40bcaa581b.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-seat-foam-components-96-40bcaa581b.webp",
+        "bytes": 2120
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-seat-foam-components-320-40bcaa581b.webp",
+        "bytes": 13990
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-seat-foam-components-640-40bcaa581b.webp",
+        "bytes": 56492
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-seat-foam-components-960-40bcaa581b.webp",
+        "bytes": 121694
+      }
+    ],
+    "originalBytes": 1279258
+  },
+  "/images/products/branded/vehicle-storage-organizers.webp": {
+    "src": "/images/optimized/products-branded-vehicle-storage-organizers-960-cbb86fdc96.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-vehicle-storage-organizers-96-cbb86fdc96.webp 96w, /images/optimized/products-branded-vehicle-storage-organizers-320-cbb86fdc96.webp 320w, /images/optimized/products-branded-vehicle-storage-organizers-640-cbb86fdc96.webp 640w, /images/optimized/products-branded-vehicle-storage-organizers-960-cbb86fdc96.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-storage-organizers-96-cbb86fdc96.webp",
+        "bytes": 1854
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-storage-organizers-320-cbb86fdc96.webp",
+        "bytes": 10596
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-storage-organizers-640-cbb86fdc96.webp",
+        "bytes": 36732
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-storage-organizers-960-cbb86fdc96.webp",
+        "bytes": 81940
+      }
+    ],
+    "originalBytes": 1253164
+  },
+  "/images/products/branded/water-heater-insulation-forms.webp": {
+    "src": "/images/optimized/products-branded-water-heater-insulation-forms-960-823b38d3f2.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-water-heater-insulation-forms-96-823b38d3f2.webp 96w, /images/optimized/products-branded-water-heater-insulation-forms-320-823b38d3f2.webp 320w, /images/optimized/products-branded-water-heater-insulation-forms-640-823b38d3f2.webp 640w, /images/optimized/products-branded-water-heater-insulation-forms-960-823b38d3f2.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-96-823b38d3f2.webp",
+        "bytes": 1620
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-320-823b38d3f2.webp",
+        "bytes": 9070
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-640-823b38d3f2.webp",
+        "bytes": 26918
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-960-823b38d3f2.webp",
+        "bytes": 53978
+      }
+    ],
+    "originalBytes": 826462
+  },
+  "/images/products/child-seat.webp": {
+    "src": "/images/optimized/products-child-seat-960-cf660c9311.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-child-seat-96-cf660c9311.webp 96w, /images/optimized/products-child-seat-320-cf660c9311.webp 320w, /images/optimized/products-child-seat-640-cf660c9311.webp 640w, /images/optimized/products-child-seat-960-cf660c9311.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-child-seat-96-cf660c9311.webp",
+        "bytes": 1192
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-child-seat-320-cf660c9311.webp",
+        "bytes": 6040
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-child-seat-640-cf660c9311.webp",
+        "bytes": 19356
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-child-seat-960-cf660c9311.webp",
+        "bytes": 38688
+      }
+    ],
+    "originalBytes": 69706
+  },
+  "/images/products/branded/water-heater-insulation-forms-epp-v2.webp": {
+    "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp",
+    "width": 1024,
+    "height": 1536,
+    "srcSet": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-96-df1d7d2e9d.webp 96w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp 320w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp 640w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-96-df1d7d2e9d.webp",
+        "bytes": 3414
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp",
+        "bytes": 33510
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp",
+        "bytes": 121664
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp",
+        "bytes": 229374
+      }
+    ],
+    "originalBytes": 1457136
+  },
+  "/images/products/cooler.webp": {
+    "src": "/images/optimized/products-cooler-960-be81784f08.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-cooler-96-be81784f08.webp 96w, /images/optimized/products-cooler-320-be81784f08.webp 320w, /images/optimized/products-cooler-640-be81784f08.webp 640w, /images/optimized/products-cooler-960-be81784f08.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-cooler-96-be81784f08.webp",
+        "bytes": 1164
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-cooler-320-be81784f08.webp",
+        "bytes": 5650
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-cooler-640-be81784f08.webp",
+        "bytes": 15466
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-cooler-960-be81784f08.webp",
+        "bytes": 29216
+      }
+    ],
+    "originalBytes": 67104
+  },
+  "/images/products/corners.webp": {
+    "src": "/images/optimized/products-corners-960-7827e4ed4b.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-corners-96-7827e4ed4b.webp 96w, /images/optimized/products-corners-320-7827e4ed4b.webp 320w, /images/optimized/products-corners-640-7827e4ed4b.webp 640w, /images/optimized/products-corners-960-7827e4ed4b.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-corners-96-7827e4ed4b.webp",
+        "bytes": 524
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-corners-320-7827e4ed4b.webp",
+        "bytes": 3814
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-corners-640-7827e4ed4b.webp",
+        "bytes": 13934
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-corners-960-7827e4ed4b.webp",
+        "bytes": 27324
+      }
+    ],
+    "originalBytes": 62056
+  },
+  "/images/products/drainage.webp": {
+    "src": "/images/optimized/products-drainage-960-5dcf2ef50f.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-drainage-96-5dcf2ef50f.webp 96w, /images/optimized/products-drainage-320-5dcf2ef50f.webp 320w, /images/optimized/products-drainage-640-5dcf2ef50f.webp 640w, /images/optimized/products-drainage-960-5dcf2ef50f.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-drainage-96-5dcf2ef50f.webp",
+        "bytes": 1098
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-drainage-320-5dcf2ef50f.webp",
+        "bytes": 5924
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-drainage-640-5dcf2ef50f.webp",
+        "bytes": 18646
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-drainage-960-5dcf2ef50f.webp",
+        "bytes": 36830
+      }
+    ],
+    "originalBytes": 85256
+  },
+  "/images/products/foam-insoles.webp": {
+    "src": "/images/optimized/products-foam-insoles-960-099e98e20e.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-foam-insoles-96-099e98e20e.webp 96w, /images/optimized/products-foam-insoles-320-099e98e20e.webp 320w, /images/optimized/products-foam-insoles-640-099e98e20e.webp 640w, /images/optimized/products-foam-insoles-960-099e98e20e.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-foam-insoles-96-099e98e20e.webp",
+        "bytes": 828
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-foam-insoles-320-099e98e20e.webp",
+        "bytes": 3818
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-foam-insoles-640-099e98e20e.webp",
+        "bytes": 17228
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-foam-insoles-960-099e98e20e.webp",
+        "bytes": 39948
+      }
+    ],
+    "originalBytes": 78910
+  },
+  "/images/products/helmet-liner.webp": {
+    "src": "/images/optimized/products-helmet-liner-960-98d3db4a94.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-helmet-liner-96-98d3db4a94.webp 96w, /images/optimized/products-helmet-liner-320-98d3db4a94.webp 320w, /images/optimized/products-helmet-liner-640-98d3db4a94.webp 640w, /images/optimized/products-helmet-liner-960-98d3db4a94.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-helmet-liner-96-98d3db4a94.webp",
+        "bytes": 1312
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-helmet-liner-320-98d3db4a94.webp",
+        "bytes": 8992
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-helmet-liner-640-98d3db4a94.webp",
+        "bytes": 30892
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-helmet-liner-960-98d3db4a94.webp",
+        "bytes": 58370
+      }
+    ],
+    "originalBytes": 101034
+  },
+  "/images/products/highlight-cushioning-transparent.png": {
+    "src": "/images/optimized/products-highlight-cushioning-transparent-960-e20393a2a2.webp",
+    "width": 1448,
+    "height": 1086,
+    "srcSet": "/images/optimized/products-highlight-cushioning-transparent-96-e20393a2a2.webp 96w, /images/optimized/products-highlight-cushioning-transparent-320-e20393a2a2.webp 320w, /images/optimized/products-highlight-cushioning-transparent-640-e20393a2a2.webp 640w, /images/optimized/products-highlight-cushioning-transparent-960-e20393a2a2.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-highlight-cushioning-transparent-96-e20393a2a2.webp",
+        "bytes": 2574
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-highlight-cushioning-transparent-320-e20393a2a2.webp",
+        "bytes": 12938
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-highlight-cushioning-transparent-640-e20393a2a2.webp",
+        "bytes": 36174
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-highlight-cushioning-transparent-960-e20393a2a2.webp",
+        "bytes": 66812
+      }
+    ],
+    "originalBytes": 1205668
+  },
+  "/images/products/highlight-delivery-transparent.png": {
+    "src": "/images/optimized/products-highlight-delivery-transparent-960-01d8e6cb31.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-highlight-delivery-transparent-96-01d8e6cb31.webp 96w, /images/optimized/products-highlight-delivery-transparent-320-01d8e6cb31.webp 320w, /images/optimized/products-highlight-delivery-transparent-640-01d8e6cb31.webp 640w, /images/optimized/products-highlight-delivery-transparent-960-01d8e6cb31.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-highlight-delivery-transparent-96-01d8e6cb31.webp",
+        "bytes": 3258
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-highlight-delivery-transparent-320-01d8e6cb31.webp",
+        "bytes": 16800
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-highlight-delivery-transparent-640-01d8e6cb31.webp",
+        "bytes": 52010
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-highlight-delivery-transparent-960-01d8e6cb31.webp",
+        "bytes": 107950
+      }
+    ],
+    "originalBytes": 2454539
+  },
+  "/images/products/highlight-helmet-transparent.png": {
+    "src": "/images/optimized/products-highlight-helmet-transparent-960-df8bef509a.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-highlight-helmet-transparent-96-df8bef509a.webp 96w, /images/optimized/products-highlight-helmet-transparent-320-df8bef509a.webp 320w, /images/optimized/products-highlight-helmet-transparent-640-df8bef509a.webp 640w, /images/optimized/products-highlight-helmet-transparent-960-df8bef509a.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-highlight-helmet-transparent-96-df8bef509a.webp",
+        "bytes": 3032
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-highlight-helmet-transparent-320-df8bef509a.webp",
+        "bytes": 17844
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-highlight-helmet-transparent-640-df8bef509a.webp",
+        "bytes": 58662
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-highlight-helmet-transparent-960-df8bef509a.webp",
+        "bytes": 116614
+      }
+    ],
+    "originalBytes": 2490415
+  },
+  "/images/products/highlight-hvac-transparent.png": {
+    "src": "/images/optimized/products-highlight-hvac-transparent-960-014c05129d.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-highlight-hvac-transparent-96-014c05129d.webp 96w, /images/optimized/products-highlight-hvac-transparent-320-014c05129d.webp 320w, /images/optimized/products-highlight-hvac-transparent-640-014c05129d.webp 640w, /images/optimized/products-highlight-hvac-transparent-960-014c05129d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-highlight-hvac-transparent-96-014c05129d.webp",
+        "bytes": 2768
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-highlight-hvac-transparent-320-014c05129d.webp",
+        "bytes": 14178
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-highlight-hvac-transparent-640-014c05129d.webp",
+        "bytes": 46896
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-highlight-hvac-transparent-960-014c05129d.webp",
+        "bytes": 96286
+      }
+    ],
+    "originalBytes": 2178408
+  },
+  "/images/products/hvac-parts.webp": {
+    "src": "/images/optimized/products-hvac-parts-960-98bc206f66.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-hvac-parts-96-98bc206f66.webp 96w, /images/optimized/products-hvac-parts-320-98bc206f66.webp 320w, /images/optimized/products-hvac-parts-640-98bc206f66.webp 640w, /images/optimized/products-hvac-parts-960-98bc206f66.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-hvac-parts-96-98bc206f66.webp",
+        "bytes": 1218
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-hvac-parts-320-98bc206f66.webp",
+        "bytes": 7468
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-hvac-parts-640-98bc206f66.webp",
+        "bytes": 28502
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-hvac-parts-960-98bc206f66.webp",
+        "bytes": 57946
+      }
+    ],
+    "originalBytes": 102858
+  },
+  "/images/products/icecream-tubs.webp": {
+    "src": "/images/optimized/products-icecream-tubs-960-51b9c758bf.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-icecream-tubs-96-51b9c758bf.webp 96w, /images/optimized/products-icecream-tubs-320-51b9c758bf.webp 320w, /images/optimized/products-icecream-tubs-640-51b9c758bf.webp 640w, /images/optimized/products-icecream-tubs-960-51b9c758bf.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-icecream-tubs-96-51b9c758bf.webp",
+        "bytes": 814
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-icecream-tubs-320-51b9c758bf.webp",
+        "bytes": 3206
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-icecream-tubs-640-51b9c758bf.webp",
+        "bytes": 8164
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-icecream-tubs-960-51b9c758bf.webp",
+        "bytes": 14866
+      }
+    ],
+    "originalBytes": 31522
+  },
+  "/images/products/highlight-vehicle-transparent.png": {
+    "src": "/images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-highlight-vehicle-transparent-96-bb28c9931b.webp 96w, /images/optimized/products-highlight-vehicle-transparent-320-bb28c9931b.webp 320w, /images/optimized/products-highlight-vehicle-transparent-640-bb28c9931b.webp 640w, /images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-96-bb28c9931b.webp",
+        "bytes": 2940
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-320-bb28c9931b.webp",
+        "bytes": 15542
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-640-bb28c9931b.webp",
+        "bytes": 51922
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp",
+        "bytes": 108202
+      }
+    ],
+    "originalBytes": 2375848
+  },
+  "/images/products/mobility-inserts.webp": {
+    "src": "/images/optimized/products-mobility-inserts-960-937d48bea2.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-mobility-inserts-96-937d48bea2.webp 96w, /images/optimized/products-mobility-inserts-320-937d48bea2.webp 320w, /images/optimized/products-mobility-inserts-640-937d48bea2.webp 640w, /images/optimized/products-mobility-inserts-960-937d48bea2.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-mobility-inserts-96-937d48bea2.webp",
+        "bytes": 1244
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-mobility-inserts-320-937d48bea2.webp",
+        "bytes": 7974
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-mobility-inserts-640-937d48bea2.webp",
+        "bytes": 28656
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-mobility-inserts-960-937d48bea2.webp",
+        "bytes": 58636
+      }
+    ],
+    "originalBytes": 104600
+  },
+  "/images/products/pallet.webp": {
+    "src": "/images/optimized/products-pallet-960-b59443a912.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-pallet-96-b59443a912.webp 96w, /images/optimized/products-pallet-320-b59443a912.webp 320w, /images/optimized/products-pallet-640-b59443a912.webp 640w, /images/optimized/products-pallet-960-b59443a912.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-pallet-96-b59443a912.webp",
+        "bytes": 970
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-pallet-320-b59443a912.webp",
+        "bytes": 6586
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-pallet-640-b59443a912.webp",
+        "bytes": 20074
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-pallet-960-b59443a912.webp",
+        "bytes": 37012
+      }
+    ],
+    "originalBytes": 77434
+  },
+  "/images/products/playforms.webp": {
+    "src": "/images/optimized/products-playforms-960-d743fb06a1.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-playforms-96-d743fb06a1.webp 96w, /images/optimized/products-playforms-320-d743fb06a1.webp 320w, /images/optimized/products-playforms-640-d743fb06a1.webp 640w, /images/optimized/products-playforms-960-d743fb06a1.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-playforms-96-d743fb06a1.webp",
+        "bytes": 924
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-playforms-320-d743fb06a1.webp",
+        "bytes": 3448
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-playforms-640-d743fb06a1.webp",
+        "bytes": 9188
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-playforms-960-d743fb06a1.webp",
+        "bytes": 19874
+      }
+    ],
+    "originalBytes": 68978
+  },
+  "/images/products/poolblock.webp": {
+    "src": "/images/optimized/products-poolblock-960-dc2091334d.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-poolblock-96-dc2091334d.webp 96w, /images/optimized/products-poolblock-320-dc2091334d.webp 320w, /images/optimized/products-poolblock-640-dc2091334d.webp 640w, /images/optimized/products-poolblock-960-dc2091334d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-poolblock-96-dc2091334d.webp",
+        "bytes": 764
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-poolblock-320-dc2091334d.webp",
+        "bytes": 4432
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-poolblock-640-dc2091334d.webp",
+        "bytes": 16818
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-poolblock-960-dc2091334d.webp",
+        "bytes": 31932
+      }
+    ],
+    "originalBytes": 74788
+  },
+  "/images/products/sheets.webp": {
+    "src": "/images/optimized/products-sheets-960-90f4f5c595.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-sheets-96-90f4f5c595.webp 96w, /images/optimized/products-sheets-320-90f4f5c595.webp 320w, /images/optimized/products-sheets-640-90f4f5c595.webp 640w, /images/optimized/products-sheets-960-90f4f5c595.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-sheets-96-90f4f5c595.webp",
+        "bytes": 1198
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-sheets-320-90f4f5c595.webp",
+        "bytes": 13564
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-sheets-640-90f4f5c595.webp",
+        "bytes": 49520
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-sheets-960-90f4f5c595.webp",
+        "bytes": 94634
+      }
+    ],
+    "originalBytes": 194124
+  },
+  "/images/products/surfboard-core.webp": {
+    "src": "/images/optimized/products-surfboard-core-960-08c9e118ed.webp",
+    "width": 1100,
+    "height": 733,
+    "srcSet": "/images/optimized/products-surfboard-core-96-08c9e118ed.webp 96w, /images/optimized/products-surfboard-core-320-08c9e118ed.webp 320w, /images/optimized/products-surfboard-core-640-08c9e118ed.webp 640w, /images/optimized/products-surfboard-core-960-08c9e118ed.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-surfboard-core-96-08c9e118ed.webp",
+        "bytes": 576
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-surfboard-core-320-08c9e118ed.webp",
+        "bytes": 2364
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-surfboard-core-640-08c9e118ed.webp",
+        "bytes": 6750
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-surfboard-core-960-08c9e118ed.webp",
+        "bytes": 11868
+      }
+    ],
+    "originalBytes": 23284
+  },
+  "/images/products/trays.webp": {
+    "src": "/images/optimized/products-trays-960-741e850e63.webp",
+    "width": 1400,
+    "height": 1050,
+    "srcSet": "/images/optimized/products-trays-96-741e850e63.webp 96w, /images/optimized/products-trays-320-741e850e63.webp 320w, /images/optimized/products-trays-640-741e850e63.webp 640w, /images/optimized/products-trays-960-741e850e63.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-trays-96-741e850e63.webp",
+        "bytes": 1232
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-trays-320-741e850e63.webp",
+        "bytes": 7354
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-trays-640-741e850e63.webp",
+        "bytes": 20522
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-trays-960-741e850e63.webp",
+        "bytes": 35448
+      }
+    ],
+    "originalBytes": 72176
+  },
+  "/images/technical.webp": {
+    "src": "/images/optimized/technical-960-cd8fa816ba.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/technical-320-cd8fa816ba.webp 320w, /images/optimized/technical-640-cd8fa816ba.webp 640w, /images/optimized/technical-960-cd8fa816ba.webp 960w, /images/optimized/technical-1440-cd8fa816ba.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/technical-320-cd8fa816ba.webp",
+        "bytes": 9196
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/technical-640-cd8fa816ba.webp",
+        "bytes": 33804
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/technical-960-cd8fa816ba.webp",
+        "bytes": 71448
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/technical-1440-cd8fa816ba.webp",
+        "bytes": 135000
+      }
+    ],
+    "originalBytes": 225468
+  },
+  "/images/use-automotive.webp": {
+    "src": "/images/optimized/use-automotive-960-3452a7f52b.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/use-automotive-320-3452a7f52b.webp 320w, /images/optimized/use-automotive-640-3452a7f52b.webp 640w, /images/optimized/use-automotive-960-3452a7f52b.webp 960w, /images/optimized/use-automotive-1440-3452a7f52b.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/use-automotive-320-3452a7f52b.webp",
+        "bytes": 5272
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/use-automotive-640-3452a7f52b.webp",
+        "bytes": 11458
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/use-automotive-960-3452a7f52b.webp",
+        "bytes": 18344
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/use-automotive-1440-3452a7f52b.webp",
+        "bytes": 28540
+      }
+    ],
+    "originalBytes": 34154
+  },
+  "/images/use-food-delivery.webp": {
+    "src": "/images/optimized/use-food-delivery-960-f5fef0588f.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/use-food-delivery-320-f5fef0588f.webp 320w, /images/optimized/use-food-delivery-640-f5fef0588f.webp 640w, /images/optimized/use-food-delivery-960-f5fef0588f.webp 960w, /images/optimized/use-food-delivery-1440-f5fef0588f.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/use-food-delivery-320-f5fef0588f.webp",
+        "bytes": 5086
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/use-food-delivery-640-f5fef0588f.webp",
+        "bytes": 10534
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/use-food-delivery-960-f5fef0588f.webp",
+        "bytes": 16460
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/use-food-delivery-1440-f5fef0588f.webp",
+        "bytes": 25300
+      }
+    ],
+    "originalBytes": 30006
+  },
+  "/images/use-food-packing.webp": {
+    "src": "/images/optimized/use-food-packing-960-2df32fa1d7.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/use-food-packing-320-2df32fa1d7.webp 320w, /images/optimized/use-food-packing-640-2df32fa1d7.webp 640w, /images/optimized/use-food-packing-960-2df32fa1d7.webp 960w, /images/optimized/use-food-packing-1440-2df32fa1d7.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/use-food-packing-320-2df32fa1d7.webp",
+        "bytes": 7046
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/use-food-packing-640-2df32fa1d7.webp",
+        "bytes": 14798
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/use-food-packing-960-2df32fa1d7.webp",
+        "bytes": 23060
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/use-food-packing-1440-2df32fa1d7.webp",
+        "bytes": 35794
+      }
+    ],
+    "originalBytes": 43050
+  },
+  "/images/use-logistics.webp": {
+    "src": "/images/optimized/use-logistics-960-ac983db033.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/use-logistics-320-ac983db033.webp 320w, /images/optimized/use-logistics-640-ac983db033.webp 640w, /images/optimized/use-logistics-960-ac983db033.webp 960w, /images/optimized/use-logistics-1440-ac983db033.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/use-logistics-320-ac983db033.webp",
+        "bytes": 8474
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/use-logistics-640-ac983db033.webp",
+        "bytes": 23970
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/use-logistics-960-ac983db033.webp",
+        "bytes": 42260
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/use-logistics-1440-ac983db033.webp",
+        "bytes": 66010
+      }
+    ],
+    "originalBytes": 86378
+  },
+  "/images/use-sports.webp": {
+    "src": "/images/optimized/use-sports-960-d0c1730310.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/use-sports-320-d0c1730310.webp 320w, /images/optimized/use-sports-640-d0c1730310.webp 640w, /images/optimized/use-sports-960-d0c1730310.webp 960w, /images/optimized/use-sports-1440-d0c1730310.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/use-sports-320-d0c1730310.webp",
+        "bytes": 7220
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/use-sports-640-d0c1730310.webp",
+        "bytes": 15950
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/use-sports-960-d0c1730310.webp",
+        "bytes": 25078
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/use-sports-1440-d0c1730310.webp",
+        "bytes": 37526
+      }
+    ],
+    "originalBytes": 45082
+  }
+}

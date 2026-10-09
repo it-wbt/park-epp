@@ -1,3 +1,4 @@
+import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {eppProperties, eppManufacturingSteps, eppComparison, eppSelectionChecklist} from '../lib/epp-education';
 import {Icon} from './ui';
@@ -30,7 +31,7 @@ export default function EppKnowledge() {
     <div className={homeStyles.layout}>
       <figure className={homeStyles.material}>
         <div className={homeStyles.visual}>
-          <img src="/images/generated/epp-material-closeup.webp" alt="Material illustration of loose EPP beads beside the textured surface of a moulded foam component" width="1100" height="1100" loading="lazy"/>
+          <ResponsiveImage src="/images/generated/epp-material-closeup.webp" alt="Material illustration of loose EPP beads beside the textured surface of a moulded foam component" width="1100" height="1100" loading="lazy"/>
           <span className={homeStyles.imageLabel}>THE MATERIAL, UP CLOSE</span>
         </div>
         <figcaption className={homeStyles.caption}><span className={homeStyles.materialName}>EPP<span>Expanded polypropylene</span></span><p>Light by structure. Air-filled cells inside each bead bring low weight to a moulded component.</p></figcaption>

@@ -1,4 +1,5 @@
 'use client';
+import ResponsiveImage from './ResponsiveImage';
 
 import Link from 'next/link';
 import {useState} from 'react';
@@ -65,7 +66,7 @@ export default function HomeApplications() {
         <figure className={styles.visual}>
           {applications.map((application, index) => (
             <div className={styles.scene} data-active={selected === index} aria-hidden={selected !== index} key={application.title}>
-              <img src={application.image} alt={application.alt} width={1440} height={960} loading="lazy"/>
+              <ResponsiveImage src={application.image} alt={application.alt} width={1440} height={960} loading="lazy"/>
               <div className={styles.sceneCopy}>
                 <span>{application.focus}</span>
                 <strong>{application.verb}</strong>

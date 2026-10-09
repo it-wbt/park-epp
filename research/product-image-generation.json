@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Custom HVAC components",
+    "slug": "custom-hvac-components",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "Custom HVAC components"
+  },
+  {
+    "name": "Moulded air ducts",
+    "slug": "moulded-air-ducts",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "Moulded air ducts"
+  },
+  {
+    "name": "HVAC insulation housings",
+    "slug": "hvac-insulation-housings",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "HVAC insulation housings"
+  },
+  {
+    "name": "Heat-pump covers",
+    "slug": "heat-pump-covers",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "Cover forms fitted around heat-pump units."
+  },
+  {
+    "name": "Heat-pump support frames",
+    "slug": "heat-pump-support-frames",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "Support frames arranged around heat-pump assemblies."
+  },
+  {
+    "name": "Hydraulic module supports",
+    "slug": "hydraulic-module-supports",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "Support forms for hydraulic assemblies and their connections."
+  },
+  {
+    "name": "Water-heater insulation forms",
+    "slug": "water-heater-insulation-forms",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "Insulation geometry fitted around water-heating equipment."
+  },
+  {
+    "name": "Hydraulic manifold insulation",
+    "slug": "hydraulic-manifold-insulation",
+    "marketSlug": "hvac",
+    "material": "EPP",
+    "summary": "Fitted insulation around manifolds and heat-distribution connections."
+  },
+  {
+    "name": "Mobility foam components",
+    "slug": "mobility-foam-components",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Mobility foam components"
+  },
+  {
+    "name": "Vehicle protective inserts",
+    "slug": "vehicle-protective-inserts",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Vehicle protective inserts"
+  },
+  {
+    "name": "Vehicle floor panels",
+    "slug": "vehicle-floor-panels",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Floor forms specified around installed space and loading."
+  },
+  {
+    "name": "Vehicle seat foam components",
+    "slug": "vehicle-seat-foam-components",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Foam forms evaluated within vehicle seating assemblies."
+  },
+  {
+    "name": "Vehicle storage organizers",
+    "slug": "vehicle-storage-organizers",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Fitted storage layouts for tools and loose equipment."
+  },
+  {
+    "name": "Battery protective inserts",
+    "slug": "battery-protective-inserts",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Protective components specified around battery integration."
+  },
+  {
+    "name": "Vehicle insulating panels",
+    "slug": "vehicle-insulating-panels",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Panels evaluated within vehicle insulation assemblies."
+  },
+  {
+    "name": "Vehicle energy absorbers",
+    "slug": "vehicle-energy-absorbers",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Foam components evaluated within impact-related vehicle assemblies."
+  },
+  {
+    "name": "Vehicle acoustic inserts",
+    "slug": "vehicle-acoustic-inserts",
+    "marketSlug": "mobility",
+    "material": "EPP",
+    "summary": "Shaped inserts specified around cabin noise and vibration."
+  },
+  {
+    "name": "Custom cushioning foams",
+    "slug": "custom-cushioning-foams",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Custom cushioning foams"
+  },
+  {
+    "name": "Stackable delivery boxes",
+    "slug": "stackable-delivery-boxes",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Stackable delivery boxes"
+  },
+  {
+    "name": "Catering transport boxes",
+    "slug": "catering-transport-boxes",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Catering transport boxes"
+  },
+  {
+    "name": "Foldable insulated boxes",
+    "slug": "foldable-insulated-boxes",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Foldable insulated boxes"
+  },
+  {
+    "name": "Reusable industrial containers",
+    "slug": "reusable-industrial-containers",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Reusable industrial containers"
+  },
+  {
+    "name": "Reusable industrial coolers",
+    "slug": "reusable-industrial-coolers",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Reusable industrial coolers"
+  },
+  {
+    "name": "Lightweight foam pallets",
+    "slug": "lightweight-foam-pallets",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Lightweight foam pallets"
+  },
+  {
+    "name": "Industrial pallet boxes",
+    "slug": "industrial-pallet-boxes",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Container formats for palletized storage and handling."
+  },
+  {
+    "name": "Sports accessories",
+    "slug": "sports-accessories",
+    "marketSlug": "sports-leisure",
+    "material": "EPP",
+    "summary": "Sports accessories"
+  },
+  {
+    "name": "Custom sports equipment",
+    "slug": "custom-sports-equipment",
+    "marketSlug": "sports-leisure",
+    "material": "EPP",
+    "summary": "Custom sports equipment"
+  },
+  {
+    "name": "Leisure equipment components",
+    "slug": "leisure-equipment-components",
+    "marketSlug": "sports-leisure",
+    "material": "EPP",
+    "summary": "Leisure equipment components"
+  },
+  {
+    "name": "Foam exercise jump boxes",
+    "slug": "foam-exercise-jump-boxes",
+    "marketSlug": "sports-leisure",
+    "material": "EPP",
+    "summary": "Foam exercise jump boxes"
+  },
+  {
+    "name": "Sports helmet foam liners",
+    "slug": "sports-helmet-foam-liners",
+    "marketSlug": "sports-leisure",
+    "material": "EPP",
+    "summary": "Liner forms developed within complete protective helmets."
+  },
+  {
+    "name": "Foam insole components",
+    "slug": "foam-insole-components",
+    "marketSlug": "sports-leisure",
+    "material": "EPP",
+    "summary": "Footwear support forms specified around fit and repeated loading."
+  },
+  {
+    "name": "Surfboard foam cores",
+    "slug": "surfboard-foam-cores",
+    "marketSlug": "sports-leisure",
+    "material": "EPP",
+    "summary": "Core geometry developed alongside surfboard construction."
+  },
+  {
+    "name": "Childhood accessories",
+    "slug": "childhood-accessories",
+    "marketSlug": "childhood",
+    "material": "EPP",
+    "summary": "Childhood accessories"
+  },
+  {
+    "name": "Modular foam play forms",
+    "slug": "modular-foam-play-forms",
+    "marketSlug": "childhood",
+    "material": "EPP",
+    "summary": "Connectable play shapes for age-specific handling and construction."
+  },
+  {
+    "name": "Educational toy shapes",
+    "slug": "educational-toy-shapes",
+    "marketSlug": "childhood",
+    "material": "EPP",
+    "summary": "Moulded forms developed around learning and play activities."
+  },
+  {
+    "name": "Child-seat foam cores",
+    "slug": "child-seat-foam-cores",
+    "marketSlug": "childhood",
+    "material": "EPP",
+    "summary": "Foam parts evaluated within child-seat and booster systems."
+  },
+  {
+    "name": "Nursery foam storage forms",
+    "slug": "nursery-foam-storage-forms",
+    "marketSlug": "childhood",
+    "material": "EPP",
+    "summary": "Storage geometry for supervised childcare and nursery settings."
+  },
+  {
+    "name": "Movement-course play blocks",
+    "slug": "movement-course-play-blocks",
+    "marketSlug": "childhood",
+    "material": "EPP",
+    "summary": "Play forms for supervised balance and movement activities."
+  },
+  {
+    "name": "Adhesive foam support pads",
+    "slug": "adhesive-foam-support-pads",
+    "marketSlug": "logistics-handling",
+    "material": "EPP",
+    "summary": "Foam support pads with adhesive backing"
+  }
+]

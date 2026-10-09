@@ -1,0 +1,18 @@
+{
+  "sourceManifest": "research/hero-stock-footage.json",
+  "sourceFilm": "/videos/park-materials-film.mp4",
+  "context": "Illustrative stock footage. Precision tooling is CNC machining; polymer pellets are HDPE, not EPP. Neither represents PARK facilities.",
+  "clips": [
+    {
+      "name": "precision-tooling",
+      "startSeconds": 0.4,
+      "durationSeconds": 6
+    },
+    {
+      "name": "polymer-materials",
+      "startSeconds": 7.5,
+      "durationSeconds": 6
+    }
+  ],
+  "encoding": "Silent H.264, desktop 1920x1080 and mobile 960x540, faststart, WebP posters."
+}
