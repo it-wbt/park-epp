@@ -113,3 +113,30 @@
 .filtration-home .park-banner-materials .park-banner-image{object-position:center 20%}
 @media(min-width:641px) and (max-width:1000px){.filtration-home .park-banner-materials .park-banner-copy{width:52%}}
 @media(max-width:640px){.filtration-home .park-banner-materials .park-banner-copy{width:100%;padding-left:24px;padding-right:24px}.filtration-home .park-banner-materials .park-banner-panel{background:linear-gradient(0deg,#041b30f5 0%,#041b30cb 40%,transparent 80%)}.filtration-home .park-banner-materials .park-banner-image{object-position:70% center}}
+
+.epp-company-mobile{display:none}
+@media(max-width:640px){
+ .filtration-home .epp-partner-intro{padding:32px 20px;gap:18px;background:#fff;align-items:start}
+ .filtration-home .epp-partner-intro .eyebrow{font-size:9px;line-height:1.5;letter-spacing:.13em;font-weight:650;margin:0 0 14px;color:#197493}
+ .filtration-home .epp-partner-intro h2{font-size:clamp(28px,8vw,35px);line-height:1.13;letter-spacing:-1px;font-weight:650;margin:0}
+ .filtration-home .epp-partner-intro h2 span{color:#197493}
+ .epp-company-copy{display:grid;gap:20px;min-width:0}
+ .filtration-home .epp-company-copy>.epp-company-long{display:none}
+ .filtration-home .epp-company-copy>.epp-company-mobile{display:block;order:1;font-size:13px;line-height:1.8;margin:0;color:#627680}
+ .epp-company-copy .epp-range-proof{order:2;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;border-top:1px solid #dce7ed;border-bottom:1px solid #dce7ed;margin:0;padding:18px 0}
+ .epp-company-copy .epp-range-proof strong{font-size:27px;line-height:1.2;letter-spacing:-.7px;font-weight:550;color:#15384a}
+ .epp-company-copy .epp-range-proof span{font-size:9px;line-height:1.5;margin-top:6px;color:#627680}
+ .epp-company-copy>.text-link{order:3;justify-self:start;display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;margin:0;padding:11px 17px;border:1px solid #b9ced9;border-radius:24px;color:#15384a;font-size:11px;font-weight:600}
+ .epp-company-copy>.text-link svg{width:16px;height:16px}
+}
+@media(max-width:350px){.filtration-home .epp-partner-intro{padding:28px 16px}.epp-company-copy .epp-range-proof strong{font-size:24px}}
+
+.filters .input-icon{position:relative;display:flex;align-items:center;min-width:0}
+.filters .input-icon input{width:100%;min-width:0;min-height:46px;padding:12px 14px 12px 44px}
+.filters .input-icon svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;pointer-events:none}
+@media(max-width:760px){
+ .epp-only-filters{padding:18px;gap:16px}
+ .epp-only-filters>label:first-child{grid-column:auto}
+ .filters .input-icon input{font-size:16px;padding-left:42px}
+ .filters select{width:100%;min-width:0;min-height:46px;font-size:16px;padding:11px 12px}
+}

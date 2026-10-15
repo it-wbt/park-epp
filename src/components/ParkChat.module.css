@@ -11,3 +11,25 @@
 .note{display:block;padding:0 12px 11px;text-align:center;font-size:10px;line-height:1.5;color:#708793;margin:0;flex-shrink:0}
 .ready{padding:12px 12px 0;display:grid;gap:7px;flex-shrink:0}.ready button{background:transparent;border:0;color:#08639b;font-size:12px;padding:5px;display:inline-flex;align-items:center;gap:8px}.ready button:disabled{opacity:.65}.ready svg{width:16px;height:16px}.ready p{font-size:13px;line-height:1.6;color:#246a45;background:#eef8f1;border-radius:8px;padding:12px;margin:0}.ready p[role=alert]{color:#9d3434;background:#fff2f2}
 @media(max-width:760px){.widget{right:78px;bottom:17px}.launch{height:48px;padding:0 13px;font-size:12px}.panel{right:-62px;width:min(380px,calc(100vw - 32px));height:min(540px,calc(100dvh - 115px));bottom:64px}.form input{font-size:16px}}
+
+@media(max-width:760px){
+ .panel{width:min(340px,calc(100vw - 32px));height:min(390px,calc(100dvh - 170px));bottom:62px;border-radius:14px}
+ .heading{padding:12px;gap:9px}
+ .mark{width:30px;height:30px;border-radius:8px}
+ .mark svg{width:18px;height:18px}
+ .info strong{font-size:12px;line-height:1.4}
+ .info>span{font-size:9px;margin-top:2px}
+ .heading button{padding:5px}
+ .messages{padding:12px;gap:10px}
+ .bot,.user{max-width:96%;padding:10px 12px;border-radius:10px}
+ .messages p{font-size:12px;line-height:1.65}
+ .quick{gap:5px;padding:8px 10px 0}
+ .quick button{font-size:9px;padding:6px 8px}
+ .form{padding:9px 10px;gap:7px}
+ .form input{min-height:40px;padding:9px 10px;font-size:16px;border-radius:7px}
+ .form>button{width:36px;height:40px;border-radius:7px}
+ .note{font-size:8px;line-height:1.5;padding:0 10px 9px}
+ .ready{padding:10px 10px 0;gap:5px}
+ .ready p{font-size:11px;padding:9px}
+ .ready button{font-size:11px}
+}

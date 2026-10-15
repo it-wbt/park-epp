@@ -6,4 +6,26 @@
 .actions{display:flex;flex-wrap:wrap;align-items:center;gap:24px}.primary,.secondary{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;font-size:13px;font-weight:600;min-height:46px}.primary{background:#007ab9;color:#fff;padding:13px 20px;border-radius:4px}.primary:hover{background:#005c90}.secondary{color:#007ab9}.secondary:hover{color:#103b50}.actions svg{width:18px;height:18px}
 .image{width:100%;height:260px;object-fit:cover;border-radius:10px;max-width:460px;justify-self:end}
 @media(max-width:900px){.section{gap:30px}.benefits{flex-direction:column;gap:9px}.image{height:250px}}
-@media(max-width:640px){.section{grid-template-columns:1fr;padding:28px 18px;gap:24px}.copy h2{font-size:30px}.description{font-size:14px}.benefits{flex-direction:row;gap:10px 16px;margin:18px 0 22px}.image{height:180px;max-width:none}.actions{gap:20px}.primary,.secondary{font-size:12px}}
+/* Mobile: a bold editorial layout using the existing product photograph. */
+@media(max-width:640px){
+ .section{grid-template-columns:minmax(0,1fr);align-items:start;padding:30px 20px 34px;gap:16px;background:#092432;color:#fff}
+ .copy{display:contents}
+ .eyebrow{order:1;display:flex;align-items:center;gap:9px;margin:0;color:#9de6f7;font-size:9px;line-height:1.5;letter-spacing:.13em}
+ .eyebrow:before{content:'';width:6px;height:6px;border-radius:50%;background:#79d9f2;flex-shrink:0}
+ .copy h2{order:2;margin:0;color:#fff;font-size:clamp(29px,8.2vw,36px);line-height:1.12;letter-spacing:-1.2px;font-weight:650;text-wrap:balance}
+ .copy h2 span{color:#82dcf5}
+ .description{order:3;margin:0;color:#b9ced8;font-size:13px;line-height:1.7;max-width:350px}
+ .image{order:4;justify-self:stretch;width:100%;max-width:none;height:180px;object-fit:cover;object-position:center;border-radius:12px;margin:2px 0}
+ .benefits{order:5;display:flex;flex-direction:row;align-items:center;flex-wrap:wrap;gap:8px 16px;padding:0;margin:0}
+ .benefits li{font-size:10px;font-weight:500;line-height:1.7;color:#c7dce5;gap:7px}
+ .benefits li:before{content:'';width:4px;height:4px;background:#82dcf5;border-radius:50%;flex-shrink:0}
+ .benefits svg{display:none}
+ .actions{order:6;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:10px;margin-top:4px}
+ .primary,.secondary{justify-content:space-between;gap:9px;min-height:46px;padding:12px 14px;border-radius:26px;font-size:11px;font-weight:650;line-height:1.5}
+ .primary{background:#8de2f5;color:#092432;border:1px solid #8de2f5}
+ .primary:hover{background:#b1effc}
+ .secondary{background:transparent;border:1px solid #6b96ab;color:#edf8fc}
+ .secondary:hover{background:#ffffff0c;color:#fff}
+ .actions svg{width:16px;height:16px}
+}
+@media(max-width:350px){.section{padding:26px 16px 30px;gap:14px}.copy h2{font-size:29px}.eyebrow{font-size:8px;letter-spacing:.09em}.image{height:160px}.primary,.secondary{font-size:10px;padding:11px 12px}.benefits{column-gap:12px}}

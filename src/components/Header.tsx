@@ -104,7 +104,9 @@ export default function Header() {
       <div className="park-nav-wrap">
         <Brand/>
         <nav id="park-navigation" className={mobile ? 'park-nav is-open' : 'park-nav'} aria-label="Main navigation">
-          <Link className="park-nav-link" href="/about/" onClick={close} onMouseEnter={() => setActive(null)}>About us</Link>
+          <div className="park-mobile-menu-heading"><span>EXPLORE PARK</span><small>Materials. Products. Possibilities.</small></div>
+          <Link className="park-nav-link" href="/about/" onClick={close} onMouseEnter={() => setActive(null)}>About us<span className="park-mobile-nav-arrow"><UpRight/></span></Link>
+          <Link className="park-nav-link park-mobile-products-link" href="/products/" onClick={close}>Products<span className="park-mobile-nav-arrow"><UpRight/></span></Link>
           {menuLabels.map(label => <div key={label} className="nav-dropdown" onMouseEnter={() => { if (hover()) select(label); }} onMouseLeave={() => { if (hover()) { clear(); timer.current = setTimeout(() => setActive(null), 180); } }}>
             <button id={`park-trigger-${menuId(label)}`} className={active === label ? 'nav-trigger active' : 'nav-trigger'} aria-expanded={active === label} aria-controls={`park-mega-${menuId(label)}`} onClick={() => { if (hover()) select(label); else active === label ? setActive(null) : select(label); }}>
               {label}<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
@@ -136,8 +138,9 @@ export default function Header() {
               </aside>
             </section>}
           </div>)}
-          <Link className="park-nav-link" href="/expertise/" onClick={close} onMouseEnter={() => setActive(null)}>Our technology</Link>
+          <Link className="park-nav-link" href="/expertise/" onClick={close} onMouseEnter={() => setActive(null)}>Our technology<span className="park-mobile-nav-arrow"><UpRight/></span></Link>
           <Link href="/#contact" className="button small park-contact-button" onClick={close} onMouseEnter={() => setActive(null)}>Contact Us <UpRight/></Link>
+          <a className="park-mobile-menu-email" href="mailto:sales@parknonwoven.com">sales@parknonwoven.com<UpRight/></a>
         </nav>
         <button ref={mobileButton} className="park-mobile-button" aria-label={mobile ? 'Close menu' : 'Open menu'} aria-expanded={mobile} aria-controls="park-navigation" onClick={() => { setMobile(!mobile); setActive(null); setSearch(false); }}><Icon kind={mobile ? 'close' : 'menu'}/></button>
       </div>
@@ -151,6 +154,6 @@ export default function Header() {
         <div className="park-search-footer"><span>Lightweight materials. Endless possibilities.</span><Link href="/products/" onClick={close}>Explore all products <Icon kind="arrow"/></Link></div>
       </section>}
     </header>
-    {(active || search) && <button className="mega-backdrop" tabIndex={-1} aria-label="Close expanded navigation" onClick={() => { setActive(null); setSearch(false); }}/>}
+    {(active || search || mobile) && <button className="mega-backdrop" tabIndex={-1} aria-label="Close expanded navigation" onClick={close}/>}
   </>;
 }

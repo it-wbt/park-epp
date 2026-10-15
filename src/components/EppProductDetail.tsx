@@ -18,10 +18,11 @@ export default function EppProductDetail({product}:{product:Product}) {
    <div className={styles.productCopy}>
     <Link className={styles.eyebrow} href={`/markets/${marketSlug}/`}>{product.market}</Link>
     <h1 id="product-title">{product.name}</h1>
-    <span className={styles.material}>EPP · Expanded Polypropylene</span>
+    <span className={styles.material}>EPP &middot; Expanded Polypropylene</span>
+    <div className={styles.actions}><a className={styles.button} href="#enquire">Get a quote <Icon kind="arrow"/></a><a className={styles.email} href={`mailto:sales@parknonwoven.com?subject=${encodeURIComponent(product.name+' enquiry')}`}>Email our team</a></div>
     <p>{copy?.summary || product.summary}</p>
     <ul className={styles.features}>{(copy?.benefits || ['Lightweight construction','Moulded product fit','Resilient foam structure']).map(item=><li key={item}><Icon kind="check"/>{item}</li>)}</ul>
-    <div className={styles.actions}><a className={styles.button} href="#enquire">Get a quote <Icon kind="arrow"/></a><a className={styles.email} href={`mailto:sales@parknonwoven.com?subject=${encodeURIComponent(product.name+' enquiry')}`}>Email our team</a></div>
+
     {copy && <p className={styles.uses}><strong>Ideal for</strong> {copy.uses}.</p>}
    </div>
   </section>

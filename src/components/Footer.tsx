@@ -28,11 +28,11 @@ export default function Footer() {
           </Link>
           <p>EPP components · Protective packaging.<br/>Engineered polymer solutions.</p>
         </div>
-        <div>
+        <div className={styles.explore}>
           <h4>Explore</h4>
           {exploreLinks.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
         </div>
-        <div>
+        <div className={styles.connect}>
           <h4>Connect with us</h4>
           <address className={styles.location}>Panipat, India</address>
           <a href="mailto:sales@parknonwoven.com">sales@parknonwoven.com ↗</a>
