@@ -538,5 +538,17 @@
       "Empty returns"
     ],
     "application": "Specify payload layout, fork access and empty returns. Test representative assemblies against agreed service conditions."
+  },
+  {
+    "name": "Lithium-ion cell EPP trays",
+    "marketSlug": "logistics-handling",
+    "summary": "Custom-moulded EPP trays for positioning and cushioning lithium-ion cells during handling.",
+    "material": "EPP",
+    "focus": [
+      "Cell dimensions and spacing",
+      "Individual moulded pockets",
+      "Terminal clearance"
+    ],
+    "application": "Share cell dimensions, quantity per tray, handling conditions and reuse requirements. Confirm material grade, terminal clearance, any ESD requirements and packaging validation for the intended use."
   }
 ]

@@ -30,6 +30,5 @@ export const resourceLinks:MenuLink[] = [{name:'Whitepapers & guides',href:'/res
 export const aboutLinks:MenuLink[] = [{name:'What is EPP?',href:'/materials/expanded-polypropylene/'},{name:'Who we are',href:'/about/'},{name:'Responsible design',href:'/about/responsible-design/'},{name:'Careers & collaboration',href:'/about/careers/'},{name:'Production & project support',href:'/about/project-support/'}];
 export const navigation:Record<string,MenuGroup[]> = {
   'About us':[{name:'PARK Nonwoven',intro:'A practical conversation about materials, product design and your next project.',href:'/about/',image:marketImagePath('hvac'),links:aboutLinks}],
-  'Industries':industryGroups,
-  'Our products':productGroups,
+  'Products':[productGroups[0], ...industryGroups],
 };

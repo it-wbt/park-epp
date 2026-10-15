@@ -1,6 +1,5 @@
 import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
-import {brand} from '../lib/catalog';
 import styles from './Footer.module.css';
 
 const exploreLinks = [
@@ -10,6 +9,13 @@ const exploreLinks = [
   ['Our expertise', '/expertise/'],
   ['Resources & insights', '/resources/'],
   ['About PARK', '/about/'],
+];
+
+const socialLinks = [
+  {name:'LinkedIn',href:'https://in.linkedin.com/company/park-non-woven-pvt-ltd',icon:'linkedin'},
+  {name:'YouTube',href:'https://www.youtube.com/@parknonwoven5472',icon:'youtube'},
+  {name:'Facebook',href:'https://www.facebook.com/parknonwovenofficial/',icon:'facebook'},
+  {name:'X',href:'https://x.com/ParkWoven',icon:'x'},
 ];
 
 export default function Footer() {
@@ -28,14 +34,15 @@ export default function Footer() {
         </div>
         <div>
           <h4>Connect with us</h4>
+          <address className={styles.location}>Panipat, India</address>
           <a href="mailto:sales@parknonwoven.com">sales@parknonwoven.com ↗</a>
-          <Link href="/products/">Explore EPP products ↗</Link>
+          <Link href="/products/">Explore EPP products &#8599;</Link>
+          <nav className={styles.social} aria-label="PARK social media">{socialLinks.map(social => <a key={social.icon} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={`PARK on ${social.name} (opens in a new tab)`} title={social.name}><ResponsiveImage src={`/icons/social/${social.icon}.svg`} width={20} height={20} alt=""/><span>{social.name}</span></a>)}</nav>
         </div>
       </div>
       <div className={styles.bottom}>
-        <span>© {new Date().getFullYear()} {brand}. All rights reserved.</span>
-        <Link href="/privacy/">Privacy &amp; information</Link>
-        <span>Material possibilities. Made around your needs.</span>
+        <span>© {new Date().getFullYear()} PARK Nonwoven. All rights reserved.</span>
+        <span>Engineered around your application.</span>
       </div>
     </footer>
   );

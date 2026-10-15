@@ -118,3 +118,47 @@ header.park-header .park-search-panel .search-results { grid-template-columns: r
   header.park-header .park-search-panel .search-results { grid-template-columns: 1fr; gap: 10px; }
   .park-header + .mega-backdrop { display: none; }
 }
+
+/* Product finder */
+header.park-header .park-search-panel { width:min(880px, calc(100vw - 48px)); padding:32px; border-radius:20px; border:1px solid #dce8ee; box-shadow:0 24px 80px #092b4533; }
+.park-search-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; margin-bottom:24px; }
+.park-search-heading h2 { margin:6px 0 8px; font-size:30px; line-height:1.2; letter-spacing:-.035em; }
+.park-search-heading p { color:var(--muted); font-size:14px; }
+header.park-header .park-search-close { width:40px; height:40px; border-radius:50%; background:#f0f5f8; flex-shrink:0; }
+header.park-header .park-search-close:hover { background:#e0edf4; }
+header.park-header .park-search-panel .search-input { gap:14px; padding:0 18px; border:1px solid #ccdee8; border-radius:12px; background:#f7fafc; color:var(--blue); transition:border-color .2s, box-shadow .2s; }
+header.park-header .park-search-panel .search-input:focus-within { border-color:var(--blue); box-shadow:0 0 0 3px #007ab914; }
+header.park-header .park-search-panel .search-input input { padding:18px 0; border:0; background:transparent; color:var(--ink); font-size:16px; outline:none; box-shadow:none; }
+.park-search-suggestions { display:flex; flex-wrap:wrap; align-items:center; gap:9px; margin:20px 0 28px; }
+.park-search-suggestions>span { margin-right:5px; color:var(--muted); font-size:12px; }
+.park-search-suggestions button { display:inline-flex; align-items:center; gap:10px; padding:8px 13px; border:1px solid #dce8ee; border-radius:30px; font-size:12px; transition:background .2s; }
+.park-search-suggestions button:hover { background:#edf6fa; border-color:#8fbfd6; }
+.park-search-suggestions svg { width:12px; height:12px; color:var(--blue); }
+.park-search-matches { margin-top:20px; font-size:12px; color:var(--muted); }
+header.park-header .park-search-panel .search-results { gap:10px; margin:12px 0 24px; }
+header.park-header .park-search-panel .search-results a { display:flex; align-items:center; gap:12px; padding:12px; border:1px solid #e4edf2; border-radius:12px; background:#fff; }
+header.park-header .park-search-panel .search-results a:hover { background:#f2f8fb; border-color:#a8cfe1; }
+.park-search-panel .search-results img { width:56px; height:56px; object-fit:contain; background:#f4f7f9; border-radius:8px; }
+.park-search-panel .search-results a>span { flex:1; min-width:0; }
+.park-search-panel .search-results strong { font-size:13px; font-weight:600; }
+header.park-header .park-search-panel .search-results small { margin-top:4px; font-size:11px; color:var(--muted); }
+.park-search-empty { margin:12px 0 24px; color:var(--muted); font-size:14px; }
+.park-search-footer { display:flex; justify-content:space-between; align-items:center; gap:16px; padding-top:18px; margin-top:22px; border-top:1px solid #e4edf2; }
+.park-search-footer>span { font-size:12px; color:var(--muted); }
+.park-search-footer a { display:inline-flex; align-items:center; gap:12px; color:var(--blue); font-size:13px; font-weight:600; }
+@media(max-width:640px) {
+ header.park-header .park-search-panel { width:calc(100vw - 24px); padding:20px; border-radius:16px; }
+ .park-search-heading h2 { font-size:25px; }
+ .park-search-heading p { font-size:12px; }
+ header.park-header .park-search-panel .search-input { padding:0 12px; gap:10px; }
+ header.park-header .park-search-panel .search-input input { font-size:14px; }
+ .park-search-suggestions>span { width:100%; margin-bottom:3px; }
+ .park-search-footer { align-items:flex-start; flex-direction:column; gap:12px; }
+}
+
+/* Keep the contact CTA readable when navigation hover colors apply. */
+header.park-header .park-nav .park-contact-button { background:#09699d; border-color:#09699d; color:#fff; transition:background-color .2s,border-color .2s; }
+header.park-header .park-nav .park-contact-button:hover,
+header.park-header .park-nav .park-contact-button:focus-visible { background:#084d76; border-color:#084d76; color:#fff; }
+header.park-header .park-nav .park-contact-button:active { background:#06374f; border-color:#06374f; color:#fff; }
+header.park-header .park-nav .park-contact-button svg { color:inherit; }

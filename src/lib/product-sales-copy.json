@@ -388,5 +388,15 @@
     ],
     "uses": "Protective packaging assemblies",
     "detail": "EPP helps protect goods while keeping the packaging light and practical to handle. Its resilient foam structure supports returnable formats, while insulating designs can help slow heat transfer. The right internal layout, wall thickness and carrying features depend on what you pack and how it travels."
+  },
+  "lithium-ion-cell-epp-trays": {
+    "summary": "Custom-fit EPP trays to organise and cushion lithium-ion cells during handling.",
+    "benefits": [
+      "Individual cell pockets",
+      "Lightweight handling",
+      "Custom tray layouts"
+    ],
+    "uses": "Cell handling, production-line transfer and protective packaging development",
+    "detail": "Moulded pockets keep cells individually positioned within a lightweight tray. Share your cell size, tray footprint and quantity to develop the layout. Material grade, terminal clearance and any ESD requirements must be agreed for your application. This tray is a packaging component; shipping approval and fire containment are not implied."
   }
 }

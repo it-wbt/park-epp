@@ -56,7 +56,7 @@ export default function SiteEngagement() {
   </dialog>}
   <div className="support-widget">
    {supportOpen&&<div id="park-support-card" className="support-card" role="region" aria-label="PARK support"><button className="engagement-close" aria-label="Close support" onClick={()=>setSupportOpen(false)}><X size={18}/></button><span className="submenu-eyebrow">PARK SUPPORT</span><h3>How can we help?</h3><p>Tell us about your application, component size or EPP product enquiry.</p>{whatsappHref?<a className="support-chat" href={whatsappHref} target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18}/>Chat on WhatsApp <ArrowUpRight size={16}/></a>:<a className="support-chat" href="mailto:sales@parknonwoven.com"><Mail size={18}/>Email our team <ArrowUpRight size={16}/></a>}</div>}
-   <button className="support-bubble" aria-label={supportOpen?'Close support chat':'Open support chat'} aria-controls="park-support-card" aria-expanded={supportOpen} onClick={()=>setSupportOpen(!supportOpen)}>{supportOpen?<X size={26}/>:<WhatsAppIcon size={28}/>}</button>
+   {whatsappHref ? <a className="support-bubble" href={whatsappHref} target="_blank" rel="noopener noreferrer" aria-label="Chat with PARK on WhatsApp"><WhatsAppIcon size={28}/></a> : <button className="support-bubble" aria-label={supportOpen?'Close support chat':'Open support chat'} aria-controls="park-support-card" aria-expanded={supportOpen} onClick={()=>setSupportOpen(!supportOpen)}>{supportOpen?<X size={26}/>:<WhatsAppIcon size={28}/>}</button>}
   </div>
  </>;
 }

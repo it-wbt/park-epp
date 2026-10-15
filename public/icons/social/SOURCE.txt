@@ -1,0 +1,4 @@
+Facebook, X, LinkedIn and YouTube brand SVGs from Simple Icons v11.
+https://github.com/simple-icons/simple-icons/tree/11.0.0
+Downloaded from https://cdn.jsdelivr.net/npm/simple-icons@11/icons/.
+Simple Icons assets are distributed under CC0; brand trademarks belong to their respective owners.

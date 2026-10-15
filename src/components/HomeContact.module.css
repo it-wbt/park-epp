@@ -23,7 +23,7 @@
   letter-spacing: 2.1px;
 }
 
-.introduction h2 {
+.introduction :is(h1,h2) {
   margin: 0 0 16px;
   font: 500 clamp(32px, 3.2vw, 46px)/1.22 'Manrope', Arial, sans-serif;
   letter-spacing: -1.7px;
@@ -154,7 +154,7 @@
 /* Match Filtration's current desktop reading scale. */
 @media (min-width: 1024px) {
   .section { font-size: 16px; }
-  .introduction h2 { letter-spacing: -.4px; }
+  .introduction :is(h1,h2) { letter-spacing: -.4px; }
   .introduction > p { font-size: 16px; line-height: 1.75; margin-bottom: 16px; }
   .cardHeading p { font-size: 16px; line-height: 1.75; }
   .card label, .card .control :is(input, select, textarea) { font-size: 15px; }
@@ -202,7 +202,7 @@
 
 /* Match the current Filtration contact proportions and compact form. */
 .section{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:40px;padding-block:32px}
-.introduction h2{font-size:clamp(32px,2.6vw,40px);line-height:1.2}
+.introduction :is(h1,h2){font-size:clamp(32px,2.6vw,40px);line-height:1.2}
 .introduction>p{max-width:440px}
 .topics{font-size:13px;gap:10px}
 .cardHeading{gap:12px;margin-bottom:16px}
@@ -217,4 +217,6 @@
 .submit{min-height:42px;font-size:13px;padding:11px 15px;gap:14px}
 .submitCaption{font-size:10px}
 .deliveryNote{font-size:11px;line-height:1.4;margin-top:12px}
-@media(max-width:760px){.section{grid-template-columns:1fr;padding:28px 16px;gap:22px}.card .control :is(input,select,textarea){font-size:16px}.introduction h2{font-size:32px}.cardHeading h3{font-size:21px}.messageLabel>span:first-child{flex-wrap:wrap}.control{min-height:46px}}
+@media(max-width:760px){.section{grid-template-columns:1fr;padding:28px 16px;gap:22px}.card .control :is(input,select,textarea){font-size:16px}.introduction :is(h1,h2){font-size:32px}.cardHeading h3{font-size:21px}.messageLabel>span:first-child{flex-wrap:wrap}.control{min-height:46px}}
+
+.introduction .services{font-size:13px;line-height:1.9;color:#435e6d;margin:22px 0 28px}.services span{color:#a3b5bf;margin:0 10px}

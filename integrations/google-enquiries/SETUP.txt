@@ -1,0 +1,37 @@
+PARK EPP - Google Sheet + email enquiries
+
+Current state
+The website keeps its email-only delivery until NEXT_PUBLIC_GOOGLE_ENQUIRY_URL is configured.
+Homepage, contact page, product quote forms and chatbot all use the same delivery function.
+Every email includes [PARK EPP] in the subject, website name, business, page URL and enquiry source.
+
+When the Apps Script URL is available
+1. Open the enquiry Sheet > Extensions > Apps Script. Add this folder's Code.gs.
+2. Set Script Properties:
+   SHEET_ID: destination spreadsheet ID.
+   RECIPIENT_EMAIL: sales@parknonwoven.com (or your chosen recipient).
+   ALLOWED_ORIGINS: exact permitted EPP website origins, comma-separated.
+   Include http://127.0.0.1:3000 for this local preview if testing locally.
+   SITE_NAME: PARK EPP.
+3. Deploy as Web app; execute as the owner; access Anyone. Authorize Sheet and email access.
+4. Put the deployed /exec URL in .env.local:
+   NEXT_PUBLIC_GOOGLE_ENQUIRY_URL=https://script.google.com/macros/s/DEPLOYMENT_ID/exec
+   Restart development server; rebuild/redeploy for production.
+5. Verify a test enquiry reaches BOTH the Sheet and the recipient inbox.
+   Success is shown only after the Sheet write and email send are acknowledged.
+
+To share a deployment with PARK Filtration
+Use SITE_NAMES_BY_ORIGIN_JSON instead of trusting a website label sent by the browser.
+Example (replace with actual production origins):
+{"https://epp.example.com":"PARK EPP","https://filtration.example.com":"PARK Filtration"}
+Allow both origins in ALLOWED_ORIGINS. No change to Filtration's frontend is required for
+its emails to receive the correct website label when using this updated deployment.
+Existing Enquiries columns 1-9 stay in place. Added columns 10-13 are Website,
+Page URL, Enquiry source and Email subject. Older Filtration clients supply only origin;
+they receive that as the page URL until their frontend also sends the full page path.
+Update the Apps Script deployment version after changing Code.gs.
+
+Request IDs prevent duplicate rows on retries. If a Sheet row is saved but mail fails,
+retrying sends the pending email from the saved row. Email-only delivery is not used as
+an automatic fallback after a Google error, which could otherwise send duplicate emails.
+No real enquiry has been sent as part of the local automated checks.

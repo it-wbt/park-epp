@@ -1,0 +1,8 @@
+EPP Sports Use v1
+Built-in image_gen generated two photorealistic illustrative scenes; Remotion rendered camera movement and crossfades. Not actual PARK product footage and not generative live-action video.
+
+Prompt 1: Photorealistic wide 16:9 commercial lifestyle photograph, bright contemporary Indian indoor activity studio, adult instructor supervising two children aged 5-7 using low rounded EPP foam balance stepping blocks and half-cylinder rocker on a padded floor. Prominent coarse fused-bead charcoal EPP texture with blue and yellow speckles. Safe grounded activity, natural daylight, documentary commercial style, no text, logos or collage. Generic illustrative products.
+Prompt 2: Photorealistic wide 16:9 commercial documentary photograph in a bright modern Indian fitness studio. Adult female instructor beside a low charcoal EPP balance board demonstrating foot placement to an adult male athlete. Additional rounded EPP training blocks and foam roller, dense fused-bead texture with blue speckles, natural daylight, realistic anatomy, no text or logos. Generic illustrative products.
+
+Output: public/videos/epp-sports-use-v1.mp4
+Composition: EppSportsUse, 1600x900, 30fps, 12 seconds, silent H.264.

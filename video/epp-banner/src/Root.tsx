@@ -1,3 +1,4 @@
+import {SportsUseFilm} from './SportsUseFilm';
 import {AbsoluteFill, Composition, Folder, Sequence} from 'remotion';
 import {MaterialsScene} from './MaterialsScene';
 import {TechnicalScene} from './TechnicalScene';
@@ -17,6 +18,7 @@ const EppBanner = () => <AbsoluteFill style={{backgroundColor:'#0c2238'}}>
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition id="EppSportsUse" component={SportsUseFilm} durationInFrames={360} fps={30} width={1600} height={900}/>
       <Composition id="EppProtectionFilm" component={ApplicationFilm} durationInFrames={240} fps={30} width={1600} height={900} defaultProps={{image:'epp-hero.webp'}}/>
       <Composition id="EppPackagingFilm" component={ApplicationFilm} durationInFrames={240} fps={30} width={1600} height={900} defaultProps={{image:'packaging.webp'}}/>
       <Composition id="EppHvacFilm" component={ApplicationFilm} durationInFrames={240} fps={30} width={1600} height={900} defaultProps={{image:'hvac-application.webp'}}/>

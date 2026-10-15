@@ -1,28 +1,25 @@
 'use client';
 import {useState} from 'react';
 import {useEnquirySubmission} from './useEnquirySubmission';
-import {ArrowUpRight, UserRound, Mail, Send, Check, MessageSquareText} from './ContactIcons';
+import {ArrowUpRight, UserRound, Mail, Send, MessageSquareText} from './ContactIcons';
 import styles from './HomeContact.module.css';
 
 /** PARK Filtration's contact layout, with the EPP application content. */
-export default function HomeContact() {
+export default function HomeContact({standalone=false}:{standalone?:boolean}) {
+  const Heading=standalone?'h1':'h2';
   const enquiry=useEnquirySubmission('New EPP application enquiry');
   const [message, setMessage] = useState('');
 
   return (
     <section id="contact" className={styles.section} aria-labelledby="home-contact-heading">
       <div className={styles.introduction} data-reveal>
-        <div className={styles.eyebrow}>TELL US YOUR EPP APPLICATION</div>
-        <h2 id="home-contact-heading">Need help choosing?<br/>Talk to PARK.</h2>
-        <p>Whether you need protective packaging or a lightweight moulded component, tell us what the part needs to do. We can discuss suitable EPP grades, shapes and the details needed for your enquiry.</p>
-        <div className={styles.topics}>
-          {['Find an EPP solution for your application', 'Discuss dimensions and custom formats', 'Explore EPP grades and density options'].map(text => (
-            <div key={text}><span><Check size={15} aria-hidden="true"/></span>{text}</div>
-          ))}
-        </div>
+        <div className={styles.eyebrow}>EPP PRODUCT ENQUIRIES</div>
+        <Heading id="home-contact-heading">Discuss Your<br/>EPP Requirements.</Heading>
+        <p>Share your application, specifications and required quantity. Our team will assist with product selection, custom components and quotations.</p>
+        <p className={styles.services}>Product selection <span aria-hidden="true">/</span> Custom components <span aria-hidden="true">/</span> Material specifications</p>
         <a className={styles.email} href="mailto:sales@parknonwoven.com">
           <span className={styles.emailIcon}><Mail size={18} aria-hidden="true"/></span>
-          <span><small>PREFER TO EMAIL US?</small>sales@parknonwoven.com</span>
+          <span><small>EMAIL OUR TEAM</small>sales@parknonwoven.com</span>
           <ArrowUpRight size={18} aria-hidden="true"/>
         </a>
       </div>
@@ -31,9 +28,9 @@ export default function HomeContact() {
         <input name="botcheck" type="checkbox" tabIndex={-1} style={{display:'none'}} aria-hidden="true"/>
         <div className={styles.cardHeading}>
           <div>
-            <span className={styles.kicker}>YOUR NEXT EPP SOLUTION</span>
-            <h3>Let’s start with your needs.</h3>
-            <p>Share your application, dimensions and quantity to get the conversation started.</p>
+            <span className={styles.kicker}>REQUEST A QUOTATION</span>
+            <h3>Submit Your Enquiry.</h3>
+            <p>Provide your requirements and contact details. Our team will respond to your enquiry.</p>
           </div>
           <span className={styles.headingIcon}><MessageSquareText size={23} strokeWidth={1.5} aria-hidden="true"/></span>
         </div>

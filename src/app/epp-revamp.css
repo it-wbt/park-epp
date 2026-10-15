@@ -57,3 +57,59 @@
 @media(max-width:760px){.filtration-home .park-banner-copy{width:100%;padding:240px 24px 84px;justify-content:flex-end}.filtration-home .park-banner-video{object-position:65% center}.filtration-home .park-banner-panel{background:linear-gradient(0deg,#051b30f2,#051b3080 55%,#051b3010)}}
 
 .epp-only-filters{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}@media(max-width:760px){.epp-only-filters{grid-template-columns:1fr}}
+
+.epp-company-copy > p + p{margin-top:14px}
+.epp-company-copy > .text-link{margin-top:18px}
+.epp-company-copy .epp-range-proof strong{font-size:clamp(24px,2.4vw,38px)}
+
+/* Full-width hero; artwork is composed for this panoramic crop. */
+.filtration-home .home-showcase{margin:0;border-radius:0;background:#f2f6f8}
+.filtration-home .park-banner{background:#14252c}
+.filtration-home .park-banner-image{position:absolute;inset:0;width:100%;height:100%;padding:0;object-fit:cover;object-position:center 20%;background:transparent}
+.filtration-home .park-banner-panel{display:block;background:linear-gradient(90deg,#051822e0 0%,#051822b8 25%,#05182245 53%,#0518220a 78%);clip-path:none}
+.filtration-home .park-banner-copy{width:58%;max-width:850px;padding:28px 5%;height:100%;min-height:0;justify-content:center;background:transparent;animation:none}
+.filtration-home .park-banner-eyebrow{font-size:9px;letter-spacing:1.8px;margin-bottom:12px;color:#d7e8f0}
+.filtration-home .epp-banner-tagline{font-size:13px;line-height:1.4;letter-spacing:.08em;font-weight:500;margin-bottom:12px;color:#d7e8f0;text-transform:uppercase;text-shadow:none}
+.filtration-home .park-banner-copy h1{font-size:clamp(32px,3.2vw,52px);line-height:1.1;letter-spacing:-1.4px;font-weight:500;max-width:620px;margin-bottom:18px;text-wrap:balance;text-shadow:none}
+.filtration-home .park-banner-copy p{font-size:15px;line-height:1.7;max-width:460px;margin-bottom:24px;color:#e0e9ef}
+.filtration-home .park-banner-link{padding:13px 20px;border-radius:5px;gap:26px;background:#fff;color:#123e5c;box-shadow:none;font-size:13px}
+.filtration-home .park-banner-link:hover{background:#eaf3f9}
+.filtration-home .park-banner-arrows{top:auto;bottom:18px;right:3%;padding:7px 10px;border-radius:30px;background:#10232e88;border:1px solid #ffffff25;backdrop-filter:blur(12px)}
+.filtration-home .park-banner-arrows button{width:36px;height:36px;padding:0;line-height:1;background:transparent;backdrop-filter:none;flex-shrink:0}
+.filtration-home .park-banner-arrows button svg{display:block;width:20px;height:20px}
+@media(min-width:1001px){
+ .filtration-home .home-showcase{display:grid;height:calc(100svh - var(--banner-header-height,100px));min-height:540px;grid-template-rows:minmax(0,1.8fr) 28px minmax(0,1fr)}
+ .filtration-home .park-banner{height:100%;min-height:0}
+ .filtration-home .park-industry-shortcuts{display:flex;flex-direction:column;padding:12px 28px 18px;min-height:0;overflow:hidden}
+ .filtration-home .park-industry-kicker{margin-bottom:5px;font-size:9px}
+ .filtration-home .park-industry-shortcuts h2{font-size:clamp(21px,1.7vw,30px);line-height:1.2}
+ .filtration-home .park-industry-shortcuts>p{font-size:14px;margin:5px 0 12px;line-height:1.4}
+ .filtration-home .park-industry-cards{flex:1;min-height:0;gap:18px}
+ .filtration-home .park-industry-card{height:100%;min-height:0}
+ .filtration-home .park-industry-card-copy{inset:auto 14px 12px}
+ .filtration-home .park-industry-card .park-industry-card-copy h3{font-size:clamp(18px,1.4vw,25px);margin-bottom:8px}
+}
+@media(min-width:641px) and (max-width:1000px){.filtration-home .park-banner-copy{width:70%;padding:28px 5%}.filtration-home .park-banner-copy h1{font-size:36px}}
+@media(max-width:640px){
+ .filtration-home .park-banner-image{object-position:72% center}
+ .filtration-home .park-banner-panel{background:linear-gradient(0deg,#051822ed 0%,#051822c4 35%,#05182240 68%,#05182212 100%)}
+ .filtration-home .park-banner-copy{width:100%;max-width:none;min-height:580px;height:auto;padding:230px 24px 88px;justify-content:flex-end}
+ .filtration-home .epp-banner-tagline{font-size:11px;margin-bottom:10px}
+ .filtration-home .park-banner-copy h1{font-size:34px;letter-spacing:-1px;line-height:1.14;margin-bottom:14px}
+ .filtration-home .park-banner-copy p{font-size:14px;line-height:1.65;margin-bottom:20px}
+}
+
+.filtration-home .park-banner-materials .park-banner-copy{width:38%;padding-right:20px}
+.filtration-home .park-banner-materials .park-banner-copy h1{font-size:clamp(30px,2.65vw,48px)}
+.filtration-home .park-banner-materials .park-banner-copy p{max-width:390px;font-size:14px}
+.filtration-home .park-banner-materials .park-banner-image{object-position:center}
+.filtration-home .park-banner-materials .park-banner-panel{background:linear-gradient(90deg,#041b3066,transparent 50%)}
+@media(max-width:640px){.filtration-home .park-banner-materials .park-banner-copy{width:100%;padding-right:24px}.filtration-home .park-banner-materials .park-banner-panel{background:linear-gradient(0deg,#041b30f5 0%,#041b30cb 40%,transparent 80%)}.filtration-home .park-banner-materials .park-banner-image{object-position:70% center}}
+
+/* Consistent blue copy treatment over the existing application images. */
+.filtration-home .park-banner-materials .park-banner-panel{background:linear-gradient(90deg,#041b30 0%,#041b30f2 27%,#041b30a8 40%,#041b3033 57%,transparent 72%)}
+.filtration-home .park-banner-materials .park-banner-copy{width:38%;padding-left:5%;padding-right:20px}
+.filtration-home .park-banner-materials .park-banner-copy h1{font-size:clamp(28px,2.5vw,46px);line-height:1.18;letter-spacing:-.6px}
+.filtration-home .park-banner-materials .park-banner-image{object-position:center 20%}
+@media(min-width:641px) and (max-width:1000px){.filtration-home .park-banner-materials .park-banner-copy{width:52%}}
+@media(max-width:640px){.filtration-home .park-banner-materials .park-banner-copy{width:100%;padding-left:24px;padding-right:24px}.filtration-home .park-banner-materials .park-banner-panel{background:linear-gradient(0deg,#041b30f5 0%,#041b30cb 40%,transparent 80%)}.filtration-home .park-banner-materials .park-banner-image{object-position:70% center}}

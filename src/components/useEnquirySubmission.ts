@@ -6,6 +6,7 @@ export function useEnquirySubmission(subject: string, product?: string) {
   const [state, setState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
   const busy = useRef(false);
+  const request=useRef<{body:string;id:string}|null>(null);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -21,8 +22,11 @@ export function useEnquirySubmission(subject: string, product?: string) {
     setState('sending');
     setMessage('Sending your enquiry…');
     try {
-      await deliverEnquiry(fields, subject);
+      const body=JSON.stringify({fields,subject});
+      if(request.current?.body!==body)request.current={body,id:crypto.randomUUID()};
+      await deliverEnquiry(fields,subject,{requestId:request.current.id});
       form.reset();
+      request.current=null;
       setState('success');
       setMessage('Thank you! Your enquiry has been submitted to PARK. Our team will contact you.');
     } catch (error) {

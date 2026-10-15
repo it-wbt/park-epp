@@ -13,9 +13,9 @@ export function Brand() {
   return <Link href="/" className="park-brand" aria-label="PARK Nonwoven EPP home"><ResponsiveImage src="/images/park-nonwoven-logo.png" alt="PARK Nonwoven" sizes="280px" width={768} height={126}/></Link>;
 }
 
-const menuLabels = ['Industries', 'Our products'] as const;
+const menuLabels = ['Products'] as const;
 type MenuLabel = typeof menuLabels[number];
-const menuId = (label: MenuLabel) => label === 'Industries' ? 'industries' : 'products';
+const menuId = (_label: MenuLabel) => 'products';
 const lookup = (link: MenuLink) => products.find(product => link.href === `/products/${product.slug}/`);
 const industryIcons: Record<string, string> = {'Sports, Leisure & Early Childhood': 'ball', 'Logistics & Material Handling': 'warehouse', HVAC: 'fan', Automotive: 'car'};
 const categoryIcon = (name: string) => industryIcons[name] || (/logistics|packaging/i.test(name) ? 'box' : /technical/i.test(name) ? 'wind' : 'layers');
@@ -109,7 +109,7 @@ export default function Header() {
             <button id={`park-trigger-${menuId(label)}`} className={active === label ? 'nav-trigger active' : 'nav-trigger'} aria-expanded={active === label} aria-controls={`park-mega-${menuId(label)}`} onClick={() => { if (hover()) select(label); else active === label ? setActive(null) : select(label); }}>
               {label}<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
             </button>
-            {active === label && group && <section id={`park-mega-${menuId(label)}`} className={`mega-menu ${label === 'Our products' ? 'mega-products' : 'mega-mobility'}`} aria-label={`${label} navigation`} onMouseEnter={clear}>
+            {active === label && group && <section id={`park-mega-${menuId(label)}`} className="mega-menu mega-products" aria-label={`${label} navigation`} onMouseEnter={clear}>
               <div className="mega-categories">
                 <p className="mega-eyebrow">{label}</p>
                 <div className="epp-category-options" role="tablist" aria-orientation="vertical" aria-label={`${label} categories`}>
@@ -117,36 +117,38 @@ export default function Header() {
                     <span className="mega-icon"><Icon kind={categoryIcon(item.name)}/></span><span>{item.name}</span><span className="mega-category-arrow"><Icon kind="arrow"/></span>
                   </button>)}
                 </div>
-                <Link href={label === 'Industries' ? '/markets/' : '/products/'} onClick={close} className="mega-all">Explore all {label === 'Industries' ? 'industries' : 'products'} <Icon kind="arrow"/></Link>
-                {label === 'Our products' && <button className="park-catalogue-search" onClick={() => { clear(); setSearch(true); setActive(null); setMobile(false); }}><Icon kind="search"/>Search products</button>}
+                <Link href="/products/" onClick={close} className="mega-all">Explore all products <Icon kind="arrow"/></Link>
+                <button className="park-catalogue-search" onClick={() => { clear(); setSearch(true); setActive(null); setMobile(false); }}><Icon kind="search"/>Search products</button>
               </div>
               <div id={`park-${menuId(label)}-results`} className="mega-details product-menu-details" role="tabpanel" aria-labelledby={`park-${menuId(label)}-category-${selected}`} tabIndex={0}>
-                <div className="mobility-intro"><div><span className="submenu-eyebrow">{label === 'Our products' ? 'PRODUCT RANGE' : 'MATERIAL SOLUTIONS'}</span><h2>{group.name}</h2></div><span className="solution-count">{links.length} product {links.length === 1 ? 'option' : 'options'}</span></div>
+                <div className="mobility-intro"><div><span className="submenu-eyebrow">PRODUCTS BY INDUSTRY</span><h2>{group.name}</h2></div><span className="solution-count">{links.length} product {links.length === 1 ? 'option' : 'options'}</span></div>
                 <div className="product-menu-links">
                   {links.slice(0, 5).map(link => { const product = lookup(link); return <Link key={link.href} className="product-menu-link" href={link.href} onClick={close} onMouseEnter={() => setFeaturedHref(link.href)} onFocus={() => setFeaturedHref(link.href)}>
                     {product && <ResponsiveImage src={productVisual(product)} alt="" sizes="56px" width={56} height={56} loading="lazy"/>}
                     <span><strong>{link.name}</strong><small>{product?.material || link.description}</small></span><Icon kind="arrow"/>
                   </Link>; })}
                 </div>
-                <Link className="epp-explore-products" href={label === 'Our products' ? '/products/' : group.href} onClick={close}>Explore products <Icon kind="arrow"/></Link>
+                <Link className="epp-explore-products" href={group.href} onClick={close}>Explore products <Icon kind="arrow"/></Link>
               </div>
               <aside className="mega-feature product-menu-feature">
-                {label === 'Industries' ? <div className="mega-feature-card"><ResponsiveImage src={group.image} alt={`${group.name} product manufacturing`} width={480} height={600}/><div className="mega-feature-copy"><span className="mega-eyebrow">Products &amp; solutions</span><h3>{group.name}</h3><Link className="button small" href={group.href} onClick={close}>Explore <Icon kind="arrow"/></Link></div></div>
-                  : <div className="product-menu-preview"><span className="submenu-eyebrow">PARK EPP COMPONENTS</span><ResponsiveImage src={featuredProduct ? productVisual(featuredProduct) : group.image} alt={featuredProduct ? productVisualAlt(featuredProduct) : group.name} sizes="320px" width={320} height={240}/><h3>{featured?.name || group.name}</h3>{featuredProduct && <p>{featuredProduct.material}</p>}<Link className="button small" href={featured?.href || group.href} onClick={close}>View product <Icon kind="arrow"/></Link></div>}
+                <div className="product-menu-preview"><span className="submenu-eyebrow">PARK EPP COMPONENTS</span><ResponsiveImage src={featuredProduct ? productVisual(featuredProduct) : group.image} alt={featuredProduct ? productVisualAlt(featuredProduct) : group.name} sizes="320px" width={320} height={240}/><h3>{featured?.name || group.name}</h3>{featuredProduct && <p>{featuredProduct.material}</p>}<Link className="button small" href={featured?.href || group.href} onClick={close}>View product <Icon kind="arrow"/></Link></div>
                 <div className="mega-catalogue"><Link href="/products/" onClick={close}><span>Explore all EPP products</span><UpRight/></Link></div>
               </aside>
             </section>}
           </div>)}
           <Link className="park-nav-link" href="/expertise/" onClick={close} onMouseEnter={() => setActive(null)}>Our technology</Link>
-          <Link href="/contact/" className="button small park-contact-button" onClick={close} onMouseEnter={() => setActive(null)}>Let’s talk <UpRight/></Link>
+          <Link href="/#contact" className="button small park-contact-button" onClick={close} onMouseEnter={() => setActive(null)}>Contact Us <UpRight/></Link>
         </nav>
         <button ref={mobileButton} className="park-mobile-button" aria-label={mobile ? 'Close menu' : 'Open menu'} aria-expanded={mobile} aria-controls="park-navigation" onClick={() => { setMobile(!mobile); setActive(null); setSearch(false); }}><Icon kind={mobile ? 'close' : 'menu'}/></button>
       </div>
-      {search && <section className="park-search-panel" aria-label="Search products">
-        <div className="search-input"><Icon kind="search"/><input autoFocus type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Search products, industries or materials…" aria-label="Search products"/><button className="icon-button" aria-label="Close search" onClick={() => { setSearch(false); restoreTrigger(); }}><Icon kind="close"/></button></div>
-        <div className="search-results">{found.map(product => <Link key={product.slug} href={`/products/${product.slug}/`} onClick={close}>{product.name}<small>{product.market} →</small></Link>)}</div>
-        {query.trim() && !found.length && <p>No results. Try EPP, HVAC, packaging or sports.</p>}
-        <Link href="/products/" onClick={close}>Explore all products →</Link>
+      {search && <section className="park-search-panel" aria-labelledby="park-search-title">
+        <div className="park-search-heading"><div><span className="submenu-eyebrow">PRODUCT FINDER</span><h2 id="park-search-title">Find your solution</h2><p>Explore products by application, industry or material.</p></div><button className="icon-button park-search-close" aria-label="Close search" onClick={() => { setSearch(false); restoreTrigger(); }}><Icon kind="close"/></button></div>
+        <div className="search-input"><Icon kind="search"/><input autoFocus type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Search products, industries or materials?" aria-label="Search products"/></div>
+        {!query.trim() && <div className="park-search-suggestions"><span>Popular searches</span>{['EPP', 'HVAC', 'Packaging', 'Sports'].map(term => <button key={term} onClick={() => setQuery(term)}>{term}<UpRight/></button>)}</div>}
+        {query.trim() && <div className="park-search-matches" role="status">{found.length ? `${found.length} matching products` : 'No products found'}</div>}
+        {found.length > 0 && <div className="search-results">{found.map(product => <Link key={product.slug} href={`/products/${product.slug}/`} onClick={close}><ResponsiveImage src={productVisual(product)} alt="" width={64} height={64} sizes="64px"/><span><strong>{product.name}</strong><small>{product.market}</small></span><Icon kind="arrow"/></Link>)}</div>}
+        {query.trim() && !found.length && <p className="park-search-empty">Try another keyword, such as EPP, HVAC, packaging or sports.</p>}
+        <div className="park-search-footer"><span>Lightweight materials. Endless possibilities.</span><Link href="/products/" onClick={close}>Explore all products <Icon kind="arrow"/></Link></div>
       </section>}
     </header>
     {(active || search) && <button className="mega-backdrop" tabIndex={-1} aria-label="Close expanded navigation" onClick={() => { setActive(null); setSearch(false); }}/>}

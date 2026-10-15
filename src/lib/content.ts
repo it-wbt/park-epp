@@ -118,7 +118,7 @@ export function productVisual(p: Product) {
   return '/images/technical.webp';
 }
 export const isBrandedProduct = (p: Product) => p.slug in brandedProductImages;
-export const productVisualAlt = (p: Product) => isBrandedProduct(p) ? `Illustrative ${p.name.toLowerCase()} product render with PARK Nonwoven branding` : factoryVisualFor(p)?.alt || `Illustrative generic ${p.name.toLowerCase()} application`;
+export const productVisualAlt = (p: Product) => p.slug === 'lithium-ion-cell-epp-trays' ? 'Illustrative EPP protective tray with individual pockets for cylindrical lithium-ion cells' : isBrandedProduct(p) ? `Illustrative ${p.name.toLowerCase()} product render with PARK Nonwoven branding` : factoryVisualFor(p)?.alt || `Illustrative generic ${p.name.toLowerCase()} application`;
 export const productVisualCaption = (p: Product) => isBrandedProduct(p) ? 'Illustrative product design' : factoryVisualFor(p) ? 'AI-generated factory scene' : 'Product-family design visual';
 
 export const marketGuides:Record<string,{overview:string;applications:string[];priorities:[string,string][];faq:[string,string][]}>={
