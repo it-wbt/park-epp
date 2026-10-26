@@ -39,7 +39,7 @@ export const markets = [
  {slug:'mobility',name:'Mobility',sourceSlugs:['mobility'],intro:'Develop lightweight vehicle components and protective inserts around the complete mobility assembly.',need:'Review assembly clearances, repeated loading, temperature exposure, handling and end-of-life separation.',image:'technical',subtitle:'Protection and impact absorption with less weight'},
  {slug:'hvac',name:'HVAC',sourceSlugs:['hvac'],intro:'Bring insulation, air management and assembly into a more considered component design.',need:'Airflow geometry, thermal interfaces, acoustic behaviour and access for servicing belong in the same design brief.',image:'technical',subtitle:'Optimal thermal performance'},
  {slug:'sports-leisure',name:'Toys & Sports',sourceSlugs:['sports-leisure','childhood'],intro:'Shape lightweight equipment, play forms and accessories around the people who use them.',need:'Define the activity, age group, anticipated loads and cleaning conditions. Evaluate the complete design against its intended use and relevant safety requirements.',image:'technical',subtitle:'Lightweight, innovative and durable'},
-];
+].map((market,index)=>({...market,intro:industryStories[market.slug]?.intro||market.intro,number:String(index+1).padStart(2,'0'),products:products.filter(product=>market.sourceSlugs.includes(product.marketSlug)).map(product=>product.name)}));
 export const marketSourceSlugs = (slug:string):string[] => markets.find(market=>market.slug===slug)?.sourceSlugs || [slug];
 export const publicMarketFor = (slug:string) => markets.find(market=>market.sourceSlugs.includes(slug));
 export const activeProducts = products.filter(product=>publicMarketFor(product.marketSlug));
