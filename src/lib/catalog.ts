@@ -35,15 +35,13 @@ export const products = legacyMarkets.flatMap(m=>m.products.map((name,i)=>({name
 products.forEach(p=>{if(productCopy[p.name])p.summary=productCopy[p.name].summary;const extra=expandedFamilies.find(f=>f.name===p.name);if(extra){p.material=extra.material;p.application=extra.application;}p.material='EPP';const sales=productSalesCopy[p.slug as keyof typeof productSalesCopy];if(sales)p.summary=sales.summary;});
 /** The four industries offered in public navigation, forms and catalogue browsing. */
 export const markets = [
- {slug:'sports-leisure',name:'Sports, Leisure & Early Childhood',sourceSlugs:['sports-leisure','childhood'],intro:'Shape lightweight equipment, play forms and accessories around the people who use them.',need:'Define the activity, age group, anticipated loads and cleaning conditions. Evaluate the complete design against its intended use and relevant safety requirements.',image:'technical'},
- {slug:'logistics-handling',name:'Logistics & Material Handling',sourceSlugs:['logistics-handling'],intro:'Protect, organise and move products through storage, transport and return journeys.',need:'Consider stacking loads, usable volume, cleaning, return journeys and how operators lift or access the packed product.',image:'packaging'},
- {slug:'hvac',name:'HVAC',sourceSlugs:['hvac'],intro:'Bring insulation, air management and assembly into a more considered component design.',need:'Airflow geometry, thermal interfaces, acoustic behaviour and access for servicing belong in the same design brief.',image:'technical'},
- {slug:'mobility',name:'Automotive',sourceSlugs:['mobility'],intro:'Develop lightweight vehicle components and protective inserts around the complete automotive assembly.',need:'Review assembly clearances, repeated loading, temperature exposure, handling and end-of-life separation.',image:'technical'},
-].map((market,index)=>({...market,intro:industryStories[market.slug].intro,number:String(index+1).padStart(2,'0'),products:products.filter(product=>market.sourceSlugs.includes(product.marketSlug)).map(product=>product.name)}));
-/** Resolve an original product application to its current public industry. */
-export const publicMarketFor = (sourceSlug:string) => markets.find(market=>market.sourceSlugs.includes(sourceSlug));
-/** Expand a public industry filter without changing original product/format keys. */
-export const marketSourceSlugs = (slug:string) => markets.find(market=>market.slug===slug)?.sourceSlugs || [slug];
+ {slug:'logistics-handling',name:'Logistics & Material Handling',sourceSlugs:['logistics-handling'],intro:'Protect, organise and move products through storage, transport and return journeys.',need:'Consider stacking loads, usable volume, cleaning, return journeys and how operators lift or access the packed product.',image:'packaging',subtitle:'Reusable transportation solutions'},
+ {slug:'mobility',name:'Mobility',sourceSlugs:['mobility'],intro:'Develop lightweight vehicle components and protective inserts around the complete mobility assembly.',need:'Review assembly clearances, repeated loading, temperature exposure, handling and end-of-life separation.',image:'technical',subtitle:'Protection and impact absorption with less weight'},
+ {slug:'hvac',name:'HVAC',sourceSlugs:['hvac'],intro:'Bring insulation, air management and assembly into a more considered component design.',need:'Airflow geometry, thermal interfaces, acoustic behaviour and access for servicing belong in the same design brief.',image:'technical',subtitle:'Optimal thermal performance'},
+ {slug:'sports-leisure',name:'Toys & Sports',sourceSlugs:['sports-leisure','childhood'],intro:'Shape lightweight equipment, play forms and accessories around the people who use them.',need:'Define the activity, age group, anticipated loads and cleaning conditions. Evaluate the complete design against its intended use and relevant safety requirements.',image:'technical',subtitle:'Lightweight, innovative and durable'},
+];
+export const marketSourceSlugs = (slug:string):string[] => markets.find(market=>market.slug===slug)?.sourceSlugs || [slug];
+export const publicMarketFor = (slug:string) => markets.find(market=>market.sourceSlugs.includes(slug));
 export const activeProducts = products.filter(product=>publicMarketFor(product.marketSlug));
 products.forEach(product=>{const market=publicMarketFor(product.marketSlug);if(market)product.market=market.name;});
 /** Public records take precedence while every original market URL remains available. */

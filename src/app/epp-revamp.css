@@ -12,7 +12,7 @@
 .filters input,.filters select{border-radius:7px}
 .button{border-radius:6px}
 .button:focus-visible,.text-link:focus-visible{outline:3px solid #efb649;outline-offset:3px}
-.filtration-home .park-industry-cards{grid-template-columns:repeat(4,minmax(0,1fr))}
+.filtration-home .park-industry-cards{grid-template-columns:repeat(5,minmax(0,1fr))}
 .filtration-home .park-industry-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .65s ease}
 .filtration-home .park-industry-card:hover>img{transform:scale(1.055)}
 .park-banner-link svg,.park-banner-pause svg{width:18px;height:18px}
@@ -54,6 +54,11 @@
 @media(max-width:1000px){.epp-product-highlights .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.filtration-home .park-industry-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.filtration-home .park-industry-card:last-child{grid-column:auto}.epp-partner-intro{gap:30px}}
 @media(max-width:760px){.epp-material-stage,.epp-partner-intro{grid-template-columns:1fr;gap:24px}.epp-material-stage,.epp-partner-intro,.epp-product-highlights{padding:28px 16px}.epp-material-stage p,.epp-partner-intro p{font-size:14px}.epp-range-proof{gap:14px}.epp-range-proof strong{font-size:30px}.epp-products-help{align-items:flex-start;flex-direction:column;gap:10px}.epp-product-highlights .product-copy{padding:12px}.epp-product-highlights .product-copy h3{font-size:16px}.epp-product-highlights .product-image{height:170px}}
 @media(prefers-reduced-motion:reduce){.filtration-home .park-industry-card>img{transition:none}.filtration-home .park-industry-card:hover>img{transform:none}}
+/* Keep all card text inside the image, including multi-line industry names. */
+.filtration-home .park-industry-card-copy{inset:12px!important;box-sizing:border-box;min-width:0;overflow:hidden;padding:12px;background:linear-gradient(180deg,#071e38e8,#071e38a8 72%,#071e3866);display:flex;flex-direction:column;align-items:flex-start;gap:0}
+.filtration-home .park-industry-card .park-industry-card-copy h3{display:block;position:static;flex:none;width:100%;max-width:100%;font-size:clamp(16px,1.15vw,21px);line-height:1.2;margin:0 0 8px;padding:0;overflow-wrap:anywhere}
+.filtration-home .park-industry-subtitle{display:block;position:static;flex:none;width:100%;max-width:100%;font-size:clamp(11px,.82vw,14px);line-height:1.4;margin:0;padding:0;white-space:normal;overflow-wrap:anywhere}
+.filtration-home .park-industry-discover{position:absolute;left:12px;bottom:12px;margin:0;width:auto;flex:none}
 @media(max-width:760px){.filtration-home .park-banner-copy{width:100%;padding:240px 24px 84px;justify-content:flex-end}.filtration-home .park-banner-video{object-position:65% center}.filtration-home .park-banner-panel{background:linear-gradient(0deg,#051b30f2,#051b3080 55%,#051b3010)}}
 
 .epp-only-filters{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}@media(max-width:760px){.epp-only-filters{grid-template-columns:1fr}}

@@ -61,8 +61,11 @@
 .park-industry-card::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,#071e3833 0%,transparent 30%,#071e3866 58%,#071e38ed 100%);pointer-events:none}
 .park-industry-number{position:absolute;z-index:2;top:16px;left:16px;display:grid;place-items:center;width:32px;height:32px;border:1px solid #ffffff55;border-radius:50%;background:#10375040;color:#fff;font-size:11px;letter-spacing:1px;backdrop-filter:blur(8px)}
 .park-industry-card-copy{position:absolute;z-index:2;inset:auto 18px 18px}
+.filtration-home .park-industry-card-copy{inset:10px;display:flex;flex-direction:column;align-items:flex-start;padding:12px;border-radius:10px;background:linear-gradient(180deg,#071e38d9,#071e3899 70%,#071e3866);text-shadow:0 1px 3px #071e38}
 .park-industry-card .park-industry-card-copy h3{display:block;padding:0;margin:0 0 12px;background:transparent;height:auto;min-height:0;color:#fff;font-size:clamp(20px,1.5vw,28px);font-weight:550;line-height:1.22;letter-spacing:-.35px;max-width:90%}
+.park-industry-subtitle{max-width:340px;margin:0 0 8px;color:#fff;font-size:clamp(12px,.9vw,15px);line-height:1.4;font-weight:500;text-shadow:0 1px 4px #071e38}
 .park-industry-discover{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#e0ecf4;font-size:12px;font-weight:500}
+.filtration-home .park-industry-discover{margin-top:auto;width:100%;font-size:11px}
 .park-industry-arrow{display:grid;place-items:center;width:32px;height:32px;border:1px solid #ffffff60;border-radius:50%;background:#ffffff0f;transition:background .25s ease,transform .25s ease}
 .park-industry-arrow svg{display:block!important}
 .park-industry-card:focus-visible{outline-offset:3px}
@@ -112,6 +115,7 @@
 .park-banner-video{left:0;width:100%;object-position:center}
 .park-banner-panel{background:linear-gradient(0deg,#051b30c9 0%,#051b3066 35%,#051b3012 72%);clip-path:none}
 .park-banner-copy{width:78%;justify-content:flex-end;padding:40px 7% 64px;background:transparent}
+.epp-banner-tagline{margin:0 0 16px;color:#fff;font-family:'Manrope',Arial,sans-serif;font-size:clamp(22px,2vw,34px);font-weight:600;line-height:1.2;letter-spacing:.01em;text-shadow:0 2px 16px #04162955}
 .park-banner-copy h1{max-width:1000px;font-size:clamp(38px,3.7vw,68px);font-weight:500;line-height:1.15;letter-spacing:-1px;white-space:normal;margin-bottom:18px;text-shadow:0 2px 16px #04162933}
 .park-banner-eyebrow{margin-bottom:16px;color:#fff}
 .home-showcase .park-banner-copy p{max-width:700px;font-size:17px;line-height:1.6;margin-bottom:24px;color:#e7edf2}
@@ -137,4 +141,4 @@
  .park-industry-arrow{width:28px;height:28px}
 }
 @media(min-width:641px) and (max-width:1000px){.park-banner{height:560px}.park-banner-copy{width:85%;padding:30px 6% 70px}.park-banner-video{left:0;width:100%}.park-banner-copy h1{font-size:42px}}
-@media(max-width:640px){.home-showcase{margin:0}.park-banner{min-height:580px}.park-banner-copy{width:100%;min-height:580px;padding:200px 24px 84px;justify-content:flex-end}.park-banner-copy h1{font-size:36px;white-space:normal}.park-banner-panel{background:linear-gradient(0deg,#051b30ed,#051b3080 50%,#051b3012)}.home-showcase .park-banner-copy p{font-size:15px}.park-banner-arrows{bottom:20px;right:24px}}
+@media(max-width:640px){.home-showcase{margin:0}.park-banner{min-height:580px}.park-banner-copy{width:100%;min-height:580px;padding:200px 24px 84px;justify-content:flex-end}.epp-banner-tagline{font-size:23px;margin-bottom:12px}.park-banner-copy h1{font-size:36px;white-space:normal}.park-banner-panel{background:linear-gradient(0deg,#051b30ed,#051b3080 50%,#051b3012)}.home-showcase .park-banner-copy p{font-size:15px}.park-banner-arrows{bottom:20px;right:24px}}

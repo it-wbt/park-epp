@@ -20,7 +20,6 @@ export const industryGroups:MenuGroup[] = markets.map(market => ({
 export const marketGroups = industryGroups;
 
 export const productGroups:MenuGroup[] = [
-  {name:'All products',intro:'Explore PARK product families, EPP grades and application guidance across our four industries.',href:'/products/',image:'/images/generated/factory-logistics.webp',links:activeProducts.map(product=>({name:product.name,href:`/products/${product.slug}/`,description:product.material,image:productVisual(product)}))},
   {name:'Technical components',intro:'Moulded components shaped around automotive assemblies, HVAC insulation and lightweight integration.',href:'/products/',image:marketImagePath('hvac'),links:picks(['hvac','mobility'])},
   {name:'Packaging & material handling',intro:'Protective cushions, returnable containers, lightweight pallets and insulated transport formats.',href:'/markets/logistics-handling/',image:marketImagePath('logistics-handling'),links:picks(['logistics-handling'])},
   {name:'Sports & play products',intro:'Lightweight equipment, recreational forms and moulded accessories for sport, leisure and early childhood.',href:'/markets/sports-leisure/',image:marketImagePath('sports-leisure'),links:picks(['sports-leisure','childhood'])},
@@ -30,5 +29,5 @@ export const resourceLinks:MenuLink[] = [{name:'Whitepapers & guides',href:'/res
 export const aboutLinks:MenuLink[] = [{name:'What is EPP?',href:'/materials/expanded-polypropylene/'},{name:'Who we are',href:'/about/'},{name:'Responsible design',href:'/about/responsible-design/'},{name:'Careers & collaboration',href:'/about/careers/'},{name:'Production & project support',href:'/about/project-support/'}];
 export const navigation:Record<string,MenuGroup[]> = {
   'About us':[{name:'PARK Nonwoven',intro:'A practical conversation about materials, product design and your next project.',href:'/about/',image:marketImagePath('hvac'),links:aboutLinks}],
-  'Products':[productGroups[0], ...industryGroups],
+  'Products':[...industryGroups],
 };
