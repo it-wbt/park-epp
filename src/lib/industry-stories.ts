@@ -310,8 +310,8 @@ export const industryStories: Record<string, IndustryStory> = {
     ],
     "intro": "PARK develops moulded foam components around the vehicle assembly and its production journey. From energy-management forms to fitted storage, give each feature a clear function within the available space.",
     "homeSummary": "Lightweight foam components for energy management, fitted storage and production handling, developed around each vehicle assembly's functional requirements.",
-    "heroImage": "/images/generated/factory-automotive.webp",
-    "heroAlt": "AI factory illustration of automotive foam supports at a component inspection fixture",
+    "heroImage": "/images/markets/mobility-automotive.png",
+    "heroAlt": "Cutaway automotive illustration showing lightweight protective foam components integrated into a vehicle",
     "overview": {
       "eyebrow": "DESIGNED INTO THE ASSEMBLY",
       "title": "A lighter part starts with a clear job.",

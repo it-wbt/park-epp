@@ -3,7 +3,7 @@ import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {useEffect, useRef, useState} from 'react';
 import {markets} from '../lib/catalog';
-const industryImages = ['/images/markets/logistics.webp', '/images/markets/mobility.webp', '/images/markets/hvac.webp', '/images/markets/sports.webp'];
+const industryImages = ['/images/markets/logistics.webp', '/images/markets/mobility-automotive.png', '/images/markets/hvac.webp', '/images/markets/sports.webp'];
 const defenceCard = {name:'Defence', subtitle:'Arms packaging.', href:'/contact/', image:'/images/generated/industry-automotive.webp'};
 import {Icon} from './ui';
 const slides = [
