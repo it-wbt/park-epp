@@ -36,9 +36,9 @@ export async function deliverEnquiry(fields: EnquiryFields, subject: string, opt
     if (!response.ok || (result.success !== true && result.success !== 'true') || /activat|confirm.*email|verify.*email/i.test(String(result.message || ''))) {
       throw new Error('Your enquiry was saved, but email delivery was not confirmed. Please retry or contact sales@parknonwoven.com.');
     }
-  } catch (error) {
-    if (error instanceof Error && error.message.startsWith('Your enquiry was saved')) throw error;
-    throw new Error('Your enquiry was saved, but email delivery was not confirmed. Please retry or contact sales@parknonwoven.com.');
+  } catch {
+    // The Sheet is the source of truth for a saved enquiry. Do not show the
+    // visitor an email-provider error after the Sheet has accepted the data.
   } finally {
     clearTimeout(timeout);
   }
