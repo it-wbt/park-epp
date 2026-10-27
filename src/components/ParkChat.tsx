@@ -6,6 +6,7 @@ import {whatsappNumber} from '../lib/site-engagement';
 import {Icon} from './ui';
 import styles from './ParkChat.module.css';
 import {deliverEnquiry} from '../lib/enquiry-delivery';
+import {googleEnquiryEndpoint,submitGoogleChatMessage} from '../lib/submit-google-enquiry';
 
 type Message = {role:'bot'|'user';text:string;links?:{name:string;href:string}[]};
 const welcome:Message={role:'bot',text:'Hi! I can help you explore PARK EPP products, materials and applications. What are you looking for?'};
@@ -29,13 +30,23 @@ export default function ParkChat(){
  const [lead,setLead]=useState({name:'',phone:'',email:''});
  const [status,setStatus]=useState<'idle'|'sending'|'sent'|'error'>('idle');
  const [error,setError]=useState('');
- const pending=useRef(false),requestId=useRef('');
+ const pending=useRef(false),requestId=useRef(''),sessionId=useRef('');
+ const chatLogQueue=useRef<Promise<void>>(Promise.resolve());
+ const initialWelcomeLogged=useRef(false);
  const launcher=useRef<HTMLButtonElement>(null),field=useRef<HTMLInputElement>(null),list=useRef<HTMLDivElement>(null);
  const close=()=>{setOpen(false);launcher.current?.focus();};
  useEffect(()=>{if(open)field.current?.focus();},[open]);
  useEffect(()=>{if(open&&list.current)list.current.scrollTop=list.current.scrollHeight;},[open,messages]);
  useEffect(()=>{if(!open)return;const escape=(event:KeyboardEvent)=>{if(event.key==='Escape'){setOpen(false);launcher.current?.focus();}};document.addEventListener('keydown',escape);return()=>document.removeEventListener('keydown',escape);},[open]);
- const add=(...items:Message[])=>setMessages(previous=>[...previous,...items]);
+ const logChatMessages=(items:Message[])=>{
+  sessionId.current ||= crypto.randomUUID();
+  items.forEach(item=>{
+   const log={sessionId:sessionId.current,speaker:item.role,message:item.text,website:window.location.hostname};
+   chatLogQueue.current=chatLogQueue.current.then(()=>submitGoogleChatMessage(googleEnquiryEndpoint(),log,crypto.randomUUID())).catch(()=>{});
+  });
+ };
+ const add=(...items:Message[])=>{setMessages(previous=>[...previous,...items]);logChatMessages(items);};
+ useEffect(()=>{if(open&&!initialWelcomeLogged.current){initialWelcomeLogged.current=true;logChatMessages([welcome]);}},[open]);
  const quote=()=>{setStep('name');setStatus('idle');setError('');requestId.current='';add({role:'bot',text:'Let us prepare your enquiry. What is your name?'});field.current?.focus();};
  const submitEnquiry=async(details=lead)=>{
   if(pending.current)return;

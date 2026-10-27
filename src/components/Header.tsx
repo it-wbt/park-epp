@@ -13,9 +13,9 @@ export function Brand() {
   return <Link href="/" className="park-brand" aria-label="PARK Nonwoven EPP home"><ResponsiveImage src="/images/park-nonwoven-logo.png" alt="PARK Nonwoven" sizes="280px" width={768} height={126}/></Link>;
 }
 
-const menuLabels = ['Products'] as const;
+const menuLabels = ['Industries', 'Our products'] as const;
 type MenuLabel = typeof menuLabels[number];
-const menuId = (_label: MenuLabel) => 'products';
+const menuId = (label: MenuLabel) => label.toLowerCase().replace(/\s+/g, '-');
 const lookup = (link: MenuLink) => products.find(product => link.href === `/products/${product.slug}/`);
 const industryIcons: Record<string, string> = {'Sports, Leisure & Early Childhood': 'ball', 'Logistics & Material Handling': 'warehouse', HVAC: 'fan', Automotive: 'car'};
 const categoryIcon = (name: string) => industryIcons[name] || (/logistics|packaging/i.test(name) ? 'box' : /technical/i.test(name) ? 'wind' : 'layers');
@@ -42,14 +42,14 @@ export default function Header() {
   const chooseGroup = (index: number) => { setSelected(index); setFeaturedHref(null); };
   const restoreTrigger = () => {
     if (matchMedia('(max-width: 760px)').matches) mobileButton.current?.focus();
-    else root.current?.querySelector<HTMLButtonElement>('#park-trigger-products')?.focus();
+    else root.current?.querySelector<HTMLButtonElement>('#park-trigger-our-products')?.focus();
   };
 
   useEffect(() => {
     const escape = (event: KeyboardEvent) => {
       if (event.key !== 'Escape') return;
       const trigger = root.current?.querySelector<HTMLButtonElement>('.nav-trigger[aria-expanded="true"]')
-        || (root.current?.querySelector('.park-search-panel') ? root.current.querySelector<HTMLButtonElement>('#park-trigger-products') : null);
+        || (root.current?.querySelector('.park-search-panel') ? root.current.querySelector<HTMLButtonElement>('#park-trigger-our-products') : null);
       if (!trigger && !root.current?.querySelector('.park-nav.is-open')) return;
       clear(); setActive(null); setMobile(false); setSearch(false);
       if (matchMedia('(max-width: 760px)').matches) mobileButton.current?.focus();
@@ -106,7 +106,6 @@ export default function Header() {
         <nav id="park-navigation" className={mobile ? 'park-nav is-open' : 'park-nav'} aria-label="Main navigation">
           <div className="park-mobile-menu-heading"><span>EXPLORE PARK</span><small>Materials. Products. Possibilities.</small></div>
           <Link className="park-nav-link" href="/about/" onClick={close} onMouseEnter={() => setActive(null)}>About us<span className="park-mobile-nav-arrow"><UpRight/></span></Link>
-          <Link className="park-nav-link park-mobile-products-link" href="/products/" onClick={close}>Products<span className="park-mobile-nav-arrow"><UpRight/></span></Link>
           {menuLabels.map(label => <div key={label} className="nav-dropdown" onMouseEnter={() => { if (hover()) select(label); }} onMouseLeave={() => { if (hover()) { clear(); timer.current = setTimeout(() => setActive(null), 180); } }}>
             <button id={`park-trigger-${menuId(label)}`} className={active === label ? 'nav-trigger active' : 'nav-trigger'} aria-expanded={active === label} aria-controls={`park-mega-${menuId(label)}`} onClick={() => { if (hover()) select(label); else active === label ? setActive(null) : select(label); }}>
               {label}<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
@@ -119,27 +118,27 @@ export default function Header() {
                     <span className="mega-icon"><Icon kind={categoryIcon(item.name)}/></span><span>{item.name}</span><span className="mega-category-arrow"><Icon kind="arrow"/></span>
                   </button>)}
                 </div>
-                <Link href="/products/" onClick={close} className="mega-all">Explore all products <Icon kind="arrow"/></Link>
+                <Link href={label === 'Industries' ? '/markets/' : '/products/'} onClick={close} className="mega-all">Explore all {label === 'Industries' ? 'industries' : 'products'} <Icon kind="arrow"/></Link>
                 <button className="park-catalogue-search" onClick={() => { clear(); setSearch(true); setActive(null); setMobile(false); }}><Icon kind="search"/>Search products</button>
               </div>
               <div id={`park-${menuId(label)}-results`} className="mega-details product-menu-details" role="tabpanel" aria-labelledby={`park-${menuId(label)}-category-${selected}`} tabIndex={0}>
-                <div className="mobility-intro"><div><span className="submenu-eyebrow">PRODUCTS BY INDUSTRY</span><h2>{group.name}</h2></div><span className="solution-count">{links.length} product {links.length === 1 ? 'option' : 'options'}</span></div>
+                <div className="mobility-intro"><div><span className="submenu-eyebrow">{label === 'Industries' ? 'PARK INDUSTRIES' : 'EPP PRODUCTS'}</span><h2>{group.name}</h2></div><span className="solution-count">{links.length} {label === 'Industries' ? 'product' : 'product'} {links.length === 1 ? 'option' : 'options'}</span></div>
                 <div className="product-menu-links">
                   {links.slice(0, 5).map(link => { const product = lookup(link); return <Link key={link.href} className="product-menu-link" href={link.href} onClick={close} onMouseEnter={() => setFeaturedHref(link.href)} onFocus={() => setFeaturedHref(link.href)}>
                     {product && <ResponsiveImage src={productVisual(product)} alt="" sizes="56px" width={56} height={56} loading="lazy"/>}
                     <span><strong>{link.name}</strong><small>{product?.material || link.description}</small></span><Icon kind="arrow"/>
                   </Link>; })}
                 </div>
-                <Link className="epp-explore-products" href={group.href} onClick={close}>Explore products <Icon kind="arrow"/></Link>
+                <Link className="epp-explore-products" href={group.href} onClick={close}>{label === 'Industries' ? 'Explore industry' : 'Explore products'} <Icon kind="arrow"/></Link>
               </div>
               <aside className="mega-feature product-menu-feature">
-                <div className="product-menu-preview"><span className="submenu-eyebrow">PARK EPP COMPONENTS</span><ResponsiveImage src={featuredProduct ? productVisual(featuredProduct) : group.image} alt={featuredProduct ? productVisualAlt(featuredProduct) : group.name} sizes="320px" width={320} height={240}/><h3>{featured?.name || group.name}</h3>{featuredProduct && <p>{featuredProduct.material}</p>}<Link className="button small" href={featured?.href || group.href} onClick={close}>View product <Icon kind="arrow"/></Link></div>
-                <div className="mega-catalogue"><Link href="/products/" onClick={close}><span>Explore all EPP products</span><UpRight/></Link></div>
+                <div className="product-menu-preview"><span className="submenu-eyebrow">{label === 'Industries' ? 'PARK INDUSTRY SOLUTIONS' : 'PARK EPP COMPONENTS'}</span><ResponsiveImage src={featuredProduct ? productVisual(featuredProduct) : group.image} alt={featuredProduct ? productVisualAlt(featuredProduct) : group.name} sizes="320px" width={320} height={240}/><h3>{featured?.name || group.name}</h3>{featuredProduct && <p>{featuredProduct.material}</p>}<Link className="button small" href={featured?.href || group.href} onClick={close}>{label === 'Industries' ? 'Explore industry' : 'View product'} <Icon kind="arrow"/></Link></div>
+                <div className="mega-catalogue"><Link href={label === 'Industries' ? '/markets/' : '/products/'} onClick={close}><span>Explore all {label === 'Industries' ? 'industries' : 'EPP products'}</span><UpRight/></Link></div>
               </aside>
             </section>}
           </div>)}
           <Link className="park-nav-link" href="/expertise/" onClick={close} onMouseEnter={() => setActive(null)}>Our technology<span className="park-mobile-nav-arrow"><UpRight/></span></Link>
-          <Link href="/#contact" className="button small park-contact-button" onClick={close} onMouseEnter={() => setActive(null)}>Contact Us <UpRight/></Link>
+          <Link href="/contact/" className="button small park-contact-button" onClick={close} onMouseEnter={() => setActive(null)}>Contact Us <UpRight/></Link>
           <a className="park-mobile-menu-email" href="mailto:sales@parknonwoven.com">sales@parknonwoven.com<UpRight/></a>
         </nav>
         <button ref={mobileButton} className="park-mobile-button" aria-label={mobile ? 'Close menu' : 'Open menu'} aria-expanded={mobile} aria-controls="park-navigation" onClick={() => { setMobile(!mobile); setActive(null); setSearch(false); }}><Icon kind={mobile ? 'close' : 'menu'}/></button>

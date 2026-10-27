@@ -14,5 +14,6 @@ export function buildEppEnquiry(fields:Record<string,string>,subject:string,sour
  const enquirySubject='[PARK EPP] '+subject.replace(/^\[PARK EPP\]\s*/,'');
  const details=Object.entries(fields).filter(([key,value])=>value&&!['name','email','phone','mobile','botcheck','website','page','product'].includes(key)).map(([key,value])=>key+': '+value).join('\n');
  const message=['Website: '+enquiryWebsite.name,'Business: '+enquiryWebsite.type,'Website URL: '+window.location.origin,'Page URL: '+pageUrl,'Enquiry source: '+source,'Subject: '+enquirySubject,'',details].join('\n');
- return {name:fields.name||'',email:fields.email||'',phone:fields.phone||fields.mobile||'',product:fields.product||'',message,website:'',websiteName:enquiryWebsite.name,websiteType:enquiryWebsite.type,pageUrl,enquirySource:source,subject:enquirySubject};
+ const requirement=(fields.requirement||fields.requirements||fields.brief||fields.message||details).slice(0,2000);
+ return {name:fields.name||'',email:fields.email||'',phone:fields.phone||fields.mobile||'',product:fields.product||'',message,website:fields.company||fields.organization||fields.website||'',requirement,websiteName:enquiryWebsite.name,websiteType:enquiryWebsite.type,pageUrl,enquirySource:source,subject:enquirySubject};
 }

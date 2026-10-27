@@ -1,37 +1,29 @@
-PARK EPP - Google Sheet + email enquiries
+PARK EPP - Google Sheet, FormSubmit email and chatbot logs
 
-Current state
-The website keeps its email-only delivery until NEXT_PUBLIC_GOOGLE_ENQUIRY_URL is configured.
-Homepage, contact page, product quote forms and chatbot all use the same delivery function.
-Every email includes [PARK EPP] in the subject, website name, business, page URL and enquiry source.
+The EPP homepage and contact forms, product quote forms, and completed chatbot enquiries
+use the same Google Apps Script endpoint and Sheet. Enquiries are written to the Enquiries
+tab first; the website sends the email through FormSubmit after the Sheet confirms success.
+Each chatbot user and assistant message is also written to the Chat Logs tab with a session ID.
 
-When the Apps Script URL is available
-1. Open the enquiry Sheet > Extensions > Apps Script. Add this folder's Code.gs.
+Default deployment:
+https://script.google.com/macros/s/AKfycbzFzTpdcN-nm45LYeysTsBj3HEcUYT-BskK2Cv7SmAiMcp7ELS00txWFG2lBfiQdlC7/exec
+
+Apps Script setup
+1. Add this folder's Code.gs to the Google Sheet's Apps Script project.
 2. Set Script Properties:
-   SHEET_ID: destination spreadsheet ID.
-   RECIPIENT_EMAIL: sales@parknonwoven.com (or your chosen recipient).
-   ALLOWED_ORIGINS: exact permitted EPP website origins, comma-separated.
-   Include http://127.0.0.1:3000 for this local preview if testing locally.
-   SITE_NAME: PARK EPP.
-3. Deploy as Web app; execute as the owner; access Anyone. Authorize Sheet and email access.
-4. Put the deployed /exec URL in .env.local:
-   NEXT_PUBLIC_GOOGLE_ENQUIRY_URL=https://script.google.com/macros/s/DEPLOYMENT_ID/exec
-   Restart development server; rebuild/redeploy for production.
-5. Verify a test enquiry reaches BOTH the Sheet and the recipient inbox.
-   Success is shown only after the Sheet write and email send are acknowledged.
+   ALLOWED_ORIGINS: exact permitted site origins, comma-separated.
+   Include http://127.0.0.1:3000 for the local preview if needed.
+   SHEET_ID is optional; Code.gs uses the PARK Sheet ID by default.
+3. Deploy as a Web app, execute as the owner, and allow access to Anyone. Authorize Sheet access.
+4. Set NEXT_PUBLIC_GOOGLE_ENQUIRY_URL only if using a different /exec deployment. Restart
+   the dev server and rebuild/redeploy the website after changing this value.
+5. Confirm FormSubmit is activated for sales@parknonwoven.com. Verify that a form enquiry
+   reaches both Enquiries and the recipient inbox, and chatbot messages reach Chat Logs.
 
-To share a deployment with PARK Filtration
-Use SITE_NAMES_BY_ORIGIN_JSON instead of trusting a website label sent by the browser.
-Example (replace with actual production origins):
-{"https://epp.example.com":"PARK EPP","https://filtration.example.com":"PARK Filtration"}
-Allow both origins in ALLOWED_ORIGINS. No change to Filtration's frontend is required for
-its emails to receive the correct website label when using this updated deployment.
-Existing Enquiries columns 1-9 stay in place. Added columns 10-13 are Website,
-Page URL, Enquiry source and Email subject. Older Filtration clients supply only origin;
-they receive that as the page URL until their frontend also sends the full page path.
-Update the Apps Script deployment version after changing Code.gs.
+The Enquiries tab stores the contact details, product, query, website, page origin, status,
+and requirement. Chat Logs stores session ID, received time, website, page origin, speaker,
+and each message. Request IDs prevent duplicate enquiry rows on retries. FormSubmit sends
+the EPP email after the Sheet write succeeds; the Apps Script itself does not send email.
 
-Request IDs prevent duplicate rows on retries. If a Sheet row is saved but mail fails,
-retrying sends the pending email from the saved row. Email-only delivery is not used as
-an automatic fallback after a Google error, which could otherwise send duplicate emails.
-No real enquiry has been sent as part of the local automated checks.
+Redeploy the updated Code.gs as a new Apps Script version before publishing the matching
+frontend change.

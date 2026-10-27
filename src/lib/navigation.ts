@@ -19,15 +19,20 @@ export const industryGroups:MenuGroup[] = markets.map(market => ({
 }));
 export const marketGroups = industryGroups;
 
+const automotivePriority = ['Head Absorber','Baggage Tray','Seat Cushion','Trunk Box','Battery Cover','Door Impact Pad','Heat Cushion','Energy Absorbers','PP Board Trunk Trims','Energy Absorbers for Bumpers','EPP Covers for Hydrogen Tanks – Hydrogen Tank Protection'];
+const automotiveProducts = picks(['mobility']).sort((a,b) => automotivePriority.indexOf(a.name) - automotivePriority.indexOf(b.name));
+
 export const productGroups:MenuGroup[] = [
-  {name:'Technical components',intro:'Moulded components shaped around automotive assemblies, HVAC insulation and lightweight integration.',href:'/products/',image:marketImagePath('hvac'),links:picks(['hvac','mobility'])},
+  {name:'Automotive products',intro:'PARK EPP components for vehicle interiors, energy absorption, storage and battery protection.',href:'/markets/mobility/',image:marketImagePath('mobility'),links:automotiveProducts},
+  {name:'Technical components',intro:'Moulded HVAC components shaped around airflow, insulation and equipment integration.',href:'/markets/hvac/',image:marketImagePath('hvac'),links:picks(['hvac'])},
   {name:'Packaging & material handling',intro:'Protective cushions, returnable containers, lightweight pallets and insulated transport formats.',href:'/markets/logistics-handling/',image:marketImagePath('logistics-handling'),links:picks(['logistics-handling'])},
   {name:'Sports & play products',intro:'Lightweight equipment, recreational forms and moulded accessories for sport, leisure and early childhood.',href:'/markets/sports-leisure/',image:marketImagePath('sports-leisure'),links:picks(['sports-leisure','childhood'])},
 ];
+const defenceGroup:MenuGroup = {name:'Defence',intro:'Protective EPP packaging and lightweight components for defence applications.',href:'/#industries',image:marketImagePath('mobility'),links:[]};
 
 export const resourceLinks:MenuLink[] = [{name:'Whitepapers & guides',href:'/resources/whitepapers/'},{name:'Application use cases',href:'/resources/use-cases/'},{name:'Webinars & learning',href:'/resources/webinars/'},{name:'Brochures & videos',href:'/resources/brochures-videos/'},{name:'Blog & insights',href:'/resources/blog/'},{name:'Circular design reports',href:'/resources/csr-reports/'}];
 export const aboutLinks:MenuLink[] = [{name:'What is EPP?',href:'/materials/expanded-polypropylene/'},{name:'Who we are',href:'/about/'},{name:'Responsible design',href:'/about/responsible-design/'},{name:'Careers & collaboration',href:'/about/careers/'},{name:'Production & project support',href:'/about/project-support/'}];
 export const navigation:Record<string,MenuGroup[]> = {
-  'About us':[{name:'PARK Nonwoven',intro:'A practical conversation about materials, product design and your next project.',href:'/about/',image:marketImagePath('hvac'),links:aboutLinks}],
-  'Products':[...industryGroups],
+  'Industries':[...industryGroups,defenceGroup],
+  'Our products':productGroups,
 };

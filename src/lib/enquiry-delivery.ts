@@ -1,20 +1,15 @@
-import {submitGoogleEnquiry} from './submit-google-enquiry';
+import {googleEnquiryEndpoint,submitGoogleEnquiry} from './submit-google-enquiry';
 import {buildEppEnquiry,enquirySourceFor,type EnquirySource} from './enquiry-source';
 
 export type EnquiryFields = Record<string, string>;
 
 /** Fixed recipient: form submissions never open the visitor's email application. */
 export async function deliverEnquiry(fields: EnquiryFields, subject: string, options:{requestId?:string;source?:EnquirySource}={}) {
-  if (fields.botcheck || fields.website) throw new Error('Unable to submit this enquiry.');
+  if (fields.botcheck) throw new Error('Unable to submit this enquiry.');
 
   const source=options.source||enquirySourceFor(window.location.pathname,fields.product);
   const enquiry=buildEppEnquiry(fields,subject,source);
-  const googleEndpoint=process.env.NEXT_PUBLIC_GOOGLE_ENQUIRY_URL;
-  if(googleEndpoint){
-    await submitGoogleEnquiry(googleEndpoint,enquiry,options.requestId||crypto.randomUUID());
-    return;
-  }
-
+  await submitGoogleEnquiry(googleEnquiryEndpoint(),enquiry,options.requestId||crypto.randomUUID());
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
   try {
@@ -39,11 +34,11 @@ export async function deliverEnquiry(fields: EnquiryFields, subject: string, opt
     });
     const result = await response.json();
     if (!response.ok || (result.success !== true && result.success !== 'true') || /activat|confirm.*email|verify.*email/i.test(String(result.message || ''))) {
-      throw new Error('Delivery was not confirmed. Please try again or contact sales@parknonwoven.com.');
+      throw new Error('Your enquiry was saved, but email delivery was not confirmed. Please retry or contact sales@parknonwoven.com.');
     }
   } catch (error) {
-    if (error instanceof Error && error.message.startsWith('Delivery was not confirmed')) throw error;
-    throw new Error('Delivery was not confirmed. Check your connection and try again, or contact sales@parknonwoven.com.');
+    if (error instanceof Error && error.message.startsWith('Your enquiry was saved')) throw error;
+    throw new Error('Your enquiry was saved, but email delivery was not confirmed. Please retry or contact sales@parknonwoven.com.');
   } finally {
     clearTimeout(timeout);
   }

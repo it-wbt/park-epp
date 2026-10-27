@@ -197,11 +197,8 @@ header.park-header .park-nav .park-contact-button svg { color:inherit; }
  header.park-header .park-mobile-menu-email{display:none}
 }
 
-header.park-header .park-nav>.park-mobile-products-link{display:none}
 @media(max-width:760px){
  header.park-header .park-nav.is-open{top:100%;left:0;right:0;margin:0;padding:10px 22px 20px;border:0;border-top:1px solid #edf2f5;border-radius:0 0 16px 16px;box-shadow:0 16px 30px #092b451a}
- header.park-header .park-nav>.nav-dropdown{display:none}
- header.park-header .park-nav>.park-mobile-products-link{display:flex}
  header.park-header .park-nav>.park-nav-link{min-height:48px;padding:13px 0;font-size:16px;font-weight:500;letter-spacing:-.2px;border-bottom:1px solid #edf2f5}
  .park-mobile-nav-arrow{width:20px;height:20px;background:none;border-radius:0;color:#648391}
  header.park-header .park-nav .park-contact-button{min-height:42px;margin-top:16px;padding:10px 16px;border-radius:7px;justify-content:space-between;font-size:12px}

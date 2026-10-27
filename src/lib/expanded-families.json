@@ -252,6 +252,94 @@
     "application": "Specify noise target, contact interfaces and temperature exposure. Test representative assemblies against agreed service conditions."
   },
   {
+    "name": "Head Absorber",
+    "marketSlug": "mobility",
+    "summary": "Lightweight moulded absorber developed around vehicle interior packaging and impact requirements.",
+    "material": "EPP",
+    "focus": ["Installation envelope", "Impact loading", "Assembly interfaces"],
+    "application": "Specify the available installation envelope, impact loading and assembly interfaces. Validate the finished component against the vehicle programme requirements."
+  },
+  {
+    "name": "Baggage Tray",
+    "marketSlug": "mobility",
+    "summary": "Moulded trunk tray for organising and supporting items in the vehicle cargo area.",
+    "material": "EPP",
+    "focus": ["Cargo floor geometry", "Load support", "Cleaning and wear"],
+    "application": "Specify the cargo floor geometry, supported loads and expected wear. Review fit and retention in the complete vehicle assembly."
+  },
+  {
+    "name": "Seat Cushion",
+    "marketSlug": "mobility",
+    "summary": "Lightweight foam cushion form developed as part of a vehicle seating assembly.",
+    "material": "EPP",
+    "focus": ["Seat structure", "Comfort and support", "Repeated loading"],
+    "application": "Specify the seat structure, support targets and repeated loading. Evaluate the finished cushion within the complete seating assembly."
+  },
+  {
+    "name": "Trunk Box",
+    "marketSlug": "mobility",
+    "summary": "Fitted storage box shaped around the available vehicle cargo space.",
+    "material": "EPP",
+    "focus": ["Available cargo space", "Stored item layout", "Retention"],
+    "application": "Specify the cargo-space envelope, stored items and retention needs. Check access, fit and movement during representative vehicle use."
+  },
+  {
+    "name": "Battery Cover",
+    "marketSlug": "mobility",
+    "summary": "Protective cover concept shaped around a vehicle battery pack and its interfaces.",
+    "material": "EPP",
+    "focus": ["Battery envelope", "Thermal conditions", "Service access"],
+    "application": "Specify the battery envelope, thermal environment and service interfaces. Assess the finished design against the vehicle programme requirements."
+  },
+  {
+    "name": "Door Impact Pad",
+    "marketSlug": "mobility",
+    "summary": "Moulded door component developed around packaging space and defined impact loads.",
+    "material": "EPP",
+    "focus": ["Door cavity geometry", "Impact load cases", "Attachment points"],
+    "application": "Specify door cavity geometry, impact load cases and attachment points. Validate the complete door assembly against its requirements."
+  },
+  {
+    "name": "Heat Cushion",
+    "marketSlug": "mobility",
+    "summary": "Shaped thermal cushion concept for a vehicle assembly with defined heat exposure.",
+    "material": "EPP",
+    "focus": ["Operating temperature", "Thermal interfaces", "Available space"],
+    "application": "Specify the operating temperature, thermal interfaces and installation space. Confirm material and assembly suitability for the actual conditions."
+  },
+  {
+    "name": "Energy Absorbers",
+    "marketSlug": "mobility",
+    "summary": "Moulded energy-absorbing components developed around defined vehicle impact load cases.",
+    "material": "EPP",
+    "focus": ["Impact load cases", "Component geometry", "Assembly validation"],
+    "application": "Specify the impact load cases, geometry and assembly interfaces. Validate the finished component using the agreed vehicle programme test plan."
+  },
+  {
+    "name": "PP Board Trunk Trims",
+    "marketSlug": "mobility",
+    "summary": "Lightweight trunk trim boards shaped to fit vehicle cargo-area profiles.",
+    "material": "EPP",
+    "focus": ["Cargo-area profile", "Trim interfaces", "Surface finish"],
+    "application": "Specify the cargo-area profile, neighbouring trim interfaces and finish requirements. Review fit and handling in the vehicle assembly."
+  },
+  {
+    "name": "Energy Absorbers for Bumpers",
+    "marketSlug": "mobility",
+    "summary": "Moulded bumper absorber developed around vehicle packaging and impact requirements.",
+    "material": "EPP",
+    "focus": ["Bumper envelope", "Impact load cases", "Validation targets"],
+    "application": "Specify the bumper envelope, impact load cases and validation targets. Evaluate the complete bumper assembly against the vehicle programme requirements."
+  },
+  {
+    "name": "EPP Covers for Hydrogen Tanks – Hydrogen Tank Protection",
+    "marketSlug": "mobility",
+    "summary": "Protective cover concept designed around a hydrogen tank envelope and vehicle installation interfaces.",
+    "material": "EPP",
+    "focus": ["Tank envelope", "Operating environment", "Clearance and access"],
+    "application": "Specify the tank envelope, operating environment and required clearance and access. Review the component within the complete vehicle system and applicable programme requirements."
+  },
+  {
     "name": "Vehicle parts shuttle trays",
     "marketSlug": "mobility",
     "summary": "Returnable layouts for component transport and repeated handling.",
@@ -538,6 +626,30 @@
       "Empty returns"
     ],
     "application": "Specify payload layout, fork access and empty returns. Test representative assemblies against agreed service conditions."
+  },
+  {
+    "name": "Insulated Food Transport Boxes",
+    "marketSlug": "logistics-handling",
+    "summary": "Reusable insulated boxes for moving prepared food through delivery and catering routes.",
+    "material": "EPP",
+    "focus": ["Food payload and fit", "Temperature route", "Cleaning and return use"],
+    "application": "Specify the food payload, temperature route, handling, cleaning and return cycle. Assess the complete transport system under representative conditions."
+  },
+  {
+    "name": "Ice Cube Boxes",
+    "marketSlug": "logistics-handling",
+    "summary": "Insulated reusable containers for storing and transporting ice cubes.",
+    "material": "EPP",
+    "focus": ["Ice capacity", "Route duration", "Drainage and cleaning"],
+    "application": "Specify ice capacity, route duration, drainage and cleaning requirements. Evaluate the container with the intended closure and handling method."
+  },
+  {
+    "name": "Insulated Food Delivery Boxes",
+    "marketSlug": "logistics-handling",
+    "summary": "Lightweight insulated boxes for prepared food delivery and catering distribution.",
+    "material": "EPP",
+    "focus": ["Meal format", "Delivery duration", "Stacking and handling"],
+    "application": "Specify meal format, delivery duration, stacking and cleaning. Test the packed configuration on a representative route."
   },
   {
     "name": "Lithium-ion cell EPP trays",
