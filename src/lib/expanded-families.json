@@ -652,6 +652,14 @@
     "application": "Specify meal format, delivery duration, stacking and cleaning. Test the packed configuration on a representative route."
   },
   {
+    "name": "Drone Components",
+    "marketSlug": "sports-leisure",
+    "summary": "Lightweight moulded components for drone assemblies, including protective housings and fitted foam forms.",
+    "material": "EPP",
+    "focus": ["Drone body and component fit", "Impact protection", "Weight and assembly interfaces"],
+    "application": "Specify the drone layout, component envelope, impact requirements and assembly interfaces. Evaluate the finished parts within the complete drone design."
+  },
+  {
     "name": "Lithium-ion cell EPP trays",
     "marketSlug": "logistics-handling",
     "summary": "Custom-moulded EPP trays for positioning and cushioning lithium-ion cells during handling.",

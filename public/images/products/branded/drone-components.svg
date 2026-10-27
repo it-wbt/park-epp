@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="85" y1="24" x2="1085" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F8F8"/><stop offset="1" stop-color="#DCE7E9"/></linearGradient>
+    <linearGradient id="foam" x1="368" y1="322" x2="828" y2="574" gradientUnits="userSpaceOnUse"><stop stop-color="#414A4C"/><stop offset=".55" stop-color="#222B2D"/><stop offset="1" stop-color="#141C1E"/></linearGradient>
+    <linearGradient id="arm" x1="260" y1="300" x2="950" y2="485" gradientUnits="userSpaceOnUse"><stop stop-color="#475154"/><stop offset=".48" stop-color="#293235"/><stop offset="1" stop-color="#171F21"/></linearGradient>
+    <linearGradient id="prop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#364144" stop-opacity=".82"/><stop offset="1" stop-color="#5D696C" stop-opacity=".22"/></linearGradient>
+    <filter id="shadow" x="103" y="158" width="1010" height="554" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <pattern id="beads" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="4" cy="5" r="1.2" fill="#BBC2C1" fill-opacity=".12"/><circle cx="13" cy="12" r="1" fill="#C8CECD" fill-opacity=".1"/></pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v800H0z"/>
+  <path d="M70 670h1060" stroke="#C8D5D8" stroke-width="2"/>
+  <path d="M82 107h190M82 125h102" stroke="#B9CDD1" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="604" cy="557" fill="#1B2C31" fill-opacity=".24" filter="url(#shadow)" rx="447" ry="111"/>
+  <!-- propeller guards and rotors -->
+  <g stroke="#263235" stroke-width="11">
+    <ellipse cx="276" cy="265" rx="119" ry="61" transform="rotate(-17 276 265)"/><ellipse cx="925" cy="269" rx="119" ry="61" transform="rotate(17 925 269)"/>
+    <ellipse cx="267" cy="535" rx="119" ry="61" transform="rotate(17 267 535)"/><ellipse cx="933" cy="532" rx="119" ry="61" transform="rotate(-17 933 532)"/>
+  </g>
+  <g fill="url(#prop)" stroke="#4C595B" stroke-width="3">
+    <path d="M186 258c49-53 121-69 171-54-20 43-92 76-158 70-17-1-22-7-13-16Z"/><path d="M284 204c48 3 102 39 125 83-49 15-121-9-159-60-10-13-1-23 34-23Z"/>
+    <path d="M831 207c48-28 127-18 165 10-34 35-112 49-172 22-15-7-16-18 7-32Z"/><path d="M927 219c49-5 112 28 137 69-47 20-122 4-165-42-11-12-5-23 28-27Z"/>
+    <path d="M183 527c48-51 121-66 170-49-21 42-95 73-160 64-17-2-21-8-10-15Z"/><path d="M281 479c49 5 101 42 122 87-49 13-120-13-156-65-9-14 0-23 34-22Z"/>
+    <path d="M837 499c43-32 122-29 163-4-30 38-106 58-169 37-16-5-18-16 6-33Z"/><path d="M929 520c49-10 115 18 144 57-44 25-121 15-168-27-13-11-8-22 24-30Z"/>
+  </g>
+  <!-- molded EPP arms -->
+  <g stroke="#172124" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m515 409-236-126 35-62 259 132-58 56Z" fill="url(#arm)" stroke-width="8"/>
+    <path d="m681 409 238-126-35-62-260 132 57 56Z" fill="url(#arm)" stroke-width="8"/>
+    <path d="m518 477-238 92 25 69 264-102-51-59Z" fill="url(#arm)" stroke-width="8"/>
+    <path d="m684 477 239 92-25 69-265-102 51-59Z" fill="url(#arm)" stroke-width="8"/>
+  </g>
+  <g fill="#171F21" stroke="#101719" stroke-width="7">
+    <circle cx="276" cy="265" r="32"/><circle cx="925" cy="269" r="32"/><circle cx="267" cy="535" r="32"/><circle cx="933" cy="532" r="32"/>
+  </g>
+  <g fill="#778487"><circle cx="276" cy="265" r="9"/><circle cx="925" cy="269" r="9"/><circle cx="267" cy="535" r="9"/><circle cx="933" cy="532" r="9"/></g>
+  <!-- central molded body -->
+  <path d="m426 358 85-45 177 1 86 46 22 142-55 74H459l-57-73 24-145Z" fill="url(#foam)" stroke="#11191B" stroke-width="10" stroke-linejoin="round"/>
+  <path d="m426 358 85-45 177 1 86 46-42 30H467l-41-32Z" fill="#596467" fill-opacity=".46"/>
+  <path d="M424 372h369v127H424z" fill="url(#beads)"/>
+  <path d="m457 513 43 49h205l43-49" stroke="#687477" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m530 315 15-31h107l17 31" fill="#303A3D" stroke="#151E20" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M566 284h68l-12-40h-44l-12 40Z" fill="#1B2427" stroke="#11191B" stroke-width="7"/>
+  <path d="M585 243h31l-8-42h-15l-8 42Z" fill="#526064" stroke="#172124" stroke-width="6"/>
+  <!-- camera and landing pads -->
+  <path d="m574 568 30 22 30-22v-31h-60v31Z" fill="#151E20" stroke="#586568" stroke-width="6"/>
+  <circle cx="604" cy="552" r="19" fill="#0D1518" stroke="#829093" stroke-width="5"/><circle cx="604" cy="552" r="8" fill="#3483A0"/>
+  <path d="m476 566-20 42m272-42 20 42" stroke="#303B3E" stroke-width="12" stroke-linecap="round"/>
+  <!-- PARK brand plate on product -->
+  <rect x="505" y="411" width="197" height="55" rx="12" fill="#10191C" fill-opacity=".82" stroke="#69777A" stroke-width="2"/>
+  <path d="M526 429c7-9 15-9 22 0s15 9 22 0 15-9 22 0" stroke="#28A3D0" stroke-width="4" stroke-linecap="round"/>
+  <text x="598" y="447" fill="#41B0D5" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing=".5">PARK</text>
+  <text x="652" y="447" fill="#D5E3E6" font-family="Arial,sans-serif" font-size="12" font-weight="600" letter-spacing=".5">NONWOVEN</text>
+  <!-- discreet watermark -->
+  <g opacity=".36" transform="translate(874 704)">
+    <path d="M0 7c7-9 14-9 21 0s14 9 21 0 14-9 21 0" stroke="#0877A7" stroke-width="3" stroke-linecap="round"/>
+    <text x="72" y="15" fill="#07577F" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">PARK NONWOVEN</text>
+  </g>
+</svg>
