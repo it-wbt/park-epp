@@ -1,0 +1,123 @@
+.article { color: #173a4d; background: #fff; }
+
+.hero { background: linear-gradient(135deg, #f7fbfc 0%, #eaf3f6 100%); border-block: 1px solid #dce8ec; }
+.heroInner, .steps, .evidenceInner, .briefInner, .more { width: 88%; max-width: 1320px; margin-inline: auto; }
+.heroInner { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); align-items: center; gap: clamp(30px, 4.5vw, 72px); padding: 36px 0 42px; }
+
+.eyebrow { margin: 0 0 14px; color: #08639b; font-size: 11px; font-weight: 650; line-height: 1.6; letter-spacing: 1.4px; }
+.heroCopy h1 { max-width: 590px; margin: 0; font-size: clamp(37px, 3.8vw, 54px); line-height: 1.13; letter-spacing: -2px; font-weight: 600; text-wrap: balance; }
+.heroCopy h1 span { color: #197493; }
+.intro { max-width: 540px; margin: 20px 0 0; color: #58707f; font-size: 16px; line-height: 1.75; }
+.primary { display: inline-flex; align-items: center; justify-content: space-between; gap: 22px; min-height: 50px; padding: 13px 18px; background: #08639b; color: #fff; border-radius: 3px; font-size: 14px; font-weight: 600; }
+.primary svg { width: 20px; height: 20px; flex: 0 0 auto; }
+.heroCopy .primary { margin-top: 26px; }
+
+.heroVisual { position: relative; min-width: 0; margin: 0; overflow: hidden; border-radius: 10px; background: #dce9ed; box-shadow: 0 22px 46px #10445a1c; }
+.heroVisual img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.heroVisual figcaption { display: flex; align-items: center; gap: 12px; margin: 0; padding: 14px 18px; background: #10384a; color: #fff; font-size: 13px; line-height: 1.5; }
+.heroVisual figcaption svg { width: 20px; height: 20px; color: #9bd5dd; }
+
+.contents { border-bottom: 1px solid #dbe5e9; background: #fff; }
+.contents > div { display: flex; align-items: center; gap: 36px; width: 88%; max-width: 1320px; margin-inline: auto; padding: 8px 0 14px; }
+.contents > div > span { margin-right: auto; color: #647b88; font-size: 11px; letter-spacing: 1.2px; }
+.contents a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; color: #617783; font-size: 12px; }
+.contents a > span { color: #173a4d; font-size: 14px; }
+
+.steps { padding: 50px 0; }
+.sectionHeading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(250px, .7fr); gap: 50px; align-items: end; margin-bottom: 30px; }
+.sectionHeading h2, .evidenceHeading h2, .brief h2 { margin: 0; font-size: clamp(32px, 3vw, 44px); line-height: 1.18; letter-spacing: -1.1px; font-weight: 600; text-wrap: balance; }
+.sectionHeading > p, .evidenceHeading > p { margin: 0; color: #607884; font-size: 15px; line-height: 1.75; }
+.steps ol { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin: 0; padding: 0; list-style: none; }
+.steps li { padding: 22px 0 0; border-top: 1px solid #c9dce5; }
+.number { display: block; margin-bottom: 18px; color: #6c8290; font-size: 12px; letter-spacing: .8px; }
+.steps h3 { margin: 0; font-size: 23px; line-height: 1.3; letter-spacing: -.5px; }
+.steps li p { margin: 12px 0 0; color: #637982; font-size: 15px; line-height: 1.75; }
+
+.evidence { background: #eff6f8; border-block: 1px solid #dce8ec; }
+.evidenceInner { padding: 50px 0; }
+.evidenceHeading { max-width: 690px; margin-bottom: 28px; }
+.evidenceHeading > p { max-width: 620px; margin-top: 16px; }
+.evidenceGrid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr); gap: 28px; align-items: start; }
+.evidenceGrid dl { margin: 0; overflow: hidden; background: #fff; border: 1px solid #d9e6eb; border-radius: 8px; }
+.evidenceGrid dl > div { display: grid; grid-template-columns: 170px 1fr; gap: 22px; padding: 18px 20px; border-bottom: 1px solid #e1eaee; }
+.evidenceGrid dl > div:last-child { border-bottom: 0; }
+.evidenceGrid dt { font-size: 14px; font-weight: 650; }
+.evidenceGrid dd { margin: 0; color: #627883; font-size: 14px; line-height: 1.7; }
+.note { padding: 28px; background: #0d3448; color: #fff; border-radius: 8px; }
+.note > svg { width: 28px; height: 28px; margin-bottom: 20px; color: #a7d9c9; }
+.note h3 { margin: 0; font-size: 24px; line-height: 1.25; letter-spacing: -.6px; }
+.note p { margin: 12px 0 0; color: #c2d5dd; font-size: 14px; line-height: 1.75; }
+.note a { display: inline-flex; align-items: center; gap: 14px; margin-top: 21px; color: #fff; font-size: 13px; font-weight: 600; }
+.note a svg { width: 18px; height: 18px; }
+
+.brief { background: #092e42; color: #fff; }
+.briefInner { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(30px, 4vw, 68px); padding: 48px 0; }
+.brief .eyebrow { color: #b8d9ca; }
+.briefIntro { max-width: 420px; margin: 16px 0 0; color: #c1d3dc; font-size: 16px; line-height: 1.75; }
+.briefDetails dl { margin: 0; }
+.briefDetails dl > div { display: grid; grid-template-columns: 145px 1fr; gap: 20px; padding: 14px 0; border-bottom: 1px solid #ffffff25; }
+.briefDetails dl > div:first-child { padding-top: 0; }
+.briefDetails dt { font-size: 16px; font-weight: 650; }
+.briefDetails dd { margin: 0; color: #c1d3dc; font-size: 15px; line-height: 1.7; }
+.actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 24px; margin-top: 24px; }
+.actions .primary { background: #fff; color: #15384a; }
+.actions > a:last-child { display: inline-flex; align-items: center; gap: 14px; min-height: 44px; color: #d8e7ec; font-size: 14px; }
+.actions > a:last-child svg { width: 19px; height: 19px; }
+
+.more { display: flex; justify-content: space-between; gap: 20px; padding: 20px 0; }
+.more a { display: inline-flex; align-items: center; gap: 15px; min-height: 44px; color: #08639b; font-size: 14px; font-weight: 600; }
+.more a:first-child svg { transform: rotate(180deg); }
+.more svg { width: 20px; height: 20px; }
+.article a:focus-visible { outline: 3px solid #0875b9; outline-offset: 4px; }
+.brief a:focus-visible { outline-color: #d7f58a; }
+
+@media (hover: hover) and (pointer: fine) {
+ .primary:hover { background: #004e7c; }
+ .actions .primary:hover { background: #dfeef4; }
+ .contents a:hover > span, .more a:hover, .note a:hover, .actions > a:last-child:hover { text-decoration: underline; text-underline-offset: 5px; }
+}
+
+@media (prefers-reduced-motion: no-preference) { .primary { transition: background .2s ease; } }
+
+@media (max-width: 900px) {
+ .heroInner { grid-template-columns: 1fr 1fr; gap: 28px; }
+ .heroCopy h1 { font-size: 39px; }
+ .sectionHeading { gap: 32px; }
+ .evidenceGrid { grid-template-columns: 1fr; }
+ .briefInner { grid-template-columns: .85fr 1.15fr; }
+}
+
+@media (max-width: 700px) {
+ .heroInner, .steps, .evidenceInner, .briefInner, .more { width: calc(100% - 40px); }
+ .heroInner { grid-template-columns: 1fr; padding: 30px 0; gap: 26px; }
+ .heroCopy h1 { font-size: 36px; letter-spacing: -1.4px; }
+ .intro { margin-top: 16px; font-size: 14px; }
+ .heroCopy .primary { margin-top: 20px; }
+ .heroVisual figcaption { padding: 12px; font-size: 12px; }
+ .contents > div { flex-wrap: wrap; gap: 0 18px; width: calc(100% - 40px); padding: 10px 0; }
+ .contents > div > span { width: 100%; padding-top: 4px; }
+ .contents a { gap: 7px; }
+ .contents a > span { font-size: 13px; }
+ .steps, .evidenceInner { padding: 34px 0; }
+ .sectionHeading { grid-template-columns: 1fr; gap: 14px; margin-bottom: 24px; }
+ .sectionHeading h2, .evidenceHeading h2, .brief h2 { font-size: 30px; }
+ .sectionHeading > p, .evidenceHeading > p { font-size: 14px; }
+ .steps ol { grid-template-columns: 1fr; gap: 20px; }
+ .steps li { display: grid; grid-template-columns: 24px 1fr; column-gap: 14px; padding-top: 16px; }
+ .number { margin-bottom: 0; padding-top: 3px; }
+ .steps h3 { font-size: 20px; }
+ .steps li p { grid-column: 2; margin-top: 8px; font-size: 14px; }
+ .evidenceHeading { margin-bottom: 22px; }
+ .evidenceGrid dl > div { grid-template-columns: 1fr; gap: 7px; padding: 16px; }
+ .evidenceGrid dt { font-size: 14px; }
+ .evidenceGrid dd { font-size: 13px; }
+ .note { padding: 24px; }
+ .note h3 { font-size: 22px; }
+ .note p { font-size: 13px; }
+ .briefInner { grid-template-columns: 1fr; gap: 28px; padding: 36px 0; }
+ .briefIntro { font-size: 14px; }
+ .briefDetails dl > div { grid-template-columns: 112px 1fr; gap: 14px; }
+ .briefDetails dt, .briefDetails dd { font-size: 14px; }
+ .more { flex-wrap: wrap; gap: 3px 20px; padding: 16px 0; }
+ .more a { font-size: 13px; }
+}
