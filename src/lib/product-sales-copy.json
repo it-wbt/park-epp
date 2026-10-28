@@ -398,5 +398,45 @@
     ],
     "uses": "Cell handling, production-line transfer and protective packaging development",
     "detail": "Moulded pockets keep cells individually positioned within a lightweight tray. Share your cell size, tray footprint and quantity to develop the layout. Material grade, terminal clearance and any ESD requirements must be agreed for your application. This tray is a packaging component; shipping approval and fire containment are not implied."
+  },
+  "lithium-ion-battery-packaging": {
+    "summary": "Custom EPP packaging designed around lithium-ion battery modules and their handling requirements.",
+    "benefits": [
+      "Moulded battery-module fit",
+      "Defined support locations",
+      "Reusable packaging format"
+    ],
+    "uses": "Battery-module handling and protective packaging development",
+    "detail": "A moulded EPP format can be developed around the battery-module envelope, connector clearance and the intended handling process. Share the module dimensions, pack quantity and return arrangement so the layout can be reviewed with the complete package. This packaging component does not establish shipping approval, fire containment or battery safety compliance."
+  },
+  "solar-cells-packaging": {
+    "summary": "Custom EPP packaging for organising and protecting solar cells and panels during handling and transport.",
+    "benefits": [
+      "Fitted panel and cell support",
+      "Separated stacking layout",
+      "Lightweight handling"
+    ],
+    "uses": "Solar-cell and solar-panel handling, storage and packaging development",
+    "detail": "Moulded EPP supports can be arranged around the panel or cell dimensions, surface constraints and desired pack quantity. The final layout should be evaluated with the actual product, handling route and stacking conditions before release."
+  },
+  "hard-disks-packaging": {
+    "summary": "Custom compartmented EPP packaging for hard disk storage and transport.",
+    "benefits": [
+      "Individual drive compartments",
+      "Defined connector clearance",
+      "Reusable handling layout"
+    ],
+    "uses": "Hard-disk handling, storage and protective packaging development",
+    "detail": "A fitted EPP layout can keep drives separated during storage and movement. Share the drive format, quantity per pack, connector clearance and handling process to develop the compartment arrangement. Confirm any electrostatic-discharge and transport requirements for the intended application."
+  },
+  "ammunition-packaging": {
+    "summary": "Custom EPP packaging for authorised ammunition storage and movement applications.",
+    "benefits": [
+      "Product-specific fitment",
+      "Defined separation layout",
+      "Lightweight handling format"
+    ],
+    "uses": "Authorised ammunition packaging development",
+    "detail": "A moulded EPP packaging format can be developed around the authorised product dimensions, pack quantity and handling process. The final design, materials, storage conditions and documentation must be confirmed against the applicable requirements before release."
   }
 }

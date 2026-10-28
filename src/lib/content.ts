@@ -147,3 +147,16 @@ for (const [slug, story] of Object.entries(industryStories)) {
   };
 }
 marketGuides.childhood = marketGuides['sports-leisure'];
+marketGuides.defence = {
+  overview:'Defence packaging projects need a clear, product-specific brief. Define the authorised item, handling process, storage conditions and required evidence before evaluating a moulded packaging format.',
+  applications:['Ammunition packaging','Sensitive equipment protection','Component storage and handling'],
+  priorities:[
+    ['Define the authorised application','Record the product envelope, pack quantity, access needs and the applicable handling, storage and approval requirements.'],
+    ['Develop the fitted layout','Review contact surfaces, separation, retention and the way authorised operators load and unload the complete pack.'],
+    ['Confirm the required evidence','Agree the evaluation method, storage conditions and documentation required for the specific application before release.']
+  ],
+  faq:[
+    ['What information is needed for a packaging brief?','Share authorised product dimensions, pack quantity, handling process, storage conditions and the requirements that apply to the intended use.'],
+    ['Does a product family establish approval for an application?','No. Final suitability, approvals and validation depend on the selected design, materials and the relevant application requirements.']
+  ]
+};

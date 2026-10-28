@@ -670,5 +670,53 @@
       "Terminal clearance"
     ],
     "application": "Share cell dimensions, quantity per tray, handling conditions and reuse requirements. Confirm material grade, terminal clearance, any ESD requirements and packaging validation for the intended use."
+  },
+  {
+    "name": "Lithium-ion Battery Packaging",
+    "marketSlug": "logistics-handling",
+    "summary": "Custom-moulded EPP packaging for lithium-ion battery modules and related components.",
+    "material": "EPP",
+    "focus": [
+      "Battery-module envelope",
+      "Terminal clearance",
+      "Reusable handling"
+    ],
+    "application": "Share the battery-module dimensions, connector locations, handling route and reuse requirements. Confirm the final packaging design against the product-specific transport and safety requirements."
+  },
+  {
+    "name": "Solar Cells Packaging",
+    "marketSlug": "logistics-handling",
+    "summary": "Custom-fitted EPP packaging for handling and transport of solar cells and panels.",
+    "material": "EPP",
+    "focus": [
+      "Panel and cell dimensions",
+      "Surface protection",
+      "Stacking layout"
+    ],
+    "application": "Share the panel or cell dimensions, surface constraints, packing quantity and handling route. Evaluate the complete packed configuration for the intended transport conditions."
+  },
+  {
+    "name": "Hard Disks Packaging",
+    "marketSlug": "logistics-handling",
+    "summary": "Custom compartmented EPP packaging for hard disk storage and transport.",
+    "material": "EPP",
+    "focus": [
+      "Drive dimensions",
+      "Connector protection",
+      "Handling layout"
+    ],
+    "application": "Share the drive format, quantity per pack, connector clearances and handling route. Confirm any electrostatic-discharge and transport requirements for the intended use."
+  },
+  {
+    "name": "Ammunition Packaging",
+    "marketSlug": "defence",
+    "summary": "Custom-moulded EPP packaging for the storage and movement of ammunition components.",
+    "material": "EPP",
+    "focus": [
+      "Product-specific fit",
+      "Secure separation",
+      "Handling and storage"
+    ],
+    "application": "Share the authorised product dimensions, pack quantity, handling process and applicable requirements. Confirm the final packaging design against the relevant storage, transport and approval requirements."
   }
 ]

@@ -53,5 +53,9 @@
   "movement-course-play-blocks": "/images/products/branded/movement-course-play-blocks.webp",
   "drone-components": "/images/products/branded/drone-components.svg",
   "adhesive-foam-support-pads": "/images/products/branded/adhesive-foam-support-pads.webp",
-  "lithium-ion-cell-epp-trays": "/images/products/lithium-ion-cell-epp-trays.webp"
+  "lithium-ion-cell-epp-trays": "/images/products/lithium-ion-cell-epp-trays.webp",
+  "lithium-ion-battery-packaging": "/images/products/branded/epp-lithium-ion-battery-packaging.png",
+  "solar-cells-packaging": "/images/products/branded/epp-solar-cell-packaging.png",
+  "hard-disks-packaging": "/images/products/branded/epp-hard-disk-packaging.png",
+  "ammunition-packaging": "/images/products/branded/epp-ammunition-packaging.png"
 }

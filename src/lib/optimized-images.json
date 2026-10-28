@@ -3850,5 +3850,121 @@
       }
     ],
     "originalBytes": 45082
+  },
+  "/images/products/branded/epp-lithium-ion-battery-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-96-093fddada6.webp 96w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-320-093fddada6.webp 320w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-640-093fddada6.webp 640w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-96-093fddada6.webp",
+        "bytes": 2962
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-320-093fddada6.webp",
+        "bytes": 18192
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-640-093fddada6.webp",
+        "bytes": 65286
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp",
+        "bytes": 137720
+      }
+    ],
+    "originalBytes": 2839468
+  },
+  "/images/products/branded/epp-solar-cell-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-solar-cell-packaging-96-4f62dda86d.webp 96w, /images/optimized/products-branded-epp-solar-cell-packaging-320-4f62dda86d.webp 320w, /images/optimized/products-branded-epp-solar-cell-packaging-640-4f62dda86d.webp 640w, /images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-96-4f62dda86d.webp",
+        "bytes": 4108
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-320-4f62dda86d.webp",
+        "bytes": 20452
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-640-4f62dda86d.webp",
+        "bytes": 65998
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp",
+        "bytes": 139096
+      }
+    ],
+    "originalBytes": 2984315
+  },
+  "/images/products/branded/epp-hard-disk-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-hard-disk-packaging-96-0a589e6786.webp 96w, /images/optimized/products-branded-epp-hard-disk-packaging-320-0a589e6786.webp 320w, /images/optimized/products-branded-epp-hard-disk-packaging-640-0a589e6786.webp 640w, /images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-96-0a589e6786.webp",
+        "bytes": 1922
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-320-0a589e6786.webp",
+        "bytes": 20772
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-640-0a589e6786.webp",
+        "bytes": 83516
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp",
+        "bytes": 173128
+      }
+    ],
+    "originalBytes": 3114424
+  },
+  "/images/products/branded/epp-ammunition-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-ammunition-packaging-96-e77bac1e11.webp 96w, /images/optimized/products-branded-epp-ammunition-packaging-320-e77bac1e11.webp 320w, /images/optimized/products-branded-epp-ammunition-packaging-640-e77bac1e11.webp 640w, /images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-96-e77bac1e11.webp",
+        "bytes": 1908
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-320-e77bac1e11.webp",
+        "bytes": 20222
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-640-e77bac1e11.webp",
+        "bytes": 81272
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp",
+        "bytes": 163620
+      }
+    ],
+    "originalBytes": 2964699
   }
 }
