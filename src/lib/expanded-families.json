@@ -638,7 +638,7 @@
   {
     "name": "Ice Cube Boxes",
     "marketSlug": "logistics-handling",
-    "summary": "Insulated reusable containers for storing and transporting ice cubes.",
+    "summary": "Reusable EPP ice box and cooler box formats for storing and transporting ice cubes.",
     "material": "EPP",
     "focus": ["Ice capacity", "Route duration", "Drainage and cleaning"],
     "application": "Specify ice capacity, route duration, drainage and cleaning requirements. Evaluate the container with the intended closure and handling method."
@@ -646,7 +646,7 @@
   {
     "name": "Insulated Food Delivery Boxes",
     "marketSlug": "logistics-handling",
-    "summary": "Lightweight insulated boxes for prepared food delivery and catering distribution.",
+    "summary": "Insulated EPP food delivery box formats for prepared meals, catering and delivery distribution.",
     "material": "EPP",
     "focus": ["Meal format", "Delivery duration", "Stacking and handling"],
     "application": "Specify meal format, delivery duration, stacking and cleaning. Test the packed configuration on a representative route."
@@ -654,7 +654,7 @@
   {
     "name": "Drone Components",
     "marketSlug": "sports-leisure",
-    "summary": "Lightweight moulded components for drone assemblies, including protective housings and fitted foam forms.",
+    "summary": "Lightweight EPP drone components and protective drone packaging forms for fitted assemblies.",
     "material": "EPP",
     "focus": ["Drone body and component fit", "Impact protection", "Weight and assembly interfaces"],
     "application": "Specify the drone layout, component envelope, impact requirements and assembly interfaces. Evaluate the finished parts within the complete drone design."

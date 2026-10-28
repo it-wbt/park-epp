@@ -23,7 +23,7 @@ export const industryStories: Record<string, IndustryStory> = {
       "Made for movement.",
       "Shaped for play."
     ],
-    "intro": "PARK develops lightweight EPP components for sports, play, living products and drone assemblies. Start with intended users, fit, loads, cleaning and operating requirements.",
+    "intro": "PARK develops lightweight EPP toys and sports products, living forms and drone components around intended users, fit, loads, cleaning and operating requirements.",
     "homeSummary": "EPP forms for sports, play, living products and drone assemblies, shaped around use, fit and handling.",
     "heroImage": "/images/generated/factory-childhood.webp",
     "heroAlt": "AI factory illustration of moulded play forms being inspected at a foam finishing workstation",
@@ -125,8 +125,8 @@ export const industryStories: Record<string, IndustryStory> = {
       "Protection that fits.",
       "Handling that flows."
     ],
-    "intro": "PARK develops packaging around the way goods move: into storage, across the delivery route and back for another cycle. Give every product a defined place and every operator clear access.",
-    "homeSummary": "Fitted cushioning and reusable containers that organise goods, simplify handling and protect products through the delivery cycle.",
+    "intro": "PARK develops reusable EPP dunnage packaging around the way goods move: into storage, across the delivery route and back for another cycle. Give every product a defined place and every operator clear access.",
+    "homeSummary": "Fitted cushioning, EPP dunnage trays and boxes, and reusable containers that organise goods, simplify handling and protect products through the delivery cycle.",
     "heroImage": "/images/generated/factory-logistics.webp",
     "heroAlt": "AI factory illustration of reusable foam containers and fitted trays beside a moulding line",
     "overview": {
@@ -153,8 +153,8 @@ export const industryStories: Record<string, IndustryStory> = {
     ],
     "applications": [
       {
-        "title": "Returnable containers",
-        "text": "Organise components for repeat journeys, with accessible handholds and a layout matched to loading stations.",
+        "title": "EPP dunnage trays and boxes",
+        "text": "Organise components for repeat journeys with reusable EPP dunnage packaging, accessible handholds and a layout matched to loading stations.",
         "productSlug": "reusable-industrial-containers",
         "image": "/images/generated/factory-logistics.webp",
         "imageAlt": "AI factory illustration of reusable foam containers and fitted trays beside a moulding line"
@@ -220,7 +220,7 @@ export const industryStories: Record<string, IndustryStory> = {
       "Insulation, integrated.",
       "Built around airflow."
     ],
-    "intro": "PARK shapes foam housings, ducts and insulation around heating, ventilation and cooling assemblies. Connect thermal performance with installation space, component support and the access needed for maintenance.",
+    "intro": "PARK develops EPP HVAC insulation components, moulded foam housings and ducts around heating, ventilation and cooling assemblies. Connect thermal performance with installation space, component support and the access needed for maintenance.",
     "homeSummary": "Moulded housings, air ducts and insulation that connect thermal performance with precise assembly fit and practical maintenance access.",
     "heroImage": "/images/generated/factory-hvac.webp",
     "heroAlt": "AI factory illustration of foam insulation housings and ducts beside guarded moulding equipment",
@@ -315,7 +315,7 @@ export const industryStories: Record<string, IndustryStory> = {
       "Less weight.",
       "More purpose."
     ],
-    "intro": "PARK develops moulded foam components around the vehicle assembly and its production journey. From energy-management forms to fitted storage, give each feature a clear function within the available space.",
+    "intro": "PARK develops automotive EPP components in India and custom EPP automotive parts around the vehicle assembly and its production journey. From energy-management forms to fitted storage, give each feature a clear function within the available space.",
     "homeSummary": "Lightweight foam components for energy management, fitted storage and production handling, developed around each vehicle assembly's functional requirements.",
     "heroImage": "/images/markets/mobility-automotive.png",
     "heroAlt": "Cutaway automotive illustration showing lightweight protective foam components integrated into a vehicle",
@@ -410,7 +410,7 @@ export const industryStories: Record<string, IndustryStory> = {
       "Protection that fits.",
       "Ready for handling."
     ],
-    "intro": "PARK develops custom EPP packaging around the handling, storage and movement needs of authorised defence applications. Define the item, pack quantity and operating process so every product has a protected, accessible position.",
+    "intro": "PARK develops EPP protective packaging for defence equipment and other authorised applications around handling, storage and movement needs. Define the item, pack quantity and operating process so every product has a protected, accessible position.",
     "homeSummary": "Custom fitted EPP packaging for authorised defence storage, handling and transport requirements.",
     "heroImage": "/images/generated/industry-automotive.webp",
     "heroAlt": "Moulded EPP protective packaging at a manufacturing workstation",

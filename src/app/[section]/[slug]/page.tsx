@@ -19,6 +19,18 @@ import EppProductDetail from '../../../components/EppProductDetail';
 import {industryStories} from '../../../lib/industry-stories';
 const tables={markets:[...allMarkets,...marketPages],materials,products,expertise:[...expertise,customExpertise],solutions,resources:[...articles,...resourcePages],about:aboutPages};
 type Section=keyof typeof tables;
+const seoOverrides:Record<string,{title:string;description:string}>={
+ 'markets/logistics-handling':{title:'Reusable EPP Dunnage Packaging',description:'Explore reusable EPP dunnage packaging, including EPP dunnage trays and boxes, for organised handling, storage and return cycles.'},
+ 'markets/mobility':{title:'Automotive EPP Components India',description:'Explore automotive EPP components in India and custom EPP automotive parts developed around vehicle assembly, fit and handling requirements.'},
+ 'markets/hvac':{title:'EPP HVAC Insulation Components',description:'Explore EPP HVAC insulation components, moulded air ducts and fitted housings for thermal management and practical equipment integration.'},
+ 'markets/sports-leisure':{title:'Lightweight EPP Toys & Sports Products',description:'Explore lightweight EPP toys and sports products, living forms, drone components and protective packaging shaped around the intended use.'},
+ 'markets/defence':{title:'EPP Protective Packaging for Defence Equipment',description:'Explore EPP protective packaging for defence equipment and authorised applications, developed around fit, handling, storage and applicable requirements.'},
+ 'materials/expanded-polypropylene':{title:'EPP Foam Manufacturer India',description:'Learn about expanded polypropylene (EPP) from an EPP foam manufacturer in India, including material structure, properties, moulding and applications.'},
+ 'products/insulated-food-delivery-boxes':{title:'Insulated EPP Food Delivery Boxes',description:'Explore insulated EPP food delivery box formats for prepared meals, catering and reusable delivery routes.'},
+ 'products/ice-cube-boxes':{title:'Reusable EPP Ice Box & Cooler Box',description:'Explore reusable EPP ice box and cooler box formats for transporting ice cubes with a lightweight insulated container.'},
+ 'products/reusable-industrial-coolers':{title:'Reusable EPP Cooler Boxes',description:'Explore reusable EPP cooler box formats for temperature-sensitive transport, storage and returnable delivery routes.'},
+ 'products/drone-components':{title:'EPP Drone Components & Drone Packaging',description:'Explore lightweight EPP drone components and drone packaging forms developed around body fit, equipment protection and assembly interfaces.'}
+};
 export function generateStaticParams(){return Object.entries(tables).flatMap(([section,rows])=>rows.map(row=>({section,slug:row.slug})));}
 export const dynamicParams=false;
 export async function generateMetadata({params}:{params:Promise<{section:string,slug:string}>}):Promise<Metadata>{
@@ -31,6 +43,8 @@ export async function generateMetadata({params}:{params:Promise<{section:string,
   title='Living: Toys, Sports & Play EPP Products';
   description='Explore lightweight EPP products for toys, sports, play and drone applications. Share your design, fit and use requirements with PARK.';
  }
+ const seo=seoOverrides[`${section}/${slug}`];
+ if(seo){title=seo.title;description=seo.description;}
  const archived=(section==='markets'&&!markets.some(m=>m.slug===slug))||(section==='products'&&!activeProducts.some(p=>p.slug===slug));
  return {title,description,...(archived?{robots:{index:false,follow:true}}:{}),alternates:{canonical:`/${section}/${slug}/`},openGraph:{title,description,...(section==='products'?{images:[{url:productVisual(products.find(p=>p.slug===slug)!),alt:title}]}:{}),...(section==='markets'&&industryStories[slug]?{images:[{url:industryStories[slug].heroImage,width:1440,height:960,alt:industryStories[slug].heroAlt}]}:{}),url:`/${section}/${slug}/`,type:section==='resources'?'article':'website'}};
 }

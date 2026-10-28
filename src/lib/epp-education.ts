@@ -62,6 +62,7 @@ export const eppApplications: (EppReference & {slug: string; title: string; summ
   {slug: 'logistics-handling', title: 'Logistics & Material Handling', summary: 'Protection shaped around the handling cycle.', examples: ['Returnable trays', 'Protective inserts', 'Insulated containers'], designFocus: 'Map payload, stacking, cleaning and return journeys.', sourceIds: ['knauf-process']},
   {slug: 'hvac', title: 'HVAC', summary: 'Combine insulation with component integration.', examples: ['Insulating housings', 'Equipment supports', 'Thermal covers'], designFocus: 'Evaluate heat, condensation, noise and service access.', sourceIds: ['knauf-hvac']},
   {slug: 'mobility', title: 'Automotive', summary: 'Lightweight components within larger vehicle assemblies.', examples: ['Energy absorbers', 'Tool organisers', 'Component packaging'], designFocus: 'Validate loads, temperature, attachment and assembly behaviour.', sourceIds: ['bewi-epp']},
+  {slug: 'defence', title: 'Defence', summary: 'EPP protective packaging for authorised defence equipment and handling applications.', examples: ['Fitted protective packaging', 'Organised equipment storage', 'Authorised handling formats'], designFocus: 'Define the approved item, access, storage, handling and documentation requirements.', sourceIds: ['knauf-process']},
 ];
 
 export const eppFaqs: (EppReference & {question: string; answer: string})[] = [

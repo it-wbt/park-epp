@@ -1,4 +1,4 @@
 import type {Metadata} from 'next';
-export const metadata:Metadata={title:'PARK EPP | Lightweight EPP Products & Custom Moulding',description:'Explore PARK expanded polypropylene (EPP) products for insulated food delivery, protective packaging, automotive, HVAC and sports. Discuss your custom requirements.',alternates:{canonical:'/'}};
+export const metadata:Metadata={title:'PARK EPP | EPP Products Manufacturer India',description:'PARK Nonwoven is an expanded polypropylene (EPP) products manufacturer in India, developing custom moulded EPP components, protective packaging, insulation and reusable formats.',alternates:{canonical:'/'}};
 import Home from '../components/Home';
 export default function Page(){return <Home/>;}

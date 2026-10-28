@@ -8,7 +8,7 @@ export default function HomeEppExplainer() {
     <div className={styles.copy}>
       <p className={styles.eyebrow}>EPP SOLUTIONS FOR YOUR BUSINESS</p>
       <h2 id="home-epp-title">Lightweight products.<br/><span>Made for your needs.</span></h2>
-      <p className={styles.description}>Explore EPP packaging, insulated containers and custom components.</p>
+      <p className={styles.description}>Explore custom moulded EPP components, protective packaging and insulated containers from an EPP foam manufacturer in India.</p>
       <ul className={styles.benefits}><li><Icon kind="check"/>Impact protection</li><li><Icon kind="check"/>Thermal insulation</li><li><Icon kind="check"/>Custom shapes & sizes</li></ul>
       <div className={styles.actions}><Link className={styles.primary} href="/products/">Explore products <Icon kind="arrow"/></Link><Link className={styles.secondary} href="/contact/">Get a quote <Icon kind="arrow"/></Link></div>
     </div>
