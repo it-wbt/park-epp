@@ -28,7 +28,7 @@ export default function IndustryExplorer() {
       <div className={styles.heading} data-reveal>
         <div>
           <p className="eyebrow">BUILT AROUND YOUR INDUSTRY</p>
-          <h2 id="industry-heading">EPP across<br/>four industries.</h2>
+          <h2 id="industry-heading">EPP across<br/>{industries.length} industries.</h2>
         </div>
         <p>Protection, insulation and lightweight design. Explore where EPP can make a difference.</p>
       </div>
@@ -38,7 +38,7 @@ export default function IndustryExplorer() {
             aria-current={selected === index ? 'true' : undefined} aria-controls="industry-preview"
             onClick={event => chooseIndustry(event, index)} onFocus={() => setSelected(index)}
             onMouseEnter={() => { if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) setSelected(index); }}>
-            <span className={styles.number}>0{index + 1}</span><span>{item.name}</span><Icon kind="arrow"/>
+            <span className={styles.number}>{String(index + 1).padStart(2, '0')}</span><span>{item.name}</span><Icon kind="arrow"/>
           </Link>)}
         </nav>
         <div id="industry-preview" className={styles.visual}>
@@ -46,7 +46,7 @@ export default function IndustryExplorer() {
             className={styles.image} data-active={selected === index} aria-hidden={selected !== index}
             loading="lazy" width={800} height={450}/>)}
           <div className={styles.overlay}>
-            <span className={styles.counter}>0{selected + 1} / 04</span>
+            <span className={styles.counter}>{String(selected + 1).padStart(2, '0')} / {String(industries.length).padStart(2, '0')}</span>
             <h3 aria-live="polite" aria-atomic="true">{industry.name}</h3>
             <p>{industry.description}</p>
             <Link className={styles.explore} href={`/markets/${industry.slug}/`}>Explore industry <Icon kind="arrow"/></Link>

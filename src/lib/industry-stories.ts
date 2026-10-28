@@ -402,5 +402,79 @@ export const industryStories: Record<string, IndustryStory> = {
       "Programme requirements and acceptance criteria",
       "Production volumes and approval milestones"
     ]
+  },
+  "defence": {
+    "slug": "defence",
+    "eyebrow": "DEFENCE / PROTECTIVE PACKAGING",
+    "title": [
+      "Protection that fits.",
+      "Ready for handling."
+    ],
+    "intro": "PARK develops custom EPP packaging around the handling, storage and movement needs of authorised defence applications. Define the item, pack quantity and operating process so every product has a protected, accessible position.",
+    "homeSummary": "Custom fitted EPP packaging for authorised defence storage, handling and transport requirements.",
+    "heroImage": "/images/generated/industry-automotive.webp",
+    "heroAlt": "Moulded EPP protective packaging at a manufacturing workstation",
+    "overview": {
+      "eyebrow": "DEVELOP THE COMPLETE PACK",
+      "title": "Start with the item and handling process.",
+      "body": "A fitted EPP layout can be developed around the product envelope, retention points and the way authorised operators access the pack. Review the complete packaging format with the actual handling, storage and approval requirements."
+    },
+    "benefits": [
+      {
+        "title": "Defined product position",
+        "text": "Moulded pockets and support surfaces can organise authorised items within a planned pack layout.",
+        "icon": "layers"
+      },
+      {
+        "title": "Lightweight handling",
+        "text": "A cellular EPP format can bring useful protection and structure without the mass of a solid component.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Brief-led development",
+        "text": "The final design follows the specified item, storage conditions, handling process and applicable requirements.",
+        "icon": "shield"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Ammunition packaging",
+        "text": "Develop a fitted packaging layout around authorised product dimensions, pack quantity, access needs and the intended handling process.",
+        "productSlug": "ammunition-packaging",
+        "image": "/images/products/branded/epp-ammunition-packaging.png",
+        "imageAlt": "PARK Nonwoven branded moulded EPP ammunition packaging"
+      }
+    ],
+    "material": {
+      "title": "Specify the format around the application.",
+      "text": "EPP can provide a lightweight, moulded packaging format. Material selection, geometry and validation need to be agreed for the specific authorised application.",
+      "bullets": [
+        "Record dimensions, pack quantity and access needs.",
+        "Review contact surfaces, separation and handling.",
+        "Confirm documentation and acceptance requirements before release."
+      ],
+      "image": "/images/generated/epp-material-closeup.webp",
+      "imageAlt": "Close-up of a moulded charcoal EPP component"
+    },
+    "faq": [
+      {
+        "question": "What is needed to develop a packaging layout?",
+        "answer": "Share authorised product dimensions, pack quantity, handling process, storage conditions and the requirements that apply to the intended use."
+      },
+      {
+        "question": "Does the product page establish approval for an application?",
+        "answer": "No. Final suitability, documentation and approval depend on the selected design, materials and the applicable requirements."
+      },
+      {
+        "question": "Can a format be developed for repeat handling?",
+        "answer": "Discuss the expected use cycle, inspection routine, storage conditions and return process so those factors can be included in the packaging brief."
+      }
+    ],
+    "brief": [
+      "Authorised product dimensions and pack quantity",
+      "Handling process, access needs and storage conditions",
+      "Applicable requirements and acceptance criteria",
+      "Expected volumes and project schedule"
+    ]
   }
 };
