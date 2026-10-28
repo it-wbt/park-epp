@@ -24,7 +24,7 @@ export default function Footer() {
       <div className={styles.main}>
         <div>
           <Link className={styles.brand} href="/" aria-label="PARK Nonwoven EPP home">
-            <ResponsiveImage className={styles.logo} src="/images/park-nonwoven-logo.png" alt="PARK Nonwoven" width={768} height={126}/>
+            <ResponsiveImage className={styles.logo} src="/images/park-nonwoven-logo.png" alt="PARK Nonwoven" width={768} height={126} loading="lazy"/>
           </Link>
           <p>EPP components · Protective packaging.<br/>Engineered polymer solutions.</p>
         </div>
@@ -37,7 +37,7 @@ export default function Footer() {
           <address className={styles.location}>Panipat, India</address>
           <a href="mailto:sales@parknonwoven.com">sales@parknonwoven.com ↗</a>
           <Link href="/products/">Explore EPP products &#8599;</Link>
-          <nav className={styles.social} aria-label="PARK social media">{socialLinks.map(social => <a key={social.icon} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={`PARK on ${social.name} (opens in a new tab)`} title={social.name}><ResponsiveImage src={`/icons/social/${social.icon}.svg`} width={20} height={20} alt=""/><span>{social.name}</span></a>)}</nav>
+          <nav className={styles.social} aria-label="PARK social media">{socialLinks.map(social => <a key={social.icon} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={`PARK on ${social.name} (opens in a new tab)`} title={social.name}><ResponsiveImage src={`/icons/social/${social.icon}.svg`} width={20} height={20} alt="" loading="lazy"/><span>{social.name}</span></a>)}</nav>
         </div>
       </div>
       <div className={styles.bottom}>

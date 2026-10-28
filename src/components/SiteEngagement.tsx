@@ -34,7 +34,7 @@ export default function SiteEngagement() {
  const whatsappHref = number ? `https://wa.me/${number}?text=${encodeURIComponent(whatsappMessage)}` : null;
  useEffect(()=>{setEvents(upcomingEvents(companyEvents));setReady(true);},[]);
  useEffect(()=>{
-  if(!ready) return;
+  if(!ready || !events.length) return;
   const key='park-epp-events:'+ (events.length ? events.map(event=>`${event.id}:${event.startDate}`).join('|') : 'updates-v1');
   try { if(sessionStorage.getItem(key)) return; } catch {}
   const modal=dialog.current;
@@ -49,7 +49,7 @@ export default function SiteEngagement() {
   return ()=>{modal.removeEventListener('close',dismissed);if(modal.open)modal.close();unlock();};
  },[events,ready]);
  return <>
-  {ready&&<dialog ref={dialog} className="event-modal" aria-labelledby="event-modal-title" onClick={event=>{if(event.target===event.currentTarget){const rect=event.currentTarget.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.current?.close();}}}>
+  {ready&&events.length>0&&<dialog ref={dialog} className="event-modal" aria-labelledby="event-modal-title" onClick={event=>{if(event.target===event.currentTarget){const rect=event.currentTarget.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.current?.close();}}}>
    <div className="event-modal-heading"><div><span className="submenu-eyebrow">MEET PARK</span><h2 id="event-modal-title">Our upcoming events</h2><p>Explore our events and meet the team to discuss your EPP requirements.</p></div><button autoFocus className="engagement-close" aria-label="Close events" onClick={()=>dialog.current?.close()}><X size={20}/></button></div>
    <div className="event-list">{!events.length&&<article className="event-card"><div className="event-card-copy"><h3>Stay connected with PARK</h3><p>Our next event details will be shared here. Contact our team for upcoming exhibitions, meetings and EPP product enquiries.</p><a className="button small" href="mailto:sales@parknonwoven.com" onClick={()=>dialog.current?.close()}>Ask about upcoming events <ArrowUpRight size={17}/></a></div></article>}{events.map(event=><article className="event-card" key={event.id}>{event.image&&<ResponsiveImage sizes="(max-width: 640px) 90vw, (max-width: 1000px) 45vw, 640px" src={event.image} alt="" width={640} height={240}/>}<div className="event-card-copy"><h3>{event.title}</h3><p className="event-detail"><CalendarDays size={16}/><span>{eventDate(event.startDate)}{event.endDate!==event.startDate?' – '+eventDate(event.endDate):''}</span></p><p className="event-detail"><MapPin size={16}/><span>{event.venue}{event.booth?' · Booth '+event.booth:''}</span></p><p>{event.description}</p><a className="button small" href={event.href} onClick={()=>dialog.current?.close()}>View event <ArrowUpRight size={17}/></a></div></article>)}</div>
    <button className="event-continue" onClick={()=>dialog.current?.close()}>Continue to website <ArrowUpRight size={16}/></button>

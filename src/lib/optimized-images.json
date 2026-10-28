@@ -115,6 +115,325 @@
     ],
     "originalBytes": 119834
   },
+  "/images/catalogue-preview/project-brief.webp": {
+    "src": "/images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp",
+    "width": 1050,
+    "height": 1485,
+    "srcSet": "/images/optimized/catalogue-preview-project-brief-320-ba2792b79b.webp 320w, /images/optimized/catalogue-preview-project-brief-640-ba2792b79b.webp 640w, /images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp 960w, /images/optimized/catalogue-preview-project-brief-1050-ba2792b79b.webp 1050w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/catalogue-preview-project-brief-320-ba2792b79b.webp",
+        "bytes": 14218
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/catalogue-preview-project-brief-640-ba2792b79b.webp",
+        "bytes": 43046
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp",
+        "bytes": 77444
+      },
+      {
+        "width": 1050,
+        "src": "/images/optimized/catalogue-preview-project-brief-1050-ba2792b79b.webp",
+        "bytes": 90650
+      }
+    ],
+    "originalBytes": 111260
+  },
+  "/images/epp-banner-automotive-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp",
+    "width": 2060,
+    "height": 763,
+    "srcSet": "/images/optimized/epp-banner-automotive-wide-v2-320-ffc8552447.webp 320w, /images/optimized/epp-banner-automotive-wide-v2-640-ffc8552447.webp 640w, /images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp 960w, /images/optimized/epp-banner-automotive-wide-v2-1440-ffc8552447.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-320-ffc8552447.webp",
+        "bytes": 7216
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-640-ffc8552447.webp",
+        "bytes": 19930
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp",
+        "bytes": 35278
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-1440-ffc8552447.webp",
+        "bytes": 59158
+      }
+    ],
+    "originalBytes": 167080
+  },
+  "/images/epp-banner-automotive-use-v1.webp": {
+    "src": "/images/optimized/epp-banner-automotive-use-v1-960-a87ef1a354.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-banner-automotive-use-v1-320-a87ef1a354.webp 320w, /images/optimized/epp-banner-automotive-use-v1-640-a87ef1a354.webp 640w, /images/optimized/epp-banner-automotive-use-v1-960-a87ef1a354.webp 960w, /images/optimized/epp-banner-automotive-use-v1-1440-a87ef1a354.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-automotive-use-v1-320-a87ef1a354.webp",
+        "bytes": 10716
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-automotive-use-v1-640-a87ef1a354.webp",
+        "bytes": 29574
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-automotive-use-v1-960-a87ef1a354.webp",
+        "bytes": 51714
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-automotive-use-v1-1440-a87ef1a354.webp",
+        "bytes": 87756
+      }
+    ],
+    "originalBytes": 166776
+  },
+  "/images/epp-banner-delivery-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp",
+    "width": 2081,
+    "height": 756,
+    "srcSet": "/images/optimized/epp-banner-delivery-wide-v2-320-f781d5f532.webp 320w, /images/optimized/epp-banner-delivery-wide-v2-640-f781d5f532.webp 640w, /images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp 960w, /images/optimized/epp-banner-delivery-wide-v2-1440-f781d5f532.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-320-f781d5f532.webp",
+        "bytes": 8136
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-640-f781d5f532.webp",
+        "bytes": 23544
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp",
+        "bytes": 40134
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-1440-f781d5f532.webp",
+        "bytes": 67850
+      }
+    ],
+    "originalBytes": 185886
+  },
+  "/images/epp-banner-delivery-use-v1.webp": {
+    "src": "/images/optimized/epp-banner-delivery-use-v1-960-90e978cd78.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-banner-delivery-use-v1-320-90e978cd78.webp 320w, /images/optimized/epp-banner-delivery-use-v1-640-90e978cd78.webp 640w, /images/optimized/epp-banner-delivery-use-v1-960-90e978cd78.webp 960w, /images/optimized/epp-banner-delivery-use-v1-1440-90e978cd78.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-delivery-use-v1-320-90e978cd78.webp",
+        "bytes": 11422
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-delivery-use-v1-640-90e978cd78.webp",
+        "bytes": 30860
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-delivery-use-v1-960-90e978cd78.webp",
+        "bytes": 55000
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-delivery-use-v1-1440-90e978cd78.webp",
+        "bytes": 89524
+      }
+    ],
+    "originalBytes": 168954
+  },
+  "/images/epp-banner-food-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp",
+    "width": 2060,
+    "height": 763,
+    "srcSet": "/images/optimized/epp-banner-food-wide-v2-320-958e82d015.webp 320w, /images/optimized/epp-banner-food-wide-v2-640-958e82d015.webp 640w, /images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp 960w, /images/optimized/epp-banner-food-wide-v2-1440-958e82d015.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-food-wide-v2-320-958e82d015.webp",
+        "bytes": 7262
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-food-wide-v2-640-958e82d015.webp",
+        "bytes": 22490
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp",
+        "bytes": 42224
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-food-wide-v2-1440-958e82d015.webp",
+        "bytes": 74886
+      }
+    ],
+    "originalBytes": 210704
+  },
+  "/images/epp-banner-food-use-v1.webp": {
+    "src": "/images/optimized/epp-banner-food-use-v1-960-b7cc575afb.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-banner-food-use-v1-320-b7cc575afb.webp 320w, /images/optimized/epp-banner-food-use-v1-640-b7cc575afb.webp 640w, /images/optimized/epp-banner-food-use-v1-960-b7cc575afb.webp 960w, /images/optimized/epp-banner-food-use-v1-1440-b7cc575afb.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-food-use-v1-320-b7cc575afb.webp",
+        "bytes": 7930
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-food-use-v1-640-b7cc575afb.webp",
+        "bytes": 22016
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-food-use-v1-960-b7cc575afb.webp",
+        "bytes": 39978
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-food-use-v1-1440-b7cc575afb.webp",
+        "bytes": 68794
+      }
+    ],
+    "originalBytes": 142068
+  },
+  "/images/epp-banner-hvac-wide-v1.webp": {
+    "src": "/images/optimized/epp-banner-hvac-wide-v1-960-b5693bd40f.webp",
+    "width": 2089,
+    "height": 753,
+    "srcSet": "/images/optimized/epp-banner-hvac-wide-v1-320-b5693bd40f.webp 320w, /images/optimized/epp-banner-hvac-wide-v1-640-b5693bd40f.webp 640w, /images/optimized/epp-banner-hvac-wide-v1-960-b5693bd40f.webp 960w, /images/optimized/epp-banner-hvac-wide-v1-1440-b5693bd40f.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-hvac-wide-v1-320-b5693bd40f.webp",
+        "bytes": 8638
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-hvac-wide-v1-640-b5693bd40f.webp",
+        "bytes": 24266
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-hvac-wide-v1-960-b5693bd40f.webp",
+        "bytes": 43184
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-hvac-wide-v1-1440-b5693bd40f.webp",
+        "bytes": 75996
+      }
+    ],
+    "originalBytes": 215326
+  },
+  "/images/epp-banner-logistics-use-v1.webp": {
+    "src": "/images/optimized/epp-banner-logistics-use-v1-960-f4e40efa80.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-banner-logistics-use-v1-320-f4e40efa80.webp 320w, /images/optimized/epp-banner-logistics-use-v1-640-f4e40efa80.webp 640w, /images/optimized/epp-banner-logistics-use-v1-960-f4e40efa80.webp 960w, /images/optimized/epp-banner-logistics-use-v1-1440-f4e40efa80.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-logistics-use-v1-320-f4e40efa80.webp",
+        "bytes": 12150
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-logistics-use-v1-640-f4e40efa80.webp",
+        "bytes": 33098
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-logistics-use-v1-960-f4e40efa80.webp",
+        "bytes": 57302
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-logistics-use-v1-1440-f4e40efa80.webp",
+        "bytes": 94608
+      }
+    ],
+    "originalBytes": 181732
+  },
+  "/images/epp-banner-logistics-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-logistics-wide-v2-960-050dc0b5eb.webp",
+    "width": 2073,
+    "height": 759,
+    "srcSet": "/images/optimized/epp-banner-logistics-wide-v2-320-050dc0b5eb.webp 320w, /images/optimized/epp-banner-logistics-wide-v2-640-050dc0b5eb.webp 640w, /images/optimized/epp-banner-logistics-wide-v2-960-050dc0b5eb.webp 960w, /images/optimized/epp-banner-logistics-wide-v2-1440-050dc0b5eb.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-logistics-wide-v2-320-050dc0b5eb.webp",
+        "bytes": 6910
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-logistics-wide-v2-640-050dc0b5eb.webp",
+        "bytes": 20220
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-logistics-wide-v2-960-050dc0b5eb.webp",
+        "bytes": 36278
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-logistics-wide-v2-1440-050dc0b5eb.webp",
+        "bytes": 63530
+      }
+    ],
+    "originalBytes": 183916
+  },
+  "/images/epp-banner-sports-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-sports-wide-v2-960-122ad24fa0.webp",
+    "width": 2060,
+    "height": 763,
+    "srcSet": "/images/optimized/epp-banner-sports-wide-v2-320-122ad24fa0.webp 320w, /images/optimized/epp-banner-sports-wide-v2-640-122ad24fa0.webp 640w, /images/optimized/epp-banner-sports-wide-v2-960-122ad24fa0.webp 960w, /images/optimized/epp-banner-sports-wide-v2-1440-122ad24fa0.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-sports-wide-v2-320-122ad24fa0.webp",
+        "bytes": 5562
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-sports-wide-v2-640-122ad24fa0.webp",
+        "bytes": 16494
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-sports-wide-v2-960-122ad24fa0.webp",
+        "bytes": 30390
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-sports-wide-v2-1440-122ad24fa0.webp",
+        "bytes": 53728
+      }
+    ],
+    "originalBytes": 156316
+  },
   "/images/epp-manufacturing-poster.webp": {
     "src": "/images/optimized/epp-manufacturing-poster-960-b37447d2c1.webp",
     "width": 1600,
@@ -144,34 +463,63 @@
     ],
     "originalBytes": 35858
   },
-  "/images/catalogue-preview/project-brief.webp": {
-    "src": "/images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp",
-    "width": 1050,
-    "height": 1485,
-    "srcSet": "/images/optimized/catalogue-preview-project-brief-320-ba2792b79b.webp 320w, /images/optimized/catalogue-preview-project-brief-640-ba2792b79b.webp 640w, /images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp 960w, /images/optimized/catalogue-preview-project-brief-1050-ba2792b79b.webp 1050w",
+  "/images/epp-banner-sports-use-v1.webp": {
+    "src": "/images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-banner-sports-use-v1-320-17ab9a68ac.webp 320w, /images/optimized/epp-banner-sports-use-v1-640-17ab9a68ac.webp 640w, /images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp 960w, /images/optimized/epp-banner-sports-use-v1-1440-17ab9a68ac.webp 1440w",
     "variants": [
       {
         "width": 320,
-        "src": "/images/optimized/catalogue-preview-project-brief-320-ba2792b79b.webp",
-        "bytes": 14218
+        "src": "/images/optimized/epp-banner-sports-use-v1-320-17ab9a68ac.webp",
+        "bytes": 14208
       },
       {
         "width": 640,
-        "src": "/images/optimized/catalogue-preview-project-brief-640-ba2792b79b.webp",
-        "bytes": 43046
+        "src": "/images/optimized/epp-banner-sports-use-v1-640-17ab9a68ac.webp",
+        "bytes": 39938
       },
       {
         "width": 960,
-        "src": "/images/optimized/catalogue-preview-project-brief-960-ba2792b79b.webp",
-        "bytes": 77444
+        "src": "/images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp",
+        "bytes": 71004
       },
       {
-        "width": 1050,
-        "src": "/images/optimized/catalogue-preview-project-brief-1050-ba2792b79b.webp",
-        "bytes": 90650
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-sports-use-v1-1440-17ab9a68ac.webp",
+        "bytes": 120226
       }
     ],
-    "originalBytes": 111260
+    "originalBytes": 225340
+  },
+  "/images/epp-material-process-banner-v1.webp": {
+    "src": "/images/optimized/epp-material-process-banner-v1-960-efb1cf3689.webp",
+    "width": 1983,
+    "height": 793,
+    "srcSet": "/images/optimized/epp-material-process-banner-v1-320-efb1cf3689.webp 320w, /images/optimized/epp-material-process-banner-v1-640-efb1cf3689.webp 640w, /images/optimized/epp-material-process-banner-v1-960-efb1cf3689.webp 960w, /images/optimized/epp-material-process-banner-v1-1440-efb1cf3689.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-material-process-banner-v1-320-efb1cf3689.webp",
+        "bytes": 8702
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-material-process-banner-v1-640-efb1cf3689.webp",
+        "bytes": 27514
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-material-process-banner-v1-960-efb1cf3689.webp",
+        "bytes": 55120
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-material-process-banner-v1-1440-efb1cf3689.webp",
+        "bytes": 104240
+      }
+    ],
+    "originalBytes": 313480
   },
   "/images/food.webp": {
     "src": "/images/optimized/food-960-52717c8630.webp",
@@ -376,35 +724,6 @@
     ],
     "originalBytes": 172272
   },
-  "/images/generated/epp-product-motion.webp": {
-    "src": "/images/optimized/generated-epp-product-motion-960-2663e99f42.webp",
-    "width": 1600,
-    "height": 900,
-    "srcSet": "/images/optimized/generated-epp-product-motion-320-2663e99f42.webp 320w, /images/optimized/generated-epp-product-motion-640-2663e99f42.webp 640w, /images/optimized/generated-epp-product-motion-960-2663e99f42.webp 960w, /images/optimized/generated-epp-product-motion-1440-2663e99f42.webp 1440w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/generated-epp-product-motion-320-2663e99f42.webp",
-        "bytes": 1768
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/generated-epp-product-motion-640-2663e99f42.webp",
-        "bytes": 4294
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/generated-epp-product-motion-960-2663e99f42.webp",
-        "bytes": 7822
-      },
-      {
-        "width": 1440,
-        "src": "/images/optimized/generated-epp-product-motion-1440-2663e99f42.webp",
-        "bytes": 13996
-      }
-    ],
-    "originalBytes": 36056
-  },
   "/images/generated/epp-material-closeup.webp": {
     "src": "/images/optimized/generated-epp-material-closeup-960-e82c164ed5.webp",
     "width": 1100,
@@ -433,6 +752,35 @@
       }
     ],
     "originalBytes": 161772
+  },
+  "/images/generated/epp-product-motion.webp": {
+    "src": "/images/optimized/generated-epp-product-motion-960-2663e99f42.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-epp-product-motion-320-2663e99f42.webp 320w, /images/optimized/generated-epp-product-motion-640-2663e99f42.webp 640w, /images/optimized/generated-epp-product-motion-960-2663e99f42.webp 960w, /images/optimized/generated-epp-product-motion-1440-2663e99f42.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-epp-product-motion-320-2663e99f42.webp",
+        "bytes": 1768
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-epp-product-motion-640-2663e99f42.webp",
+        "bytes": 4294
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-epp-product-motion-960-2663e99f42.webp",
+        "bytes": 7822
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-epp-product-motion-1440-2663e99f42.webp",
+        "bytes": 13996
+      }
+    ],
+    "originalBytes": 36056
   },
   "/images/generated/epp-realistic-poster.webp": {
     "src": "/images/optimized/generated-epp-realistic-poster-960-9699e0050f.webp",
@@ -869,35 +1217,6 @@
     ],
     "originalBytes": 292180
   },
-  "/images/generated/material-compare-eps.webp": {
-    "src": "/images/optimized/generated-material-compare-eps-960-c758b55c66.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/generated-material-compare-eps-320-c758b55c66.webp 320w, /images/optimized/generated-material-compare-eps-640-c758b55c66.webp 640w, /images/optimized/generated-material-compare-eps-960-c758b55c66.webp 960w, /images/optimized/generated-material-compare-eps-1440-c758b55c66.webp 1440w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/generated-material-compare-eps-320-c758b55c66.webp",
-        "bytes": 4748
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/generated-material-compare-eps-640-c758b55c66.webp",
-        "bytes": 20234
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/generated-material-compare-eps-960-c758b55c66.webp",
-        "bytes": 42134
-      },
-      {
-        "width": 1440,
-        "src": "/images/optimized/generated-material-compare-eps-1440-c758b55c66.webp",
-        "bytes": 73926
-      }
-    ],
-    "originalBytes": 135214
-  },
   "/images/generated/material-compare-epp.webp": {
     "src": "/images/optimized/generated-material-compare-epp-960-5ce567e32b.webp",
     "width": 1536,
@@ -927,34 +1246,63 @@
     ],
     "originalBytes": 250744
   },
-  "/images/generated/pharma.webp": {
-    "src": "/images/optimized/generated-pharma-960-c0011236dc.webp",
-    "width": 1600,
-    "height": 900,
-    "srcSet": "/images/optimized/generated-pharma-320-c0011236dc.webp 320w, /images/optimized/generated-pharma-640-c0011236dc.webp 640w, /images/optimized/generated-pharma-960-c0011236dc.webp 960w, /images/optimized/generated-pharma-1440-c0011236dc.webp 1440w",
+  "/images/generated/material-compare-eps.webp": {
+    "src": "/images/optimized/generated-material-compare-eps-960-c758b55c66.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/generated-material-compare-eps-320-c758b55c66.webp 320w, /images/optimized/generated-material-compare-eps-640-c758b55c66.webp 640w, /images/optimized/generated-material-compare-eps-960-c758b55c66.webp 960w, /images/optimized/generated-material-compare-eps-1440-c758b55c66.webp 1440w",
     "variants": [
       {
         "width": 320,
-        "src": "/images/optimized/generated-pharma-320-c0011236dc.webp",
-        "bytes": 9190
+        "src": "/images/optimized/generated-material-compare-eps-320-c758b55c66.webp",
+        "bytes": 4748
       },
       {
         "width": 640,
-        "src": "/images/optimized/generated-pharma-640-c0011236dc.webp",
-        "bytes": 24614
+        "src": "/images/optimized/generated-material-compare-eps-640-c758b55c66.webp",
+        "bytes": 20234
       },
       {
         "width": 960,
-        "src": "/images/optimized/generated-pharma-960-c0011236dc.webp",
-        "bytes": 44504
+        "src": "/images/optimized/generated-material-compare-eps-960-c758b55c66.webp",
+        "bytes": 42134
       },
       {
         "width": 1440,
-        "src": "/images/optimized/generated-pharma-1440-c0011236dc.webp",
-        "bytes": 74448
+        "src": "/images/optimized/generated-material-compare-eps-1440-c758b55c66.webp",
+        "bytes": 73926
       }
     ],
-    "originalBytes": 145814
+    "originalBytes": 135214
+  },
+  "/images/epp-sports-use-v1.png": {
+    "src": "/images/optimized/epp-sports-use-v1-960-3efb21d13e.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-sports-use-v1-320-3efb21d13e.webp 320w, /images/optimized/epp-sports-use-v1-640-3efb21d13e.webp 640w, /images/optimized/epp-sports-use-v1-960-3efb21d13e.webp 960w, /images/optimized/epp-sports-use-v1-1440-3efb21d13e.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-sports-use-v1-320-3efb21d13e.webp",
+        "bytes": 14710
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-sports-use-v1-640-3efb21d13e.webp",
+        "bytes": 42870
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-sports-use-v1-960-3efb21d13e.webp",
+        "bytes": 78064
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-sports-use-v1-1440-3efb21d13e.webp",
+        "bytes": 139562
+      }
+    ],
+    "originalBytes": 2309854
   },
   "/images/generated/mobility.webp": {
     "src": "/images/optimized/generated-mobility-960-a23f531699.webp",
@@ -984,6 +1332,35 @@
       }
     ],
     "originalBytes": 304286
+  },
+  "/images/generated/pharma.webp": {
+    "src": "/images/optimized/generated-pharma-960-c0011236dc.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/generated-pharma-320-c0011236dc.webp 320w, /images/optimized/generated-pharma-640-c0011236dc.webp 640w, /images/optimized/generated-pharma-960-c0011236dc.webp 960w, /images/optimized/generated-pharma-1440-c0011236dc.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/generated-pharma-320-c0011236dc.webp",
+        "bytes": 9190
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/generated-pharma-640-c0011236dc.webp",
+        "bytes": 24614
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/generated-pharma-960-c0011236dc.webp",
+        "bytes": 44504
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/generated-pharma-1440-c0011236dc.webp",
+        "bytes": 74448
+      }
+    ],
+    "originalBytes": 145814
   },
   "/images/generated/pools.webp": {
     "src": "/images/optimized/generated-pools-960-408b246089.webp",
@@ -1043,35 +1420,6 @@
     ],
     "originalBytes": 292418
   },
-  "/images/hero.webp": {
-    "src": "/images/optimized/hero-960-b67a976e95.webp",
-    "width": 1600,
-    "height": 900,
-    "srcSet": "/images/optimized/hero-320-b67a976e95.webp 320w, /images/optimized/hero-640-b67a976e95.webp 640w, /images/optimized/hero-960-b67a976e95.webp 960w, /images/optimized/hero-1440-b67a976e95.webp 1440w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/hero-320-b67a976e95.webp",
-        "bytes": 5862
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/hero-640-b67a976e95.webp",
-        "bytes": 17924
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/hero-960-b67a976e95.webp",
-        "bytes": 34470
-      },
-      {
-        "width": 1440,
-        "src": "/images/optimized/hero-1440-b67a976e95.webp",
-        "bytes": 58794
-      }
-    ],
-    "originalBytes": 94572
-  },
   "/images/generated/sports.webp": {
     "src": "/images/optimized/generated-sports-960-d9e6a45323.webp",
     "width": 1600,
@@ -1101,34 +1449,34 @@
     ],
     "originalBytes": 259120
   },
-  "/images/markets/appliances.webp": {
-    "src": "/images/optimized/markets-appliances-960-dcda714cce.webp",
-    "width": 1400,
-    "height": 788,
-    "srcSet": "/images/optimized/markets-appliances-320-dcda714cce.webp 320w, /images/optimized/markets-appliances-640-dcda714cce.webp 640w, /images/optimized/markets-appliances-960-dcda714cce.webp 960w, /images/optimized/markets-appliances-1400-dcda714cce.webp 1400w",
+  "/images/hero.webp": {
+    "src": "/images/optimized/hero-960-b67a976e95.webp",
+    "width": 1600,
+    "height": 900,
+    "srcSet": "/images/optimized/hero-320-b67a976e95.webp 320w, /images/optimized/hero-640-b67a976e95.webp 640w, /images/optimized/hero-960-b67a976e95.webp 960w, /images/optimized/hero-1440-b67a976e95.webp 1440w",
     "variants": [
       {
         "width": 320,
-        "src": "/images/optimized/markets-appliances-320-dcda714cce.webp",
-        "bytes": 11446
+        "src": "/images/optimized/hero-320-b67a976e95.webp",
+        "bytes": 5862
       },
       {
         "width": 640,
-        "src": "/images/optimized/markets-appliances-640-dcda714cce.webp",
-        "bytes": 28482
+        "src": "/images/optimized/hero-640-b67a976e95.webp",
+        "bytes": 17924
       },
       {
         "width": 960,
-        "src": "/images/optimized/markets-appliances-960-dcda714cce.webp",
-        "bytes": 46980
+        "src": "/images/optimized/hero-960-b67a976e95.webp",
+        "bytes": 34470
       },
       {
-        "width": 1400,
-        "src": "/images/optimized/markets-appliances-1400-dcda714cce.webp",
-        "bytes": 80996
+        "width": 1440,
+        "src": "/images/optimized/hero-1440-b67a976e95.webp",
+        "bytes": 58794
       }
     ],
-    "originalBytes": 92526
+    "originalBytes": 94572
   },
   "/images/markets/agrifood.webp": {
     "src": "/images/optimized/markets-agrifood-960-7fc79f8dce.webp",
@@ -1158,6 +1506,35 @@
       }
     ],
     "originalBytes": 133706
+  },
+  "/images/markets/appliances.webp": {
+    "src": "/images/optimized/markets-appliances-960-dcda714cce.webp",
+    "width": 1400,
+    "height": 788,
+    "srcSet": "/images/optimized/markets-appliances-320-dcda714cce.webp 320w, /images/optimized/markets-appliances-640-dcda714cce.webp 640w, /images/optimized/markets-appliances-960-dcda714cce.webp 960w, /images/optimized/markets-appliances-1400-dcda714cce.webp 1400w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-appliances-320-dcda714cce.webp",
+        "bytes": 11446
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-appliances-640-dcda714cce.webp",
+        "bytes": 28482
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/markets-appliances-960-dcda714cce.webp",
+        "bytes": 46980
+      },
+      {
+        "width": 1400,
+        "src": "/images/optimized/markets-appliances-1400-dcda714cce.webp",
+        "bytes": 80996
+      }
+    ],
+    "originalBytes": 92526
   },
   "/images/markets/aviation.webp": {
     "src": "/images/optimized/markets-aviation-960-fd65fce6ca.webp",
@@ -1536,30 +1913,6 @@
     ],
     "originalBytes": 70532
   },
-  "/images/park-nonwoven-logo.png": {
-    "src": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
-    "width": 768,
-    "height": 126,
-    "srcSet": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp 320w, /images/optimized/park-nonwoven-logo-640-65315b4f03.webp 640w, /images/optimized/park-nonwoven-logo-768-65315b4f03.webp 768w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
-        "bytes": 6808
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
-        "bytes": 15616
-      },
-      {
-        "width": 768,
-        "src": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
-        "bytes": 5334
-      }
-    ],
-    "originalBytes": 6094
-  },
   "/images/packaging.webp": {
     "src": "/images/optimized/packaging-960-5f6b2712ab.webp",
     "width": 1536,
@@ -1588,6 +1941,30 @@
       }
     ],
     "originalBytes": 202798
+  },
+  "/images/park-nonwoven-logo.png": {
+    "src": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+    "width": 768,
+    "height": 126,
+    "srcSet": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp 320w, /images/optimized/park-nonwoven-logo-640-65315b4f03.webp 640w, /images/optimized/park-nonwoven-logo-768-65315b4f03.webp 768w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/park-nonwoven-logo-320-65315b4f03.webp",
+        "bytes": 6808
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/park-nonwoven-logo-640-65315b4f03.webp",
+        "bytes": 15616
+      },
+      {
+        "width": 768,
+        "src": "/images/optimized/park-nonwoven-logo-768-65315b4f03.webp",
+        "bytes": 5334
+      }
+    ],
+    "originalBytes": 6094
   },
   "/images/products/aviation-seat.webp": {
     "src": "/images/optimized/products-aviation-seat-960-eb399cc4c4.webp",
@@ -1705,35 +2082,6 @@
     ],
     "originalBytes": 1288850
   },
-  "/images/products/branded/child-seat-foam-cores.webp": {
-    "src": "/images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp",
-    "width": 1374,
-    "height": 1145,
-    "srcSet": "/images/optimized/products-branded-child-seat-foam-cores-96-83a9c32ba8.webp 96w, /images/optimized/products-branded-child-seat-foam-cores-320-83a9c32ba8.webp 320w, /images/optimized/products-branded-child-seat-foam-cores-640-83a9c32ba8.webp 640w, /images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-child-seat-foam-cores-96-83a9c32ba8.webp",
-        "bytes": 1908
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-child-seat-foam-cores-320-83a9c32ba8.webp",
-        "bytes": 12168
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-child-seat-foam-cores-640-83a9c32ba8.webp",
-        "bytes": 47342
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp",
-        "bytes": 106012
-      }
-    ],
-    "originalBytes": 1257360
-  },
   "/images/products/branded/catering-transport-boxes.webp": {
     "src": "/images/optimized/products-branded-catering-transport-boxes-960-752c3f6265.webp",
     "width": 1312,
@@ -1763,34 +2111,34 @@
     ],
     "originalBytes": 1838810
   },
-  "/images/products/branded/condensate-collection-trays.webp": {
-    "src": "/images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-branded-condensate-collection-trays-96-b4d525e4fe.webp 96w, /images/optimized/products-branded-condensate-collection-trays-320-b4d525e4fe.webp 320w, /images/optimized/products-branded-condensate-collection-trays-640-b4d525e4fe.webp 640w, /images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp 960w",
+  "/images/products/branded/child-seat-foam-cores.webp": {
+    "src": "/images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp",
+    "width": 1374,
+    "height": 1145,
+    "srcSet": "/images/optimized/products-branded-child-seat-foam-cores-96-83a9c32ba8.webp 96w, /images/optimized/products-branded-child-seat-foam-cores-320-83a9c32ba8.webp 320w, /images/optimized/products-branded-child-seat-foam-cores-640-83a9c32ba8.webp 640w, /images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp 960w",
     "variants": [
       {
         "width": 96,
-        "src": "/images/optimized/products-branded-condensate-collection-trays-96-b4d525e4fe.webp",
-        "bytes": 1382
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-96-83a9c32ba8.webp",
+        "bytes": 1908
       },
       {
         "width": 320,
-        "src": "/images/optimized/products-branded-condensate-collection-trays-320-b4d525e4fe.webp",
-        "bytes": 7288
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-320-83a9c32ba8.webp",
+        "bytes": 12168
       },
       {
         "width": 640,
-        "src": "/images/optimized/products-branded-condensate-collection-trays-640-b4d525e4fe.webp",
-        "bytes": 19838
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-640-83a9c32ba8.webp",
+        "bytes": 47342
       },
       {
         "width": 960,
-        "src": "/images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp",
-        "bytes": 36262
+        "src": "/images/optimized/products-branded-child-seat-foam-cores-960-83a9c32ba8.webp",
+        "bytes": 106012
       }
     ],
-    "originalBytes": 605852
+    "originalBytes": 1257360
   },
   "/images/products/branded/childhood-accessories.webp": {
     "src": "/images/optimized/products-branded-childhood-accessories-960-6e16c60dc1.webp",
@@ -1820,6 +2168,35 @@
       }
     ],
     "originalBytes": 1579780
+  },
+  "/images/products/branded/condensate-collection-trays.webp": {
+    "src": "/images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-condensate-collection-trays-96-b4d525e4fe.webp 96w, /images/optimized/products-branded-condensate-collection-trays-320-b4d525e4fe.webp 320w, /images/optimized/products-branded-condensate-collection-trays-640-b4d525e4fe.webp 640w, /images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-96-b4d525e4fe.webp",
+        "bytes": 1382
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-320-b4d525e4fe.webp",
+        "bytes": 7288
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-640-b4d525e4fe.webp",
+        "bytes": 19838
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-condensate-collection-trays-960-b4d525e4fe.webp",
+        "bytes": 36262
+      }
+    ],
+    "originalBytes": 605852
   },
   "/images/products/branded/custom-cushioning-foams.webp": {
     "src": "/images/optimized/products-branded-custom-cushioning-foams-960-b6d05a4e4b.webp",
@@ -1879,6 +2256,30 @@
     ],
     "originalBytes": 1540666
   },
+  "/images/markets/mobility-automotive.png": {
+    "src": "/images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp",
+    "width": 702,
+    "height": 409,
+    "srcSet": "/images/optimized/markets-mobility-automotive-320-c6f1bf507d.webp 320w, /images/optimized/markets-mobility-automotive-640-c6f1bf507d.webp 640w, /images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp 702w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-mobility-automotive-320-c6f1bf507d.webp",
+        "bytes": 10606
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-mobility-automotive-640-c6f1bf507d.webp",
+        "bytes": 24936
+      },
+      {
+        "width": 702,
+        "src": "/images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp",
+        "bytes": 28166
+      }
+    ],
+    "originalBytes": 440281
+  },
   "/images/products/branded/custom-sports-equipment.webp": {
     "src": "/images/optimized/products-branded-custom-sports-equipment-960-55e06d9562.webp",
     "width": 1536,
@@ -1936,6 +2337,122 @@
       }
     ],
     "originalBytes": 1311218
+  },
+  "/images/products/branded/epp-ammunition-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-ammunition-packaging-96-e77bac1e11.webp 96w, /images/optimized/products-branded-epp-ammunition-packaging-320-e77bac1e11.webp 320w, /images/optimized/products-branded-epp-ammunition-packaging-640-e77bac1e11.webp 640w, /images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-96-e77bac1e11.webp",
+        "bytes": 1908
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-320-e77bac1e11.webp",
+        "bytes": 20222
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-640-e77bac1e11.webp",
+        "bytes": 81272
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp",
+        "bytes": 163620
+      }
+    ],
+    "originalBytes": 2964699
+  },
+  "/images/products/branded/epp-hard-disk-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-hard-disk-packaging-96-0a589e6786.webp 96w, /images/optimized/products-branded-epp-hard-disk-packaging-320-0a589e6786.webp 320w, /images/optimized/products-branded-epp-hard-disk-packaging-640-0a589e6786.webp 640w, /images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-96-0a589e6786.webp",
+        "bytes": 1922
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-320-0a589e6786.webp",
+        "bytes": 20772
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-640-0a589e6786.webp",
+        "bytes": 83516
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp",
+        "bytes": 173128
+      }
+    ],
+    "originalBytes": 3114424
+  },
+  "/images/products/branded/epp-lithium-ion-battery-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-96-093fddada6.webp 96w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-320-093fddada6.webp 320w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-640-093fddada6.webp 640w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-96-093fddada6.webp",
+        "bytes": 2962
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-320-093fddada6.webp",
+        "bytes": 18192
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-640-093fddada6.webp",
+        "bytes": 65286
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp",
+        "bytes": 137720
+      }
+    ],
+    "originalBytes": 2839468
+  },
+  "/images/products/branded/epp-solar-cell-packaging.png": {
+    "src": "/images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-epp-solar-cell-packaging-96-4f62dda86d.webp 96w, /images/optimized/products-branded-epp-solar-cell-packaging-320-4f62dda86d.webp 320w, /images/optimized/products-branded-epp-solar-cell-packaging-640-4f62dda86d.webp 640w, /images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-96-4f62dda86d.webp",
+        "bytes": 4108
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-320-4f62dda86d.webp",
+        "bytes": 20452
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-640-4f62dda86d.webp",
+        "bytes": 65998
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp",
+        "bytes": 139096
+      }
+    ],
+    "originalBytes": 2984315
   },
   "/images/products/branded/eps-transport-boxes.webp": {
     "src": "/images/optimized/products-branded-eps-transport-boxes-960-babe31449c.webp",
@@ -1995,35 +2512,6 @@
     ],
     "originalBytes": 763506
   },
-  "/images/products/branded/foam-insole-components.webp": {
-    "src": "/images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-branded-foam-insole-components-96-94ac944f1e.webp 96w, /images/optimized/products-branded-foam-insole-components-320-94ac944f1e.webp 320w, /images/optimized/products-branded-foam-insole-components-640-94ac944f1e.webp 640w, /images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-foam-insole-components-96-94ac944f1e.webp",
-        "bytes": 2192
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-foam-insole-components-320-94ac944f1e.webp",
-        "bytes": 10860
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-foam-insole-components-640-94ac944f1e.webp",
-        "bytes": 30250
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp",
-        "bytes": 66928
-      }
-    ],
-    "originalBytes": 1094666
-  },
   "/images/products/branded/foam-exercise-jump-boxes.webp": {
     "src": "/images/optimized/products-branded-foam-exercise-jump-boxes-960-595358cfb9.webp",
     "width": 1312,
@@ -2052,6 +2540,35 @@
       }
     ],
     "originalBytes": 1733296
+  },
+  "/images/products/branded/foam-insole-components.webp": {
+    "src": "/images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-foam-insole-components-96-94ac944f1e.webp 96w, /images/optimized/products-branded-foam-insole-components-320-94ac944f1e.webp 320w, /images/optimized/products-branded-foam-insole-components-640-94ac944f1e.webp 640w, /images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-foam-insole-components-96-94ac944f1e.webp",
+        "bytes": 2192
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-foam-insole-components-320-94ac944f1e.webp",
+        "bytes": 10860
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-foam-insole-components-640-94ac944f1e.webp",
+        "bytes": 30250
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-foam-insole-components-960-94ac944f1e.webp",
+        "bytes": 66928
+      }
+    ],
+    "originalBytes": 1094666
   },
   "/images/products/branded/foldable-insulated-boxes.webp": {
     "src": "/images/optimized/products-branded-foldable-insulated-boxes-960-1895e946c7.webp",
@@ -2082,35 +2599,6 @@
     ],
     "originalBytes": 1230870
   },
-  "/images/products/branded/heat-pump-support-frames.webp": {
-    "src": "/images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-branded-heat-pump-support-frames-96-647999d53c.webp 96w, /images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp 320w, /images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp 640w, /images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-heat-pump-support-frames-96-647999d53c.webp",
-        "bytes": 1792
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp",
-        "bytes": 10548
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp",
-        "bytes": 36672
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp",
-        "bytes": 75898
-      }
-    ],
-    "originalBytes": 902412
-  },
   "/images/products/branded/heat-pump-covers.webp": {
     "src": "/images/optimized/products-branded-heat-pump-covers-960-70520ee4bc.webp",
     "width": 1024,
@@ -2139,6 +2627,35 @@
       }
     ],
     "originalBytes": 1487246
+  },
+  "/images/products/branded/heat-pump-support-frames.webp": {
+    "src": "/images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-branded-heat-pump-support-frames-96-647999d53c.webp 96w, /images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp 320w, /images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp 640w, /images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-96-647999d53c.webp",
+        "bytes": 1792
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-320-647999d53c.webp",
+        "bytes": 10548
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-640-647999d53c.webp",
+        "bytes": 36672
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-heat-pump-support-frames-960-647999d53c.webp",
+        "bytes": 75898
+      }
+    ],
+    "originalBytes": 902412
   },
   "/images/products/branded/hvac-insulation-housings.webp": {
     "src": "/images/optimized/products-branded-hvac-insulation-housings-960-e408ea7c15.webp",
@@ -2807,35 +3324,6 @@
     ],
     "originalBytes": 569920
   },
-  "/images/products/branded/vehicle-energy-absorbers.webp": {
-    "src": "/images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp",
-    "width": 2170,
-    "height": 725,
-    "srcSet": "/images/optimized/products-branded-vehicle-energy-absorbers-96-4c2f840cfb.webp 96w, /images/optimized/products-branded-vehicle-energy-absorbers-320-4c2f840cfb.webp 320w, /images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp 640w, /images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-96-4c2f840cfb.webp",
-        "bytes": 1128
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-320-4c2f840cfb.webp",
-        "bytes": 6382
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp",
-        "bytes": 20706
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp",
-        "bytes": 43828
-      }
-    ],
-    "originalBytes": 1069410
-  },
   "/images/products/branded/vehicle-acoustic-inserts.webp": {
     "src": "/images/optimized/products-branded-vehicle-acoustic-inserts-960-831ff9b7f1.webp",
     "width": 1536,
@@ -2864,6 +3352,35 @@
       }
     ],
     "originalBytes": 1244836
+  },
+  "/images/products/branded/vehicle-energy-absorbers.webp": {
+    "src": "/images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp",
+    "width": 2170,
+    "height": 725,
+    "srcSet": "/images/optimized/products-branded-vehicle-energy-absorbers-96-4c2f840cfb.webp 96w, /images/optimized/products-branded-vehicle-energy-absorbers-320-4c2f840cfb.webp 320w, /images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp 640w, /images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-96-4c2f840cfb.webp",
+        "bytes": 1128
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-320-4c2f840cfb.webp",
+        "bytes": 6382
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-640-4c2f840cfb.webp",
+        "bytes": 20706
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-vehicle-energy-absorbers-960-4c2f840cfb.webp",
+        "bytes": 43828
+      }
+    ],
+    "originalBytes": 1069410
   },
   "/images/products/branded/vehicle-floor-panels.webp": {
     "src": "/images/optimized/products-branded-vehicle-floor-panels-960-c5b5b9a26b.webp",
@@ -3039,6 +3556,35 @@
     ],
     "originalBytes": 1253164
   },
+  "/images/products/branded/water-heater-insulation-forms-epp-v2.webp": {
+    "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp",
+    "width": 1024,
+    "height": 1536,
+    "srcSet": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-96-df1d7d2e9d.webp 96w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp 320w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp 640w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-96-df1d7d2e9d.webp",
+        "bytes": 3414
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp",
+        "bytes": 33510
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp",
+        "bytes": 121664
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp",
+        "bytes": 229374
+      }
+    ],
+    "originalBytes": 1457136
+  },
   "/images/products/branded/water-heater-insulation-forms.webp": {
     "src": "/images/optimized/products-branded-water-heater-insulation-forms-960-823b38d3f2.webp",
     "width": 1536,
@@ -3096,35 +3642,6 @@
       }
     ],
     "originalBytes": 69706
-  },
-  "/images/products/branded/water-heater-insulation-forms-epp-v2.webp": {
-    "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp",
-    "width": 1024,
-    "height": 1536,
-    "srcSet": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-96-df1d7d2e9d.webp 96w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp 320w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp 640w, /images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-96-df1d7d2e9d.webp",
-        "bytes": 3414
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-320-df1d7d2e9d.webp",
-        "bytes": 33510
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-640-df1d7d2e9d.webp",
-        "bytes": 121664
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-water-heater-insulation-forms-epp-v2-960-df1d7d2e9d.webp",
-        "bytes": 229374
-      }
-    ],
-    "originalBytes": 1457136
   },
   "/images/products/cooler.webp": {
     "src": "/images/optimized/products-cooler-960-be81784f08.webp",
@@ -3387,6 +3904,35 @@
     ],
     "originalBytes": 2178408
   },
+  "/images/products/highlight-vehicle-transparent.png": {
+    "src": "/images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/images/optimized/products-highlight-vehicle-transparent-96-bb28c9931b.webp 96w, /images/optimized/products-highlight-vehicle-transparent-320-bb28c9931b.webp 320w, /images/optimized/products-highlight-vehicle-transparent-640-bb28c9931b.webp 640w, /images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-96-bb28c9931b.webp",
+        "bytes": 2940
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-320-bb28c9931b.webp",
+        "bytes": 15542
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-640-bb28c9931b.webp",
+        "bytes": 51922
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp",
+        "bytes": 108202
+      }
+    ],
+    "originalBytes": 2375848
+  },
   "/images/products/hvac-parts.webp": {
     "src": "/images/optimized/products-hvac-parts-960-98bc206f66.webp",
     "width": 1100,
@@ -3444,35 +3990,6 @@
       }
     ],
     "originalBytes": 31522
-  },
-  "/images/products/highlight-vehicle-transparent.png": {
-    "src": "/images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-highlight-vehicle-transparent-96-bb28c9931b.webp 96w, /images/optimized/products-highlight-vehicle-transparent-320-bb28c9931b.webp 320w, /images/optimized/products-highlight-vehicle-transparent-640-bb28c9931b.webp 640w, /images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-highlight-vehicle-transparent-96-bb28c9931b.webp",
-        "bytes": 2940
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-highlight-vehicle-transparent-320-bb28c9931b.webp",
-        "bytes": 15542
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-highlight-vehicle-transparent-640-bb28c9931b.webp",
-        "bytes": 51922
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-highlight-vehicle-transparent-960-bb28c9931b.webp",
-        "bytes": 108202
-      }
-    ],
-    "originalBytes": 2375848
   },
   "/images/products/mobility-inserts.webp": {
     "src": "/images/optimized/products-mobility-inserts-960-937d48bea2.webp",
@@ -3851,120 +4368,33 @@
     ],
     "originalBytes": 45082
   },
-  "/images/products/branded/epp-lithium-ion-battery-packaging.png": {
-    "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-96-093fddada6.webp 96w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-320-093fddada6.webp 320w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-640-093fddada6.webp 640w, /images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp 960w",
+  "/images/products/lithium-ion-cell-epp-trays.webp": {
+    "src": "/images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp",
+    "width": 1448,
+    "height": 1086,
+    "srcSet": "/images/optimized/products-lithium-ion-cell-epp-trays-96-a1d9e152b9.webp 96w, /images/optimized/products-lithium-ion-cell-epp-trays-320-a1d9e152b9.webp 320w, /images/optimized/products-lithium-ion-cell-epp-trays-640-a1d9e152b9.webp 640w, /images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp 960w",
     "variants": [
       {
         "width": 96,
-        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-96-093fddada6.webp",
-        "bytes": 2962
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-96-a1d9e152b9.webp",
+        "bytes": 1834
       },
       {
         "width": 320,
-        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-320-093fddada6.webp",
-        "bytes": 18192
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-320-a1d9e152b9.webp",
+        "bytes": 13538
       },
       {
         "width": 640,
-        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-640-093fddada6.webp",
-        "bytes": 65286
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-640-a1d9e152b9.webp",
+        "bytes": 48066
       },
       {
         "width": 960,
-        "src": "/images/optimized/products-branded-epp-lithium-ion-battery-packaging-960-093fddada6.webp",
-        "bytes": 137720
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp",
+        "bytes": 91494
       }
     ],
-    "originalBytes": 2839468
-  },
-  "/images/products/branded/epp-solar-cell-packaging.png": {
-    "src": "/images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-branded-epp-solar-cell-packaging-96-4f62dda86d.webp 96w, /images/optimized/products-branded-epp-solar-cell-packaging-320-4f62dda86d.webp 320w, /images/optimized/products-branded-epp-solar-cell-packaging-640-4f62dda86d.webp 640w, /images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-96-4f62dda86d.webp",
-        "bytes": 4108
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-320-4f62dda86d.webp",
-        "bytes": 20452
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-640-4f62dda86d.webp",
-        "bytes": 65998
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-epp-solar-cell-packaging-960-4f62dda86d.webp",
-        "bytes": 139096
-      }
-    ],
-    "originalBytes": 2984315
-  },
-  "/images/products/branded/epp-hard-disk-packaging.png": {
-    "src": "/images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-branded-epp-hard-disk-packaging-96-0a589e6786.webp 96w, /images/optimized/products-branded-epp-hard-disk-packaging-320-0a589e6786.webp 320w, /images/optimized/products-branded-epp-hard-disk-packaging-640-0a589e6786.webp 640w, /images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-96-0a589e6786.webp",
-        "bytes": 1922
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-320-0a589e6786.webp",
-        "bytes": 20772
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-640-0a589e6786.webp",
-        "bytes": 83516
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-epp-hard-disk-packaging-960-0a589e6786.webp",
-        "bytes": 173128
-      }
-    ],
-    "originalBytes": 3114424
-  },
-  "/images/products/branded/epp-ammunition-packaging.png": {
-    "src": "/images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp",
-    "width": 1536,
-    "height": 1024,
-    "srcSet": "/images/optimized/products-branded-epp-ammunition-packaging-96-e77bac1e11.webp 96w, /images/optimized/products-branded-epp-ammunition-packaging-320-e77bac1e11.webp 320w, /images/optimized/products-branded-epp-ammunition-packaging-640-e77bac1e11.webp 640w, /images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp 960w",
-    "variants": [
-      {
-        "width": 96,
-        "src": "/images/optimized/products-branded-epp-ammunition-packaging-96-e77bac1e11.webp",
-        "bytes": 1908
-      },
-      {
-        "width": 320,
-        "src": "/images/optimized/products-branded-epp-ammunition-packaging-320-e77bac1e11.webp",
-        "bytes": 20222
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/products-branded-epp-ammunition-packaging-640-e77bac1e11.webp",
-        "bytes": 81272
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/products-branded-epp-ammunition-packaging-960-e77bac1e11.webp",
-        "bytes": 163620
-      }
-    ],
-    "originalBytes": 2964699
+    "originalBytes": 275524
   }
 }
