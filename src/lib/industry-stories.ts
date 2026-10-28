@@ -18,13 +18,13 @@ export type IndustryStory = {
 export const industryStories: Record<string, IndustryStory> = {
   "sports-leisure": {
     "slug": "sports-leisure",
-    "eyebrow": "SPORTS, LEISURE & EARLY CHILDHOOD",
+    "eyebrow": "LIVING / TOYS / SPORTS / DRONES",
     "title": [
       "Made for movement.",
       "Shaped for play."
     ],
-    "intro": "From training equipment to early learning, PARK shapes lightweight foam components around grip, fit and everyday use. Bring your activity, age group and product idea into the design.",
-    "homeSummary": "Lightweight foam forms for training, imaginative play and everyday movement, shaped around the people who use them.",
+    "intro": "PARK develops lightweight EPP components for sports, play, living products and drone assemblies. Start with intended users, fit, loads, cleaning and operating requirements.",
+    "homeSummary": "EPP forms for sports, play, living products and drone assemblies, shaped around use, fit and handling.",
     "heroImage": "/images/generated/factory-childhood.webp",
     "heroAlt": "AI factory illustration of moulded play forms being inspected at a foam finishing workstation",
     "overview": {
@@ -77,6 +77,13 @@ export const industryStories: Record<string, IndustryStory> = {
         "productSlug": "foam-insole-components",
         "image": "/images/generated/factory-foam-finishing.webp",
         "imageAlt": "AI factory illustration of cellular foam sheets and shaped blanks at a finishing workstation"
+      },
+      {
+        "title": "Drone components",
+        "text": "Explore lightweight moulded components around the drone body, installed equipment, impact requirements and assembly interfaces.",
+        "productSlug": "drone-components",
+        "image": "/images/products/branded/drone-components.svg",
+        "imageAlt": "PARK Nonwoven branded lightweight quadcopter with a moulded EPP body"
       }
     ],
     "material": {

@@ -3,7 +3,7 @@ import productSalesCopy from './product-sales-copy.json';
 import {productCopy} from './content';
 import {industryStories} from './industry-stories';
 export const brand = 'Parknonwoven EPP';
-export const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://park-epp.vercel.app';
+export const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.parknonwoven-epp.com';
 export const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 /** Original application records retained for product data and existing detail URLs. */
 export const legacyMarkets = [
