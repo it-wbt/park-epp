@@ -12,6 +12,6 @@ export default function HomeEppExplainer() {
       <ul className={styles.benefits}><li><Icon kind="check"/>Impact protection</li><li><Icon kind="check"/>Thermal insulation</li><li><Icon kind="check"/>Custom shapes & sizes</li></ul>
       <div className={styles.actions}><Link className={styles.primary} href="/products/">Explore products <Icon kind="arrow"/></Link><Link className={styles.secondary} href="/contact/">Get a quote <Icon kind="arrow"/></Link></div>
     </div>
-    <ResponsiveImage className={styles.image} src="/images/generated/epp-material-closeup.webp" alt="Moulded EPP component with lightweight foam beads" width={1440} height={960} sizes="(max-width: 640px) 100vw, 36vw" loading="lazy"/>
+    <ResponsiveImage className={styles.image} src="/images/generated/epp-material-closeup.webp" alt="Moulded EPP component with lightweight foam beads" width={1440} height={960} sizes="(max-width: 640px) 320px, 36vw" loading="lazy"/>
   </section>;
 }

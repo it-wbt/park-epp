@@ -31,7 +31,7 @@ export default function ProductHighlights() {
       <button className="highlights-prev highlights-arrow" onClick={()=>move(-1)} aria-label="Previous highlighted product"><Chevron left/></button>
       <div key={product.slug} className="highlights-slide" aria-live="polite" aria-atomic="true">
         <div className="highlights-copy"><span className="highlights-category"><i/>PARK EPP / {product.market}</span><h3>{product.name}</h3><p>{product.summary}</p><Link href={`/products/${product.slug}/`} className="highlights-learn">Explore product <Icon kind="arrow"/></Link></div>
-        <Link className="highlights-image" href={`/products/${product.slug}/`} aria-label={`Explore ${product.name}`}><ResponsiveImage src={image} alt={`Illustrative product formats for ${product.name.toLowerCase()}`} width={640} height={480} loading="lazy"/></Link>
+        <Link className="highlights-image" href={`/products/${product.slug}/`} aria-label={`Explore ${product.name}`}><ResponsiveImage src={image} alt={`Illustrative product formats for ${product.name.toLowerCase()}`} width={640} height={480} sizes="(max-width: 760px) 320px, (max-width: 1100px) 40vw, 440px" loading="lazy"/></Link>
       </div>
       <button className="highlights-next highlights-arrow" onClick={()=>move(1)} aria-label="Next highlighted product"><Chevron/></button>
     </div>
