@@ -4,7 +4,7 @@ import ResponsiveImage from './ResponsiveImage';
 
 import Link from 'next/link';
 import {useEffect, useRef, useState, type KeyboardEvent as ReactKeyboardEvent} from 'react';
-import {Icon} from './ui';
+import {Icon} from './Icon';
 import {navigation, type MenuLink} from '../lib/navigation';
 import {products, activeProducts} from '../lib/catalog';
 import {productVisual, productVisualAlt} from '../lib/content';

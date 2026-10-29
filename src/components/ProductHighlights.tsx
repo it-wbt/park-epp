@@ -5,7 +5,7 @@ import {useState} from 'react';
 import Link from 'next/link';
 import {activeProducts} from '../lib/catalog';
 import {productVisual} from '../lib/content';
-import {Icon} from './ui';
+import {Icon} from './Icon';
 
 const selections = [
   {slug:'stackable-delivery-boxes',image:'/images/products/highlight-delivery-transparent.png',label:'Delivery boxes'},

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {useEffect, useRef, useState} from 'react';
 import {markets} from '../lib/catalog';
 const industryImages:Record<string,string> = {'logistics-handling':'/images/markets/logistics.webp',mobility:'/images/markets/mobility-automotive.png',hvac:'/images/markets/hvac.webp','sports-leisure':'/images/markets/sports.webp',defence:'/images/generated/industry-automotive.webp'};
-import {Icon} from './ui';
+import {Icon} from './Icon';
 const slides = [
  {title:'Lightweight EPP. Made for your product.',text:'Protective packaging, insulation and custom parts shaped around your requirements.',image:'/images/epp-material-process-banner-v1.webp',href:'/products/',action:'Find your EPP product'},
  {title:'Bring play spaces to life.',text:'Discover lightweight EPP play blocks, balance shapes and sports equipment. Request sizes and quantities for your space.',image:'/images/epp-banner-sports-wide-v2.webp',href:'/#contact',action:'Get a product quote'},

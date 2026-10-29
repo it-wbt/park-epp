@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import {useEffect, useRef, useState, type KeyboardEvent, type MouseEvent} from 'react';
 import {articles} from '../lib/catalog';
-import {Icon} from './ui';
+import {Icon} from './Icon';
 import styles from './HomeResources.module.css';
 
 const featuredGuides = ['epp-grade-selection', 'design-for-reuse']

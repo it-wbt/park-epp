@@ -2,7 +2,7 @@ import Link from 'next/link';
 import EppShowcase from './EppShowcase';
 import HomeContact from './HomeContact';
 import HomeResources from './HomeResources';
-import {Icon} from './ui';
+import {Icon} from './Icon';
 import ProductHighlights from './ProductHighlights';
 import HomeEppExplainer from './HomeEppExplainer';
 export default function Home(){

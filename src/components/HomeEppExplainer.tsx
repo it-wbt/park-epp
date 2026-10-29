@@ -1,6 +1,6 @@
 import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
-import {Icon} from './ui';
+import {Icon} from './Icon';
 import styles from './HomeEppExplainer.module.css';
 
 export default function HomeEppExplainer() {
