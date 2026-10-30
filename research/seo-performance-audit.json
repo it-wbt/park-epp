@@ -1,18 +1,19 @@
 {
-  "checkedAt": "2026-10-09T09:25:14.926Z",
+  "checkedAt": "2026-10-30T08:24:57.890Z",
   "seo": {
-    "sitemapPagesPassed": 84,
+    "sitemapPagesPassed": 106,
     "checks": [
       "HTTP 200",
       "Page title and description",
       "Self canonical",
       "Single H1",
       "Image alt attributes",
-      "Product JSON-LD",
+      "Breadcrumb JSON-LD",
+      "No incomplete Product rich-result markup on quote-only pages",
       "Indexable without JavaScript",
       "robots.txt and sitemap.xml"
     ],
-    "configuredDomain": "https://park-epp.vercel.app"
+    "configuredDomain": "https://www.parknonwoven-epp.com"
   },
   "media": {
     "productImageReductionPercent": 92,

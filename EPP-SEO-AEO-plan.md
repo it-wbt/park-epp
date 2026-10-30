@@ -39,7 +39,7 @@ Avoid creating near-duplicate pages for supplier, manufacturer, price or city va
 
 - Homepage metadata and distinct page titles/descriptions for catalogue, industry, product, material, expertise, resource and contact pages.
 - Canonical URLs on the homepage, section pages and detail pages, based on the configured site origin.
-- Organization structured data site-wide; Product structured data on product details; BreadcrumbList on detail pages. Product markup does not invent prices, ratings or offers.
+- Organization structured data site-wide; BreadcrumbList on detail pages. Quote-only product pages intentionally omit Product rich-result markup because they do not publish prices, offers or customer ratings.
 - A generated sitemap covering active products, the four public industries, materials, expertise, solutions, resources and about pages; robots metadata points to that sitemap.
 - Visible industry and product navigation, catalogue filters, internal product-to-industry links and clear contact paths.
 - Buyer-oriented EPP material guidance, practical requirements lists, FAQs, application-specific design prompts and caution against unsupported performance claims.
