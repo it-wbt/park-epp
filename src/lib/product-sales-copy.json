@@ -429,6 +429,16 @@
     "uses": "Hard-disk handling, storage and protective packaging development",
     "detail": "A fitted EPP layout can keep drives separated during storage and movement. Share the drive format, quantity per pack, connector clearance and handling process to develop the compartment arrangement. Confirm any electrostatic-discharge and transport requirements for the intended application."
   },
+  "computer-accessories-packaging": {
+    "summary": "Custom-moulded EPP packaging for keyboards, headsets, mice, cables and other computer accessories.",
+    "benefits": [
+      "Fitted accessory compartments",
+      "Cable and connector protection",
+      "Lightweight reusable handling"
+    ],
+    "uses": "Computer accessory storage, handling and protective packaging development",
+    "detail": "A moulded EPP layout can be developed around keyboards, headphones, mice, adapters and cables. Share the product dimensions, quantity per pack, required separation and handling route so the format can be assessed with the complete packed configuration."
+  },
   "ammunition-packaging": {
     "summary": "Custom EPP packaging for authorised ammunition storage and movement applications.",
     "benefits": [

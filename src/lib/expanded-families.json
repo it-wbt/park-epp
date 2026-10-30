@@ -708,6 +708,18 @@
     "application": "Share the drive format, quantity per pack, connector clearances and handling route. Confirm any electrostatic-discharge and transport requirements for the intended use."
   },
   {
+    "name": "Computer accessories packaging",
+    "marketSlug": "logistics-handling",
+    "summary": "Custom-moulded EPP packaging for keyboards, headsets, mice and other computer accessories.",
+    "material": "EPP",
+    "focus": [
+      "Accessory layout and fit",
+      "Cable and connector clearance",
+      "Reusable protection"
+    ],
+    "application": "Share the accessory list, product dimensions, pack quantity and handling route. The moulded layout can be developed around separation, contact protection and practical unpacking."
+  },
+  {
     "name": "Ammunition Packaging",
     "marketSlug": "defence",
     "summary": "Custom-moulded EPP packaging for the storage and movement of ammunition components.",

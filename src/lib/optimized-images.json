@@ -144,35 +144,6 @@
     ],
     "originalBytes": 111260
   },
-  "/images/epp-banner-automotive-wide-v2.webp": {
-    "src": "/images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp",
-    "width": 2060,
-    "height": 763,
-    "srcSet": "/images/optimized/epp-banner-automotive-wide-v2-320-ffc8552447.webp 320w, /images/optimized/epp-banner-automotive-wide-v2-640-ffc8552447.webp 640w, /images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp 960w, /images/optimized/epp-banner-automotive-wide-v2-1440-ffc8552447.webp 1440w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/epp-banner-automotive-wide-v2-320-ffc8552447.webp",
-        "bytes": 7216
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/epp-banner-automotive-wide-v2-640-ffc8552447.webp",
-        "bytes": 19930
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp",
-        "bytes": 35278
-      },
-      {
-        "width": 1440,
-        "src": "/images/optimized/epp-banner-automotive-wide-v2-1440-ffc8552447.webp",
-        "bytes": 59158
-      }
-    ],
-    "originalBytes": 167080
-  },
   "/images/epp-banner-automotive-use-v1.webp": {
     "src": "/images/optimized/epp-banner-automotive-use-v1-960-a87ef1a354.webp",
     "width": 1672,
@@ -202,34 +173,34 @@
     ],
     "originalBytes": 166776
   },
-  "/images/epp-banner-delivery-wide-v2.webp": {
-    "src": "/images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp",
-    "width": 2081,
-    "height": 756,
-    "srcSet": "/images/optimized/epp-banner-delivery-wide-v2-320-f781d5f532.webp 320w, /images/optimized/epp-banner-delivery-wide-v2-640-f781d5f532.webp 640w, /images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp 960w, /images/optimized/epp-banner-delivery-wide-v2-1440-f781d5f532.webp 1440w",
+  "/images/epp-banner-automotive-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp",
+    "width": 2060,
+    "height": 763,
+    "srcSet": "/images/optimized/epp-banner-automotive-wide-v2-320-ffc8552447.webp 320w, /images/optimized/epp-banner-automotive-wide-v2-640-ffc8552447.webp 640w, /images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp 960w, /images/optimized/epp-banner-automotive-wide-v2-1440-ffc8552447.webp 1440w",
     "variants": [
       {
         "width": 320,
-        "src": "/images/optimized/epp-banner-delivery-wide-v2-320-f781d5f532.webp",
-        "bytes": 8136
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-320-ffc8552447.webp",
+        "bytes": 7216
       },
       {
         "width": 640,
-        "src": "/images/optimized/epp-banner-delivery-wide-v2-640-f781d5f532.webp",
-        "bytes": 23544
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-640-ffc8552447.webp",
+        "bytes": 19930
       },
       {
         "width": 960,
-        "src": "/images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp",
-        "bytes": 40134
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-960-ffc8552447.webp",
+        "bytes": 35278
       },
       {
         "width": 1440,
-        "src": "/images/optimized/epp-banner-delivery-wide-v2-1440-f781d5f532.webp",
-        "bytes": 67850
+        "src": "/images/optimized/epp-banner-automotive-wide-v2-1440-ffc8552447.webp",
+        "bytes": 59158
       }
     ],
-    "originalBytes": 185886
+    "originalBytes": 167080
   },
   "/images/epp-banner-delivery-use-v1.webp": {
     "src": "/images/optimized/epp-banner-delivery-use-v1-960-90e978cd78.webp",
@@ -260,34 +231,34 @@
     ],
     "originalBytes": 168954
   },
-  "/images/epp-banner-food-wide-v2.webp": {
-    "src": "/images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp",
-    "width": 2060,
-    "height": 763,
-    "srcSet": "/images/optimized/epp-banner-food-wide-v2-320-958e82d015.webp 320w, /images/optimized/epp-banner-food-wide-v2-640-958e82d015.webp 640w, /images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp 960w, /images/optimized/epp-banner-food-wide-v2-1440-958e82d015.webp 1440w",
+  "/images/epp-banner-delivery-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp",
+    "width": 2081,
+    "height": 756,
+    "srcSet": "/images/optimized/epp-banner-delivery-wide-v2-320-f781d5f532.webp 320w, /images/optimized/epp-banner-delivery-wide-v2-640-f781d5f532.webp 640w, /images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp 960w, /images/optimized/epp-banner-delivery-wide-v2-1440-f781d5f532.webp 1440w",
     "variants": [
       {
         "width": 320,
-        "src": "/images/optimized/epp-banner-food-wide-v2-320-958e82d015.webp",
-        "bytes": 7262
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-320-f781d5f532.webp",
+        "bytes": 8136
       },
       {
         "width": 640,
-        "src": "/images/optimized/epp-banner-food-wide-v2-640-958e82d015.webp",
-        "bytes": 22490
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-640-f781d5f532.webp",
+        "bytes": 23544
       },
       {
         "width": 960,
-        "src": "/images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp",
-        "bytes": 42224
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-960-f781d5f532.webp",
+        "bytes": 40134
       },
       {
         "width": 1440,
-        "src": "/images/optimized/epp-banner-food-wide-v2-1440-958e82d015.webp",
-        "bytes": 74886
+        "src": "/images/optimized/epp-banner-delivery-wide-v2-1440-f781d5f532.webp",
+        "bytes": 67850
       }
     ],
-    "originalBytes": 210704
+    "originalBytes": 185886
   },
   "/images/epp-banner-food-use-v1.webp": {
     "src": "/images/optimized/epp-banner-food-use-v1-960-b7cc575afb.webp",
@@ -317,6 +288,35 @@
       }
     ],
     "originalBytes": 142068
+  },
+  "/images/epp-banner-food-wide-v2.webp": {
+    "src": "/images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp",
+    "width": 2060,
+    "height": 763,
+    "srcSet": "/images/optimized/epp-banner-food-wide-v2-320-958e82d015.webp 320w, /images/optimized/epp-banner-food-wide-v2-640-958e82d015.webp 640w, /images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp 960w, /images/optimized/epp-banner-food-wide-v2-1440-958e82d015.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-food-wide-v2-320-958e82d015.webp",
+        "bytes": 7262
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-food-wide-v2-640-958e82d015.webp",
+        "bytes": 22490
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-food-wide-v2-960-958e82d015.webp",
+        "bytes": 42224
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-food-wide-v2-1440-958e82d015.webp",
+        "bytes": 74886
+      }
+    ],
+    "originalBytes": 210704
   },
   "/images/epp-banner-hvac-wide-v1.webp": {
     "src": "/images/optimized/epp-banner-hvac-wide-v1-960-b5693bd40f.webp",
@@ -405,6 +405,35 @@
     ],
     "originalBytes": 183916
   },
+  "/images/epp-banner-sports-use-v1.webp": {
+    "src": "/images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-banner-sports-use-v1-320-17ab9a68ac.webp 320w, /images/optimized/epp-banner-sports-use-v1-640-17ab9a68ac.webp 640w, /images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp 960w, /images/optimized/epp-banner-sports-use-v1-1440-17ab9a68ac.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-banner-sports-use-v1-320-17ab9a68ac.webp",
+        "bytes": 14208
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-banner-sports-use-v1-640-17ab9a68ac.webp",
+        "bytes": 39938
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp",
+        "bytes": 71004
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-banner-sports-use-v1-1440-17ab9a68ac.webp",
+        "bytes": 120226
+      }
+    ],
+    "originalBytes": 225340
+  },
   "/images/epp-banner-sports-wide-v2.webp": {
     "src": "/images/optimized/epp-banner-sports-wide-v2-960-122ad24fa0.webp",
     "width": 2060,
@@ -463,35 +492,6 @@
     ],
     "originalBytes": 35858
   },
-  "/images/epp-banner-sports-use-v1.webp": {
-    "src": "/images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp",
-    "width": 1672,
-    "height": 941,
-    "srcSet": "/images/optimized/epp-banner-sports-use-v1-320-17ab9a68ac.webp 320w, /images/optimized/epp-banner-sports-use-v1-640-17ab9a68ac.webp 640w, /images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp 960w, /images/optimized/epp-banner-sports-use-v1-1440-17ab9a68ac.webp 1440w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/epp-banner-sports-use-v1-320-17ab9a68ac.webp",
-        "bytes": 14208
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/epp-banner-sports-use-v1-640-17ab9a68ac.webp",
-        "bytes": 39938
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/epp-banner-sports-use-v1-960-17ab9a68ac.webp",
-        "bytes": 71004
-      },
-      {
-        "width": 1440,
-        "src": "/images/optimized/epp-banner-sports-use-v1-1440-17ab9a68ac.webp",
-        "bytes": 120226
-      }
-    ],
-    "originalBytes": 225340
-  },
   "/images/epp-material-process-banner-v1.webp": {
     "src": "/images/optimized/epp-material-process-banner-v1-960-efb1cf3689.webp",
     "width": 1983,
@@ -520,6 +520,35 @@
       }
     ],
     "originalBytes": 313480
+  },
+  "/images/epp-sports-use-v1.png": {
+    "src": "/images/optimized/epp-sports-use-v1-960-3efb21d13e.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-sports-use-v1-320-3efb21d13e.webp 320w, /images/optimized/epp-sports-use-v1-640-3efb21d13e.webp 640w, /images/optimized/epp-sports-use-v1-960-3efb21d13e.webp 960w, /images/optimized/epp-sports-use-v1-1440-3efb21d13e.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-sports-use-v1-320-3efb21d13e.webp",
+        "bytes": 14710
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-sports-use-v1-640-3efb21d13e.webp",
+        "bytes": 42870
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-sports-use-v1-960-3efb21d13e.webp",
+        "bytes": 78064
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-sports-use-v1-1440-3efb21d13e.webp",
+        "bytes": 139562
+      }
+    ],
+    "originalBytes": 2309854
   },
   "/images/food.webp": {
     "src": "/images/optimized/food-960-52717c8630.webp",
@@ -1275,35 +1304,6 @@
     ],
     "originalBytes": 135214
   },
-  "/images/epp-sports-use-v1.png": {
-    "src": "/images/optimized/epp-sports-use-v1-960-3efb21d13e.webp",
-    "width": 1672,
-    "height": 941,
-    "srcSet": "/images/optimized/epp-sports-use-v1-320-3efb21d13e.webp 320w, /images/optimized/epp-sports-use-v1-640-3efb21d13e.webp 640w, /images/optimized/epp-sports-use-v1-960-3efb21d13e.webp 960w, /images/optimized/epp-sports-use-v1-1440-3efb21d13e.webp 1440w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/epp-sports-use-v1-320-3efb21d13e.webp",
-        "bytes": 14710
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/epp-sports-use-v1-640-3efb21d13e.webp",
-        "bytes": 42870
-      },
-      {
-        "width": 960,
-        "src": "/images/optimized/epp-sports-use-v1-960-3efb21d13e.webp",
-        "bytes": 78064
-      },
-      {
-        "width": 1440,
-        "src": "/images/optimized/epp-sports-use-v1-1440-3efb21d13e.webp",
-        "bytes": 139562
-      }
-    ],
-    "originalBytes": 2309854
-  },
   "/images/generated/mobility.webp": {
     "src": "/images/optimized/generated-mobility-960-a23f531699.webp",
     "width": 1600,
@@ -1738,6 +1738,30 @@
       }
     ],
     "originalBytes": 116554
+  },
+  "/images/markets/mobility-automotive.png": {
+    "src": "/images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp",
+    "width": 702,
+    "height": 409,
+    "srcSet": "/images/optimized/markets-mobility-automotive-320-c6f1bf507d.webp 320w, /images/optimized/markets-mobility-automotive-640-c6f1bf507d.webp 640w, /images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp 702w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/markets-mobility-automotive-320-c6f1bf507d.webp",
+        "bytes": 10606
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/markets-mobility-automotive-640-c6f1bf507d.webp",
+        "bytes": 24936
+      },
+      {
+        "width": 702,
+        "src": "/images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp",
+        "bytes": 28166
+      }
+    ],
+    "originalBytes": 440281
   },
   "/images/markets/mobility.webp": {
     "src": "/images/optimized/markets-mobility-960-9fa077df57.webp",
@@ -2255,30 +2279,6 @@
       }
     ],
     "originalBytes": 1540666
-  },
-  "/images/markets/mobility-automotive.png": {
-    "src": "/images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp",
-    "width": 702,
-    "height": 409,
-    "srcSet": "/images/optimized/markets-mobility-automotive-320-c6f1bf507d.webp 320w, /images/optimized/markets-mobility-automotive-640-c6f1bf507d.webp 640w, /images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp 702w",
-    "variants": [
-      {
-        "width": 320,
-        "src": "/images/optimized/markets-mobility-automotive-320-c6f1bf507d.webp",
-        "bytes": 10606
-      },
-      {
-        "width": 640,
-        "src": "/images/optimized/markets-mobility-automotive-640-c6f1bf507d.webp",
-        "bytes": 24936
-      },
-      {
-        "width": 702,
-        "src": "/images/optimized/markets-mobility-automotive-702-c6f1bf507d.webp",
-        "bytes": 28166
-      }
-    ],
-    "originalBytes": 440281
   },
   "/images/products/branded/custom-sports-equipment.webp": {
     "src": "/images/optimized/products-branded-custom-sports-equipment-960-55e06d9562.webp",
@@ -3991,6 +3991,35 @@
     ],
     "originalBytes": 31522
   },
+  "/images/products/lithium-ion-cell-epp-trays.webp": {
+    "src": "/images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp",
+    "width": 1448,
+    "height": 1086,
+    "srcSet": "/images/optimized/products-lithium-ion-cell-epp-trays-96-a1d9e152b9.webp 96w, /images/optimized/products-lithium-ion-cell-epp-trays-320-a1d9e152b9.webp 320w, /images/optimized/products-lithium-ion-cell-epp-trays-640-a1d9e152b9.webp 640w, /images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp 960w",
+    "variants": [
+      {
+        "width": 96,
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-96-a1d9e152b9.webp",
+        "bytes": 1834
+      },
+      {
+        "width": 320,
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-320-a1d9e152b9.webp",
+        "bytes": 13538
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-640-a1d9e152b9.webp",
+        "bytes": 48066
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp",
+        "bytes": 91494
+      }
+    ],
+    "originalBytes": 275524
+  },
   "/images/products/mobility-inserts.webp": {
     "src": "/images/optimized/products-mobility-inserts-960-937d48bea2.webp",
     "width": 1100,
@@ -4368,33 +4397,33 @@
     ],
     "originalBytes": 45082
   },
-  "/images/products/lithium-ion-cell-epp-trays.webp": {
-    "src": "/images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp",
-    "width": 1448,
-    "height": 1086,
-    "srcSet": "/images/optimized/products-lithium-ion-cell-epp-trays-96-a1d9e152b9.webp 96w, /images/optimized/products-lithium-ion-cell-epp-trays-320-a1d9e152b9.webp 320w, /images/optimized/products-lithium-ion-cell-epp-trays-640-a1d9e152b9.webp 640w, /images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp 960w",
+  "/images/products/branded/computer-accessories-packaging.png": {
+    "src": "/images/optimized/products-branded-computer-accessories-packaging-960-07b1abedfe.webp",
+    "width": 1320,
+    "height": 1192,
+    "srcSet": "/images/optimized/products-branded-computer-accessories-packaging-96-07b1abedfe.webp 96w, /images/optimized/products-branded-computer-accessories-packaging-320-07b1abedfe.webp 320w, /images/optimized/products-branded-computer-accessories-packaging-640-07b1abedfe.webp 640w, /images/optimized/products-branded-computer-accessories-packaging-960-07b1abedfe.webp 960w",
     "variants": [
       {
         "width": 96,
-        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-96-a1d9e152b9.webp",
-        "bytes": 1834
+        "src": "/images/optimized/products-branded-computer-accessories-packaging-96-07b1abedfe.webp",
+        "bytes": 4228
       },
       {
         "width": 320,
-        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-320-a1d9e152b9.webp",
-        "bytes": 13538
+        "src": "/images/optimized/products-branded-computer-accessories-packaging-320-07b1abedfe.webp",
+        "bytes": 23168
       },
       {
         "width": 640,
-        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-640-a1d9e152b9.webp",
-        "bytes": 48066
+        "src": "/images/optimized/products-branded-computer-accessories-packaging-640-07b1abedfe.webp",
+        "bytes": 73988
       },
       {
         "width": 960,
-        "src": "/images/optimized/products-lithium-ion-cell-epp-trays-960-a1d9e152b9.webp",
-        "bytes": 91494
+        "src": "/images/optimized/products-branded-computer-accessories-packaging-960-07b1abedfe.webp",
+        "bytes": 154090
       }
     ],
-    "originalBytes": 275524
+    "originalBytes": 2432702
   }
 }
