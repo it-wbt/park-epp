@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import {useEffect, useRef, useState} from 'react';
 import {activeProducts} from '../lib/catalog';
-import {whatsappNumber} from '../lib/site-engagement';
 import {deliverEnquiry} from '../lib/enquiry-delivery';
 import {googleEnquiryEndpoint, submitGoogleChatMessage} from '../lib/submit-google-enquiry';
 import {Icon} from './Icon';
@@ -11,6 +10,7 @@ import styles from './ParkChat.module.css';
 
 type Message = {role:'bot'|'user'; text:string; links?:{name:string; href:string}[]};
 type ParkChatPanelProps = {onClose:()=>void};
+type ChatStep = 'query'|'name'|'phone'|'email'|'requirement'|'complete';
 
 const welcome:Message = {
   role: 'bot',
@@ -19,17 +19,12 @@ const welcome:Message = {
 
 function answer(query:string):Message {
   const text = query.toLowerCase();
-  if (/\b(price|cost|quote|quotation|buy|order|rate|enquiry)\b/.test(text)) {
-    return {role:'bot', text:'Share your product, dimensions and quantity with our team for a quote.', links:[{name:'Request a quote', href:'/contact/'}]};
-  }
-  if (/\b(contact|email|phone|whatsapp)\b/.test(text)) {
-    const number = whatsappNumber.replace(/\D/g, '');
+  if (/\b(contact|email|phone)\b/.test(text)) {
     return {
       role:'bot',
-      text:'Contact PARK' + (number ? ' on WhatsApp at +' + number : '') + ' or email sales@parknonwoven.com.',
+      text:'Email PARK at sales@parknonwoven.com or submit your requirements through the contact form.',
       links:[
         {name:'Email PARK', href:'mailto:sales@parknonwoven.com'},
-        ...(number ? [{name:'WhatsApp PARK', href:'https://wa.me/' + number}] : []),
         {name:'Contact us', href:'/contact/'},
       ],
     };
@@ -58,15 +53,15 @@ function answer(query:string):Message {
   return {
     role:'bot',
     text:'We can help with packaging, insulated containers, HVAC, automotive and sports products. Browse our range or share your requirements.',
-    links:[{name:'Explore products', href:'/products/'}, {name:'Request a quote', href:'/contact/'}],
+    links:[{name:'Explore products', href:'/products/'}, {name:'Contact us', href:'/contact/'}],
   };
 }
 
 export default function ParkChatPanel({onClose}:ParkChatPanelProps) {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<Message[]>([welcome]);
-  const [step, setStep] = useState<'query'|'name'|'phone'|'email'|'complete'>('query');
-  const [lead, setLead] = useState({name:'', phone:'', email:''});
+  const [step, setStep] = useState<ChatStep>('query');
+  const [lead, setLead] = useState({name:'', phone:'', email:'', requirement:''});
   const [status, setStatus] = useState<'idle'|'sending'|'sent'|'error'>('idle');
   const [error, setError] = useState('');
   const pending = useRef(false);
@@ -118,6 +113,7 @@ export default function ParkChatPanel({onClose}:ParkChatPanelProps) {
 
   const quote = () => {
     setStep('name');
+    setLead({name:'', phone:'', email:'', requirement:''});
     setStatus('idle');
     setError('');
     requestId.current = '';
@@ -129,13 +125,14 @@ export default function ParkChatPanel({onClose}:ParkChatPanelProps) {
     pending.current = true;
     setStatus('sending');
     setError('');
-    const message = messages
-      .filter((item) => item.role === 'user' && ![details.name, details.phone, details.email].includes(item.text))
+    const conversation = messages
+      .filter((item) => item.role === 'user' && ![details.name, details.phone, details.email, details.requirement].includes(item.text))
       .map((item) => item.text)
-      .join('\n') || 'Please contact me about EPP products.';
+      .join('\n');
+    const message = [conversation, details.requirement].filter(Boolean).join('\n\n') || 'Please contact me about EPP products.';
     try {
       requestId.current ||= crypto.randomUUID();
-      await deliverEnquiry({...details, brief:message}, 'Chatbot enquiry', {requestId:requestId.current, source:'Chatbot'});
+      await deliverEnquiry({...details, brief:message}, 'Quote request', {requestId:requestId.current, source:'Chatbot'});
       setStatus('sent');
     } catch (cause) {
       setError(cause instanceof Error ? cause.message : 'Unable to submit. Please try again.');
@@ -178,13 +175,24 @@ export default function ParkChatPanel({onClose}:ParkChatPanelProps) {
       }
       const details = {...lead, email:text};
       setLead(details);
+      setStep('requirement');
+      add(user, {role:'bot', text:'Please describe your requirement — product or application, dimensions, quantity and intended use.'});
+      return;
+    }
+    if (step === 'requirement') {
+      if (text.length < 3) {
+        add(user, {role:'bot', text:'Please share your product or application requirement so PARK can prepare the right quote.'});
+        return;
+      }
+      const details = {...lead, requirement:text};
+      setLead(details);
       setStep('complete');
       add(user);
       void submitEnquiry(details);
       return;
     }
     if (step === 'complete') return;
-    if (/\b(quote|quotation|enquiry|inquiry|buy|order)\b/i.test(text)) {
+    if (/\b(price|cost|quote|quotation|enquiry|inquiry|buy|order|rate)\b/i.test(text)) {
       add(user);
       quote();
       return;
@@ -208,12 +216,12 @@ export default function ParkChatPanel({onClose}:ParkChatPanelProps) {
     {step === 'query' && <div className={styles.quick}>{['Find a product','EPP packaging','Request a quote'].map((text) => <button key={text} type="button" onClick={() => send(text)}>{text}</button>)}</div>}
     {step === 'complete'
       ? <div className={styles.ready}>
-          <p role={status === 'error' ? 'alert' : 'status'}>{status === 'sent' ? 'Your enquiry has been submitted. The PARK team will contact you.' : status === 'sending' ? 'Submitting your enquiry...' : error}</p>
+          <p role={status === 'error' ? 'alert' : 'status'}>{status === 'sent' ? 'Your quote request has been submitted. The PARK team will contact you.' : status === 'sending' ? 'Submitting your quote request...' : error}</p>
           {status === 'error' && <button type="button" onClick={() => void submitEnquiry()}>Retry submission <Icon kind="arrow"/></button>}
           <button type="button" disabled={status === 'sending'} onClick={() => {
             setStep('query');
             setStatus('idle');
-            setLead({name:'', phone:'', email:''});
+            setLead({name:'', phone:'', email:'', requirement:''});
             add(welcome);
           }}>Ask another question</button>
         </div>
@@ -222,11 +230,11 @@ export default function ParkChatPanel({onClose}:ParkChatPanelProps) {
             ref={field}
             value={input}
             onChange={(event) => setInput(event.target.value)}
-            aria-label={step === 'query' ? 'Your message' : 'Your ' + step}
-            placeholder={step === 'name' ? 'Your name' : step === 'phone' ? 'Your mobile number' : step === 'email' ? 'Your email address' : 'Type your question...'}
+            aria-label={step === 'query' ? 'Your message' : step === 'requirement' ? 'Your requirement' : 'Your ' + step}
+            placeholder={step === 'name' ? 'Your name' : step === 'phone' ? 'Your mobile number' : step === 'email' ? 'Your email address' : step === 'requirement' ? 'Product, quantity, size or application' : 'Type your question...'}
             inputMode={step === 'phone' ? 'tel' : step === 'email' ? 'email' : 'text'}
             autoComplete={step === 'name' ? 'name' : step === 'phone' ? 'tel' : step === 'email' ? 'email' : 'off'}
-            maxLength={500}
+            maxLength={step === 'requirement' ? 2000 : 500}
           />
           <button type="submit" disabled={!input.trim()} aria-label="Send message"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13"/></svg></button>
         </form>}
