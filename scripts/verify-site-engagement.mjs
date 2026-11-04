@@ -12,6 +12,7 @@ for (const width of [1440, 390]) {
 
   await page.goto(base + '/', {waitUntil:'domcontentloaded'});
   assert.equal(await page.locator('a[href*="wa.me"]').count(), 0);
+  assert.equal(await page.getByRole('dialog', {name:'Our upcoming events'}).count(), 0);
 
   await page.getByRole('button', {name:'Ask PARK', exact:true}).click();
   const chat = page.getByRole('region', {name:'PARK product assistant'});

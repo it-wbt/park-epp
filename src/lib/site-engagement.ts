@@ -12,3 +12,6 @@ export type CompanyEvent = {
 
 // Add confirmed company events here. Dates use YYYY-MM-DD; expired events are hidden.
 export const companyEvents: CompanyEvent[] = [];
+
+// Keep event announcements off until PARK confirms that an event should be promoted.
+export const eventAnnouncementsEnabled = false;
