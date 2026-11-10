@@ -1,4 +1,3 @@
-import ResponsiveImage from './ResponsiveImage';
 import Link from 'next/link';
 import {articles} from '../lib/catalog';
 import {Icon} from './ui';
@@ -13,22 +12,7 @@ const briefItems = [
 ];
 
 export default function ReuseGuide() {
-  return <article className={styles.article}>
-    <section className={styles.hero} aria-labelledby="reuse-guide-heading">
-      <div className={styles.heroInner}>
-        <div className={styles.heroCopy} data-reveal>
-          <p className={styles.eyebrow}>PARK GUIDE / DESIGN FOR REUSE</p>
-          <h1 id="reuse-guide-heading">Designing returnable packaging <span>for real journeys</span></h1>
-          <p className={styles.intro}>{guide.intro}</p>
-          <a className={styles.primary} href="#return-loop">Explore the return journey <Icon kind="arrow"/></a>
-        </div>
-        <figure className={styles.heroVisual}>
-          <ResponsiveImage src="/images/generated/industry-logistics.webp" alt="Moulded foam trays holding industrial components beside stacked transport boxes on a warehouse pallet" width={1440} height={960} fetchPriority="high"/>
-          <figcaption><Icon kind="box"/><span>Fitted protection. A planned return.</span></figcaption>
-        </figure>
-      </div>
-    </section>
-
+  return <article className={styles.article} id="article-content">
     <nav className={styles.contents} aria-label="Returnable packaging guide sections">
       <div><span>IN THIS GUIDE</span><a href="#return-loop">01 <span>The return journey</span></a><a href="#reuse-principles">02 <span>Design priorities</span></a><a href="#reuse-brief">03 <span>Your project brief</span></a></div>
     </nav>

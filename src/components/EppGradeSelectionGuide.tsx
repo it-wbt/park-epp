@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import ResponsiveImage from './ResponsiveImage';
 import {articles} from '../lib/catalog';
 import technicalGuides from '../lib/technical-guides.json';
 import {eppSelectionChecklist} from '../lib/epp-education';
@@ -11,22 +10,7 @@ const technicalGuide = technicalGuides.find(item => item.slug === 'epp-grade-sel
 const briefItems = eppSelectionChecklist.slice(0, 4);
 
 export default function EppGradeSelectionGuide() {
- return <article className={styles.article}>
-  <section className={styles.hero} aria-labelledby="grade-guide-heading">
-   <div className={styles.heroInner}>
-    <div className={styles.heroCopy} data-reveal>
-     <p className={styles.eyebrow}>PARK GUIDE / MATERIAL SELECTION</p>
-     <h1 id="grade-guide-heading">Choose the right EPP grade <span>for your application.</span></h1>
-     <p className={styles.intro}>{article.intro}</p>
-     <a className={styles.primary} href="#grade-steps">Build your selection brief <Icon kind="arrow"/></a>
-    </div>
-    <figure className={styles.heroVisual}>
-     <ResponsiveImage src="/images/generated/epp-material-closeup.webp" alt="Close view of a moulded charcoal EPP component and expanded beads" width={1100} height={1100} fetchPriority="high"/>
-     <figcaption><Icon kind="layers"/><span>Grade, density and geometry work together.</span></figcaption>
-    </figure>
-   </div>
-  </section>
-
+ return <article className={styles.article} id="article-content">
   <nav className={styles.contents} aria-label="EPP grade selection guide sections">
    <div><span>IN THIS GUIDE</span><a href="#grade-steps">01 <span>Selection steps</span></a><a href="#grade-evidence">02 <span>Compare evidence</span></a><a href="#grade-brief">03 <span>Your project brief</span></a></div>
   </nav>

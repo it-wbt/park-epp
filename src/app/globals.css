@@ -6,4 +6,17 @@
 .logo{font-size:18px}.logo small{letter-spacing:.22em}.logo-mark{font-size:48px}@media(max-width:1150px){header nav{gap:13px}.logo{font-size:16px}}@media(max-width:600px){.logo{font-size:12px;gap:7px}.logo-mark{font-size:37px}.logo small{font-size:7px}.header-actions .button.compact{padding:9px}.logo-mark:after{width:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
+.resource-article-content{max-width:900px;padding:48px 28px 72px}
+.resource-article-content>section{padding:28px 0 32px;border-bottom:1px solid var(--line)}
+.resource-article-content>section:first-child{padding-top:0}
+.resource-article-content>section h2{margin:0 0 15px;color:var(--deep);font-size:clamp(25px,2.5vw,34px)}
+.resource-article-content>section p{margin:0;color:var(--muted);font-size:16px;line-height:1.85}
+.resource-article-content .article-note{border-left:4px solid var(--blue);background:#f0f6f8}
+@media(max-width:600px){.resource-article-content{padding:32px 20px 50px}.resource-article-content>section{padding:23px 0 26px}.resource-article-content>section p{font-size:14px}}
+
+.cta-actions{display:flex;align-items:center;flex-wrap:wrap;gap:14px 22px}
+.cta-email{display:inline-flex;align-items:center;min-height:46px;color:var(--deep);font-size:13px;white-space:nowrap}
+.cta-email:hover{color:var(--blue);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:600px){.cta-actions{align-items:flex-start;gap:10px 16px}.cta-actions .button{width:100%}}
+
 
