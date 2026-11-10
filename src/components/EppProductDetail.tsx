@@ -12,12 +12,13 @@ export default function EppProductDetail({product}:{product:Product}) {
  const marketSlug=publicMarketFor(product.marketSlug)?.slug || product.marketSlug;
  const copy=salesCopy[product.slug as keyof typeof salesCopy];
  const related=products.filter(item=>marketSourceSlugs(marketSlug).includes(item.marketSlug)&&item.slug!==product.slug).slice(0,3);
+ const heading=product.slug==='stackable-delivery-boxes'?'Stackable EPP Takeaway Boxes':product.slug==='lithium-ion-battery-packaging'?'EPP Lithium-Ion Battery Packaging':product.name;
  return <article className={styles.page}>
   <section className={styles.hero} aria-labelledby="product-title">
    <div className={styles.visual}><ProductImage product={product}/></div>
    <div className={styles.productCopy}>
     <Link className={styles.eyebrow} href={`/markets/${marketSlug}/`}>{product.market}</Link>
-    <h1 id="product-title">{product.slug==='stackable-delivery-boxes'?'Stackable EPP Takeaway Boxes':product.name}</h1>
+    <h1 id="product-title">{heading}</h1>
     <span className={styles.material}>EPP &middot; Expanded Polypropylene</span>
     <div className={styles.actions}><a className={styles.button} href="#enquire">Get a quote <Icon kind="arrow"/></a><a className={styles.email} href={`mailto:sales@parknonwoven.com?subject=${encodeURIComponent(product.name+' enquiry')}`}>Email our team</a></div>
     <p>{copy?.summary || product.summary}</p>
