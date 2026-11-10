@@ -125,7 +125,7 @@ export const industryStories: Record<string, IndustryStory> = {
       "Protection that fits.",
       "Handling that flows."
     ],
-    "intro": "PARK develops reusable EPP dunnage packaging around the way goods move: into storage, across the delivery route and back for another cycle. Give every product a defined place and every operator clear access.",
+    "intro": "PARK develops custom-moulded EPP trays and reusable dunnage for component transport. Plan tray layouts around part dimensions, loading access, stacking, handling conditions and the return route.",
     "homeSummary": "Fitted cushioning, EPP dunnage trays and boxes, and reusable containers that organise goods, simplify handling and protect products through the delivery cycle.",
     "heroImage": "/images/generated/factory-logistics.webp",
     "heroAlt": "AI factory illustration of reusable foam containers and fitted trays beside a moulding line",
@@ -154,7 +154,7 @@ export const industryStories: Record<string, IndustryStory> = {
     "applications": [
       {
         "title": "EPP dunnage trays and boxes",
-        "text": "Organise components for repeat journeys with reusable EPP dunnage packaging, accessible handholds and a layout matched to loading stations.",
+        "text": "Organise components in custom EPP dunnage trays and boxes. Plan pocket layout, access, stacking and collection around the packed parts and their repeat transport route.",
         "productSlug": "reusable-industrial-containers",
         "image": "/images/generated/factory-logistics.webp",
         "imageAlt": "AI factory illustration of reusable foam containers and fitted trays beside a moulding line"
