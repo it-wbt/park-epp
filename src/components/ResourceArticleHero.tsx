@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import ResponsiveImage from './ResponsiveImage';
 import {Icon} from './Icon';
 import styles from './ResourceArticleHero.module.css';
 
-export default function ResourceArticleHero({category,title,intro,readMinutes}:{category:string,title:string,intro:string,readMinutes:number}) {
+export default function ResourceArticleHero({category,title,intro,readMinutes,image,imageAlt}:{category:string,title:string,intro:string,readMinutes:number,image:string,imageAlt:string}) {
   return <section className={styles.hero}>
     <div className={styles.inner}>
       <div className={styles.copy}>
@@ -15,6 +16,9 @@ export default function ResourceArticleHero({category,title,intro,readMinutes}:{
           <a href="#article-content">Start reading <Icon kind="arrow"/></a>
         </div>
       </div>
+      <figure className={styles.visual}>
+        <ResponsiveImage src={image} alt={imageAlt} fetchPriority="high" sizes="(max-width: 760px) 100vw, 42vw"/>
+      </figure>
     </div>
   </section>;
 }

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import ResponsiveImage from './ResponsiveImage';
 import styles from './EppVsEpsBlog.module.css';
 
 const guideLinks = [
@@ -15,7 +14,7 @@ const guideLinks = [
 ];
 
 export default function EppVsEpsBlog() {
-  return <article className={`${styles.article} editorial`} id="article-content">
+  return <article className={styles.article} id="article-content">
     <div className={styles.opening}>
       <div className={styles.openingCopy}>
         <p className={styles.lead}>When packaging must survive repeated handling and return trips, <strong>EPP is the material to start with</strong>. Comparing EPP vs EPS foam still matters: EPS may fit a one-way shipment, while EPP is often the stronger candidate for reusable dunnage, fitted trays and component transport.</p>
@@ -23,9 +22,6 @@ export default function EppVsEpsBlog() {
           <p>If your packaging returns to the production line, warehouse or supplier, put EPP at the top of the shortlist. Confirm the grade and finished design against your payload, handling route and reuse plan.</p>
         </aside>
       </div>
-      <figure className={styles.heroImage}>
-        <ResponsiveImage src="/images/epp-vs-eps-packaging.webp" alt="A dark reusable molded foam tray holding precision components beside a white foam insert protecting an appliance" width={1672} height={941} fetchPriority="high" sizes="(max-width: 760px) 100vw, 46vw"/>
-      </figure>
     </div>
 
     <nav className={styles.contents} aria-label="Article contents">
