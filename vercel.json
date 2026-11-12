@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/resources/epp-grade-selection",
+      "destination": "/materials/epp-grade-selection/",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/epp-grade-selection/",
+      "destination": "/materials/epp-grade-selection/",
+      "statusCode": 301
+    }
+  ]
+}

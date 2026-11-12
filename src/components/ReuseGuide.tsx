@@ -34,6 +34,6 @@ export default function ReuseGuide() {
         </div>
       </div>
     </section>
-    <div className={styles.more}><Link href="/resources/"><Icon kind="arrow"/>All resources</Link><Link href="/resources/epp-grade-selection/">Explore EPP grade selection <Icon kind="arrow"/></Link></div>
+    <div className={styles.more}><Link href="/resources/"><Icon kind="arrow"/>All resources</Link><Link href="/materials/epp-grade-selection/">Explore EPP grade selection <Icon kind="arrow"/></Link></div>
   </article>;
 }

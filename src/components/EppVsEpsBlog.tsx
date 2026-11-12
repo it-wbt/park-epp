@@ -157,7 +157,7 @@ export default function EppVsEpsBlog() {
       <div className={styles.links}>
         <Link href="/products/reusable-industrial-containers/">Explore reusable EPP containers</Link>
         <Link href="/markets/logistics-handling/">Explore logistics and material handling</Link>
-        <Link href="/resources/epp-grade-selection/">Choose an EPP grade</Link>
+        <Link href="/materials/epp-grade-selection/">Choose an EPP grade</Link>
         <Link href="/contact/">Send PARK your packaging brief</Link>
       </div>
     </aside>
