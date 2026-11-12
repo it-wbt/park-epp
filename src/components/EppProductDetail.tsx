@@ -8,11 +8,36 @@ import ProductImage from './ProductImage';
 import ProductQuoteForm from './ProductQuoteForm';
 import styles from './EppProductDetail.module.css';
 
+const productHeadings:Record<string,string>={
+ 'stackable-delivery-boxes':'Stackable EPP Takeaway Boxes',
+ 'lithium-ion-cell-epp-trays':'Lithium-Ion Cell EPP Trays',
+ 'lithium-ion-battery-packaging':'EPP Lithium-Ion Battery Packaging',
+ 'custom-cushioning-foams':'Custom EPP Protective Packaging Inserts',
+ 'reusable-industrial-containers':'Reusable EPP Transport Containers',
+ 'custom-hvac-components':'Custom EPP HVAC Components',
+ 'moulded-air-ducts':'EPP Moulded Air Ducts',
+ 'hvac-insulation-housings':'EPP HVAC Insulation Housings',
+ 'vehicle-floor-panels':'EPP Vehicle Floor Panels',
+ 'vehicle-energy-absorbers':'EPP Automotive Energy Absorbers',
+ 'energy-absorbers-for-bumpers':'EPP Bumper Energy Absorbers',
+ 'sports-helmet-foam-liners':'EPP Sports Helmet Foam Liners',
+ 'catering-transport-boxes':'EPP Catering Transport Boxes',
+ 'foldable-insulated-boxes':'Foldable EPP Insulated Boxes',
+ 'reusable-industrial-coolers':'Reusable EPP Cooler Boxes',
+ 'insulated-food-transport-boxes':'Insulated EPP Food Transport Boxes',
+ 'ice-cube-boxes':'Reusable EPP Ice Boxes',
+ 'insulated-food-delivery-boxes':'Insulated EPP Food Delivery Boxes',
+ 'battery-protective-inserts':'EPP Battery Protection Inserts',
+ 'drone-components':'EPP Drone Components',
+ 'lightweight-foam-pallets':'Lightweight EPP Pallets',
+ 'industrial-pallet-boxes':'EPP Industrial Pallet Boxes'
+};
+
 export default function EppProductDetail({product}:{product:Product}) {
  const marketSlug=publicMarketFor(product.marketSlug)?.slug || product.marketSlug;
  const copy=salesCopy[product.slug as keyof typeof salesCopy];
  const related=products.filter(item=>marketSourceSlugs(marketSlug).includes(item.marketSlug)&&item.slug!==product.slug).slice(0,3);
- const heading=product.slug==='stackable-delivery-boxes'?'Stackable EPP Takeaway Boxes':product.slug==='lithium-ion-battery-packaging'?'EPP Lithium-Ion Battery Packaging':product.name;
+ const heading=productHeadings[product.slug]||product.name;
  return <article className={styles.page}>
   <section className={styles.hero} aria-labelledby="product-title">
    <div className={styles.visual}><ProductImage product={product}/></div>

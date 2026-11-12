@@ -15,7 +15,7 @@ export const eppOverview: EppReference & {eyebrow: string; title: string; summar
   eyebrow: 'UNDERSTANDING EPP',
   title: 'Lightweight foam. A considered engineering choice.',
   summary: 'Expanded polypropylene, or EPP, is a thermoplastic bead foam with a predominantly closed-cell structure.',
-  detail: 'Air-filled beads form components combining low weight, cushioning and insulation. Grade, density and geometry determine performance.',
+  detail: 'EPP foam properties include low weight, impact cushioning and thermal insulation. Air-filled beads form components whose response depends on grade, moulded density and geometry.',
   sourceIds: ['bewi-epp'],
 };
 
@@ -67,13 +67,15 @@ export const eppApplications: (EppReference & {slug: string; title: string; summ
 
 export const eppFaqs: (EppReference & {question: string; answer: string})[] = [
   {question: 'Is EPP the same as solid polypropylene?', answer: 'It uses polypropylene in an expanded cellular form. Solid PP mouldings and EPP foam components therefore need different geometry and performance specifications.', sourceIds: ['bewi-epp']},
-  {question: 'How should I choose a density?', answer: 'Start with the required load response and geometry. Distinguish loose-bead bulk density from finished moulded density; ask for relevant curves and tolerances.', sourceIds: ['arpro-design']},
+  {question: 'How do EPP foam and EPE foam compare?', answer: 'Both are expanded polyolefin foams, but they use different base polymers and can behave differently across grades and designs. Compare material data and representative finished parts under the same load, temperature and reuse conditions.', sourceIds: []},
+  {question: 'What are common EPP foam applications?', answer: 'EPP is used in fitted protective packaging, returnable trays, insulated containers and moulded automotive or HVAC components. The suitable grade and design depend on the job the finished part must do.', sourceIds: ['knauf-process']},
+  {question: 'How should I choose EPP foam density?', answer: 'Start with the required load response and geometry. Distinguish loose-bead bulk density from finished moulded density; ask for relevant curves and tolerances.', sourceIds: ['arpro-design']},
   {question: 'Can a part take repeated impacts?', answer: 'Resilience supports repeated use, but damage and permanent deformation remain possible. Agree realistic impact conditions and inspection or replacement criteria.', sourceIds: ['knauf-process']},
   {question: 'Does low water absorption mean waterproof?', answer: 'Low material uptake does not establish a watertight container. Validate closures, joints and drainage against the intended exposure.', sourceIds: ['bewi-epp']},
   {question: 'Is EPP fireproof?', answer: 'No blanket fire rating applies. Flame-retardant grades exist; request test evidence for the chosen grade, density, thickness and intended component.', sourceIds: ['arpro-grades']},
   {question: 'Can EPP contact food?', answer: 'Some grades have food-contact approval. Request current documentation for the exact material and intended conditions; the finished article may require migration testing.', sourceIds: ['arpro-grades']},
   {question: 'Which temperature range can I specify?', answer: 'Use the selected grade data and validate exposure duration, load and assembly fit. A generic foam temperature claim is insufficient for equipment design.', sourceIds: ['arpro-grades']},
-  {question: 'Is every EPP part recycled or recyclable locally?', answer: 'Recycled content varies by grade. Recyclability also needs a collection route that accepts the finished part, including its inserts, labels and contamination.', sourceIds: ['arpro-grades']},
+  {question: 'Is EPP foam recyclable?', answer: 'EPP can be mechanically recycled where a suitable collection and processing route exists. Check that the route accepts the finished part, including its inserts, labels and contamination; recycled content varies by grade.', sourceIds: ['arpro-grades']},
   {question: 'How accurate can a moulded part be?', answer: 'Shrinkage and tolerances depend on grade, density, tooling, geometry and processing. Agree critical dimensions and measurement conditions with the moulder.', sourceIds: ['arpro-design']},
   {question: 'What should be tested before approval?', answer: 'Test representative parts in the intended assembly. Agree load, fit and repeated-use checks, then add application-specific thermal, acoustic or qualification tests.', sourceIds: ['arpro-design']},
 ];

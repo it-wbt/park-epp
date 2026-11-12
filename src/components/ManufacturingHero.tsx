@@ -116,8 +116,8 @@ export default function ManufacturingHero() {
       <div className={`park-hero-shade ${styles.shade}`} aria-hidden="true"/>
       <div className={`park-hero-content ${styles.copy}`}>
         <p className="eyebrow">PARK NONWOVEN · EPP & ENGINEERED MATERIALS</p>
-        <h1 id="hero-heading">Future of <br/><span>light weight</span></h1>
-        <p>From protective packaging to precision components, discover material possibilities built around your product, your industry and its next journey.</p>
+        <h1 id="hero-heading">EPP manufacturer<br/><span>in India</span></h1>
+        <p>PARK develops custom EPP foam products, protective packaging and precision components for industrial applications across India and overseas.</p>
         <div className="hero-buttons">
           <Link className="button light" href="/products/">Explore our products <Icon kind="arrow"/></Link>
           <Link className="park-white-link" href="/markets/">Find your industry ↗</Link>
