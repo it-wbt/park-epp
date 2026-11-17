@@ -15,7 +15,7 @@
 .guideLink { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 17px 2px; color: #08639b; font-size: 13px; font-weight: 600; }
 .guideLink svg, .inlineLink svg { width: 19px; height: 19px; flex-shrink: 0; }
 .topics { border-block: 1px solid #d8e3e3; }
-.topics details + details, .faq details + details { border-top: 1px solid #d8e3e3; }
+.topics details + details { border-top: 1px solid #d8e3e3; }
 .topics summary, .faq summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 62px; padding-block: 16px; cursor: pointer; list-style: none; font-size: 16px; font-weight: 550; }
 .topics summary::-webkit-details-marker, .faq summary::-webkit-details-marker { display: none; }
 .topics summary > span { display: flex; align-items: center; gap: 17px; }
@@ -72,9 +72,11 @@
 .checklist > li { display: flex; align-items: flex-start; gap: 14px; }
 .checklist > li > span { flex-shrink: 0; width: 28px; color: #73934d; font-size: 12px; padding-top: 4px; }
 .checklist h3 { font-size: 16px; }
-.faq { border-block: 1px solid #dce5e6; }
-.faq summary { font-size: 15px; min-height: 58px; }
-.faq details > div { max-width: 940px; padding-bottom: 22px; }
+.faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(24px, 3vw, 44px); max-width: 1180px; margin-inline: auto; border-top: 1px solid #dce5e6; }
+.faq details { min-width: 0; border-bottom: 1px solid #dce5e6; }
+.faq summary { font-size: 14px; line-height: 1.5; min-height: 50px; padding-block: 10px; }
+.faq details > div { max-width: none; padding: 0 14px 15px 0; }
+.faq details > div p { font-size: 12px; line-height: 1.65; }
 .projectBrief { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding-block: 28px; border-top: 1px solid #dce5e6; scroll-margin-top: 108px; }
 .projectBrief > div { max-width: 690px; }
 .projectBrief :global(.eyebrow) { font-size: 10px; margin-bottom: 10px; }
@@ -110,6 +112,7 @@
   .guide h3 { font-size: 16px; }
   .applicationList article { grid-template-columns: 1fr; gap: 16px; }
   .checklist { grid-template-columns: 1fr; gap: 22px; }
+  .faq { grid-template-columns: 1fr; }
   .comparison { min-width: 660px; }
   .projectBrief { flex-direction: column; align-items: flex-start; gap: 20px; }
 }
