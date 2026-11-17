@@ -24,7 +24,7 @@ const tables={markets:[...allMarkets,...marketPages],materials,products,expertis
 type Section=keyof typeof tables;
 const seoOverrides:Record<string,{title:string;description:string}>={
  'resources/epp-vs-eps-durability-cost-reusability':{title:'EPP Foam vs EPS Foam: Cost, Durability & Reuse',description:'Compare EPP foam vs EPS foam for packaging, impact response, cost per shipment and reuse. See when EPP may suit returnable dunnage and trays.'},
- 'markets/logistics-handling':{title:'EPP Dunnage & Custom Trays for Logistics | PARK',description:'PARK develops custom EPP dunnage trays, reusable transport boxes and protective packaging. Plan component fit, stacking, handling and return routes.'},
+ 'markets/logistics-handling':{title:'EPP Dunnage & Custom Trays for Logistics | PARK',description:'Custom molded EPP trays, returnable dunnage boxes, and protective packaging for industrial logistics in India. Engineered for 100+ reuse cycles, VDA KLT/Galia inserts, and safe transit.'},
  'markets/mobility':{title:'Automotive EPP Components India',description:'Explore automotive EPP components in India and custom EPP automotive parts developed around vehicle assembly, fit and handling requirements.'},
  'markets/hvac':{title:'EPP HVAC Insulation Components',description:'Explore EPP HVAC insulation components, moulded air ducts and fitted housings for thermal management and practical equipment integration.'},
  'markets/sports-leisure':{title:'Lightweight EPP Toys & Sports Products',description:'Explore lightweight EPP toys and sports products, living forms, drone components and protective packaging shaped around the intended use.'},
