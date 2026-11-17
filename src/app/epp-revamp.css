@@ -3,6 +3,11 @@
 .page-hero h1{font-weight:500;color:#15394f}
 .page-hero.with-image{align-items:center;gap:40px}
 .page-hero img{border-radius:14px}
+.page-hero.epp-material-hero{padding:clamp(44px,5vw,68px) 5.5%;gap:clamp(32px,4vw,64px)}
+.page-hero.epp-material-hero>div{flex:1 1 58%;max-width:760px}
+.page-hero.epp-material-hero h1{max-width:780px;font-size:clamp(42px,3.8vw,60px);line-height:1.1}
+.page-hero.epp-material-hero>img{flex:0 1 min(42%,540px);width:min(42%,540px);height:clamp(280px,25vw,380px);aspect-ratio:1.42;object-fit:cover;object-position:center;border-radius:12px}
+@media(max-width:760px){.page-hero.epp-material-hero{display:block;padding:40px 5% 32px}.page-hero.epp-material-hero h1{font-size:clamp(34px,8vw,42px)}.page-hero.epp-material-hero>img{width:100%;height:clamp(220px,52vw,340px);margin-top:26px;aspect-ratio:1.6}}
 .product-grid .product-card{overflow:hidden;border:1px solid #dce7ed;border-radius:12px;background:#fff}
 .product-grid .product-card .product-copy{padding:18px}
 .product-grid .product-card .product-image{border:0;border-radius:0}
