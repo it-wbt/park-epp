@@ -7,15 +7,15 @@ const articleIntro=blogArticles[0].bodyIntro;
 export const lithiumBatteryFaqs = [
   {
     question: 'What are the main lithium battery packaging requirements?',
-    answer: 'Requirements depend on classification, condition, watt-hour rating, configuration and mode. Instructions may specify terminal protection, separation, movement control, cushioning, outer packaging, marks and documents. Confirm current provisions with a trained shipper.',
+    answer: 'Protect terminals and prevent damaging contact or movement. The exact inner packaging, outer box, labels and documents depend on battery type, condition and route. Ask your dangerous-goods shipper to confirm the current instructions.',
   },
   {
     question: 'How do I package lithium-ion batteries for shipping?',
-    answer: 'Classify the battery and route first. Follow the applicable instruction for terminals, separation, restraint, inner and outer packaging, marks and documents. Use EPP only when the approved package design permits it.',
+    answer: 'First confirm the battery classification and shipping route. Then follow the matching instructions for terminal protection, inner tray, outer box and labels. Use an EPP tray only when the approved package design allows it.',
   },
   {
     question: 'Are EPP trays better than EPS for battery handling?',
-    answer: 'EPP can be molded for repeatable location and may recover from some compression; EPS can be brittle. Compare tested performance and operating cost. Neither material alone proves compliance.',
+    answer: 'EPP can be moulded to fit a cell layout and designed for return trips. EPS may crack after impact. Compare samples, handling needs and cost; neither material alone proves shipping compliance.',
   },
   {
     question: 'What is the difference between UN 3480 and UN 3481?',
@@ -23,7 +23,7 @@ export const lithiumBatteryFaqs = [
   },
   {
     question: 'Can Park Nonwoven make EPP trays from our CAD drawing?',
-    answer: 'Park Nonwoven can discuss a custom tray using cell or module dimensions and CAD. Agree grade, tooling and sample validation. A tray does not grant dangerous-goods approval.',
+    answer: 'Yes. Park Nonwoven can discuss a custom-moulded tray using your cell or module dimensions, CAD drawing or sketch. Share quantity and handling needs for a quote. The tray itself does not approve a regulated shipment.',
   },
 ];
 
@@ -33,7 +33,7 @@ export default function LithiumIonBatteryPackagingBlog() {
       <p className={styles.articleIntro}>{articleIntro}</p>
       <section>
         <h2>Understanding Lithium-Ion Battery Transport Regulations (UN 3480, UN 3481 &amp; UN 38.3)</h2>
-        <p>Classification starts with chemistry and shipment configuration. Lithium-ion and lithium-metal batteries use different UN numbers. Cells shipped by themselves differ from batteries packed with or contained in equipment.</p>
+        <p>These UN numbers tell the shipper which battery is in the package and how it is packed. Lithium-ion and lithium-metal are different battery types, so they use different numbers.</p>
         <div className={styles.tableWrap} role="region" aria-label="Lithium battery UN number classifications" tabIndex={0}>
           <table>
             <thead><tr><th scope="col">UN number</th><th scope="col">Battery type</th><th scope="col">Typical configuration</th></tr></thead>
@@ -45,50 +45,50 @@ export default function LithiumIonBatteryPackagingBlog() {
             </tbody>
           </table>
         </div>
-        <p>UN 38.3 tests cell and battery design types before transport; it does not certify an EPP tray or approve the complete shipping package. Keep the test summary available. Road rules depend on the countries on the route; ADR applies where adopted. Sea shipments use IMDG. Air shipments follow ICAO Technical Instructions and carrier rules, commonly implemented through IATA DGR. In 2026, IATA limits standalone UN 3480 air shipments to 30% state of charge unless required State approvals authorize otherwise. UN 3481 instructions differ. Confirm current packing instructions and carrier acceptance before booking.</p>
+        <p><strong>UN 38.3</strong> is a set of tests for a battery design before transport. It checks the cell or battery, not the EPP tray. Ask the battery supplier for its test summary. Shipping rules also change by route: ADR may apply on road journeys, the IMDG Code covers sea freight, and air freight follows ICAO rules and carrier requirements, often using IATA instructions. For 2026, standalone UN 3480 air shipments have a 30% state-of-charge limit unless the required State approvals allow otherwise. Ask your dangerous-goods shipper which rule applies to your shipment before packing.</p>
       </section>
 
       <section>
         <h2>Key Lithium Battery Packaging Requirements: Inner vs. Outer Protection</h2>
-        <p>An outer box alone does not establish that the inner pack is suitable. Follow the applicable instruction for terminal protection, cell separation, conductive contact, movement and inner- and outer-package performance.</p>
+        <p>Think of the package as two parts. The inner tray holds and separates the cells. The outer box protects the full load and must meet the shipping instruction. A suitable outer box does not automatically make the inside layout correct.</p>
         <ul>
-          <li><strong>Prevent short circuits:</strong> protect exposed terminals and keep cells from contacting each other or conductive items where the instruction requires it.</li>
-          <li><strong>Control movement:</strong> secure the battery so normal handling cannot create harmful shifting, abrasion or contact between terminals.</li>
-          <li><strong>Cushion for the route:</strong> assess shock and vibration protection using the mass, fragility, orientation and actual distribution conditions.</li>
-          <li><strong>Use the right outer package:</strong> some shipments require UN specification packaging; exceptions and permitted configurations differ. An inner EPP tray is not a substitute.</li>
+          <li><strong>Cover the terminals:</strong> stop exposed contacts from touching other cells or conductive items when the rules require it.</li>
+          <li><strong>Keep cells in place:</strong> use pockets, dividers or other approved restraint to prevent harmful movement.</li>
+          <li><strong>Cushion the load:</strong> consider product weight, fragile areas and the handling route; test the complete packed load.</li>
+          <li><strong>Choose the right outer box:</strong> follow the rule for the specific shipment. An EPP tray does not replace required shipping packaging.</li>
         </ul>
-        <p>Returnable trays can locate cells during factory and warehouse transfers. Confirm geometry, grade and any added insulation against the packing instruction; a fitted cavity alone does not guarantee terminal isolation.</p>
+        <p>Park Nonwoven can discuss a tray layout around your cell dimensions, quantity per tray and handling process. Your dangerous-goods shipper should confirm that the chosen tray and outer box are permitted for the shipment.</p>
       </section>
 
       <section>
         <h2>How to Package Lithium-Ion Batteries for Shipping in 5 Steps</h2>
         <ol>
-          <li><strong>Classify the consignment.</strong> Record lithium-ion or lithium-metal chemistry, cell or battery status, watt-hour rating, quantity, and whether units are new, used, damaged or defective. Damaged batteries need specialist assessment and may use separate provisions.</li>
-          <li><strong>Confirm the route rules.</strong> Check state of charge, transport mode, origin, destination, transfer points and carrier rules. Do not carry an air instruction over to a sea or road shipment without checking its own packing provisions.</li>
-          <li><strong>Protect and position each unit.</strong> Follow the relevant instruction for terminal protection and separation. A fitted <strong>EPP tray</strong> or molded box can be considered for repeatable positioning only if it is permitted in the selected package design and validated for the job.</li>
-          <li><strong>Build the complete package.</strong> Add required inner packaging, cushioning and a compliant outer box. Check clearances, closures, stacking loads and moisture exposure against the actual shipment; do not leave movement or protective performance to assumption.</li>
-          <li><strong>Check marks and paperwork.</strong> Apply the Class 9 label, lithium battery marks and handling information where the selected instruction requires them. Provide a UN 38.3 test summary and dangerous-goods documents when required; SDS and declaration needs depend on the applicable rules and carrier.</li>
+          <li><strong>Identify the battery.</strong> Note its chemistry, cell or module type, watt-hour rating, quantity and condition. Get specialist advice before shipping a damaged or defective battery.</li>
+          <li><strong>Confirm how it will travel.</strong> Tell your dangerous-goods shipper the origin, destination and whether the shipment goes by road, sea or air. Ask which packing instruction and state-of-charge limit apply.</li>
+          <li><strong>Plan the inner tray.</strong> Share cell dimensions, weight, quantity per tray and terminal locations. Park Nonwoven can discuss a custom-moulded <strong>EPP tray</strong> for positioning and handling, if the shipment rules allow it.</li>
+          <li><strong>Select the outer packaging.</strong> Choose the box and any extra cushioning required by the shipper. Check that cells stay in place and the packed load suits the handling route.</li>
+          <li><strong>Finish the shipping paperwork.</strong> Apply Class 9 labels, lithium battery marks and other documents where required. Ask the shipper which test summary, safety data sheet (SDS) or declaration to provide.</li>
         </ol>
-        <p>To answer how to package lithium-ion batteries for shipping, give a dangerous-goods professional cell data, photos, configuration and route before finalizing packaging or tooling.</p>
+        <p>Before ordering custom tooling, send Park Nonwoven a drawing or sketch, the cell or module size, quantity per tray and intended handling route. Your shipping specialist can confirm compliance details at the same time.</p>
       </section>
 
       <section>
-        <h2>Why Molded EPP Trays Outperform Cardboard &amp; EPS for Battery Handling</h2>
-        <p>“Outperform” depends on the job. EPP is a closed-cell bead foam that can be molded into fitted cavities and ribs. It can help organize cells and support repeated handling, depending on design. It does not prove impact performance, fire behaviour, electrical resistance or transport approval. Validate these on the complete package; do not treat a tray as thermal-runaway containment or proof of module-level crash performance.</p>
+        <h2>When Molded EPP Trays May Suit Battery Handling</h2>
+        <p>Choose packaging around how your cells will be handled. A custom EPP tray can be moulded with pockets to match a product layout and may suit a return route. The right option depends on the cell, shipment and handling conditions. Test the finished pack before relying on it for impact protection. EPP trays are not fire-containment systems and do not prove shipping compliance.</p>
         <div className={styles.tableWrap} role="region" aria-label="Comparison of EPP, EPS and corrugated packaging" tabIndex={0}>
           <table>
             <thead><tr><th scope="col">Decision point</th><th scope="col">Molded EPP</th><th scope="col">EPS / Thermocol</th><th scope="col">Corrugated cardboard</th></tr></thead>
             <tbody>
-              <tr><th scope="row">Repeated impact</th><td>Can recover after some compression; validate with the finished tray and load.</td><td>Can crack or retain crush damage; check the grade and impact conditions.</td><td>Fluting can crush and lose cushioning; performance depends on construction and humidity.</td></tr>
-              <tr><th scope="row">Moisture and oils</th><td>Closed-cell structure can limit water uptake; chemical and oil compatibility is grade-specific.</td><td>Water behaviour depends on the part and exposure; verify contamination and handling needs.</td><td>Moisture can weaken the board; coatings and construction affect resistance.</td></tr>
-              <tr><th scope="row">Clean handling</th><td>No loose paper fibres; inspect for wear and validate the cleanliness level required.</td><td>Beads can break away if the part is damaged; define cleanliness controls.</td><td>Paper fibres and dust may matter in sensitive work areas.</td></tr>
-              <tr><th scope="row">Temperature range</th><td>Use grade-specific data and finished-part testing; there is no blanket -40°C to +110°C claim.</td><td>Confirm grade data and exposure limits for the actual part.</td><td>Humidity and heat affect board strength; validate the shipment environment.</td></tr>
-              <tr><th scope="row">Reuse cycles</th><td>Can be designed for returnable use. Prove cycle life by testing; 100+ trips is not a universal guarantee.</td><td>Often used for one-way cushioning; reuse depends on condition and application.</td><td>Often used for one-way packaging; inspect before any reuse.</td></tr>
+              <tr><th scope="row">Handling and impact</th><td>Can be moulded to locate products; test the finished tray with the real load.</td><td>May crack after impact; check the grade and use.</td><td>Can crush and lose cushioning; check the box and route.</td></tr>
+              <tr><th scope="row">Water and oils</th><td>May limit water uptake. Check chemical and oil compatibility for the selected grade.</td><td>Check the part and exposure conditions.</td><td>Moisture can weaken board strength.</td></tr>
+              <tr><th scope="row">Clean handling</th><td>No paper fibres, but inspect for wear and set a cleanliness level.</td><td>Damaged beads can break away; set inspection rules.</td><td>Paper fibres or dust may matter in sensitive areas.</td></tr>
+              <tr><th scope="row">Temperature</th><td>Check grade and finished-tray data. Do not assume a general -40 to +110 degree C range.</td><td>Check grade data and actual exposure.</td><td>Heat and moisture can affect strength.</td></tr>
+              <tr><th scope="row">Reuse</th><td>Can be designed for return trips; test expected cycle life. 100+ trips is not guaranteed.</td><td>Often used once; inspect before reuse.</td><td>Often used once; inspect before reuse.</td></tr>
             </tbody>
           </table>
         </div>
-        <p>Park Nonwoven can discuss <Link href="/products/lithium-ion-cell-epp-trays/">lithium-ion cell EPP trays</Link> for cylindrical formats such as 18650, 21700 and 4680, as well as prismatic cells. For heavier assemblies, see <Link href="/products/lithium-ion-battery-packaging/">molded battery module packaging</Link>. These product formats support a packaging conversation; whether a design is suitable for a regulated shipment depends on its complete construction and approval route.</p>
-        <p>If the specification calls for an ESD threshold such as ≤10<sup>7</sup> Ω, or a flame classification such as FMVSS 302 or UL 94 HB, request current grade and test documentation. Confirm the method, conditioning and whether it applies to the finished component. Park Nonwoven should confirm grade availability against the brief; do not infer anti-static or flame performance from the material name alone.</p>
+        <p>Park Nonwoven offers custom <Link href="/products/lithium-ion-cell-epp-trays/">EPP trays for lithium-ion cells</Link>, including cylindrical formats such as 18650, 21700 and 4680, and prismatic formats. For larger assemblies, see <Link href="/products/lithium-ion-battery-packaging/">EPP battery-module packaging</Link>. Share your dimensions and quantity so the team can discuss a design and quote.</p>
+        <p>If you need anti-static or a specific fire-test rating, tell Park Nonwoven which requirement applies. Ask for grade and finished-part test documents; do not assume EPP automatically meets an ESD or fire standard.</p>
       </section>
 
       <section>
@@ -111,8 +111,16 @@ export default function LithiumIonBatteryPackagingBlog() {
       </section>
 
       <section className={styles.cta}>
-        <h2>Plan a battery handling tray around your application.</h2>
-        <p>Park Nonwoven can review cell or module dimensions, CAD drawings and handling needs for a custom molded EPP packaging brief. Share your cell dimensions or CAD drawing for a custom quote.</p>
+        <h2>Need a custom EPP battery tray?</h2>
+        <p>Park Nonwoven can discuss a moulded tray around your cells or module. For a useful first quote, send:</p>
+        <ul>
+          <li>Cell or module dimensions, CAD drawing or sketch</li>
+          <li>Product weight and number of cells per tray</li>
+          <li>Required quantity and whether trays will return for reuse</li>
+          <li>How the product will be handled or shipped</li>
+          <li>Any known outer-box, ESD or other packaging requirements</li>
+        </ul>
+        <p>The Park Nonwoven team can review your brief and discuss next steps. Your shipper should confirm shipment classification and dangerous-goods approval.</p>
         <div><Link href="/markets/logistics-handling/">Explore logistics and handling</Link><Link href="/contact/">Contact Park Nonwoven</Link></div>
       </section>
     </article>
