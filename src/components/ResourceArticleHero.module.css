@@ -12,7 +12,10 @@
 .meta a svg{width:17px;height:17px;transition:transform .2s}
 .visual{position:relative;min-width:0;margin:0;overflow:hidden;border:1px solid #d6e4e9;border-radius:8px;background:#dce9ed;box-shadow:0 22px 50px #153e5018}
 .visual img{display:block;width:100%;height:auto;aspect-ratio:1.55;object-fit:cover}
+.compact .inner{padding:34px 0 36px}
+.compact .copy h1{max-width:800px;font-size:clamp(34px,3.25vw,46px);line-height:1.12}
 .backLink:hover,.meta a:hover{text-decoration:underline;text-underline-offset:4px}
 .meta a:hover svg{transform:translateX(4px)}
 @media(max-width:900px){.inner{grid-template-columns:minmax(0,1fr) minmax(300px,.85fr);gap:28px}.copy h1{font-size:clamp(34px,4.3vw,48px)}.intro{font-size:15px}}
-@media(max-width:680px){.inner{width:calc(100% - 40px);grid-template-columns:1fr;gap:22px;padding:28px 0 32px}.copy{order:1}.visual{order:2}.backLink{margin-bottom:22px}.copy h1{font-size:clamp(35px,10vw,46px)}.intro{font-size:14px;margin-top:15px}.meta{margin-top:20px;padding-top:14px}.visual img{aspect-ratio:1.65}}
+@media(max-width:900px){.compact .copy h1{font-size:clamp(32px,4vw,42px)}}
+@media(max-width:680px){.inner{width:calc(100% - 40px);grid-template-columns:1fr;gap:22px;padding:28px 0 32px}.compact .inner{padding:28px 0 30px}.copy{order:1}.visual{order:2}.backLink{margin-bottom:22px}.copy h1{font-size:clamp(35px,10vw,46px)}.compact .copy h1{font-size:clamp(29px,8.2vw,37px);line-height:1.13}.intro{font-size:14px;margin-top:15px}.meta{margin-top:20px;padding-top:14px}.visual img{aspect-ratio:1.65}}

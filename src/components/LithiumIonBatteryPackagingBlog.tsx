@@ -1,5 +1,8 @@
 import Link from 'next/link';
+import {blogArticles} from '../lib/catalog';
 import styles from './LithiumIonBatteryPackagingBlog.module.css';
+
+const articleIntro=blogArticles[0].bodyIntro;
 
 export const lithiumBatteryFaqs = [
   {
@@ -27,6 +30,7 @@ export const lithiumBatteryFaqs = [
 export default function LithiumIonBatteryPackagingBlog() {
   return (
     <article className={`editorial article-body resource-article-content ${styles.article}`} id="article-content">
+      <p className={styles.articleIntro}>{articleIntro}</p>
       <section>
         <h2>Understanding Lithium-Ion Battery Transport Regulations (UN 3480, UN 3481 &amp; UN 38.3)</h2>
         <p>Classification starts with chemistry and shipment configuration. Lithium-ion and lithium-metal batteries use different UN numbers. Cells shipped by themselves differ from batteries packed with or contained in equipment.</p>

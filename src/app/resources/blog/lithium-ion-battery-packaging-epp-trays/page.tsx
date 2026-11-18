@@ -29,7 +29,7 @@ export default function LithiumBatteryPackagingArticle(){
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(faqSchema)}}/>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumbSchema)}}/>
     <div className="container"><Breadcrumb items={[{name:'Resources',href:'/resources/'},{name:'Lithium-Ion Battery Packaging: How to Package Cells & Modules Safely with Molded EPP Trays'}]}/></div>
-    <ResourceArticleHero category={article.category} title="Lithium-Ion Battery Packaging: How to Package Cells & Modules Safely with Molded EPP Trays" intro={article.heroIntro} readMinutes={article.readMinutes} image={article.heroImage} imageAlt={article.heroAlt}/>
+    <ResourceArticleHero category={article.category} title="Lithium-Ion Battery Packaging: How to Package Cells & Modules Safely with Molded EPP Trays" intro={article.intro} readMinutes={article.readMinutes} image={article.heroImage} imageAlt={article.heroAlt} compact/>
     <LithiumIonBatteryPackagingBlog/>
   </>;
 }

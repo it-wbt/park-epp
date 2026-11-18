@@ -3,8 +3,8 @@ import ResponsiveImage from './ResponsiveImage';
 import {Icon} from './Icon';
 import styles from './ResourceArticleHero.module.css';
 
-export default function ResourceArticleHero({category,title,intro,readMinutes,image,imageAlt}:{category:string,title:string,intro:string,readMinutes:number,image:string,imageAlt:string}) {
-  return <section className={styles.hero}>
+export default function ResourceArticleHero({category,title,intro,readMinutes,image,imageAlt,compact=false}:{category:string,title:string,intro:string,readMinutes:number,image:string,imageAlt:string,compact?:boolean}) {
+  return <section className={`${styles.hero}${compact?` ${styles.compact}`:''}`}>
     <div className={styles.inner}>
       <div className={styles.copy}>
         <Link className={styles.backLink} href="/resources/"><Icon kind="arrow"/>All resources</Link>
