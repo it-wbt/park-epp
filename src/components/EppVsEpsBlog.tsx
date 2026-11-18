@@ -1,36 +1,30 @@
 import Link from 'next/link';
 import styles from './EppVsEpsBlog.module.css';
 
-const guideLinks = [
-  ['comparison', 'At-a-glance comparison'],
-  ['materials', 'What EPP and EPS are'],
-  ['performance', 'Durability and performance'],
-  ['cost', 'Cost per shipment'],
-  ['applications', 'Packaging applications'],
-  ['recovery', 'Reuse and recycling'],
-  ['selection', 'How to choose and test'],
-  ['park-support', 'EPP packaging with PARK'],
-  ['faq', 'FAQs'],
+export const eppVsEpsGuideSections = [
+  {id:'comparison',label:'At-a-glance comparison'},
+  {id:'materials',label:'What EPP and EPS are'},
+  {id:'performance',label:'Durability and performance'},
+  {id:'cost',label:'Cost per shipment'},
+  {id:'applications',label:'Packaging applications'},
+  {id:'recovery',label:'Reuse and recycling'},
+  {id:'selection',label:'How to choose and test'},
+  {id:'park-support',label:'EPP packaging with PARK'},
+  {id:'faq',label:'FAQs'},
+];
+
+export const eppVsEpsBlogIntro='When packaging must survive repeated handling and return trips, EPP is the material to start with. Comparing EPP vs EPS foam still matters: EPS may fit a one-way shipment, while EPP is often the stronger candidate for reusable dunnage, fitted trays and component transport.';
+
+export const eppVsEpsTakeaways=[
+  'Evaluate EPP for reusable packaging, fitted trays and repeated handling routes.',
+  'EPS may suit one-way packaging where a rigid fit and low initial cost matter.',
+  'Compare complete package designs and cost per successful shipment before choosing.',
 ];
 
 export default function EppVsEpsBlog() {
-  return <article className={styles.article} id="article-content">
-    <div className={styles.opening}>
-      <div className={styles.openingCopy}>
-        <p className={styles.lead}>When packaging must survive repeated handling and return trips, <strong>EPP is the material to start with</strong>. Comparing EPP vs EPS foam still matters: EPS may fit a one-way shipment, while EPP is often the stronger candidate for reusable dunnage, fitted trays and component transport.</p>
-        <aside className={styles.summary}>
-          <p>If your packaging returns to the production line, warehouse or supplier, put EPP at the top of the shortlist. Confirm the grade and finished design against your payload, handling route and reuse plan.</p>
-        </aside>
-      </div>
-    </div>
-
-    <nav className={styles.contents} aria-label="Article contents">
-      <p>IN THIS ARTICLE</p>
-      <div>{guideLinks.map(([id, label], index) => <a key={id} href={`#${id}`}><span>{String(index + 1).padStart(2, '0')}</span>{label}</a>)}</div>
-    </nav>
-
+  return <article className={styles.article}>
     <section id="comparison" className={styles.comparison}>
-      <p className={styles.sectionEyebrow}>A QUICK COMPARISON</p>
+      <span className={styles.sectionIndex}>01</span>
       <h2>EPP vs EPS foam at a glance</h2>
       <div className={styles.tableWrap}>
         <table className={styles.comparisonTable}>
@@ -48,7 +42,7 @@ export default function EppVsEpsBlog() {
     </section>
 
     <section id="materials">
-      <p className={styles.sectionEyebrow}>THE MATERIAL BASICS</p>
+      <span className={styles.sectionIndex}>02</span>
       <h2>What are EPP foam and EPS foam?</h2>
       <p><strong>Expanded polypropylene (EPP)</strong> is a bead foam made from polypropylene. Its impact recovery and repeat-use potential make it a strong option to evaluate for reusable packaging, fitted trays and component dunnage.</p>
       <p><strong>Expanded polystyrene (EPS)</strong> is made from expanded polystyrene beads molded into a finished shape. In India, people commonly call it thermocol. Packaging teams consider it for protective inserts and insulated formats where the design and shipping conditions suit the material.</p>
@@ -56,7 +50,7 @@ export default function EppVsEpsBlog() {
     </section>
 
     <section id="performance">
-      <p className={styles.sectionEyebrow}>DURABILITY AND PERFORMANCE</p>
+      <span className={styles.sectionIndex}>03</span>
       <h2>How do EPP and EPS behave in use?</h2>
       <h3>Why put EPP first for returnable packaging?</h3>
       <p>EPP can recover after impacts, which makes it suitable to evaluate when a package travels between production sites, warehouses or suppliers more than once. It can be moulded into fitted dunnage and trays that keep components organised during repeated handling. The grade, geometry and handling conditions still determine how a finished part performs.</p>
@@ -68,7 +62,7 @@ export default function EppVsEpsBlog() {
     </section>
 
     <section id="cost">
-      <p className={styles.sectionEyebrow}>TOTAL COST OF USE</p>
+      <span className={styles.sectionIndex}>04</span>
       <h2>EPP vs EPS cost: compare cost per shipment</h2>
       <p>The lowest part price may not be the lowest cost across a packaging programme. A one-way pack and a returnable pack have different cost lines, so compare them over the number of successful deliveries you expect.</p>
       <aside className={styles.formula}>
@@ -85,7 +79,7 @@ export default function EppVsEpsBlog() {
     </section>
 
     <section id="applications">
-      <p className={styles.sectionEyebrow}>MATCH THE MATERIAL TO THE ROUTE</p>
+      <span className={styles.sectionIndex}>05</span>
       <h2>Where might each foam fit?</h2>
       <div className={styles.applicationGrid}>
         <div className={styles.eppCard}>
@@ -103,14 +97,14 @@ export default function EppVsEpsBlog() {
     </section>
 
     <section id="recovery">
-      <p className={styles.sectionEyebrow}>PLAN THE NEXT USE</p>
+      <span className={styles.sectionIndex}>06</span>
       <h2>Reusability and recycling are separate questions</h2>
       <p>A package becomes reusable when the return route works in practice. Decide who collects it, where empties are stored, how staff inspect and clean it, and what condition means repair or retirement.</p>
       <p>Recycling depends on the collection and processing available where the packaging is discarded. Check local access, contamination and separation requirements for the specific format. A material’s recovery potential does not by itself confirm that a recovery route exists at the destination.</p>
     </section>
 
     <section id="selection">
-      <p className={styles.sectionEyebrow}>A PRACTICAL SELECTION PROCESS</p>
+      <span className={styles.sectionIndex}>07</span>
       <h2>How to compare EPP and EPS fairly</h2>
       <ol className={styles.steps}>
         <li><strong>Map the route.</strong> Record handling points, storage, stacking, environmental exposure and whether packaging returns.</li>
@@ -123,7 +117,7 @@ export default function EppVsEpsBlog() {
     </section>
 
     <section id="park-support" className={styles.parkSupport}>
-      <p className={styles.sectionEyebrow}>EPP PACKAGING SUPPORT FROM PARK</p>
+      <span className={styles.sectionIndex}>08</span>
       <h2>Develop your returnable packaging brief with PARK</h2>
       <p>PARK works with EPP materials, foam moulding and co-development. Share the component or product you need to protect, and the team can discuss a moulded EPP packaging approach around its dimensions, handling route and expected reuse.</p>
       <div className={styles.supportSteps}>
@@ -135,16 +129,16 @@ export default function EppVsEpsBlog() {
     </section>
 
     <section id="faq" className={styles.faq}>
-      <p className={styles.sectionEyebrow}>COMMON BUYER QUESTIONS</p>
+      <span className={styles.sectionIndex}>09</span>
       <h2>Frequently asked questions</h2>
       <div className={styles.faqList}>
-        <div><h3>What is the main difference between EPP and EPS foam?</h3><p>EPP is commonly evaluated for repeated impact and returnable use. EPS is commonly evaluated for rigid, one-way protective packaging. The best fit depends on the part and its route.</p></div>
-        <div><h3>Is EPP more durable than EPS?</h3><p>EPP is often considered for repeated handling because it can recover after impacts. The life of a finished part still depends on its grade, geometry, loads and use conditions.</p></div>
-        <div><h3>Is EPP more expensive than EPS?</h3><p>Upfront prices depend on the grade, design, tooling, quantity and supplier. Compare total cost across successful shipments to understand the returnable option.</p></div>
-        <div><h3>Can EPS packaging be reused?</h3><p>Only when it remains undamaged and still meets the product-protection requirement. Inspect and test it before putting it back into service.</p></div>
-        <div><h3>Which foam should I consider for cold-chain packaging?</h3><p>Assess the complete package against the payload’s temperature limits and route duration. Material choice alone cannot confirm temperature performance.</p></div>
-        <div><h3>Can EPP and EPS both be recycled?</h3><p>Recovery depends on local collection and processing. Check what is accepted at the packaging’s destination, and keep recycling plans separate from a practical reuse loop.</p></div>
-        <div><h3>How can PARK help with EPP packaging?</h3><p>Share a drawing, sample, dimensions and handling route with PARK. The team can discuss an EPP moulded packaging concept, grade considerations and a plan for evaluating representative samples.</p></div>
+        <details><summary>What is the main difference between EPP and EPS foam?</summary><p>EPP is commonly evaluated for repeated impact and returnable use. EPS is commonly evaluated for rigid, one-way protective packaging. The best fit depends on the part and its route.</p></details>
+        <details><summary>Is EPP more durable than EPS?</summary><p>EPP is often considered for repeated handling because it can recover after impacts. The life of a finished part still depends on its grade, geometry, loads and use conditions.</p></details>
+        <details><summary>Is EPP more expensive than EPS?</summary><p>Upfront prices depend on the grade, design, tooling, quantity and supplier. Compare total cost across successful shipments to understand the returnable option.</p></details>
+        <details><summary>Can EPS packaging be reused?</summary><p>Only when it remains undamaged and still meets the product-protection requirement. Inspect and test it before putting it back into service.</p></details>
+        <details><summary>Which foam should I consider for cold-chain packaging?</summary><p>Assess the complete package against the payload’s temperature limits and route duration. Material choice alone cannot confirm temperature performance.</p></details>
+        <details><summary>Can EPP and EPS both be recycled?</summary><p>Recovery depends on local collection and processing. Check what is accepted at the packaging’s destination, and keep recycling plans separate from a practical reuse loop.</p></details>
+        <details><summary>How can PARK help with EPP packaging?</summary><p>Share a drawing, sample, dimensions and handling route with PARK. The team can discuss an EPP moulded packaging concept, grade considerations and a plan for evaluating representative samples.</p></details>
       </div>
     </section>
 

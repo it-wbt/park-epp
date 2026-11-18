@@ -2,27 +2,26 @@ import Link from 'next/link';
 import ResponsiveImage from './ResponsiveImage';
 import styles from './EvBatteryPackagingBlog.module.css';
 
+export const evBatteryBlogIntro='Lithium-ion battery packaging has to keep cells and modules positioned through production handling, storage and transport. Custom-molded EPP trays can provide shaped pockets and cushioning for these jobs, with the design based on the battery format and the route it will travel.';
+
+export const evBatteryGuideSections=[
+  {id:'requirements',label:'Packaging design requirements'},
+  {id:'formats',label:'EPP tray and box formats'},
+  {id:'specifications',label:'Specifications to confirm'},
+  {id:'park-support',label:'Custom packaging with PARK'},
+  {id:'faqs',label:'FAQs'},
+];
+
+export const evBatteryTakeaways=[
+  'Set the cell or module fit, terminal clearances and payload weight before designing the tray.',
+  'Review the inner tray together with the outer container, route and handling requirements.',
+  'A molded EPP tray does not prove transport compliance or pack-level thermal or crash performance.',
+];
+
 export default function EvBatteryPackagingBlog() {
-  return <article className={styles.article} id="article-content">
-    <p className={styles.lead}>Lithium-ion battery packaging has to keep cells and modules positioned through production handling, storage and transport. Custom-molded EPP trays can provide shaped pockets and cushioning for these jobs, with the design based on the battery format and the route it will travel.</p>
-
-    <aside className={styles.note}>
-      <strong>Design the tray around the shipment.</strong> Cell format, handling route and the complete package determine which features the EPP tray needs.
-    </aside>
-
-    <nav className={styles.contents} aria-label="Article contents">
-      <p>IN THIS ARTICLE</p>
-      <div>
-        <a href="#requirements">Packaging design requirements</a>
-        <a href="#formats">EPP tray and box formats</a>
-        <a href="#specifications">Specifications to confirm</a>
-        <a href="#park-support">Custom packaging with PARK</a>
-        <a href="#faqs">FAQs</a>
-      </div>
-    </nav>
-
+  return <article className={styles.article}>
     <section id="requirements">
-      <p className={styles.eyebrow}>START WITH THE BATTERY AND ITS ROUTE</p>
+      <span className={styles.sectionIndex}>01</span>
       <h2>Key lithium-ion battery packaging requirements</h2>
       <p>There is no single tray specification for every lithium-ion battery. A useful packaging brief accounts for cell or module dimensions, terminals, payload weight, handling equipment, outer container and transport route.</p>
       <ul>
@@ -39,7 +38,7 @@ export default function EvBatteryPackagingBlog() {
     </section>
 
     <section id="formats">
-      <p className={styles.eyebrow}>CELL-LEVEL AND MODULE-LEVEL HANDLING</p>
+      <span className={styles.sectionIndex}>02</span>
       <h2>How molded EPP supports lithium-ion battery packaging</h2>
       <h3>1. Cell trays for production and transit</h3>
       <p>Custom pockets can be designed around cylindrical, prismatic or pouch cells for production-line handling and movement between facilities. Pocket depth, spacing, tray footprint, lid design and terminal clearance depend on the cell drawing and handling process.</p>
@@ -58,7 +57,7 @@ export default function EvBatteryPackagingBlog() {
     </section>
 
     <section id="specifications">
-      <p className={styles.eyebrow}>CONFIRM THE FINISHED DESIGN</p>
+      <span className={styles.sectionIndex}>03</span>
       <h2>Technical specifications to confirm</h2>
       <div className={styles.tableWrap}>
         <table>
@@ -76,7 +75,7 @@ export default function EvBatteryPackagingBlog() {
     </section>
 
     <section id="park-support" className={styles.parkSupport}>
-      <p className={styles.eyebrow}>FROM DRAWING TO PACKAGING BRIEF</p>
+      <span className={styles.sectionIndex}>04</span>
       <h2>Custom molded to your cell and module dimensions</h2>
       <p>Park Nonwoven develops molded EPP trays and packaging around cell or module geometry, handling needs and project requirements. Share a drawing, dimensions, payload, handling route and expected return plan to start a packaging discussion.</p>
       <div className={styles.links}>
@@ -88,7 +87,7 @@ export default function EvBatteryPackagingBlog() {
     </section>
 
     <section id="faqs" className={styles.faq}>
-      <p className={styles.eyebrow}>COMMON BUYER QUESTIONS</p>
+      <span className={styles.sectionIndex}>05</span>
       <h2>Lithium-ion battery packaging FAQs</h2>
       <details><summary>What should lithium-ion battery packaging protect against?</summary><p>Define the cell or module fit, terminal protection, movement, impact, vibration, stacking and storage conditions for the route. The finished package should be evaluated against the applicable shipment requirements.</p></details>
       <details><summary>Can EPP trays make a lithium-ion battery shipment compliant?</summary><p>No. EPP trays can be designed to position and cushion cells, but a tray alone does not establish shipment compliance. The shipper confirms the classification and complete package, marking, labeling and documentation requirements for the route.</p></details>

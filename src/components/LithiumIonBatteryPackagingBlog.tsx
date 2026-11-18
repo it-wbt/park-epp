@@ -1,14 +1,20 @@
 import Link from 'next/link';
 import styles from './LithiumIonBatteryPackagingBlog.module.css';
 
-const guideSections=[
-  ['regulations','Transport regulations'],
-  ['requirements','Inner and outer protection'],
-  ['packing-steps','How to package batteries'],
-  ['epp-trays','When EPP trays may suit'],
-  ['checklist','Pre-shipment checklist'],
-  ['faqs','Frequently asked questions'],
+export const lithiumBatteryGuideSections=[
+  {id:'regulations',label:'Transport regulations'},
+  {id:'requirements',label:'Inner and outer protection'},
+  {id:'packing-steps',label:'How to package batteries'},
+  {id:'epp-trays',label:'When EPP trays may suit'},
+  {id:'checklist',label:'Pre-shipment checklist'},
+  {id:'faqs',label:'Frequently asked questions'},
 ] as const;
+
+export const lithiumBatteryTakeaways=[
+  'Confirm the battery type, condition and shipping route before selecting packaging.',
+  'Use an EPP tray only when it fits the shipper’s approved package design.',
+  'Share your cell or module dimensions with Park Nonwoven to discuss a custom tray.',
+];
 
 export const lithiumBatteryFaqs = [
   {
@@ -39,16 +45,7 @@ function CheckMark(){
 
 export default function LithiumIonBatteryPackagingBlog() {
   return (
-    <div className={styles.page} id="article-content">
-      <div className={styles.layout}>
-        <article className={styles.article}>
-          <div className={styles.takeaways}>
-            <span className={styles.eyebrow}>What to keep in mind</span>
-            <p><CheckMark/>Confirm the battery type, condition and shipping route before selecting packaging.</p>
-            <p><CheckMark/>Use an EPP tray only when it fits the shipper’s approved package design.</p>
-            <p><CheckMark/>Share your cell or module dimensions with Park Nonwoven to discuss a custom tray.</p>
-          </div>
-
+    <article className={styles.article}>
           <section className={styles.section} id="regulations">
             <span className={styles.sectionIndex}>01</span>
             <h2>Understanding Lithium-Ion Battery Transport Regulations (UN 3480, UN 3481 &amp; UN 38.3)</h2>
@@ -148,20 +145,6 @@ export default function LithiumIonBatteryPackagingBlog() {
             <p>Your shipper should confirm shipment classification and dangerous-goods approval.</p>
             <div><Link href="/markets/logistics-handling/">Explore logistics and handling</Link><Link href="/contact/">Contact Park Nonwoven</Link></div>
           </section>
-        </article>
-
-        <aside className={styles.sidebar}>
-          <span className={styles.eyebrow}>In this guide</span>
-          <nav aria-label="Guide contents">
-            {guideSections.map(([id,label],index)=><a key={id} href={`#${id}`}><span>{String(index+1).padStart(2,'0')}</span>{label}</a>)}
-          </nav>
-          <div className={styles.sidebarEnquiry}>
-            <h3>Move from a question to a specification.</h3>
-            <p>Send your cell or module dimensions and discuss a tray designed around your handling needs.</p>
-            <Link href="/contact/">Discuss your requirement <span aria-hidden="true">↗</span></Link>
-          </div>
-        </aside>
-      </div>
-    </div>
+    </article>
   );
 }
