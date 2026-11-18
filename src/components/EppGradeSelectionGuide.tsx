@@ -1,29 +1,42 @@
 import Link from 'next/link';
-import {articles} from '../lib/catalog';
 import technicalGuides from '../lib/technical-guides.json';
 import {eppSelectionChecklist} from '../lib/epp-education';
 import {Icon} from './ui';
 import styles from './EppGradeSelectionGuide.module.css';
 
-const article = articles.find(item => item.slug === 'epp-grade-selection')!;
 const technicalGuide = technicalGuides.find(item => item.slug === 'epp-grade-selection' && item.section === 'materials')!;
 const briefItems = eppSelectionChecklist.slice(0, 4);
 
-export default function EppGradeSelectionGuide() {
- return <article className={styles.article} id="article-content">
-  <nav className={styles.contents} aria-label="EPP grade selection guide sections">
-   <div><span>IN THIS GUIDE</span><a href="#grade-steps">01 <span>Selection steps</span></a><a href="#grade-evidence">02 <span>Compare evidence</span></a><a href="#grade-brief">03 <span>Your project brief</span></a></div>
-  </nav>
+export const eppGradeSelectionGuideSections = [
+ {id:'grade-steps',label:'Selection process'},
+ {id:'grade-evidence',label:'Compare grade evidence'},
+ {id:'grade-brief',label:'Your project brief'},
+];
 
+export const eppGradeSelectionTakeaways = [
+ 'Start with the component’s job, loads and operating conditions.',
+ 'Compare finished components; density alone does not predict performance.',
+ 'Agree on evidence and acceptance criteria before approving a grade.',
+];
+
+export default function EppGradeSelectionGuide({consider}:{consider:string}) {
+ return <article className={styles.article}>
   <section className={styles.steps} id="grade-steps" aria-labelledby="grade-steps-heading">
+   <span className={styles.sectionIndex}>01</span>
    <div className={styles.sectionHeading} data-reveal>
     <div><p className={styles.eyebrow}>A CLEARER SELECTION PROCESS</p><h2 id="grade-steps-heading">Choose around the finished component.</h2></div>
-    <p>Density is one input, not the complete answer. Start with the part&apos;s job, then compare the material and geometry under representative conditions.</p>
+    <p>{consider}</p>
    </div>
-   <ol>{article.sections.map(([title, text], index) => <li key={title} data-reveal><span className={styles.number}>{String(index + 1).padStart(2, '0')}</span><h3>{title}</h3><p>{text}</p></li>)}</ol>
+   <ol>{technicalGuide.sections.map(({heading,text}, index) => <li key={heading} data-reveal><span className={styles.number}>{String(index + 1).padStart(2, '0')}</span><h3>{heading}</h3><p>{text}</p></li>)}</ol>
+   <div className={styles.buyerQuestions}>
+    <h3>Questions to bring to the conversation</h3>
+    <ul><li>What is the application, and which requirements are essential?</li><li>How will the finished component be manufactured and assembled?</li><li>Which conditions should be represented in testing?</li><li>What happens at the end of the useful service life?</li></ul>
+    <p>Any performance, food-contact or environmental claim needs evidence for the specific grade and application. Agree the validation and documentation requirements before selecting a final design.</p>
+   </div>
   </section>
 
   <section className={styles.evidence} id="grade-evidence" aria-labelledby="grade-evidence-heading">
+   <span className={styles.sectionIndex}>02</span>
    <div className={styles.evidenceInner}>
     <div className={styles.evidenceHeading} data-reveal>
      <p className={styles.eyebrow}>COMPARE THE RIGHT EVIDENCE</p>
@@ -43,6 +56,7 @@ export default function EppGradeSelectionGuide() {
   </section>
 
   <section className={styles.brief} id="grade-brief" aria-labelledby="grade-brief-heading">
+   <span className={styles.sectionIndex}>03</span>
    <div className={styles.briefInner}>
     <div>
      <p className={styles.eyebrow}>START WITH YOUR REQUIREMENTS</p>
@@ -56,6 +70,6 @@ export default function EppGradeSelectionGuide() {
    </div>
   </section>
 
-  <div className={styles.more}><Link href="/resources/"><Icon kind="arrow"/>All resources</Link><Link href="/materials/expanded-polypropylene/">Understand EPP material <Icon kind="arrow"/></Link></div>
+  <div className={styles.more}><Link href="/resources/"><Icon kind="arrow"/>All resources</Link><Link href="/materials/expanded-polypropylene/">Understand EPP material <Icon kind="arrow"/></Link><Link href="/products/">Browse EPP products <Icon kind="arrow"/></Link><Link href="/markets/">Explore industries <Icon kind="arrow"/></Link></div>
  </article>;
 }
