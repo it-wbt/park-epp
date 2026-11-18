@@ -24,7 +24,7 @@ import {industryStories} from '../../../lib/industry-stories';
 const tables={markets:[...allMarkets,...marketPages],materials,products,expertise:[...expertise,customExpertise],solutions,resources:[...articles,...resourcePages],about:aboutPages};
 type Section=keyof typeof tables;
 const seoOverrides:Record<string,{title?:string;description:string}>={
- 'resources/ev-battery-packaging-epp-foam':{description:'Explore EV battery packaging with EPP foam for cell trays, returnable dunnage and selected pack components. Review thermal design, transport requirements and validation with PARK.'},
+ 'resources/ev-battery-packaging-epp-foam':{description:'Custom molded EPP trays for lithium-ion battery cells and modules. Explore cell handling, transit packaging, grade selection and returnable formats with PARK.'},
  'resources/epp-vs-eps-durability-cost-reusability':{title:'EPP Foam vs EPS Foam: Cost, Durability & Reuse',description:'Compare EPP foam vs EPS foam for packaging, impact response, cost per shipment and reuse. See when EPP may suit returnable dunnage and trays.'},
  'markets/logistics-handling':{title:'EPP Dunnage & Custom Trays for Logistics | PARK',description:'Custom molded EPP trays, returnable dunnage boxes, and protective packaging for industrial logistics in India. Engineered for 100+ reuse cycles, VDA KLT/Galia inserts, and safe transit.'},
  'markets/mobility':{title:'Automotive EPP Components India',description:'Custom molded EPP automotive components & EV battery inserts for global OEMs. Bumper cores, seat cushions, trunk boxes & returnable dunnage. Fast tooling & PPAP support.'},

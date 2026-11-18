@@ -4,101 +4,95 @@ import styles from './EvBatteryPackagingBlog.module.css';
 
 export default function EvBatteryPackagingBlog() {
   return <article className={styles.article} id="article-content">
-    <p className={styles.lead}>EV battery packaging with EPP foam can help position and cushion cells or modules during production handling and transport. EPP may also be considered for selected vehicle components, but pack-level thermal control and crash performance depend on the complete, validated design.</p>
+    <p className={styles.lead}>Lithium-ion battery packaging has to keep cells and modules positioned through production handling, storage and transport. Custom-molded EPP trays can provide shaped pockets and cushioning for these jobs, with the design based on the battery format and the route it will travel.</p>
 
     <aside className={styles.note}>
-      <strong>Keep the roles clear.</strong> A molded tray can help restrain cells and reduce movement. It does not certify lithium-battery shipping, provide fire containment, or prove crashworthiness.
+      <strong>Design the tray around the shipment.</strong> Cell format, handling route and the complete package determine which features the EPP tray needs.
     </aside>
 
     <nav className={styles.contents} aria-label="Article contents">
       <p>IN THIS ARTICLE</p>
       <div>
-        <a href="#applications">EPP packaging applications</a>
-        <a href="#thermal-management">Thermal management</a>
-        <a href="#crash-protection">Crash and transit protection</a>
-        <a href="#design-checks">Design checks</a>
-        <a href="#park-support">Work with PARK</a>
+        <a href="#requirements">Packaging design requirements</a>
+        <a href="#formats">EPP tray and box formats</a>
+        <a href="#specifications">Specifications to confirm</a>
+        <a href="#park-support">Custom packaging with PARK</a>
         <a href="#faqs">FAQs</a>
       </div>
     </nav>
 
-    <section id="applications">
-      <p className={styles.eyebrow}>CELL HANDLING AND PROTECTION</p>
-      <h2>Where EPP foam fits in EV battery packaging</h2>
-      <p>Expanded polypropylene (EPP) is a lightweight, moldable bead foam. A custom tray can use individual pockets and dividers to locate cells, limit contact between them, and make handling easier along a defined production or return route. The useful geometry depends on the cell format, terminal position, tray footprint and how operators or equipment load the pack.</p>
-      <p>For battery modules, molded EPP dunnage can be evaluated for cushioning and positioning during inter-plant transfer. Confirm the finished design against the module weight, stacking loads, vibration, drop hazards and the outer container.</p>
-      <figure className={styles.figure}>
-        <ResponsiveImage src="/images/ev-battery-packaging-epp-foam-tray.webp" alt="Custom molded black EPP foam tray holding cylindrical lithium-ion EV battery cells" width={1672} height={941} loading="lazy" sizes="(max-width: 760px) 100vw, 900px" />
-        <figcaption>A fitted cell tray can keep individual cells positioned during handling. Validate pocket fit and clearances for the specific cell.</figcaption>
-      </figure>
-      <h3>Common packaging formats</h3>
+    <section id="requirements">
+      <p className={styles.eyebrow}>START WITH THE BATTERY AND ITS ROUTE</p>
+      <h2>Key lithium-ion battery packaging requirements</h2>
+      <p>There is no single tray specification for every lithium-ion battery. A useful packaging brief accounts for cell or module dimensions, terminals, payload weight, handling equipment, outer container and transport route.</p>
       <ul>
-        <li><strong>Cell trays:</strong> Pocket layouts for cylindrical, prismatic or pouch cells moving between process steps.</li>
-        <li><strong>Module dunnage:</strong> Supports and dividers shaped around module interfaces and the transport container.</li>
-        <li><strong>Returnable packaging:</strong> Stackable trays and inserts for repeat routes, designed with inspection, storage and empty returns in mind.</li>
+        <li><strong>Cell separation:</strong> Set pocket spacing and terminal clearances around the exact cell format. Specify any electrical isolation or terminal-protection needs.</li>
+        <li><strong>Impact and vibration:</strong> Define the handling events, drops and vibration the package may see. Evaluate the finished tray with representative cells and packing methods.</li>
+        <li><strong>Stacking and restraint:</strong> Include module weight, pallet loads, dividers, lid fit and the way the package is secured in its outer container.</li>
+        <li><strong>Environment:</strong> Give the expected temperature, moisture and storage conditions, then check them against data for the proposed material grade.</li>
+        <li><strong>Return logistics:</strong> For reusable formats, plan inspection, cleaning, empty storage, loss and return transport as part of the system.</li>
       </ul>
       <figure className={styles.figure}>
-        <ResponsiveImage src="/images/lithium-ion-battery-returnable-epp-packaging.webp" alt="Stackable returnable EPP foam dunnage trays for safe lithium-ion battery transport" width={1672} height={941} loading="lazy" sizes="(max-width: 760px) 100vw, 900px" />
-        <figcaption>Returnable dunnage planning should account for the full route, including empty-pack storage and return handling.</figcaption>
+        <ResponsiveImage src="/images/ev-battery-packaging-epp-foam-tray.webp" alt="Custom molded black EPP foam tray holding cylindrical lithium-ion EV battery cells" width={1672} height={941} loading="lazy" sizes="(max-width: 760px) 100vw, 900px" />
+        <figcaption>Individual pockets can help position cells during handling. Confirm clearances and terminal protection for the specific cell and package.</figcaption>
       </figure>
     </section>
 
-    <section id="thermal-management">
-      <p className={styles.eyebrow}>THERMAL DESIGN</p>
-      <h2>Thermal management: insulation is one design input</h2>
-      <p>EPP may help slow heat transfer in a component designed for insulation, depending on the grade, thickness, interfaces and surrounding structure. That is different from controlling cell temperature. Battery thermal management systems use the pack’s overall design and may include cooling, heating, sensors and control strategies.</p>
-      <p>Do not treat a general-purpose EPP shape as a thermal-runaway barrier. If a part sits near cells or modules, the vehicle team must define the temperature exposure, fire behaviour and acceptance criteria, then validate the complete assembly with the selected material and geometry.</p>
-    </section>
+    <section id="formats">
+      <p className={styles.eyebrow}>CELL-LEVEL AND MODULE-LEVEL HANDLING</p>
+      <h2>How molded EPP supports lithium-ion battery packaging</h2>
+      <h3>1. Cell trays for production and transit</h3>
+      <p>Custom pockets can be designed around cylindrical, prismatic or pouch cells for production-line handling and movement between facilities. Pocket depth, spacing, tray footprint, lid design and terminal clearance depend on the cell drawing and handling process.</p>
+      <p><Link href="/products/lithium-ion-cell-epp-trays/">Explore Lithium-Ion Cell EPP Trays</Link> for custom tray layouts and cell-handling applications.</p>
 
-    <section id="crash-protection">
-      <p className={styles.eyebrow}>PROTECTION UNDER LOAD</p>
-      <h2>Crash protection and transit protection are different jobs</h2>
-      <p>EPP’s impact response can make it a candidate for cushioning or energy-absorbing components when the design and grade suit the application. A transport tray, however, is designed around handling and shipping loads. It should not be assumed to protect an installed battery pack during a vehicle crash.</p>
-      <p>For an in-vehicle part, assess the component within the battery enclosure and vehicle structure against the programme’s load cases and validation plan. Material selection alone does not establish crash performance, electrical safety, flame performance or fire containment.</p>
+      <h3>2. Module packaging and protective inserts</h3>
+      <p>For heavier modules, molded EPP packaging can be developed around the module envelope, connector locations and support points. Review the inserts together with the outer container and stacking arrangement so the complete pack can be evaluated.</p>
+      <p><Link href="/products/lithium-ion-battery-packaging/">Explore Lithium-Ion Battery Packaging</Link> for module packaging formats.</p>
+
+      <h3>3. Selected components inside a battery pack</h3>
+      <p>Some vehicle designs may use molded foam components for positioning, cushioning or insulation. An in-pack component needs its own material, thermal, electrical and mechanical requirements. A packaging tray is not automatically suitable as a crash absorber, thermal-runaway barrier or fire-containment part.</p>
       <figure className={styles.figure}>
         <ResponsiveImage src="/images/epp-ev-battery-thermal-management-barrier.webp" alt="Molded EPP foam thermal management barrier and crash absorber pad inside an EV battery pack" width={1672} height={941} loading="lazy" sizes="(max-width: 760px) 100vw, 900px" />
-        <figcaption>Pack-integrated components require review against the vehicle programme’s thermal, mechanical and safety requirements.</figcaption>
+        <figcaption>Pack-integrated parts need review against the vehicle programme’s own thermal, electrical and mechanical criteria.</figcaption>
       </figure>
     </section>
 
-    <section id="design-checks">
-      <p className={styles.eyebrow}>SPECIFY THE COMPLETE APPLICATION</p>
-      <h2>What to check before selecting an EPP grade</h2>
+    <section id="specifications">
+      <p className={styles.eyebrow}>CONFIRM THE FINISHED DESIGN</p>
+      <h2>Technical specifications to confirm</h2>
       <div className={styles.tableWrap}>
         <table>
-          <thead><tr><th scope="col">Design factor</th><th scope="col">What to define</th></tr></thead>
+          <thead><tr><th scope="col">Packaging parameter</th><th scope="col">What to specify</th></tr></thead>
           <tbody>
-            <tr><th scope="row">Cell or module format</th><td>Dimensions, mass, terminal locations, contact surfaces and required clearances.</td></tr>
-            <tr><th scope="row">Mechanical loads</th><td>Handling, drop, vibration and stacking conditions, plus acceptable product movement.</td></tr>
-            <tr><th scope="row">Material grade</th><td>Density, compression response and temperature limits for the selected grade and finished geometry.</td></tr>
-            <tr><th scope="row">Electrical and fire requirements</th><td>Any ESD, flammability or isolation targets, with test methods and evidence required by the programme.</td></tr>
-            <tr><th scope="row">Transport route</th><td>Battery classification, package configuration, mode-specific rules, labels and documentation. Confirm these with the responsible dangerous-goods team.</td></tr>
-            <tr><th scope="row">Return loop</th><td>Expected trips, cleaning, inspection, loss rate, empty storage and reverse logistics.</td></tr>
+            <tr><th scope="row">Cell or module fit</th><td>Dimensions, mass, terminal locations, contact areas and assembly clearances.</td></tr>
+            <tr><th scope="row">Material grade</th><td>Grade and density based on the load, geometry and cushioning target; confirm with supplier data and sample evaluation.</td></tr>
+            <tr><th scope="row">Temperature and moisture</th><td>Actual operating and storage conditions. Check the selected grade and complete package rather than assuming one range applies to all EPP.</td></tr>
+            <tr><th scope="row">ESD or fire performance</th><td>Define any required target and test method. Confirm grade-specific evidence for the finished component.</td></tr>
+            <tr><th scope="row">Reuse and recovery</th><td>Set inspection and retirement criteria, expected trips and the return route. Polypropylene recovery depends on local collection and processing.</td></tr>
+            <tr><th scope="row">Transport configuration</th><td>Confirm applicable classification (such as UN 3480 or UN 3481), packaging, marking, labels and documents for the battery and shipping mode with the responsible shipper.</td></tr>
           </tbody>
         </table>
       </div>
-      <p>There is no one EPP density or temperature range that applies to every EV battery tray. Request data for the proposed grade, review the molded part and test representative samples under agreed conditions.</p>
     </section>
 
     <section id="park-support" className={styles.parkSupport}>
       <p className={styles.eyebrow}>FROM DRAWING TO PACKAGING BRIEF</p>
-      <h2>Develop an EV battery packaging concept with PARK</h2>
-      <p>Share the cell or module format, drawing, payload, handling route and packaging return plan. PARK can discuss a molded EPP tray or dunnage concept around pocket layout, terminal clearance, stacking and the requirements your team needs to validate.</p>
+      <h2>Custom molded to your cell and module dimensions</h2>
+      <p>Park Nonwoven develops molded EPP trays and packaging around cell or module geometry, handling needs and project requirements. Share a drawing, dimensions, payload, handling route and expected return plan to start a packaging discussion.</p>
       <div className={styles.links}>
-        <Link href="/products/lithium-ion-cell-epp-trays/">Explore Lithium-Ion Cell EPP Trays</Link>
-        <Link href="/products/lithium-ion-battery-packaging/">Explore Lithium-Ion Battery Packaging</Link>
-        <Link href="/markets/mobility/">Explore Mobility EPP Solutions</Link>
-        <Link href="/materials/epp-grade-selection/">Review the EPP Grade Selection Guide</Link>
-        <Link href="/contact/">Discuss your battery packaging brief</Link>
+        <Link href="/products/lithium-ion-cell-epp-trays/">Lithium-Ion Cell EPP Trays</Link>
+        <Link href="/products/lithium-ion-battery-packaging/">Lithium-Ion Battery Packaging</Link>
+        <Link href="/markets/logistics-handling/">Logistics &amp; Material Handling</Link>
+        <Link href="/contact/">Contact PARK about your packaging brief</Link>
       </div>
     </section>
 
     <section id="faqs" className={styles.faq}>
       <p className={styles.eyebrow}>COMMON BUYER QUESTIONS</p>
-      <h2>EV battery packaging FAQs</h2>
-      <details><summary>Can EPP foam control EV battery temperature?</summary><p>EPP can contribute insulation in a suitable design, but it does not control cell temperature on its own. Assess the complete battery thermal management system and validate the component under the intended conditions.</p></details>
-      <details><summary>Can an EPP tray make lithium-ion battery shipping compliant?</summary><p>No. A tray may help position and cushion cells, but it does not establish shipping compliance. Battery testing, packaging configuration, labels and documents depend on the battery and transport route; confirm them with the responsible dangerous-goods team.</p></details>
-      <details><summary>How do I choose an EPP density for a battery tray?</summary><p>Start with cell geometry, payload, handling and stacking loads, then compare grade data and molded samples. Confirm the final layout with representative testing rather than density alone.</p></details>
+      <h2>Lithium-ion battery packaging FAQs</h2>
+      <details><summary>What should lithium-ion battery packaging protect against?</summary><p>Define the cell or module fit, terminal protection, movement, impact, vibration, stacking and storage conditions for the route. The finished package should be evaluated against the applicable shipment requirements.</p></details>
+      <details><summary>Can EPP trays make a lithium-ion battery shipment compliant?</summary><p>No. EPP trays can be designed to position and cushion cells, but a tray alone does not establish shipment compliance. The shipper confirms the classification and complete package, marking, labeling and documentation requirements for the route.</p></details>
+      <details><summary>How do I choose an EPP grade for battery trays?</summary><p>Start with cell geometry, payload, handling and stacking loads, plus any temperature, ESD or fire-performance targets. Compare grade data and representative molded samples against those requirements.</p></details>
     </section>
   </article>;
 }
