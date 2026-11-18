@@ -4425,5 +4425,92 @@
       }
     ],
     "originalBytes": 2432702
+  },
+  "/images/ev-battery-packaging-epp-foam-tray.webp": {
+    "src": "/images/optimized/ev-battery-packaging-epp-foam-tray-960-a0cb0a87bf.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/ev-battery-packaging-epp-foam-tray-320-a0cb0a87bf.webp 320w, /images/optimized/ev-battery-packaging-epp-foam-tray-640-a0cb0a87bf.webp 640w, /images/optimized/ev-battery-packaging-epp-foam-tray-960-a0cb0a87bf.webp 960w, /images/optimized/ev-battery-packaging-epp-foam-tray-1440-a0cb0a87bf.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/ev-battery-packaging-epp-foam-tray-320-a0cb0a87bf.webp",
+        "bytes": 12352
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/ev-battery-packaging-epp-foam-tray-640-a0cb0a87bf.webp",
+        "bytes": 37768
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/ev-battery-packaging-epp-foam-tray-960-a0cb0a87bf.webp",
+        "bytes": 75508
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/ev-battery-packaging-epp-foam-tray-1440-a0cb0a87bf.webp",
+        "bytes": 143368
+      }
+    ],
+    "originalBytes": 176854
+  },
+  "/images/epp-ev-battery-thermal-management-barrier.webp": {
+    "src": "/images/optimized/epp-ev-battery-thermal-management-barrier-960-9a6ab2c9f7.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/epp-ev-battery-thermal-management-barrier-320-9a6ab2c9f7.webp 320w, /images/optimized/epp-ev-battery-thermal-management-barrier-640-9a6ab2c9f7.webp 640w, /images/optimized/epp-ev-battery-thermal-management-barrier-960-9a6ab2c9f7.webp 960w, /images/optimized/epp-ev-battery-thermal-management-barrier-1440-9a6ab2c9f7.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/epp-ev-battery-thermal-management-barrier-320-9a6ab2c9f7.webp",
+        "bytes": 12678
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/epp-ev-battery-thermal-management-barrier-640-9a6ab2c9f7.webp",
+        "bytes": 44084
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/epp-ev-battery-thermal-management-barrier-960-9a6ab2c9f7.webp",
+        "bytes": 90012
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/epp-ev-battery-thermal-management-barrier-1440-9a6ab2c9f7.webp",
+        "bytes": 170414
+      }
+    ],
+    "originalBytes": 210348
+  },
+  "/images/lithium-ion-battery-returnable-epp-packaging.webp": {
+    "src": "/images/optimized/lithium-ion-battery-returnable-epp-packaging-960-6e9b944764.webp",
+    "width": 1672,
+    "height": 941,
+    "srcSet": "/images/optimized/lithium-ion-battery-returnable-epp-packaging-320-6e9b944764.webp 320w, /images/optimized/lithium-ion-battery-returnable-epp-packaging-640-6e9b944764.webp 640w, /images/optimized/lithium-ion-battery-returnable-epp-packaging-960-6e9b944764.webp 960w, /images/optimized/lithium-ion-battery-returnable-epp-packaging-1440-6e9b944764.webp 1440w",
+    "variants": [
+      {
+        "width": 320,
+        "src": "/images/optimized/lithium-ion-battery-returnable-epp-packaging-320-6e9b944764.webp",
+        "bytes": 16390
+      },
+      {
+        "width": 640,
+        "src": "/images/optimized/lithium-ion-battery-returnable-epp-packaging-640-6e9b944764.webp",
+        "bytes": 50258
+      },
+      {
+        "width": 960,
+        "src": "/images/optimized/lithium-ion-battery-returnable-epp-packaging-960-6e9b944764.webp",
+        "bytes": 109544
+      },
+      {
+        "width": 1440,
+        "src": "/images/optimized/lithium-ion-battery-returnable-epp-packaging-1440-6e9b944764.webp",
+        "bytes": 217614
+      }
+    ],
+    "originalBytes": 264564
   }
 }
