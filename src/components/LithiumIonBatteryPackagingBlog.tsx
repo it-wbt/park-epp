@@ -1,8 +1,5 @@
 import Link from 'next/link';
-import {blogArticles} from '../lib/catalog';
 import styles from './LithiumIonBatteryPackagingBlog.module.css';
-
-const articleIntro=blogArticles[0].bodyIntro;
 
 const guideSections=[
   ['regulations','Transport regulations'],
@@ -51,8 +48,6 @@ export default function LithiumIonBatteryPackagingBlog() {
             <p><CheckMark/>Use an EPP tray only when it fits the shipper’s approved package design.</p>
             <p><CheckMark/>Share your cell or module dimensions with Park Nonwoven to discuss a custom tray.</p>
           </div>
-
-          <p className={styles.articleIntro}>{articleIntro}</p>
 
           <section className={styles.section} id="regulations">
             <span className={styles.sectionIndex}>01</span>

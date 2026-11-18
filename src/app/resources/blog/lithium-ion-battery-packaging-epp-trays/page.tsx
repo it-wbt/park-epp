@@ -1,6 +1,6 @@
 import type {Metadata} from 'next';
 import {Breadcrumb} from '../../../../components/shared';
-import ResourceArticleHero from '../../../../components/ResourceArticleHero';
+import styles from './LithiumBatteryArticleHeader.module.css';
 import LithiumIonBatteryPackagingBlog,{lithiumBatteryFaqs} from '../../../../components/LithiumIonBatteryPackagingBlog';
 import {origin,blogArticles} from '../../../../lib/catalog';
 
@@ -28,8 +28,12 @@ export default function LithiumBatteryPackagingArticle(){
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(faqSchema)}}/>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumbSchema)}}/>
-    <div className="container"><Breadcrumb items={[{name:'Resources',href:'/resources/'},{name:'Lithium-Ion Battery Packaging: How to Package Cells & Modules Safely with Molded EPP Trays'}]}/></div>
-    <ResourceArticleHero category={article.category} title="Lithium-Ion Battery Packaging: How to Package Cells & Modules Safely with Molded EPP Trays" intro={article.intro} readMinutes={article.readMinutes} image={article.heroImage} imageAlt={article.heroAlt} compact/>
+    <div className="container"><Breadcrumb items={[{name:'Resources',href:'/resources/'},{name:'Buying guide'}]}/></div>
+    <section className={styles.header}>
+      <p className={styles.eyebrow}>{article.category} / {article.readMinutes} min read</p>
+      <h1>Lithium-Ion Battery Packaging: How to Package Cells &amp; Modules Safely with Molded EPP Trays</h1>
+      <p className={styles.lead}>{article.bodyIntro}</p>
+    </section>
     <LithiumIonBatteryPackagingBlog/>
   </>;
 }

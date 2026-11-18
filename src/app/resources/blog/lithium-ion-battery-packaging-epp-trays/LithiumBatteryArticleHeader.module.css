@@ -1,0 +1,36 @@
+.header{
+  width:100%;
+  max-width:1280px;
+  margin:30px auto 48px;
+  padding:0 4%;
+}
+.eyebrow{
+  margin:0 0 22px;
+  color:#007b81;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:1.2px;
+  line-height:1.5;
+}
+.header h1{
+  max-width:1100px;
+  color:#152f3f;
+  font-size:clamp(34px,4vw,56px);
+  font-weight:500;
+  line-height:1.17;
+  letter-spacing:-1.9px;
+}
+.lead{
+  max-width:1180px;
+  margin:28px 0 0;
+  color:#63747e;
+  font-size:17px;
+  line-height:1.8;
+}
+@media(max-width:760px){
+  .header{margin:20px auto 28px;padding:0 5%}
+  .eyebrow{margin-bottom:16px;font-size:10px;letter-spacing:1px}
+  .header h1{font-size:36px;line-height:1.17;letter-spacing:-1.3px}
+  .lead{margin-top:20px;font-size:15px;line-height:1.75}
+}
+@media(max-width:370px){.header h1{font-size:32px;letter-spacing:-1px}}
