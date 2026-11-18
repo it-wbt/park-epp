@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import ResponsiveImage from './ResponsiveImage';
 import {Icon} from './Icon';
-import {articles} from '../lib/catalog';
+import {articles,blogArticles} from '../lib/catalog';
 import {resourcePages} from '../lib/resource-pages';
 import styles from './ResourcesIndex.module.css';
 
@@ -28,7 +28,7 @@ export default function ResourcesIndex() {
         <p>Clear answers to common questions about EPP materials, packaging design and manufacturing.</p>
       </div>
       <div className={styles.articleGrid}>
-        {articles.map(article=><Link className={styles.articleCard} key={article.slug} href={`/resources/${article.slug}/`}>
+        {[...articles,...blogArticles].map(article=><Link className={styles.articleCard} key={article.slug} href={'href' in article?article.href:`/resources/${article.slug}/`}>
           <div className={styles.articleImage}>
             <ResponsiveImage src={article.heroImage} alt="" sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw"/>
           </div>

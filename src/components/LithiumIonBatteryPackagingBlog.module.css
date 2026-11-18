@@ -1,0 +1,21 @@
+.article ul,.article ol{padding-left:23px;color:var(--muted);font-size:15px;line-height:1.85}
+.article li+li{margin-top:9px}
+.article a{color:#0875ae;text-decoration:underline;text-underline-offset:3px}
+.tableWrap{max-width:100%;margin:23px 0 27px;overflow-x:auto;border:1px solid var(--line);background:white;overscroll-behavior-inline:contain}
+.tableWrap table{width:100%;min-width:720px;border-collapse:collapse;text-align:left;font-size:13px;line-height:1.65}
+.tableWrap th,.tableWrap td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+.tableWrap thead th{background:var(--deep);color:white;font-weight:650}
+.tableWrap tbody th{color:var(--deep);font-weight:650;white-space:nowrap}
+.tableWrap tbody td{color:var(--muted)}
+.tableWrap tbody tr:last-child th,.tableWrap tbody tr:last-child td{border-bottom:0}
+.faqList{border-top:1px solid var(--line)}
+.faq{padding:20px 0;border-bottom:1px solid var(--line)}
+.faq h3{font-size:18px;letter-spacing:-.025em;color:var(--deep)}
+.faq p{margin:9px 0 0!important;font-size:14px!important;line-height:1.75!important}
+.cta{padding:30px 0 0}
+.cta h2{margin:0 0 12px;color:var(--deep);font-size:clamp(25px,2.5vw,34px)}
+.cta>p{margin:0!important}
+.cta>div{display:flex;flex-wrap:wrap;gap:12px;margin-top:21px}
+.cta>div a{display:inline-flex;align-items:center;min-height:45px;padding:12px 17px;background:var(--blue);color:white!important;font-size:12px;font-weight:650;text-decoration:none!important}
+.cta>div a+ a{border:1px solid var(--blue);background:white;color:var(--blue)!important}
+@media(max-width:600px){.article ul,.article ol{font-size:14px}.tableWrap{margin-inline:-3px}.tableWrap th,.tableWrap td{padding:11px 12px}.faq{padding:17px 0}.faq h3{font-size:16px}}
